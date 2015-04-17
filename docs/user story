@@ -1,0 +1,37 @@
+
+User Stories
+
+As a user, I want to view articles about SE so that I know more about new techniques.
+As a user, I want to view articles about SE by browsing different categories so that I can find relevant articles.
+As a user, I want to read challenges and benefits of each technique so that I don’t have to read the whole article.
+As a user, I want to read the summary of each technique so that I don’t have to read the whole article.
+As a user, I want to search particular articles by technique so that I get only relevant information.
+As a user, I want to search articles by date so that I get articles written between 2000 and 2007 years.
+As a user, I want to search articles by author so that I get all articles written by the same author.
+As a user, I want to save my search so that I can continue reading where I stopped.
+As a user, I want to sign up to particular technique so that I receive email each time the new article is added to this technique.
+As a user, I want to see articles' ranking so that I know which ones have more value.
+As a user, I want to see articles’ credibility rankings so that I know which ones are more credible.
+As a user, I want to select language of the articles so that I read articles in my native language.
+As a user, I want to see the most popular articles so that I see what techniques are the most wanted.
+As a user, I want to sort search articles by date, author, name etc. so that I get more precise results.
+As a user, I want to see the history of all my searches so I could easily find recently searched articles.
+As a user, I want to see how many people use particular technique so that I know which are more common.
+As a user, I want to save favourite articles so that next time I don’t have to search again.
+As a user, I want to delete saved favourite articles so that I have only useful articles saved.
+As a user, I want to create my profile so that it can store my search history and my favourite articles.
+As a user, I want to update my profile so that I can input actual information about myself.
+As a user, I want to store my email in my profile so that I could receive emails to that address without entering it every time.
+
+As an author, I want to post articles so that I can update the library of the techniques.
+As an author, I want to edit articles that I have posted so that I can make adjustments.
+As an author, I want to categorise my article so I can file the article the best way.
+As an author, I want to add tags to my article so that I can tag the article the the best way.
+As an author, I want to 
+
+As the admin, I want to login to website so that I can manage the website.
+As the admin, I want to invite certain authors to sign-up so that I have talented posters producing content.
+As the admin, I want to edit/delete author accounts so that I can maintain control.
+As the admin, I want to edit/delete categories so that I can maintain control.
+As the admin, I want to edit/delete any post so that I can control and administer the website.
+
