@@ -1,0 +1,308 @@
+# Translation of Twenty Twelve in Hebrew
+# This file is distributed under the same license as the Twenty Twelve package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-06-26 10:53:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Twenty Twelve\n"
+
+msgid "http://wordpress.org/themes/twentytwelve"
+msgstr "http://wordpress.org/themes/twentytwelve"
+
+#: functions.php:349
+msgid "Reply"
+msgstr "תגובה"
+
+#: image.php:26
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">פורסם </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> ב <a href=\"%3$s\" title=\"תמונה בגודל מלא\">%4$s &times; %5$s</a> ב <a href=\"%6$s\" title=\"חזרה אל %7$s\" rel=\"gallery\">%8$s</a>."
+
+msgid "The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background."
+msgstr "תבנית 2012 לוורדפרס היא תבנית מגיבה (רספונסיבית) מלאה שנראית טוב בכל מכשיר קצה. היא עושה שימוש בתבנית עמוד ייעודית להצגת עמוד ראשי עם ווידג'טים נפרדים, הצגת גופנים אופציונלית, עיצוב של פורמטים בעמודי ארכיון ועמודי תוכן, ותבנית עמוד לתצוגה במסך מלא ללא סרגלי צד. התאימו אותה לצרכים שלכם עם תפריטים מותאמים אישית, תמונות כותרות, ורקעים."
+
+#: functions.php:101
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:107
+msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: functions.php:244
+msgid "Appears on posts and pages except the optional Front Page template, which has its own widgets"
+msgstr "מוצג בפוסטים ועמודים, פרט לתבנית עמוד ראשי לה יש וידג'טים משלה."
+
+#: functions.php:252
+msgid "First Front Page Widget Area"
+msgstr "אזור ווידג'טים ראשון בעמוד הראשי"
+
+#: functions.php:254 functions.php:264
+msgid "Appears when using the optional Front Page template with a page set as Static Front Page"
+msgstr "מוצג כשמשתמשים בתבנית עמוד ראשי, עם הגדרת תצוגת עמוד ראשי סטטי."
+
+#: functions.php:262
+msgid "Second Front Page Widget Area"
+msgstr "אזור ווידג'טים שני בעמוד הראשי"
+
+#: functions.php:390
+msgid "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "פוסט <span class=\"by-author\"> מאת %4$s</span> פורסם בתאריך %3$s בקטגוריה %1$s וסומן בתגיות %2$s. "
+
+#: functions.php:392
+msgid "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "פוסט <span class=\"by-author\"> מאת %4$s</span> פורסם בקטגוריה %1$s בתאריך %3$s."
+
+#: functions.php:394
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "פוסט <span class=\"by-author\"> מאת %4$s</span> פורסם בתאריך %3$s. "
+
+#: single.php:21
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&rarr;"
+
+#: single.php:22
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&larr;"
+
+msgid "Front Page Template"
+msgstr "תבנית לעמוד ראשי"
+
+msgid "Full-width Page Template, No Sidebar"
+msgstr "מסך מלא, ללא סרגלי צד"
+
+#: content.php:16
+msgid "Featured post"
+msgstr "פוסט ראשי"
+
+#: functions.php:213
+msgid "Page %s"
+msgstr "עמוד %s"
+
+#: content-link.php:12
+msgid "Link"
+msgstr "קישור"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:37 content.php:33
+msgid "% Replies"
+msgstr "% תגובות"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:37 content.php:33
+msgid "1 Reply"
+msgstr "תגובה אחת"
+
+#: 404.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "נראה שלא הצלחנו למצוא את מה שחיפשת. ייתכן שביצוע חיפוש יסייע."
+
+#: content-none.php:17 index.php:53
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr "אנו מצטערים, לא נמצאו תוצאות. חיפוש עשוי לסייע באיתור פריטים דומים."
+
+#: functions.php:328
+msgid "Post author"
+msgstr "מאת"
+
+#: functions.php:313
+msgid "(Edit)"
+msgstr "(עריכה)"
+
+#: header.php:43
+msgid "Menu"
+msgstr "תפריט"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "מעבר לתוכן"
+
+#: index.php:38
+msgid "No posts to display"
+msgstr "אין פוסטים להצגה"
+
+#: index.php:42
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "מוכנים לפרסום הפוסט הראשון שלכם? <a href=\"%s\">התחילו כאן</a>."
+
+#: functions.php:384
+msgid "View all posts by %s"
+msgstr "כל הפוסטים מאת %s&rlm;"
+
+#: image.php:41
+msgid "&larr; Previous"
+msgstr "תמונה קודמת"
+
+#: image.php:42
+msgid "Next &rarr;"
+msgstr "תמונה הבאה"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "תוצאות חיפוש: %s"
+
+#: search.php:38
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "לא נמצא תוצאות מתאימות, יש לנסות שוב עם מילות חיפוש אחרות."
+
+#: archive.php:35
+msgid "Archives"
+msgstr "ארכיון"
+
+msgid "Twenty Twelve"
+msgstr "Twenty Twelve"
+
+msgid "the WordPress team"
+msgstr "צוות וורדפרס"
+
+#: functions.php:340
+msgid "Your comment is awaiting moderation."
+msgstr "תגובתך ממתינה לאישור."
+
+#: functions.php:334
+msgid "%1$s at %2$s"
+msgstr "%1$s בשעה %2$s"
+
+#: content-aside.php:20 content-link.php:18 content-quote.php:17
+#: content-status.php:15
+msgid "Permalink to %s"
+msgstr "קישור קבוע לפוסט %s"
+
+#: functions.php:242
+msgid "Main Sidebar"
+msgstr "סרגל צדדי ראשי"
+
+#: functions.php:286 single.php:20
+msgid "Post navigation"
+msgstr "ניווט בפוסטים"
+
+#: functions.php:287
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&rarr;</span> פוסטים ישנים יותר"
+
+#: functions.php:288
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "פוסטים חדשים יותר <span class=\"meta-nav\">&larr;</span>"
+
+#: functions.php:313
+msgid "Pingback:"
+msgstr "פינגבאק:"
+
+#: functions.php:64
+msgid "Primary Menu"
+msgstr "תפריט ראשי"
+
+#: footer.php:16
+msgid "Proudly powered by %s"
+msgstr "פועל על %s"
+
+#: content-aside.php:26 content-image.php:26 content-link.php:24
+#: content-page.php:24 content-quote.php:23 content-status.php:40
+#: content.php:51 functions.php:345 image.php:37
+msgid "Edit"
+msgstr "עריכה"
+
+#: comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr "תגובות חדשות יותר &larr;"
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr "סגור לתגובות."
+
+#: author.php:63 content.php:62
+msgid "About %s"
+msgstr "אודות %s"
+
+#: comments.php:31
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "תגובה אחת &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s תגובות &ldquo;%2$s&rdquo;"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Yearly Archives: %s"
+msgstr "ארכיון שנתי: %s"
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: tag.php:21
+msgid "Tag Archives: %s"
+msgstr "ארכיון תגית: %s"
+
+#: category.php:21
+msgid "Category Archives: %s"
+msgstr "ארכיון הקטגוריה: %s"
+
+#: archive.php:29
+msgid "Daily Archives: %s"
+msgstr "ארכיון יומי: %s"
+
+#: archive.php:31
+msgid "Monthly Archives: %s"
+msgstr "ארכיון חודשי: %s"
+
+#: content-aside.php:15 content-image.php:13 content-link.php:14
+#: content-quote.php:13 content-status.php:31 content.php:44
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "להמשיך לקרוא <span class=\"meta-nav\">&larr;</span>"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:37 content.php:33
+msgid "Leave a reply"
+msgstr "להגיב"
+
+#: footer.php:16
+msgid "http://wordpress.org/"
+msgstr "http://he.wordpress.org/"
+
+#: footer.php:16
+msgid "Semantic Personal Publishing Platform"
+msgstr "מערכת פרסום אישית סמנטית"
+
+#: content-none.php:13 index.php:49 search.php:34
+msgid "Nothing Found"
+msgstr "לא נמצאו תוצאות"
+
+#: author.php:32
+msgid "Author Archives: %s"
+msgstr "ארכיון מחבר: %s&rlm;"
+
+#: comments.php:42
+msgid "Comment navigation"
+msgstr "ניווט בתגובות"
+
+#: comments.php:43
+msgid "&larr; Older Comments"
+msgstr "&rarr; תגובות ישנות יותר"
+
+#: functions.php:370 functions.php:373
+msgid ", "
+msgstr ", "
+
+#: content-page.php:21 content.php:45 image.php:102
+msgid "Pages:"
+msgstr "עמודים:"
+
+#: content.php:66
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "כל הפוסטים של %s&rlm; <span class=\"meta-nav\">&larr;</span>"
+
+#: 404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "זה קצת מביך, לא?"

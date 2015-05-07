@@ -1,0 +1,379 @@
+# Translation of Twenty Ten in Romanian
+# This file is distributed under the same license as the Twenty Ten package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-08-17 12:53:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Twenty Ten\n"
+
+#: archive.php:33
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Arhiva zilnică: <span>%s</span>"
+
+#: 404.php:16 loop.php:33
+msgid "Not Found"
+msgstr "Nu s-a găsit"
+
+#: 404.php:18
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "Din păcate, pagina căutată nu s-a putut găsi. Încercați o căutare."
+
+#: archive.php:35
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Arhiva lunară: <span>%s</span>"
+
+#: archive.php:35
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:37
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Arhiva anuală: <span>%s</span>"
+
+#: archive.php:37
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:39
+msgid "Blog Archives"
+msgstr "Arhiva blogului"
+
+#: author.php:27
+msgid "Author Archives: %s"
+msgstr "Arhiva autorului: %s"
+
+#: author.php:37 loop-single.php:43
+msgid "About %s"
+msgstr "Despre %s"
+
+#: category.php:16
+msgid "Category Archives: %s"
+msgstr "Arhiva categoriei: %s"
+
+#: comments.php:18
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Acest articol este protejat de o parolă. Completați parola pentru a putea citi comentariile."
+
+#: comments.php:35
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] "Un răspuns la %2$s"
+msgstr[1] "%1$s răspunsuri la %2$s"
+msgstr[2] "%1$s răspunsuri la %2$s"
+
+#: comments.php:41 comments.php:60
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Comentarii anterioare"
+
+#: comments.php:42 comments.php:61
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Comentarii mai recente <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr "Comentariile nu sunt permise."
+
+#: footer.php:33
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:33
+msgid "Semantic Personal Publishing Platform"
+msgstr "Platformă semantică pentru publicări personale"
+
+#: footer.php:33
+msgid "Proudly powered by %s."
+msgstr "Propulsat de %s."
+
+#: functions.php:93
+msgid "Primary Navigation"
+msgstr "Navigare primară"
+
+#: functions.php:145
+msgid "Berries"
+msgstr "Fructe de pădure"
+
+#: functions.php:151
+msgid "Cherry Blossoms"
+msgstr "Vișin înflorit"
+
+#: functions.php:157
+msgid "Concave"
+msgstr "Mozaic"
+
+#: functions.php:163
+msgid "Fern"
+msgstr "Feriga"
+
+#: functions.php:169
+msgid "Forest Floor"
+msgstr "Natură"
+
+#: functions.php:175
+msgid "Inkwell"
+msgstr "Inkwell"
+
+#: functions.php:181
+msgid "Path"
+msgstr "Calea"
+
+#: functions.php:187
+msgid "Sunset"
+msgstr "Apus"
+
+#: functions.php:255 loop-attachment.php:104 loop.php:115 loop.php:143
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuarea <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:338
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">spune:</span>"
+
+#: functions.php:341
+msgid "Your comment is awaiting moderation."
+msgstr "Comentariul așteaptă să fie moderat."
+
+#: functions.php:348
+msgid "%1$s at %2$s"
+msgstr "%1$s la %2$s"
+
+#: functions.php:348 functions.php:365
+msgid "(Edit)"
+msgstr "(Editează)"
+
+#: functions.php:365
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:384
+msgid "Primary Widget Area"
+msgstr "Locația primară pentru widget-uri"
+
+#: functions.php:386
+msgid "The primary widget area"
+msgstr "Zona primară pentru widget-uri"
+
+#: functions.php:395
+msgid "Secondary Widget Area"
+msgstr "Locația secundară pentru widget-uri"
+
+#: functions.php:397
+msgid "The secondary widget area"
+msgstr "Zona secundară pentru widget-uri"
+
+#: functions.php:406
+msgid "First Footer Widget Area"
+msgstr "Locația 1 pentru widget-uri de subsol"
+
+#: functions.php:408
+msgid "The first footer widget area"
+msgstr "Prima zonă de widget din subsol"
+
+#: functions.php:417
+msgid "Second Footer Widget Area"
+msgstr "Locația 2 pentru widget-uri de subsol"
+
+#: functions.php:419
+msgid "The second footer widget area"
+msgstr "A doua zonă de widget din subsol"
+
+#: functions.php:428
+msgid "Third Footer Widget Area"
+msgstr "Locația 3 pentru widget-uri de subsol"
+
+#: functions.php:430
+msgid "The third footer widget area"
+msgstr "A treia zonă de widget din subsol"
+
+#: functions.php:439
+msgid "Fourth Footer Widget Area"
+msgstr "Locația 4 pentru widget-uri de subsol"
+
+#: functions.php:441
+msgid "The fourth footer widget area"
+msgstr "A patra zonă de widget din subsol"
+
+#: functions.php:475
+msgid "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</span> %3$s"
+msgstr "<span class=\"%1$s\">Publicat în</span> %2$s <span class=\"meta-sep\">de</span> %3$s"
+
+#: functions.php:484 loop-attachment.php:36
+msgid "View all posts by %s"
+msgstr "Toate articolele lui %s"
+
+#: functions.php:501
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Acest articol a fost publicat în %1$s și etichetat cu %2$s. Salvează <a href=\"%3$s\" title=\"Permalink la %4$s\" rel=\"bookmark\">legătura permanentă</a>."
+
+#: functions.php:503
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Acest articol a fost publicat în %1$s. Salvează <a href=\"%3$s\" title=\"Permalink la %4$s\" rel=\"bookmark\">legătura permanentă</a>."
+
+#: functions.php:505
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Salvează <a href=\"%3$s\" title=\"Legătură permanentă la %4$s\" rel=\"bookmark\">legătura permanentă</a>."
+
+#: header.php:33
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: header.php:101
+msgid "Skip to content"
+msgstr "Sari la conținut"
+
+#: loop-attachment.php:21
+msgid "Return to %s"
+msgstr "Înapoi la %s"
+
+#: loop-attachment.php:23
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr "<span class=\"meta-nav\">&larr;</span> %s"
+
+#: loop-attachment.php:32
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr "<span class=\"%1$s\">De</span> %2$s"
+
+#: loop-attachment.php:43
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr "<span class=\"%1$s\">Publicat</span> %2$s"
+
+#: loop-attachment.php:53
+msgid "Full size is %s pixels"
+msgstr "Dimensiunea totală este %s de pixeli"
+
+#: loop-attachment.php:56
+msgid "Link to full-size image"
+msgstr "Legătura la imaginea de dimensiune întreagă"
+
+#: loop-attachment.php:63 loop-attachment.php:111 loop-page.php:30
+#: loop-single.php:56 loop.php:100 loop.php:123 loop.php:165
+msgid "Edit"
+msgstr "Editare"
+
+#: loop-attachment.php:105 loop-page.php:29 loop-single.php:34 loop.php:144
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: loop-single.php:21 loop-single.php:61
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: loop-single.php:22 loop-single.php:62
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: loop-single.php:47
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Toate articolele  lui %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: loop.php:25 loop.php:178
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articole anterioare"
+
+#: loop.php:26 loop.php:179
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articole mai noi <span class=\"meta-nav\">&rarr;</span>"
+
+#: loop.php:35
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Din păcate, nu s-a găsit nimic legat de arhiva cerută. O căutare ar putea ajuta la găsirea unui articol relevant."
+
+#: loop.php:60 loop.php:95 loop.php:96
+msgctxt "gallery category slug"
+msgid "gallery"
+msgstr "galerie"
+
+#: loop.php:62 loop.php:83 loop.php:131
+msgid "Permalink to %s"
+msgstr "Legătură permanentă la %s"
+
+#: loop.php:82
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "Această galerie conține <a %1$s>%2$s poză</a>."
+msgstr[1] "Această galerie conține <a %1$s>%2$s poze</a>."
+msgstr[2] "Această galerie conține <a %1$s>%2$s de poze</a>."
+
+#: loop.php:93
+msgid "View Galleries"
+msgstr "Vezi galerii"
+
+#: loop.php:93 loop.php:96
+msgid "More Galleries"
+msgstr "Mai multe galerii"
+
+#: loop.php:96
+msgid "View posts in the Gallery category"
+msgstr "Afișează articolele din categoria „Galerii”"
+
+#: loop.php:99 loop.php:122 loop.php:164
+msgid "Leave a comment"
+msgstr "Lasă un comentariu"
+
+#: loop.php:99 loop.php:122 loop.php:164
+msgid "1 Comment"
+msgstr "1 comentariu"
+
+#: loop.php:99 loop.php:122 loop.php:164
+msgid "% Comments"
+msgstr "% comentarii"
+
+#: loop.php:106
+msgctxt "asides category slug"
+msgid "asides"
+msgstr "locații"
+
+#: loop.php:151
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Publicat în</span> %2$s"
+
+#: loop.php:160
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Etichete</span> %2$s"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Rezultatele căutării pentru: %s"
+
+#: search.php:26
+msgid "Nothing Found"
+msgstr "Nimic nu a fost găsit"
+
+#: search.php:28
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Din păcate, nu s-a găsit nimic după criteriile căutate. Reîncearcă cu alte cuvinte cheie la căutare."
+
+#: sidebar.php:27
+msgid "Archives"
+msgstr "Arhive"
+
+#: sidebar.php:34
+msgid "Meta"
+msgstr "Meta"
+
+#: tag.php:16
+msgid "Tag Archives: %s"
+msgstr "Arhiva etichetelor: %s"
+
+msgid "Twenty Ten"
+msgstr "Twenty Ten"
+
+msgid "http://wordpress.org/extend/themes/twentyten"
+msgstr "http://wordpress.org/extend/themes/twentyten"
+
+msgid "The 2010 theme for WordPress is stylish, customizable, simple, and readable -- make it yours with a custom menu, header image, and background. Twenty Ten supports six widgetized areas (two in the sidebar, four in the footer) and featured images (thumbnails for gallery posts and custom header images for posts and pages). It includes stylesheets for print and the admin Visual Editor, special styles for posts in the \"Asides\" and \"Gallery\" categories, and has an optional one-column page template that removes the sidebar."
+msgstr "Tema WordPress din 2010 are stil, e personalizabilă, simplă și elegantă - o poți personaliza cu un meniu, o imagine de antet, sau o imagine de fundal. Twenty Ten are șase zone de widget-uri (două în bara laterală, patru în subsolul paginii) și folosește imagi reprezentative (ca miniaturi pentru articolele cu galerii și ca imagini de antet pentru pagini și articole). Apoi include foi de stil pentru tipărire și pentru editorul vizual în panoul de administrare, stiluri speciale pentru formatele \"Scurt\" și \"Galerie\", plus un șablon opțional cu o singură coloană, fără bară laterală, pentru pagini."
+
+msgid "the WordPress team"
+msgstr "echipa WordPress"
+
+msgid "One column, no sidebar"
+msgstr "O singură coloană"
