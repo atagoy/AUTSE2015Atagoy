@@ -1,1 +1,0 @@
-<?php if ( wptouch_admin_is_setting_pro() ) { ?><span class="pro" title="Only available in WPtouch Pro"><?php _e( 'Pro', 'wptouch-pro' ); ?></span><?php } ?>

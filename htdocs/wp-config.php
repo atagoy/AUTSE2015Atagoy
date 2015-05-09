@@ -4,7 +4,7 @@
  *
  * This file has the following configurations: MySQL settings, Table Prefix,
  * Secret Keys, and ABSPATH. You can find more information by visiting
- * {@link http://codex.wordpress.org/Editing_wp-config.php Editing wp-config.php}
+ * {@link https://codex.wordpress.org/Editing_wp-config.php Editing wp-config.php}
  * Codex page. You can get the MySQL settings from your web host.
  *
  * This file is used by the wp-config.php creation script during the
@@ -16,19 +16,19 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'bitnami_wordpress');
+define('DB_NAME', 'serler');
 
 /** MySQL database username */
-define('DB_USER', 'bn_wordpress');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '47abbeb57d');
+define('DB_PASSWORD', 'resu');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost:3306');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'b533189842b2daa89bcf8c7c7d512e59d9785d8641cff9cd6a3001ff05f97507');
-define('SECURE_AUTH_KEY',  'ddfd7398a58a56cd8406e9ceb321b73cf379eeb7d1150a9587ea3ca3fafe35fb');
-define('LOGGED_IN_KEY',    'fe48d8d6c2a30796f742195d1562e33efc8179afd1ef283bcd6c0ec20c24a5e0');
-define('NONCE_KEY',        '4f8ef3e5af0dcfb0b6a548c9ed78c568e97bec4b0b44caebee66d938e49284ea');
-define('AUTH_SALT',        '2bb77f4c7a52ca6b08d16484ceb180156e278f7e901a4b1d5898080b9b713577');
-define('SECURE_AUTH_SALT', '13f2b7a1b7df30e2664c6ad6aba2590671b0eb9212591a14252370cdccef60a5');
-define('LOGGED_IN_SALT',   '158881907465c04f692ef4574e702111986ac21018c21b0554351223e79d707c');
-define('NONCE_SALT',       '2121572f8fe3ad737c29cf31c6f274f79bcf5076e744974dd3febed5733bfc3b');
+define('AUTH_KEY',         'g <dPS_0KazEfi_hq7i*/#|%>%OCB]nNHE(N14a}Lh)6RM0nr0NTca2=T3CnO@Tg');
+define('SECURE_AUTH_KEY',  '!NF:s/y9JO>^rI3c6zD+?IjvTh^tI72))Y,BYLsZr WkR9%3En%DGsSSMpDIF>F|');
+define('LOGGED_IN_KEY',    'OWI([y9T|F2(vyK6*:wf:2NMf0C&|tRu0|U9+{sgxG}#F6c6nsv-G}d053&+M5`h');
+define('NONCE_KEY',        ':|Dhuk@ETaWP.d. -o5I,8&cGM!sE1(K)gt~;rYMGFOp:JdT1(kNf;&AhqRYCG{3');
+define('AUTH_SALT',        '<V0G>B].VQ+q|!//,kZ+%ueBQxrarCQd82wTte]N1aNKa4#MZo)v4R~{J*7A@~SE');
+define('SECURE_AUTH_SALT', '3p4vUBir?!+WI7:+NAlj)[*5Rc9ROVG4C|k-1V,rdsI:|Cz&IQ_T%O|N$6,M0k*b');
+define('LOGGED_IN_SALT',   'Y0&^|0>>YD?K+)?MGPh-tD?Ptk-(LIhwD-B$.^^v0S^H?:,+-!B8R-CTe+/-rAED');
+define('NONCE_SALT',       '7s$RJ?+jybwS;939TXgT$!Y~kV#@c._nL}20 Z=Azk-OPW7]|M9%eO,G}RS0gi].');
 
 /**#@-*/
 
@@ -59,7 +59,7 @@ define('NONCE_SALT',       '2121572f8fe3ad737c29cf31c6f274f79bcf5076e744974dd3fe
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'se_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -71,17 +71,6 @@ $table_prefix  = 'wp_';
 define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
-/**
- * The WP_SITEURL and WP_HOME options are configured to access from any hostname or IP address.
- * If you want to access only from an specific domain, you can modify them. For example:
- *  define('WP_HOME','http://example.com');
- *  define('WP_SITEURL','http://example.com');
- *
-*/
-
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress');
-define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress');
-
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
@@ -89,6 +78,3 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-
-define('WP_TEMP_DIR', 'C:/xampp/apps/wordpress/tmp');
-
