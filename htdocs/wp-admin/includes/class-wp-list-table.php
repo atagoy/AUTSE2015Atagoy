@@ -24,17 +24,18 @@ class WP_List_Table {
 	 *
 	 * @since 3.1.0
 	 * @var array
-	 * @access protected
+	 * @access private
 	 */
-	protected $_args;
+	private $_args;
 
 	/**
 	 * Various information needed for displaying the pagination
 	 *
 	 * @since 3.1.0
 	 * @var array
+	 * @access private
 	 */
-	protected $_pagination_args = array();
+	private $_pagination_args = array();
 
 	/**
 	 * The current screen
@@ -71,20 +72,6 @@ class WP_List_Table {
 	 * @access protected
 	 */
 	protected $modes = array();
-
-	/**
-	 * Stores the value returned by ->get_column_info()
-	 *
-	 * @var array
-	 */
-	protected $_column_headers;
-
-	protected $compat_fields = array( '_args', '_pagination_args', 'screen', '_actions', '_pagination' );
-
-	protected $compat_methods = array( 'set_pagination_args', 'get_views', 'get_bulk_actions', 'bulk_actions',
-		'row_actions', 'months_dropdown', 'view_switcher', 'comments_bubble', 'get_items_per_page', 'pagination',
-		'get_sortable_columns', 'get_column_info', 'get_table_classes', 'display_tablenav', 'extra_tablenav',
-		'single_row_columns' );
 
 	/**
 	 * Constructor.
@@ -155,9 +142,7 @@ class WP_List_Table {
 	 * @return mixed Property.
 	 */
 	public function __get( $name ) {
-		if ( in_array( $name, $this->compat_fields ) ) {
-			return $this->$name;
-		}
+		return $this->$name;
 	}
 
 	/**
@@ -166,14 +151,12 @@ class WP_List_Table {
 	 * @since 4.0.0
 	 * @access public
 	 *
-	 * @param string $name  Property to check if set.
+	 * @param string $name  Property to set.
 	 * @param mixed  $value Property value.
 	 * @return mixed Newly-set property.
 	 */
 	public function __set( $name, $value ) {
-		if ( in_array( $name, $this->compat_fields ) ) {
-			return $this->$name = $value;
-		}
+		return $this->$name = $value;
 	}
 
 	/**
@@ -186,9 +169,7 @@ class WP_List_Table {
 	 * @return bool Whether the property is set.
 	 */
 	public function __isset( $name ) {
-		if ( in_array( $name, $this->compat_fields ) ) {
-			return isset( $this->$name );
-		}
+		return isset( $this->$name );
 	}
 
 	/**
@@ -200,9 +181,7 @@ class WP_List_Table {
 	 * @param string $name Property to unset.
 	 */
 	public function __unset( $name ) {
-		if ( in_array( $name, $this->compat_fields ) ) {
-			unset( $this->$name );
-		}
+		unset( $this->$name );
 	}
 
 	/**
@@ -216,10 +195,7 @@ class WP_List_Table {
 	 * @return mixed|bool Return value of the callback, false otherwise.
 	 */
 	public function __call( $name, $arguments ) {
-		if ( in_array( $name, $this->compat_methods ) ) {
-			return call_user_func_array( array( $this, $name ), $arguments );
-		}
-		return false;
+		return call_user_func_array( array( $this, $name ), $arguments );
 	}
 
 	/**
@@ -337,7 +313,7 @@ class WP_List_Table {
 <p class="search-box">
 	<label class="screen-reader-text" for="<?php echo $input_id ?>"><?php echo $text; ?>:</label>
 	<input type="search" id="<?php echo $input_id ?>" name="s" value="<?php _admin_search_query(); ?>" />
-	<?php submit_button( $text, 'button', '', false, array('id' => 'search-submit') ); ?>
+	<?php submit_button( $text, 'button', false, false, array('id' => 'search-submit') ); ?>
 </p>
 <?php
 	}
@@ -445,7 +421,7 @@ class WP_List_Table {
 
 		echo "</select>\n";
 
-		submit_button( __( 'Apply' ), 'action', '', false, array( 'id' => "doaction$two" ) );
+		submit_button( __( 'Apply' ), 'action', false, false, array( 'id' => "doaction$two" ) );
 		echo "\n";
 	}
 
@@ -508,18 +484,6 @@ class WP_List_Table {
 	 */
 	protected function months_dropdown( $post_type ) {
 		global $wpdb, $wp_locale;
-
-		/**
-		 * Filter whether to remove the 'Months' drop-down from the post list table.
-		 *
-		 * @since 4.2.0
-		 *
-		 * @param bool   $disable   Whether to disable the drop-down. Default false.
-		 * @param string $post_type The post type.
-		 */
-		if ( apply_filters( 'disable_months_dropdown', false, $post_type ) ) {
-			return;
-		}
 
 		$months = $wpdb->get_results( $wpdb->prepare( "
 			SELECT DISTINCT YEAR( post_date ) AS year, MONTH( post_date ) AS month
@@ -939,19 +903,18 @@ class WP_List_Table {
 	</tr>
 	</thead>
 
-	<tbody id="the-list"<?php
-		if ( $singular ) {
-			echo " data-wp-lists='list:$singular'";
-		} ?>>
-		<?php $this->display_rows_or_placeholder(); ?>
-	</tbody>
-
 	<tfoot>
 	<tr>
 		<?php $this->print_column_headers( false ); ?>
 	</tr>
 	</tfoot>
 
+	<tbody id="the-list"<?php
+		if ( $singular ) {
+			echo " data-wp-lists='list:$singular'";
+		} ?>>
+		<?php $this->display_rows_or_placeholder(); ?>
+	</tbody>
 </table>
 <?php
 		$this->display_tablenav( 'bottom' );
@@ -966,7 +929,7 @@ class WP_List_Table {
 	 * @return array List of CSS classes for the table tag.
 	 */
 	protected function get_table_classes() {
-		return array( 'widefat', 'fixed', 'striped', $this->_args['plural'] );
+		return array( 'widefat', 'fixed', $this->_args['plural'] );
 	}
 
 	/**
@@ -1041,14 +1004,13 @@ class WP_List_Table {
 	 * @param object $item The current item
 	 */
 	public function single_row( $item ) {
-		echo '<tr>';
+		static $row_class = '';
+		$row_class = ( $row_class == '' ? ' class="alternate"' : '' );
+
+		echo '<tr' . $row_class . '>';
 		$this->single_row_columns( $item );
 		echo '</tr>';
 	}
-
-	protected function column_default( $item, $column_name ) {}
-
-	protected function column_cb( $item ) {}
 
 	/**
 	 * Generates the columns for a single row of the table

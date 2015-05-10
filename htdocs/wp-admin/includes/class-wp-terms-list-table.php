@@ -11,8 +11,6 @@ class WP_Terms_List_Table extends WP_List_Table {
 
 	public $callback_args;
 
-	private $level;
-
 	/**
 	 * Constructor.
 	 *
@@ -112,10 +110,6 @@ class WP_Terms_List_Table extends WP_List_Table {
 	public function has_items() {
 		// todo: populate $this->items in prepare_items()
 		return true;
-	}
-
-	public function no_items() {
-		echo get_taxonomy( $this->screen->taxonomy )->labels->not_found;
 	}
 
 	protected function get_bulk_actions() {
@@ -268,6 +262,7 @@ class WP_Terms_List_Table extends WP_List_Table {
 
 	/**
 	 * @global string $taxonomy
+	 * @staticvar string $row_class
 	 * @param object $tag
 	 * @param int $level
 	 */
@@ -275,9 +270,12 @@ class WP_Terms_List_Table extends WP_List_Table {
 		global $taxonomy;
  		$tag = sanitize_term( $tag, $taxonomy );
 
+		static $row_class = '';
+		$row_class = ( $row_class == '' ? ' class="alternate"' : '' );
+
 		$this->level = $level;
 
-		echo '<tr id="tag-' . $tag->term_id . '">';
+		echo '<tr id="tag-' . $tag->term_id . '"' . $row_class . '>';
 		$this->single_row_columns( $tag );
 		echo '</tr>';
 	}
@@ -463,7 +461,7 @@ class WP_Terms_List_Table extends WP_List_Table {
 			return;
 ?>
 
-	<form method="get"><table style="display: none"><tbody id="inlineedit">
+	<form method="get" action=""><table style="display: none"><tbody id="inlineedit">
 		<tr id="inline-edit" class="inline-edit-row" style="display: none"><td colspan="<?php echo $this->get_column_count(); ?>" class="colspanchange">
 
 			<fieldset><div class="inline-edit-col">
@@ -497,8 +495,8 @@ class WP_Terms_List_Table extends WP_List_Table {
 	?>
 
 		<p class="inline-edit-save submit">
-			<a href="#inline-edit" class="cancel button-secondary alignleft"><?php _e( 'Cancel' ); ?></a>
-			<a href="#inline-edit" class="save button-primary alignright"><?php echo $tax->labels->update_item; ?></a>
+			<a accesskey="c" href="#inline-edit" class="cancel button-secondary alignleft"><?php _e( 'Cancel' ); ?></a>
+			<a accesskey="s" href="#inline-edit" class="save button-primary alignright"><?php echo $tax->labels->update_item; ?></a>
 			<span class="spinner"></span>
 			<span class="error" style="display:none;"></span>
 			<?php wp_nonce_field( 'taxinlineeditnonce', '_inline_edit', false ); ?>

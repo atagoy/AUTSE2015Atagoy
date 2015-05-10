@@ -149,19 +149,20 @@ class WP_MS_Users_List_Table extends WP_List_Table {
 	public function display_rows() {
 		global $mode;
 
+		$alt = '';
 		$super_admins = get_super_admins();
 		foreach ( $this->items as $user ) {
-			$class = '';
+			$alt = ( 'alternate' == $alt ) ? '' : 'alternate';
 
 			$status_list = array( 'spam' => 'site-spammed', 'deleted' => 'site-deleted' );
 
 			foreach ( $status_list as $status => $col ) {
 				if ( $user->$status )
-					$class .= " $col";
+					$alt .= " $col";
 			}
 
 			?>
-			<tr class="<?php echo trim( $class ); ?>">
+			<tr class="<?php echo $alt; ?>">
 			<?php
 
 			list( $columns, $hidden ) = $this->get_column_info();
@@ -229,9 +230,9 @@ class WP_MS_Users_List_Table extends WP_List_Table {
 
 					case 'registered':
 						if ( 'list' == $mode )
-							$date = __( 'Y/m/d' );
+							$date = 'Y/m/d';
 						else
-							$date = __( 'Y/m/d g:i:s a' );
+							$date = 'Y/m/d \<\b\r \/\> g:i:s a';
 
 						echo "<td $attributes>" . mysql2date( $date, $user->user_registered ) . "</td>";
 					break;

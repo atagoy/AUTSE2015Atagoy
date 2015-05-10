@@ -190,6 +190,7 @@ if ( current_user_can( 'customize' ) ) {
 ?>
 
 <div id="wpwrap">
+<a tabindex="1" href="#wpbody-content" class="screen-reader-shortcut"><?php _e('Skip to main content'); ?></a>
 <?php require(ABSPATH . 'wp-admin/menu-header.php'); ?>
 <div id="wpcontent">
 
@@ -202,7 +203,7 @@ if ( current_user_can( 'customize' ) ) {
 do_action( 'in_admin_header' );
 ?>
 
-<div id="wpbody" role="main">
+<div id="wpbody">
 <?php
 unset($title_class, $blog_name, $total_update_count, $update_title);
 

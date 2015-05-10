@@ -161,7 +161,6 @@ function twentyfourteen_category_transient_flusher() {
 add_action( 'edit_category', 'twentyfourteen_category_transient_flusher' );
 add_action( 'save_post',     'twentyfourteen_category_transient_flusher' );
 
-if ( ! function_exists( 'twentyfourteen_post_thumbnail' ) ) :
 /**
  * Display an optional post thumbnail.
  *
@@ -169,7 +168,6 @@ if ( ! function_exists( 'twentyfourteen_post_thumbnail' ) ) :
  * views, or a div element when on single views.
  *
  * @since Twenty Fourteen 1.0
- * @since Twenty Fourteen 1.4 Was made 'pluggable', or overridable.
  */
 function twentyfourteen_post_thumbnail() {
 	if ( post_password_required() || is_attachment() || ! has_post_thumbnail() ) {
@@ -203,7 +201,6 @@ function twentyfourteen_post_thumbnail() {
 
 	<?php endif; // End is_singular()
 }
-endif;
 
 if ( ! function_exists( 'twentyfourteen_excerpt_more' ) && ! is_admin() ) :
 /**

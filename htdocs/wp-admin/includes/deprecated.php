@@ -33,6 +33,7 @@ function tinymce_include() {
  */
 function documentation_link() {
 	_deprecated_function( __FUNCTION__, '2.5' );
+	return;
 }
 
 /**
@@ -203,6 +204,7 @@ function remove_option_update_handler( $option_group, $option_name, $sanitize_ca
 **/
 function codepress_get_lang( $filename ) {
 	_deprecated_function( __FUNCTION__, '3.0' );
+	return;
 }
 
 /**
@@ -213,6 +215,7 @@ function codepress_get_lang( $filename ) {
 **/
 function codepress_footer_js() {
 	_deprecated_function( __FUNCTION__, '3.0' );
+	return;
 }
 
 /**
@@ -223,6 +226,7 @@ function codepress_footer_js() {
 **/
 function use_codepress() {
 	_deprecated_function( __FUNCTION__, '3.0' );
+	return;
 }
 
 /**
@@ -548,7 +552,7 @@ class WP_User_Search {
 		if ( $this->results )
 			$this->total_users_for_query = $wpdb->get_var("SELECT COUNT(DISTINCT($wpdb->users.ID))" . $this->query_from . $this->query_where); // no limit
 		else
-			$this->search_errors = new WP_Error('no_matching_users_found', __('No users found.'));
+			$this->search_errors = new WP_Error('no_matching_users_found', __('No matching users were found!'));
 	}
 
 	/**

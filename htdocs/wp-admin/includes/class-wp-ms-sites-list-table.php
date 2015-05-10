@@ -203,19 +203,20 @@ class WP_MS_Sites_List_Table extends WP_List_Table {
 		);
 
 		if ( 'list' == $mode ) {
-			$date = __( 'Y/m/d' );
+			$date = 'Y/m/d';
 		} else {
-			$date = __( 'Y/m/d g:i:s a' );
+			$date = 'Y/m/d \<\b\r \/\> g:i:s a';
 		}
 
+		$class = '';
 		foreach ( $this->items as $blog ) {
-			$class = '';
+			$class = ( 'alternate' == $class ) ? '' : 'alternate';
 			reset( $status_list );
 
 			$blog_states = array();
 			foreach ( $status_list as $status => $col ) {
 				if ( get_blog_status( $blog['blog_id'], $status ) == 1 ) {
-					$class = " class='{$col[0]}'";
+					$class = $col[0];
 					$blog_states[] = $col[1];
 				}
 			}
@@ -230,7 +231,7 @@ class WP_MS_Sites_List_Table extends WP_List_Table {
 					$blog_state .= "<span class='post-state'>$state$sep</span>";
 				}
 			}
-			echo "<tr{$class}>";
+			echo "<tr class='$class'>";
 
 			$blogname = ( is_subdomain_install() ) ? str_replace( '.' . get_current_site()->domain, '', $blog['domain'] ) : $blog['path'];
 

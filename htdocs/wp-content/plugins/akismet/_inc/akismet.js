@@ -18,11 +18,9 @@ jQuery( function ( $ ) {
 		var thisId = $(this).attr('commentid');
 		$(this).insertAfter('#comment-' + thisId + ' .author strong:first').show();
 	});
-	$('#the-comment-list').find('tr.comment, tr[id ^= "comment-"]').find('.column-author a[title]').each(function () {
-		// Comment author URLs are the only URL with a title attribute in the author column.
+	$('#the-comment-list').find('tr.comment, tr[id ^= "comment-"]').find('.column-author a[title ^= "http://"]').each(function () {
 		var thisTitle = $(this).attr('title');
-
-		var thisCommentId = $(this).parents('tr:first').attr('id').split("-");
+			thisCommentId = $(this).parents('tr:first').attr('id').split("-");
 
 		$(this).attr("id", "author_comment_url_"+ thisCommentId[1]);
 
@@ -74,7 +72,7 @@ jQuery( function ( $ ) {
 	});
 	$('.akismet_undo_link_removal').live('click', function () {
 		var thisId = $(this).attr('cid');
-		var thisUrl = $(this).attr('href');
+		var thisUrl = $(this).attr('href').replace("http://www.", "").replace("http://", "");
 		var data = {
 			action: 'comment_author_reurl',
 			_wpnonce: WPAkismet.comment_author_url_nonce,
@@ -93,8 +91,8 @@ jQuery( function ( $ ) {
 				if (response) {
 					// Add "x" link
 					$("a[commentid='"+ thisId +"']").show();
-					// Show link. Core strips leading http://, so let's do that too.
-					$("#author_comment_url_"+ thisId).removeClass('akismet_undo_link_removal').text( thisUrl.replace( /^http:\/\/(www\.)?/ig, '' ) );
+					// Show link
+					$("#author_comment_url_"+ thisId).removeClass('akismet_undo_link_removal').html(thisUrl);
 				}
 			}
 		});

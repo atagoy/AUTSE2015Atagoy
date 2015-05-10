@@ -2,7 +2,7 @@
 /**
  * The template for displaying image attachments
  *
- * @link https://codex.wordpress.org/Template_Hierarchy
+ * @link http://codex.wordpress.org/Template_Hierarchy
  *
  * @package WordPress
  * @subpackage Twenty_Thirteen

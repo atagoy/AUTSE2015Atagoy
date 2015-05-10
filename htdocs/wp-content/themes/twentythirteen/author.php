@@ -2,7 +2,7 @@
 /**
  * The template for displaying Author archive pages
  *
- * @link https://codex.wordpress.org/Template_Hierarchy
+ * @link http://codex.wordpress.org/Template_Hierarchy
  *
  * @package WordPress
  * @subpackage Twenty_Thirteen

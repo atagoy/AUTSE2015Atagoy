@@ -15,10 +15,9 @@
  * @uses WP_Filesystem_Base Extends class
  */
 class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
-	/**
-	 * @var ftp
-	 */
-	public $ftp;
+	public $ftp = false;
+	public $errors = null;
+	public $options = array();
 
 	public function __construct($opt = '') {
 		$this->method = 'ftpsockets';
@@ -26,7 +25,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 
 		// Check if possible to use ftp functions.
 		if ( ! @include_once( ABSPATH . 'wp-admin/includes/class-ftp.php' ) ) {
-			return;
+			return false;
 		}
 		$this->ftp = new ftp();
 
@@ -39,6 +38,9 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 			$this->errors->add('empty_hostname', __('FTP hostname is required'));
 		else
 			$this->options['hostname'] = $opt['hostname'];
+
+		if ( ! empty($opt['base']) )
+			$this->wp_base = $opt['base'];
 
 		// Check if the options provided are OK.
 		if ( empty ($opt['username']) )
@@ -81,7 +83,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 
 	/**
 	 * @param string $file
-	 * @return false|string
+	 * @return bool|string
 	 */
 	public function get_contents( $file ) {
 		if ( ! $this->exists($file) )
@@ -172,6 +174,15 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 
 	public function chdir($file) {
 		return $this->ftp->chdir($file);
+	}
+
+	/**
+	 * @param string $file
+	 * @param bool $group
+	 * @param bool $recursive
+	 */
+	public function chgrp($file, $group, $recursive = false ) {
+		return false;
 	}
 
 	/**
@@ -274,11 +285,6 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	 */
 	public function exists( $file ) {
 		$list = $this->ftp->nlist( $file );
-
-		if ( empty( $list ) && $this->is_dir( $file ) ) {
-			return true; // File is an empty directory.
-		}
-
 		return !empty( $list ); //empty list = no file, so invert.
 		// Return $this->ftp->is_exists($file); has issues with ABOR+426 responses on the ncFTPd server.
 	}
@@ -374,6 +380,10 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 		if ( ! $chmod )
 			$chmod = FS_CHMOD_DIR;
 		$this->chmod($path, $chmod);
+		if ( $chown )
+			$this->chown($path, $chown);
+		if ( $chgrp )
+			$this->chgrp($path, $chgrp);
 		return true;
 	}
 

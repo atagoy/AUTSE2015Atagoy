@@ -36,11 +36,10 @@
 class WP_Filesystem_SSH2 extends WP_Filesystem_Base {
 
 	public $link = false;
-	/**
-	 * @var resource
-	 */
-	public $sftp_link;
+	public $sftp_link = false;
 	public $keys = false;
+	public $errors = array();
+	public $options = array();
 
 	public function __construct($opt='') {
 		$this->method = 'ssh2';
@@ -49,11 +48,11 @@ class WP_Filesystem_SSH2 extends WP_Filesystem_Base {
 		//Check if possible to use ssh2 functions.
 		if ( ! extension_loaded('ssh2') ) {
 			$this->errors->add('no_ssh2_ext', __('The ssh2 PHP extension is not available'));
-			return;
+			return false;
 		}
 		if ( !function_exists('stream_get_contents') ) {
 			$this->errors->add('ssh2_php_requirement', __('The ssh2 PHP extension is available, however, we require the PHP5 function <code>stream_get_contents()</code>'));
-			return;
+			return false;
 		}
 
 		// Set defaults:
@@ -66,6 +65,9 @@ class WP_Filesystem_SSH2 extends WP_Filesystem_Base {
 			$this->errors->add('empty_hostname', __('SSH2 hostname is required'));
 		else
 			$this->options['hostname'] = $opt['hostname'];
+
+		if ( ! empty($opt['base']) )
+			$this->wp_base = $opt['base'];
 
 		// Check if the options provided are OK.
 		if ( !empty ($opt['public_key']) && !empty ($opt['private_key']) ) {
@@ -124,7 +126,6 @@ class WP_Filesystem_SSH2 extends WP_Filesystem_Base {
 	/**
 	 * @param string $command
 	 * @param bool $returnbool
-	 * @return bool|string
 	 */
 	public function run_command( $command, $returnbool = false) {
 
@@ -184,15 +185,14 @@ class WP_Filesystem_SSH2 extends WP_Filesystem_Base {
 
 	public function cwd() {
 		$cwd = $this->run_command('pwd');
-		if ( $cwd ) {
-			$cwd = trailingslashit( trim( $cwd ) );
-		}
+		if ( $cwd )
+			$cwd = trailingslashit($cwd);
 		return $cwd;
 	}
 
 	/**
 	 * @param string $dir
-	 * @return bool|string
+	 * @return bool
 	 */
 	public function chdir($dir) {
 		return $this->run_command('cd ' . $dir, true);
@@ -215,7 +215,7 @@ class WP_Filesystem_SSH2 extends WP_Filesystem_Base {
 	 * @param string $file
 	 * @param int $mode
 	 * @param bool $recursive
-	 * @return bool|string
+	 * @return bool
 	 */
 	public function chmod($file, $mode = false, $recursive = false) {
 		if ( ! $this->exists($file) )

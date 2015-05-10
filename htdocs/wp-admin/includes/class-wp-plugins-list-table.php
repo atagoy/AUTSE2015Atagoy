@@ -125,17 +125,8 @@ class WP_Plugins_List_Table extends WP_List_Table {
 			// Extra info if known. array_merge() ensures $plugin_data has precedence if keys collide.
 			if ( isset( $plugin_info->response[ $plugin_file ] ) ) {
 				$plugins['all'][ $plugin_file ] = $plugin_data = array_merge( (array) $plugin_info->response[ $plugin_file ], $plugin_data );
-				// Make sure that $plugins['upgrade'] also receives the extra info since it is used on ?plugin_status=upgrade
-				if ( isset( $plugins['upgrade'][ $plugin_file ] ) ) {
-					$plugins['upgrade'][ $plugin_file ] = $plugin_data = array_merge( (array) $plugin_info->response[ $plugin_file ], $plugin_data );
-				}
-
 			} elseif ( isset( $plugin_info->no_update[ $plugin_file ] ) ) {
 				$plugins['all'][ $plugin_file ] = $plugin_data = array_merge( (array) $plugin_info->no_update[ $plugin_file ], $plugin_data );
-				// Make sure that $plugins['upgrade'] also receives the extra info since it is used on ?plugin_status=upgrade
-				if ( isset( $plugins['upgrade'][ $plugin_file ] ) ) {
-					$plugins['upgrade'][ $plugin_file ] = $plugin_data = array_merge( (array) $plugin_info->no_update[ $plugin_file ], $plugin_data );
-				}
 			}
 
 			// Filter into individual sections
@@ -524,12 +515,7 @@ class WP_Plugins_List_Table extends WP_List_Table {
 		if ( ! empty( $totals['upgrade'] ) && ! empty( $plugin_data['update'] ) )
 			$class .= ' update';
 
-		$plugin_slug = ( isset( $plugin_data['slug'] ) ) ? $plugin_data['slug'] : '';
-		printf( "<tr id='%s' class='%s' data-slug='%s'>",
-			$id,
-			$class,
-			$plugin_slug
-		);
+		echo "<tr id='$id' class='$class'>";
 
 		list( $columns, $hidden ) = $this->get_column_info();
 

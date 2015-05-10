@@ -16,12 +16,12 @@ body {
 }
 
 a {
-	color: #0073aa;
+	color: #0074a2;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #00a0d2;
+	color: #2ea2cc;
 }
 
 h1 {
@@ -237,7 +237,7 @@ submit {
 	background-color: #ffebe8;
 }
 
-/* rtl:ignore */
+/* @noflip */
 #dbname,
 #uname,
 #pwd,
@@ -333,7 +333,7 @@ body.language-chooser {
 	display: block;
 	border: 1px solid #ddd;
 	background-color: #fff;
-	color: #32373c;
+	color: #333;
 	font-size: 16px;
 	font-family: Arial, sans-serif;
 	font-weight: normal;
@@ -378,6 +378,7 @@ body.language-chooser {
  * HiDPI Displays
  */
 @media print,
+  (-o-min-device-pixel-ratio: 5/4),
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 120dpi) {
 

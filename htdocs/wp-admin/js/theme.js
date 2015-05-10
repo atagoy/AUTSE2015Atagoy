@@ -79,7 +79,7 @@ themes.view.Appearance = wp.Backbone.View.extend({
 
 		// Render and append
 		this.view.render();
-		this.$el.empty().append( this.view.el ).addClass( 'rendered' );
+		this.$el.empty().append( this.view.el ).addClass('rendered');
 		this.$el.append( '<br class="clear"/>' );
 	},
 
@@ -156,7 +156,6 @@ themes.Collection = Backbone.Collection.extend({
 		// Useful for resetting the views when you clean the input
 		if ( this.terms === '' ) {
 			this.reset( themes.data.themes );
-			$( 'body' ).removeClass( 'no-results' );
 		}
 
 		// Trigger an 'update' event
@@ -166,7 +165,7 @@ themes.Collection = Backbone.Collection.extend({
 	// Performs a search within the collection
 	// @uses RegExp
 	search: function( term ) {
-		var match, results, haystack, name, description, author;
+		var match, results, haystack;
 
 		// Start with a full collection
 		this.reset( themes.data.themes, { silent: true } );
@@ -182,11 +181,7 @@ themes.Collection = Backbone.Collection.extend({
 		// Find results
 		// _.filter and .test
 		results = this.filter( function( data ) {
-			name        = data.get( 'name' ).replace( /(<([^>]+)>)/ig, '' );
-			description = data.get( 'description' ).replace( /(<([^>]+)>)/ig, '' );
-			author      = data.get( 'author' ).replace( /(<([^>]+)>)/ig, '' );
-
-			haystack = _.union( name, data.get( 'id' ), description, author, data.get( 'tags' ) );
+			haystack = _.union( data.get( 'name' ), data.get( 'id' ), data.get( 'description' ), data.get( 'author' ), data.get( 'tags' ) );
 
 			if ( match.test( data.get( 'author' ) ) && term.length > 2 ) {
 				data.set( 'displayAuthor', true );
@@ -829,10 +824,7 @@ themes.view.Themes = wp.Backbone.View.extend({
 	index: 0,
 
 	// The theme count element
-	count: $( '.wp-core-ui .theme-count' ),
-
-	// The live themes count
-	liveThemeCount: 0,
+	count: $( '.wp-filter .theme-count' ),
 
 	initialize: function( options ) {
 		var self = this;
@@ -857,10 +849,8 @@ themes.view.Themes = wp.Backbone.View.extend({
 		this.listenTo( self.collection, 'query:success', function( count ) {
 			if ( _.isNumber( count ) ) {
 				self.count.text( count );
-				self.announceSearchResults( count );
 			} else {
 				self.count.text( self.collection.length );
-				self.announceSearchResults( self.collection.length );
 			}
 		});
 
@@ -905,7 +895,7 @@ themes.view.Themes = wp.Backbone.View.extend({
 	// and keeping theme count in sync
 	render: function() {
 		// Clear the DOM, please
-		this.$el.empty();
+		this.$el.html( '' );
 
 		// If the user doesn't have switch capabilities
 		// or there is only one theme in the collection
@@ -931,10 +921,7 @@ themes.view.Themes = wp.Backbone.View.extend({
 		}
 
 		// Display a live theme count for the collection
-		this.liveThemeCount = this.collection.count ? this.collection.count : this.collection.length;
-		this.count.text( this.liveThemeCount );
-
-		this.announceSearchResults( this.liveThemeCount );
+		this.count.text( this.collection.count ? this.collection.count : this.collection.length );
 	},
 
 	// Iterates through each instance of the collection
@@ -1086,15 +1073,6 @@ themes.view.Themes = wp.Backbone.View.extend({
 			self.theme.trigger( 'theme:expand', previousModel.cid );
 
 		}
-	},
-
-	// Dispatch audible search results feedback message
-	announceSearchResults: function( count ) {
-		if ( 0 === count ) {
-			wp.a11y.speak( l10n.noThemesFound );
-		} else {
-			wp.a11y.speak( l10n.themesFound.replace( '%d', count ) );
-		}
 	}
 });
 
@@ -1108,14 +1086,15 @@ themes.view.Search = wp.Backbone.View.extend({
 
 	attributes: {
 		placeholder: l10n.searchPlaceholder,
-		type: 'search',
-		'aria-describedby': 'live-search-desc'
+		type: 'search'
 	},
 
 	events: {
-		'input': 'search',
-		'keyup': 'search',
-		'blur': 'pushState'
+		'input':  'search',
+		'keyup':  'search',
+		'change': 'search',
+		'search': 'search',
+		'blur':   'pushState'
 	},
 
 	initialize: function( options ) {
@@ -1128,21 +1107,19 @@ themes.view.Search = wp.Backbone.View.extend({
 
 	},
 
+	// Runs a search on the theme collection.
 	search: function( event ) {
+		var options = {};
+
 		// Clear on escape.
 		if ( event.type === 'keyup' && event.which === 27 ) {
 			event.target.value = '';
 		}
 
-		/**
-		 * Since doSearch is debounced, it will only run when user input comes to a rest
-		 */
-		this.doSearch( event );
-	},
-
-	// Runs a search on the theme collection.
-	doSearch: _.debounce( function( event ) {
-		var options = {};
+		// Lose input focus when pressing enter
+		if ( event.which === 13 ) {
+			this.$el.trigger( 'blur' );
+		}
 
 		this.collection.doSearch( event.target.value );
 
@@ -1159,7 +1136,7 @@ themes.view.Search = wp.Backbone.View.extend({
 		} else {
 			themes.router.navigate( themes.router.baseUrl( '' ) );
 		}
-	}, 500 ),
+	},
 
 	pushState: function( event ) {
 		var url = themes.router.baseUrl( '' );
@@ -1270,7 +1247,6 @@ themes.Run = {
 themes.view.InstallerSearch =  themes.view.Search.extend({
 
 	events: {
-		'input': 'search',
 		'keyup': 'search'
 	},
 
@@ -1289,7 +1265,7 @@ themes.view.InstallerSearch =  themes.view.Search.extend({
 			event.target.value = '';
 		}
 
-		this.doSearch( event.target.value );
+		_.debounce( _.bind( this.doSearch, this ), 300 )( event.target.value );
 	},
 
 	doSearch: _.debounce( function( value ) {
@@ -1324,7 +1300,7 @@ themes.view.InstallerSearch =  themes.view.Search.extend({
 
 		// Set route
 		themes.router.navigate( themes.router.baseUrl( themes.router.searchPath + value ), { replace: true } );
-	}, 500 )
+	}, 300 )
 });
 
 themes.view.Installer = themes.view.Appearance.extend({

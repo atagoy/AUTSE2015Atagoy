@@ -16,6 +16,8 @@
  */
 class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 	public $link;
+	public $errors = null;
+	public $options = array();
 
 	public function __construct($opt='') {
 		$this->method = 'ftpext';
@@ -24,7 +26,7 @@ class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 		// Check if possible to use ftp functions.
 		if ( ! extension_loaded('ftp') ) {
 			$this->errors->add('no_ftp_ext', __('The ftp PHP extension is not available'));
-			return;
+			return false;
 		}
 
 		// This Class uses the timeout on a per-connection basis, Others use it on a per-action basis.
@@ -41,6 +43,9 @@ class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 			$this->errors->add('empty_hostname', __('FTP hostname is required'));
 		else
 			$this->options['hostname'] = $opt['hostname'];
+
+		if ( ! empty($opt['base']) )
+			$this->wp_base = $opt['base'];
 
 		// Check if the options provided are OK.
 		if ( empty($opt['username']) )
@@ -84,7 +89,7 @@ class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 
 	/**
 	 * @param string $file
-	 * @return false|string
+	 * @return bool|string
 	 */
 	public function get_contents( $file ) {
 		$tempfile = wp_tempnam($file);
@@ -168,6 +173,15 @@ class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 	 */
 	public function chdir($dir) {
 		return @ftp_chdir($this->link, $dir);
+	}
+
+	/**
+	 * @param string $file
+	 * @param bool $group
+	 * @param bool $recursive
+	 */
+	public function chgrp($file, $group, $recursive = false ) {
+		return false;
 	}
 
 	/**
@@ -275,11 +289,6 @@ class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 	 */
 	public function exists($file) {
 		$list = @ftp_nlist($this->link, $file);
-
-		if ( empty( $list ) && $this->is_dir( $file ) ) {
-			return true; // File is an empty directory.
-		}
-
 		return !empty($list); //empty list = no file, so invert.
 	}
 	/**
@@ -361,6 +370,10 @@ class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 		if ( !@ftp_mkdir($this->link, $path) )
 			return false;
 		$this->chmod($path, $chmod);
+		if ( $chown )
+			$this->chown($path, $chown);
+		if ( $chgrp )
+			$this->chgrp($path, $chgrp);
 		return true;
 	}
 

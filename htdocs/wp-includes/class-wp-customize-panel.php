@@ -1,20 +1,12 @@
 <?php
 /**
- * WordPress Customize Panel classes
+ * Customize Panel Class.
+ *
+ * A UI container for sections, managed by the WP_Customize_Manager.
  *
  * @package WordPress
  * @subpackage Customize
  * @since 4.0.0
- */
-
-/**
- * Customize Panel class.
- *
- * A UI container for sections, managed by the WP_Customize_Manager.
- *
- * @since 4.0.0
- *
- * @see WP_Customize_Manager
  */
 class WP_Customize_Panel {
 
@@ -162,6 +154,8 @@ class WP_Customize_Panel {
 		$this->instance_number = self::$instance_count;
 
 		$this->sections = array(); // Users cannot customize the $sections array.
+
+		return $this;
 	}
 
 	/**
@@ -172,7 +166,7 @@ class WP_Customize_Panel {
 	 *
 	 * @return bool Whether the panel is active to the current preview.
 	 */
-	final public function active() {
+	public final function active() {
 		$panel = $this;
 		$active = call_user_func( $this->active_callback, $this );
 
@@ -227,7 +221,7 @@ class WP_Customize_Panel {
 	 *
 	 * @return bool False if theme doesn't support the panel or the user doesn't have the capability.
 	 */
-	final public function check_capabilities() {
+	public final function check_capabilities() {
 		if ( $this->capability && ! call_user_func_array( 'current_user_can', (array) $this->capability ) ) {
 			return false;
 		}
@@ -246,7 +240,7 @@ class WP_Customize_Panel {
 	 *
 	 * @return string Content for the panel.
 	 */
-	final public function get_content() {
+	public final function get_content() {
 		ob_start();
 		$this->maybe_render();
 		$template = trim( ob_get_contents() );
@@ -259,7 +253,7 @@ class WP_Customize_Panel {
 	 *
 	 * @since 4.0.0
 	 */
-	final public function maybe_render() {
+	public final function maybe_render() {
 		if ( ! $this->check_capabilities() ) {
 			return;
 		}

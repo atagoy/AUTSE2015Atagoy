@@ -340,14 +340,9 @@ h2.ak-header {
 	text-align: center;
 }
 
-.akismet-settings th:first-child {
+.akismet-settings th.strictness {
 	vertical-align: top;
 	padding-top: 15px;
-}
-
-.akismet-settings th.akismet-api-key {
-	vertical-align: middle;
-	padding-top: 0;
 }
 
 .akismet-settings input[type=text] {
