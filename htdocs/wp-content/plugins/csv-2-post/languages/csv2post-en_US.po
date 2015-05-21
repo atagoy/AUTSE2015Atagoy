@@ -1,0 +1,3283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CSV 2 POST v8.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-06-08 18:16:53+0000\n"
+"Last-Translator: admin <webmaster@webtechglobal.co.uk>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: arrays/options_array.php:17
+#@ csv2post
+msgid "Indicates result of last installation status check, should hold value true for normal operation else an element of installation is missing."
+msgstr ""
+
+#: arrays/options_array.php:18
+#@ csv2post
+msgid "Installation Switch"
+msgstr ""
+
+#: arrays/options_array.php:26
+#@ csv2post
+msgid "Settings for the administrator/backend only. These settings effect things that are to do with the backend only. They configure manual actions, tools and operations triggered by backend use."
+msgstr ""
+
+#: arrays/options_array.php:27
+#@ csv2post
+msgid "Administration Settings"
+msgstr ""
+
+#: arrays/options_array.php:34
+#@ csv2post
+msgid "Used to determine gap between old and new version."
+msgstr ""
+
+#: arrays/options_array.php:35
+#@ csv2post
+msgid "Latest Version"
+msgstr ""
+
+#: arrays/options_array.php:42
+#@ csv2post
+msgid "Date last full installation was run"
+msgstr ""
+
+#: arrays/options_array.php:43
+#@ csv2post
+msgid "Install Date"
+msgstr ""
+
+#: arrays/options_array.php:50
+#@ csv2post
+msgid "Schedule settings and statistics"
+msgstr ""
+
+#: arrays/options_array.php:51
+#: views/main/generalsettings.php:17
+#@ csv2post
+#@ default
+msgid "Schedule Settings"
+msgstr ""
+
+#: arrays/schedule_array.php:14
+#: arrays/schedule_array.php:16
+#: arrays/schedule_array.php:21
+#@ csv2post
+msgid "None"
+msgstr ""
+
+#: arrays/schedule_array.php:61
+#@ csv2post
+msgid "Delete Users Waiting"
+msgstr ""
+
+#: arrays/schedule_array.php:64
+#@ csv2post
+msgid "Send Emails"
+msgstr ""
+
+#: arrays/sections_array.php:20
+#@ csv2post
+msgid "Main"
+msgstr ""
+
+#: arrays/sections_array.php:22
+#@ default
+msgid "The main section is where the initial plugin configuration begins. There is some information and occasional news available."
+msgstr ""
+
+#: arrays/sections_array.php:26
+#@ csv2post
+msgid "Project"
+msgstr ""
+
+#: arrays/sections_array.php:28
+#@ csv2post
+msgid "offer all subscribers an affiliate URL and affiliate views. One feature I will add is the ability to automatically increase commission or pay bonuses when targets are reached. I have also put thought into controlling affiliates per product i.e. limit the number of affiliates per region so that translators have further incentive"
+msgstr ""
+
+#. translators: plugin header field 'Name'
+#: csv-2-post.php:0
+#@ csv2post
+msgid "CSV 2 POST"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: csv-2-post.php:0
+#@ csv2post
+msgid "http://www.webtechglobal.co.uk"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: csv-2-post.php:0
+#@ csv2post
+msgid "CSV 2 POST data importer for WordPress by Ryan Bayne @WebTechGlobal."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: csv-2-post.php:0
+#@ csv2post
+msgid "Ryan Bayne"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: csv-2-post.php:0
+#@ csv2post
+msgid "8.1.1"
+msgstr ""
+
+#: functions/class/main.php:279
+#@ csv2post
+msgid "Option RecordMissing:"
+msgstr ""
+
+#: functions/class/main.php:335
+#, php-format
+#@ csv2post
+msgid ""
+"The method for processing your request was not found. This can usually be resolved\n"
+"            quickly. Please report method %s does not exist. <a href='https://www.youtube.com/watch?v=vAImGQJdO_k' target='_blank'>Watch a video</a> explaining this problem."
+msgstr ""
+
+#: functions/class/main.php:397
+#@ default
+msgid "Members per page"
+msgstr ""
+
+#: functions/class/main.php:484
+#: views/menu_array.php:111
+#@ default
+#@ csv2post
+msgid "Install"
+msgstr ""
+
+#: functions/class/main.php:484
+#@ default
+msgid "CSV 2 POST 8.0.0. Install"
+msgstr ""
+
+#: functions/class/main.php:501
+#@ default
+msgid "Update"
+msgstr ""
+
+#: functions/class/main.php:501
+#@ default
+msgid "CSV 2 POST 8.0.0 Update"
+msgstr ""
+
+#: functions/class/main.php:581
+#@ csv2post
+msgid "The schedule is being checked. There should be further log entries explaining the outcome."
+msgstr ""
+
+#: functions/class/main.php:581
+#@ csv2post
+msgid "schedule being checked"
+msgstr ""
+
+#: functions/class/main.php:588
+#@ csv2post
+msgid "Scheduled events cannot be peformed due to the schedule array of stored settings not existing."
+msgstr ""
+
+#: functions/class/main.php:588
+#@ csv2post
+msgid "schedule settings missing"
+msgstr ""
+
+#: functions/class/main.php:600
+#@ csv2post
+msgid "No changed made as it has not been 60 seconds since the last event."
+msgstr ""
+
+#: functions/class/main.php:600
+#@ csv2post
+msgid "enforcing schedule event delay"
+msgstr ""
+
+#: functions/class/main.php:601
+#@ csv2post
+msgid "has not been 60 seconds since list event"
+msgstr ""
+
+#: functions/class/main.php:609
+#@ csv2post
+msgid "The last even time event was set for the first time, no further processing was done."
+msgstr ""
+
+#: functions/class/main.php:611
+#@ csv2post
+msgid ""
+"The plugin initialized the timer for enforcing a delay between events. This action is treated as an event itself and no further\n"
+"            changes are made during this schedule check."
+msgstr ""
+
+#: functions/class/main.php:612
+#@ csv2post
+msgid "initialized schedule delay timer"
+msgstr ""
+
+#: functions/class/main.php:614
+#@ csv2post
+msgid "initialised the last event time value"
+msgstr ""
+
+#: functions/class/main.php:622
+#@ csv2post
+msgid "The last event type value was set for the first time"
+msgstr ""
+
+#: functions/class/main.php:625
+#@ csv2post
+msgid ""
+"The plugin initialized last event type value, this tells the plugin what event was last performed and it is used to\n"
+"            determine what event comes next."
+msgstr ""
+
+#: functions/class/main.php:626
+#@ csv2post
+msgid "initialized schedule last event value"
+msgstr ""
+
+#: functions/class/main.php:628
+#@ csv2post
+msgid "initialised last event type value"
+msgstr ""
+
+#: functions/class/main.php:636
+#@ csv2post
+msgid "The last daily reset time was set for the first time"
+msgstr ""
+
+#: functions/class/main.php:639
+#@ csv2post
+msgid ""
+"Day timer was set in schedule system. This is the 24 hour timer used to track daily events. It was set, no further action was taking \n"
+"            and should only happen once."
+msgstr ""
+
+#: functions/class/main.php:640
+#@ csv2post
+msgid "24 hour timer set"
+msgstr ""
+
+#: functions/class/main.php:642
+#@ csv2post
+msgid "initialised last daily reset time"
+msgstr ""
+
+#: functions/class/main.php:650
+#@ csv2post
+msgid "The hourly reset time was set for the first time"
+msgstr ""
+
+#: functions/class/main.php:653
+#@ csv2post
+msgid ""
+"Hourly timer was set in schedule system. The time has been set for hourly countdown. No further action was \n"
+"            taking. This should only happen once."
+msgstr ""
+
+#: functions/class/main.php:654
+#@ csv2post
+msgid "one hour timer set"
+msgstr ""
+
+#: functions/class/main.php:656
+#@ csv2post
+msgid "initialised hourly reset time"
+msgstr ""
+
+#: functions/class/main.php:664
+#@ csv2post
+msgid "The hourly events counter was set for the first time"
+msgstr ""
+
+#: functions/class/main.php:666
+#@ csv2post
+msgid "Number of events per hour has been set for the first time, this change is treated as an event."
+msgstr ""
+
+#: functions/class/main.php:666
+#@ csv2post
+msgid "hourly events counter set"
+msgstr ""
+
+#: functions/class/main.php:667
+#@ csv2post
+msgid "initialised hourly events counter"
+msgstr ""
+
+#: functions/class/main.php:675
+#@ csv2post
+msgid "The daily events counter was set for the first time"
+msgstr ""
+
+#: functions/class/main.php:677
+#@ csv2post
+msgid "The daily events counter was not set. No further action was taking. This measure should only happen once."
+msgstr ""
+
+#: functions/class/main.php:677
+#@ csv2post
+msgid "daily events counter set"
+msgstr ""
+
+#: functions/class/main.php:678
+#@ csv2post
+msgid "initialised daily events counter"
+msgstr ""
+
+#: functions/class/main.php:690
+#@ csv2post
+msgid "Hourly counter was reset for another 60 minute period"
+msgstr ""
+
+#: functions/class/main.php:692
+#@ csv2post
+msgid "Hourly counter has been reset, no further action is taking during this event. This should only happen once every hour."
+msgstr ""
+
+#: functions/class/main.php:692
+#@ csv2post
+msgid "hourly counter reset"
+msgstr ""
+
+#: functions/class/main.php:693
+#@ csv2post
+msgid "hourly counter was reset"
+msgstr ""
+
+#: functions/class/main.php:705
+#@ csv2post
+msgid "Daily and hourly events counter reset for a new 24 hours period"
+msgstr ""
+
+#: functions/class/main.php:707
+#@ csv2post
+msgid "24 hours had passed and the daily counter had to be reset. No further action is taking during these events and this should only happen once a day."
+msgstr ""
+
+#: functions/class/main.php:707
+#@ csv2post
+msgid "daily counter reset"
+msgstr ""
+
+#: functions/class/main.php:716
+#@ csv2post
+msgid "Event processing is has not been permitted for today"
+msgstr ""
+
+#: functions/class/main.php:717
+#@ csv2post
+msgid "Event processing is not permitted for today. Please check schedule settings to change this."
+msgstr ""
+
+#: functions/class/main.php:717
+#@ csv2post
+msgid "schedule not permitted today"
+msgstr ""
+
+#: functions/class/main.php:726
+#@ csv2post
+msgid "Event processing is has not been permitted for the hour"
+msgstr ""
+
+#: functions/class/main.php:727
+#@ csv2post
+msgid "Processsing is not permitted for the current hour. Please check schedule settings to change this."
+msgstr ""
+
+#: functions/class/main.php:727
+#@ csv2post
+msgid "hour not permitted"
+msgstr ""
+
+#: functions/class/main.php:728
+#@ csv2post
+msgid "schedule not permitting hour"
+msgstr ""
+
+#: functions/class/main.php:736
+#@ csv2post
+msgid "Hourly limit was set for the first time"
+msgstr ""
+
+#: functions/class/main.php:738
+#@ csv2post
+msgid "The hourly limit value had not been set yet. You can change the limit but the default has been set to one. No further action is taking during this event and this should only happen once."
+msgstr ""
+
+#: functions/class/main.php:738
+#@ csv2post
+msgid "no hourly limit set"
+msgstr ""
+
+#: functions/class/main.php:739
+#@ csv2post
+msgid "initialised hourly limit"
+msgstr ""
+
+#: functions/class/main.php:747
+#@ csv2post
+msgid "Daily limit was set for the first time"
+msgstr ""
+
+#: functions/class/main.php:749
+#@ csv2post
+msgid "The daily limit value had not been set yet. It has now been set as one which allows only one post to be created or updated etc. This action should only happen once."
+msgstr ""
+
+#: functions/class/main.php:749
+#@ csv2post
+msgid "no daily limit set"
+msgstr ""
+
+#: functions/class/main.php:750
+#@ csv2post
+msgid "initialised daily limit"
+msgstr ""
+
+#: functions/class/main.php:758
+#@ csv2post
+msgid "The events target for the current hour has been met so no further processing is permitted."
+msgstr ""
+
+#: functions/class/main.php:758
+#@ csv2post
+msgid "hourly target met"
+msgstr ""
+
+#: functions/class/main.php:759
+#@ csv2post
+msgid "hours limit reached"
+msgstr ""
+
+#: functions/class/main.php:766
+#@ csv2post
+msgid "The days event limit/target has been met"
+msgstr ""
+
+#: functions/class/main.php:767
+#@ csv2post
+msgid "The daily events target has been met for the current 24 hour period (see daily timer counter). No events will be processed until the daily timer reaches 24 hours and is reset."
+msgstr ""
+
+#: functions/class/main.php:767
+#@ csv2post
+msgid "daily target met"
+msgstr ""
+
+#: functions/class/main.php:768
+#@ csv2post
+msgid "days limit reached"
+msgstr ""
+
+#: functions/class/main.php:775
+#, php-format
+#@ csv2post
+msgid "The schedule system decided that the next event type is %s."
+msgstr ""
+
+#: functions/class/main.php:775
+#@ csv2post
+msgid "next event type determined"
+msgstr ""
+
+#: functions/class/main.php:807
+#, php-format
+#@ csv2post
+msgid "The plugins ability to override the next due event type has been applied and then next event forced is %s."
+msgstr ""
+
+#: functions/class/main.php:807
+#@ csv2post
+msgid "next event type override"
+msgstr ""
+
+#: functions/class/main.php:2286
+#@ default
+msgid "Delete this custom field rule"
+msgstr ""
+
+#: functions/class/requests.php:27
+#@ default
+msgid "Test Data installation procedure has finished."
+msgstr ""
+
+#: functions/class/requests.php:27
+#@ default
+msgid "Test Data Installed"
+msgstr ""
+
+#: functions/class/requests.php:51
+#@ csv2post
+msgid "Log Settings Saved"
+msgstr ""
+
+#: functions/class/requests.php:51
+#@ csv2post
+msgid "It may take sometime for new log entries to be created depending on your websites activity."
+msgstr ""
+
+#: functions/class/requests.php:60
+#@ csv2post
+msgid "Schedule event types have been saved, the changes will have an effect on the types of events run, straight away."
+msgstr ""
+
+#: functions/class/requests.php:60
+#@ csv2post
+msgid "Schedule Event Types Saved"
+msgstr ""
+
+#: functions/class/requests.php:73
+#@ csv2post
+msgid "Data Related Settings Saved"
+msgstr ""
+
+#: functions/class/requests.php:73
+#@ csv2post
+msgid "We recommend that you monitor the plugin for a short time and ensure your new settings are as expected."
+msgstr ""
+
+#: functions/class/requests.php:127
+#@ csv2post
+msgid "Screen Permissions Saved"
+msgstr ""
+
+#: functions/class/requests.php:127
+#@ csv2post
+msgid "Your saved screen permissions may hide or display screens for users. We recommend that you access your blog using applicable user accounts to test your new permissions."
+msgstr ""
+
+#: functions/class/requests.php:141
+#@ csv2post
+msgid "Page Permissions Saved"
+msgstr ""
+
+#: functions/class/requests.php:141
+#@ csv2post
+msgid "Your saved page permissions may hide or display the plugins pages for users. We recommend that you access your blog using applicable user accounts to test your new permissions."
+msgstr ""
+
+#: functions/class/requests.php:205
+#@ default
+msgid "You do not have the required permissions to un-install CSV 2 POST. The WordPress role required is delete_plugins, usually granted to Administrators."
+msgstr ""
+
+#: functions/class/requests.php:215
+#@ csv2post
+msgid "The plugin update procedure was requested but a security parameter has not validated. No changes have been made and you will need to contact WebTechGlobal for support."
+msgstr ""
+
+#: functions/class/requests.php:215
+#@ csv2post
+msgid "Update Cannot Continue"
+msgstr ""
+
+#: functions/class/requests.php:235
+#@ csv2post
+msgid "The update procedure failed, the reason should be displayed below. Please try again unless the notice below indicates not to. If a second attempt fails, please seek support."
+msgstr ""
+
+#: functions/class/requests.php:235
+#@ csv2post
+msgid "Update Failed"
+msgstr ""
+
+#: functions/class/requests.php:245
+#@ csv2post
+msgid "Good news, the update procedure was complete. If you do not see any errors or any notices indicating a problem was detected it means the procedure worked. Please ensure any new changes suit your needs."
+msgstr ""
+
+#: functions/class/requests.php:245
+#@ csv2post
+msgid "Update Complete"
+msgstr ""
+
+#: functions/class/requests.php:320
+#@ csv2post
+msgid "Schedule settings have been saved."
+msgstr ""
+
+#: functions/class/requests.php:320
+#@ csv2post
+msgid "Schedule Times Saved"
+msgstr ""
+
+#: functions/class/requests.php:413
+#@ csv2post
+msgid "Log Search Settings Saved"
+msgstr ""
+
+#: functions/class/requests.php:413
+#@ csv2post
+msgid "Your selections have an instant effect. Please browse the Log screen for the results of your new search."
+msgstr ""
+
+#: functions/class/requests.php:511
+#@ default
+msgid "Header Preparation"
+msgstr ""
+
+#: functions/class/requests.php:522
+#@ default
+msgid "ID Column Doesn't Exist"
+msgstr ""
+
+#: functions/class/requests.php:535
+#@ default
+msgid ""
+"Your data treatment requires an ID column to be entered. The column should exist in all of your files and hold\n"
+"                    the exact same values. This is used to ensure the correct rows from each file are joined."
+msgstr ""
+
+#: functions/class/requests.php:536
+#@ default
+msgid "ID Column Required"
+msgstr ""
+
+#: functions/class/requests.php:687
+#@ default
+msgid ""
+"The plugin could not finish inserting your new project to the database. This should never happen,\n"
+"            please report it."
+msgstr ""
+
+#: functions/class/requests.php:688
+#@ default
+msgid "Problem Detected When Creating Project"
+msgstr ""
+
+#: functions/class/requests.php:714
+#@ default
+msgid ""
+"You did not enter an ID column. You will not be able to update your data using an updated .csv file. If you\n"
+"            do not plan on updating your .csv file you can ignore this."
+msgstr ""
+
+#: functions/class/requests.php:715
+#@ default
+msgid "Data Updating Not Ready"
+msgstr ""
+
+#: functions/class/requests.php:719
+#@ default
+msgid "Project Created"
+msgstr ""
+
+#: functions/class/requests.php:732
+#@ default
+msgid "Please re-enter the confirmation code."
+msgstr ""
+
+#: functions/class/requests.php:732
+#@ default
+msgid "Confirmation Code Required"
+msgstr ""
+
+#: functions/class/requests.php:737
+#@ default
+msgid "Confirmation codes do not match."
+msgstr ""
+
+#: functions/class/requests.php:737
+#@ default
+msgid "No Match"
+msgstr ""
+
+#: functions/class/requests.php:742
+#@ default
+msgid "Project ID required, please ensure you get the correct ID."
+msgstr ""
+
+#: functions/class/requests.php:742
+#@ default
+msgid "Project ID Required"
+msgstr ""
+
+#: functions/class/requests.php:747
+#@ default
+msgid "Project ID must be numeric."
+msgstr ""
+
+#: functions/class/requests.php:747
+#@ default
+msgid "Invalid Project ID"
+msgstr ""
+
+#: functions/class/requests.php:753
+#@ default
+msgid "Your project was deleted."
+msgstr ""
+
+#: functions/class/requests.php:753
+#@ default
+msgid "Success"
+msgstr ""
+
+#: functions/class/requests.php:777
+#@ default
+msgid "Your column data types have been updated. There are forms that will adapt to your changes to simplify things for you."
+msgstr ""
+
+#: functions/class/requests.php:777
+#@ default
+msgid "Data Types Updated"
+msgstr ""
+
+#: functions/class/requests.php:801
+#@ default
+msgid "Values in the selected columns will be rounded upwards."
+msgstr ""
+
+#: functions/class/requests.php:801
+#@ default
+msgid "Rules Updated"
+msgstr ""
+
+#: functions/class/requests.php:825
+#@ default
+msgid "Values in the selected columns will be rounded down."
+msgstr ""
+
+#: functions/class/requests.php:825
+#@ default
+msgid "Round-down Rules Updated"
+msgstr ""
+
+#: functions/class/requests.php:849
+#@ default
+msgid "The first letter in the selected column text data will be capitalized."
+msgstr ""
+
+#: functions/class/requests.php:849
+#@ default
+msgid "Capitalize Rules Updated"
+msgstr ""
+
+#: functions/class/requests.php:873
+#@ default
+msgid "All text in the selected column will be made lower-case during importing."
+msgstr ""
+
+#: functions/class/requests.php:873
+#@ default
+msgid "Lower-case Rules Updated"
+msgstr ""
+
+#: functions/class/requests.php:897
+#@ default
+msgid "All text in the selected column will be made upper-case during importing."
+msgstr ""
+
+#: functions/class/requests.php:897
+#@ default
+msgid "Upper-case Rules Updated"
+msgstr ""
+
+#: functions/class/requests.php:918
+#@ default
+msgid "The data splitting procedure requires a minimum of two columns for the split data to be inserted to. Please complete the first four text fields."
+msgstr ""
+
+#: functions/class/requests.php:1000
+#@ default
+msgid "The first level is always required. Please make a selection in the first menu."
+msgstr ""
+
+#: functions/class/requests.php:1013
+#@ default
+msgid ""
+"You appear to have selected the same table and column twice. Each level of categories normally requires\n"
+"                    different terms/titles and so this validation exists to prevent accidental selection of the same column more than once."
+msgstr ""
+
+#: functions/class/requests.php:1034
+#@ default
+msgid "Your category options have been saved."
+msgstr ""
+
+#: functions/class/requests.php:1034
+#@ default
+msgid "Categories Saved"
+msgstr ""
+
+#: functions/class/requests.php:1049
+#@ default
+msgid "Your category descriptons have been saved."
+msgstr ""
+
+#: functions/class/requests.php:1049
+#@ default
+msgid "Category Descriptions Saved"
+msgstr ""
+
+#: functions/class/requests.php:1084
+#@ default
+msgid "Your category mapping has been saved."
+msgstr ""
+
+#: functions/class/requests.php:1084
+#@ default
+msgid "Category Map Saved"
+msgstr ""
+
+#: functions/class/requests.php:1162
+#@ default
+msgid "WP returned an error when attempting to create a new category. The category creation procedure has been aborted, please report this to WebTechGlobal and provide your data for testing purposes."
+msgstr ""
+
+#: functions/class/requests.php:1162
+#@ default
+msgid "Category Creation Failure"
+msgstr ""
+
+#: functions/class/requests.php:1170
+#@ default
+msgid "Category creation has finished, I hope the plugin has created them as expected. If you have any difficulties please seek support at WebTechGlobal."
+msgstr ""
+
+#: functions/class/requests.php:1181
+#@ default
+msgid "Your custom field name/key is invalid. It must not contain spaces or special characters. Underscore is acceptable."
+msgstr ""
+
+#: functions/class/requests.php:1187
+#@ default
+msgid "You did not enter a column token or any other content to the WYSIWYG editor."
+msgstr ""
+
+#: functions/class/requests.php:1193
+#@ default
+msgid "That custom field name already exists in your list. You opted for the custom field name to be unique for each post so you cannot use the name/key twice. If you require the custom field name to exist multiple times per post i.e. to create a list of items. Then please select No for the Unique option."
+msgstr ""
+
+#: functions/class/requests.php:1212
+#: functions/class/requests.php:1232
+#@ default
+msgid "Your custom field has been added to the list."
+msgstr ""
+
+#: functions/class/requests.php:1212
+#: functions/class/requests.php:1232
+#@ default
+msgid "New Custom Field Created"
+msgstr ""
+
+#: functions/class/requests.php:1220
+#@ default
+msgid "No ID was, no custom fields deleted."
+msgstr ""
+
+#: functions/class/requests.php:1220
+#@ default
+msgid "ID Required"
+msgstr ""
+
+#: functions/class/requests.php:1225
+#@ default
+msgid "The ID submitted could not be found, it appears your custom field has already been deleted."
+msgstr ""
+
+#: functions/class/requests.php:1225
+#@ default
+msgid "ID Does Not Exist"
+msgstr ""
+
+#: functions/class/requests.php:1250
+#@ default
+msgid "Your taxonomy setup has been updated."
+msgstr ""
+
+#: functions/class/requests.php:1250
+#@ default
+msgid "Taxonomies Updated"
+msgstr ""
+
+#: functions/class/requests.php:1266
+#@ default
+msgid "Your basic post options have been saved."
+msgstr ""
+
+#: functions/class/requests.php:1266
+#@ default
+msgid "Basic Post Options Saved"
+msgstr ""
+
+#: functions/class/requests.php:1290
+#@ default
+msgid "Your data based post options have been saved."
+msgstr ""
+
+#: functions/class/requests.php:1290
+#@ default
+msgid "Data Based Post Options Saved"
+msgstr ""
+
+#: functions/class/requests.php:1306
+#@ default
+msgid "Your selected author options have been saved. It is recommended that you run a small test on the new settings before mass creating posts/users."
+msgstr ""
+
+#: functions/class/requests.php:1306
+#@ default
+msgid "Author Options Saved"
+msgstr ""
+
+#: functions/class/requests.php:1324
+#@ default
+msgid "You may want to test these settings before mass creating posts and generating a lot of tags."
+msgstr ""
+
+#: functions/class/requests.php:1324
+#@ default
+msgid "Tag Rules Saved"
+msgstr ""
+
+#: functions/class/requests.php:1345
+#@ default
+msgid "You m a lot of tags."
+msgstr ""
+
+#: functions/class/requests.php:1345
+#@ default
+msgid "Post Dates Settings Saved"
+msgstr ""
+
+#: functions/class/requests.php:1353
+#@ default
+msgid "Your title template design has been saved to your project settings."
+msgstr ""
+
+#: functions/class/requests.php:1353
+#@ default
+msgid "Title Template Updated"
+msgstr ""
+
+#: functions/class/requests.php:1361
+#@ default
+msgid "Your content template design has been saved."
+msgstr ""
+
+#: functions/class/requests.php:1361
+#@ default
+msgid "Content Template Updated"
+msgstr ""
+
+#: functions/class/requests.php:1387
+#@ default
+msgid "Design template rules have been updated."
+msgstr ""
+
+#: functions/class/requests.php:1387
+#@ default
+msgid "Content Design Rules Saved"
+msgstr ""
+
+#: functions/class/requests.php:1413
+#@ default
+msgid "Your post type rules have been updated."
+msgstr ""
+
+#: functions/class/requests.php:1413
+#@ default
+msgid "Post Type Rules Saved"
+msgstr ""
+
+#: functions/class/requests.php:1418
+#@ default
+msgid "Your current active projects settings have been set using your configured defaults."
+msgstr ""
+
+#: functions/class/requests.php:1418
+#@ default
+msgid "Project Settings Updated"
+msgstr ""
+
+#: functions/class/requests.php:1432
+#@ default
+msgid "Default project settings have been reset to those stored in the settings_array.php file."
+msgstr ""
+
+#: functions/class/requests.php:1432
+#@ default
+msgid "Default Project Settings Reset"
+msgstr ""
+
+#: functions/class/requests.php:1601
+#@ default
+msgid ""
+"Your default project settings have been stored. Many of the setting will only work with multiple different\n"
+"        projects if each projects datasource has the same format/configuration. Please configure projects individually where required and do not\n"
+"        rely on these defaults if working with various different sources."
+msgstr ""
+
+#: functions/class/requests.php:1603
+#@ default
+msgid "Default Project Options Stored Successfully"
+msgstr ""
+
+#: functions/class/requests.php:1646
+#: functions/class/wpmain.php:1795
+#@ default
+msgid "None of your imported rows have been updated since their original import."
+msgstr ""
+
+#: functions/class/requests.php:1663
+#@ default
+msgid "No posts appear to need updating. All applied dates are later than when you changed your projects settings."
+msgstr ""
+
+#: functions/class/requests.php:1721
+#@ default
+msgid ""
+"Images will be imported during post creation to the WordPress media library and inserted to\n"
+"        content as a list if you are using the #localimagelist# token."
+msgstr ""
+
+#: functions/class/requests.php:1722
+#@ default
+msgid "Grouped Image Import Settings Saved"
+msgstr ""
+
+#: functions/class/ui.php:89
+#@ default
+msgid "Enabled"
+msgstr ""
+
+#: functions/class/ui.php:90
+#@ default
+msgid "Disabled"
+msgstr ""
+
+#: functions/class/ui.php:798
+#@ default
+msgid "Project Table Not Found"
+msgstr ""
+
+#: functions/class/ui.php:798
+#@ default
+msgid ""
+"Your current \n"
+"            active project no longer has a main database table, could you have deleted it manually? \n"
+"            This problem needs resolved before you can continue this project. If you cannot restore the project table\n"
+"            you should either disable all automation for this project or delete the project. This is to prevent attempted\n"
+"            queries on the database that will fail."
+msgstr ""
+
+#: functions/class/ui.php:838
+#@ default
+msgid "Reset form"
+msgstr ""
+
+#: functions/class/ui.php:843
+#@ default
+msgid "View video on YouTube"
+msgstr ""
+
+#: functions/class/ui.php:854
+#@ default
+msgid "View help for this feature"
+msgstr ""
+
+#: functions/class/updates.php:21
+#@ csv2post
+msgid "Version 8.0.0 is not compatible with older installations of CSV 2 POST."
+msgstr ""
+
+#: functions/class/updates.php:41
+#@ csv2post
+msgid "No Applicable"
+msgstr ""
+
+#: functions/class/updates.php:70
+#@ csv2post
+msgid "New features added to the plugin, be sure to configure them to suit your needs."
+msgstr ""
+
+#: functions/class/updates.php:71
+#@ csv2post
+msgid "Bug fixes, remember a fix may instantly change how the plugin operates on your site."
+msgstr ""
+
+#: functions/class/updates.php:72
+#@ csv2post
+msgid "General improvements to how features operate, the interface and procedures."
+msgstr ""
+
+#: functions/class/updates.php:73
+#@ csv2post
+msgid "These changes involve changing the plugins installation, database updates involved."
+msgstr ""
+
+#: functions/class/wpdb.php:401
+#, php-format
+#@ csv2post
+msgid "Database table named %s has been deleted."
+msgstr ""
+
+#: functions/class/wpdb.php:403
+#, php-format
+#@ csv2post
+msgid "Database table named %s has already been deleted."
+msgstr ""
+
+#: functions/class/wpmain.php:43
+#@ csv2post
+msgid "Tweet My Post"
+msgstr ""
+
+#: functions/class/wpmain.php:46
+#@ csv2post
+msgid "Tweet My Post Conflict"
+msgstr ""
+
+#: functions/class/wpmain.php:47
+#@ csv2post
+msgid "Please deactivate Twitter plugins before performing mass post creation. This will avoid spamming Twitter and causing more processing while creating posts."
+msgstr ""
+
+#: functions/class/wpmain.php:48
+#@ csv2post
+msgid "If you activate this or any Twitter plugin please ensure the plugins options are not setup to perform mass tweets during post creation."
+msgstr ""
+
+#: functions/class/wpmain.php:422
+#@ csv2post
+msgid "There are no core tables installed right now"
+msgstr ""
+
+#: functions/class/wpmain.php:446
+#@ csv2post
+msgid "Select All Options"
+msgstr ""
+
+#: functions/class/wpmain.php:491
+#@ csv2post
+msgid "Development Insight"
+msgstr ""
+
+#: functions/class/wpmain.php:544
+#, php-format
+#@ csv2post
+msgid ""
+"The plugin detected an older PHP version than the minimum requirement which \n"
+"                    is %s. You can requests an upgrade for free from your hosting, use .htaccess to switch\n"
+"                    between PHP versions per WP installation or sometimes hosting allows customers to switch using their control panel."
+msgstr ""
+
+#: functions/class/wpmain.php:547
+#@ csv2post
+msgid "CSV 2 POST Requires PHP "
+msgstr ""
+
+#: functions/class/wpmain.php:767
+#@ default
+msgid "Invalid Link, Click To Report"
+msgstr ""
+
+#: functions/class/wpmain.php:1511
+#@ default
+msgid ""
+"It appears all rows have already been imported according to the progress counter. \n"
+"            You could use an Update button to reset your source progress and make the plugin start from the \n"
+"            first row again."
+msgstr ""
+
+#: functions/class/wpmain.php:1513
+#@ default
+msgid "Source Fully Imported"
+msgstr ""
+
+#: functions/class/wpmain.php:1519
+#@ default
+msgid "Data Import Event Finished"
+msgstr ""
+
+#: functions/class/wpmain.php:1523
+#@ default
+msgid "Data Update Event Finished"
+msgstr ""
+
+#: functions/class/wpmain.php:1735
+#@ default
+msgid ""
+"You have used all imported rows to create posts. Please\n"
+"            ensure you have imported all of your data if you expected more posts than CSV 2 POST\n"
+"            has already created."
+msgstr ""
+
+#: functions/class/wpmain.php:2061
+#@ default
+msgid "No Post Content Setup"
+msgstr ""
+
+#: functions/class/wpmain.php:2281
+#@ default
+msgid "No Post Content Title"
+msgstr ""
+
+#: functions/class/wpmain.php:2508
+#@ default
+msgid "The post creation procedure has finished."
+msgstr ""
+
+#: functions/class/wpmain.php:2683
+#@ default
+msgid "The post update procedure has finished."
+msgstr ""
+
+#: functions/posttypes/flags.php:22
+#@ default
+msgctxt "post type general name"
+msgid "CSV 2 POST Flags"
+msgstr ""
+
+#: functions/posttypes/flags.php:23
+#@ default
+msgctxt "post type singular name"
+msgid "CSV 2 POST Flag"
+msgstr ""
+
+#: functions/posttypes/flags.php:24
+#@ default
+msgctxt "webtechglobalflags"
+msgid "Flag Item"
+msgstr ""
+
+#: functions/posttypes/flags.php:25
+#: functions/posttypes/flags.php:27
+#@ default
+msgid "Create Flag"
+msgstr ""
+
+#: functions/posttypes/flags.php:26
+#@ default
+msgid "Edit Flag"
+msgstr ""
+
+#: functions/posttypes/flags.php:28
+#@ default
+msgid "All Flags"
+msgstr ""
+
+#: functions/posttypes/flags.php:29
+#@ default
+msgid "View Flag"
+msgstr ""
+
+#: functions/posttypes/flags.php:30
+#@ default
+msgid "Search Flags"
+msgstr ""
+
+#: functions/posttypes/flags.php:31
+#@ default
+msgid "No flags found"
+msgstr ""
+
+#: functions/posttypes/flags.php:32
+#@ default
+msgid "No flags found in Trash"
+msgstr ""
+
+#: functions/posttypes/flags.php:121
+#@ default
+msgid "PHP Line"
+msgstr ""
+
+#: functions/posttypes/flags.php:131
+#@ default
+msgid "PHP Function"
+msgstr ""
+
+#: functions/posttypes/flags.php:141
+#: views/main/log.php:429
+#@ default
+#@ csv2post
+msgid "Priority"
+msgstr ""
+
+#: functions/posttypes/flags.php:151
+#@ default
+msgid "Type"
+msgstr ""
+
+#: functions/posttypes/flags.php:161
+#@ default
+msgid "File URL"
+msgstr ""
+
+#: functions/posttypes/flags.php:171
+#@ default
+msgid "Data ID"
+msgstr ""
+
+#: functions/posttypes/flags.php:181
+#: views/main/log.php:419
+#@ default
+#@ csv2post
+msgid "User ID"
+msgstr ""
+
+#: functions/posttypes/flags.php:191
+#@ default
+msgid "Error Text"
+msgstr ""
+
+#: functions/posttypes/flags.php:201
+#@ default
+msgid "Project ID"
+msgstr ""
+
+#: functions/posttypes/flags.php:211
+#@ default
+msgid "Reason"
+msgstr ""
+
+#: functions/posttypes/flags.php:221
+#: views/main/log.php:427
+#@ default
+#@ csv2post
+msgid "Action"
+msgstr ""
+
+#: functions/posttypes/flags.php:231
+#@ default
+msgid "Instructions"
+msgstr ""
+
+#: functions/posttypes/flags.php:241
+#@ default
+msgid "Creator"
+msgstr ""
+
+#: functions/posttypes/flags.php:251
+#@ default
+msgid "Version"
+msgstr ""
+
+#: functions/posttypes/posts.php:20
+#@ default
+msgctxt "post type general name"
+msgid "CSV 2 POST Content Templates"
+msgstr ""
+
+#: functions/posttypes/posts.php:21
+#@ default
+msgctxt "post type singular name"
+msgid "CSV 2 POST Content Template"
+msgstr ""
+
+#: functions/posttypes/posts.php:22
+#@ default
+msgctxt "wtgcsvcontent"
+msgid "Create"
+msgstr ""
+
+#: functions/posttypes/posts.php:23
+#: functions/posttypes/posts.php:25
+#@ default
+msgid "Create Content Template"
+msgstr ""
+
+#: functions/posttypes/posts.php:24
+#@ default
+msgid "Edit Content Template"
+msgstr ""
+
+#: functions/posttypes/posts.php:26
+#@ default
+msgid "All Content Templates"
+msgstr ""
+
+#: functions/posttypes/posts.php:27
+#@ default
+msgid "View Content Template"
+msgstr ""
+
+#: functions/posttypes/posts.php:28
+#@ default
+msgid "Search Content Templates"
+msgstr ""
+
+#: functions/posttypes/posts.php:29
+#@ default
+msgid "No content templates found"
+msgstr ""
+
+#: functions/posttypes/posts.php:30
+#@ default
+msgid "No content templates found in Trash"
+msgstr ""
+
+#: snippets/widget.php:14
+#@ default
+msgid "e-Cus Author AdSense"
+msgstr ""
+
+#: snippets/widget.php:33
+#@ default
+msgid "Widget Title"
+msgstr ""
+
+#: snippets/widget.php:38
+#@ default
+msgid "Text:"
+msgstr ""
+
+#: snippets/widget.php:43
+#@ default
+msgid "Textarea:"
+msgstr ""
+
+#: views/categories/columns.php:17
+#: views/categories/creation.php:15
+#: views/categories/projection.php:18
+#: views/dataimport/import.php:15
+#: views/dataimport/rules.php:15
+#: views/dataimport/sources.php:14
+#: views/dataimport/table.php:14
+#: views/design/content.php:15
+#: views/design/dates.php:15
+#: views/design/generalsettings.php:15
+#: views/design/postcreation.php:3
+#: views/design/posttypes.php:14
+#: views/meta/customfields.php:17
+#: views/meta/taxonomies.php:15
+#: views/postcreation/lastpost.php:15
+#: views/postcreation/tools.php:16
+#: views/postcreation/updating.php:3
+#@ default
+msgid "You have not created a project or somehow a Current Project has not been set."
+msgstr ""
+
+#: views/categories/columns.php:27
+#: views/menu_array.php:209
+#@ default
+msgid "Category Data"
+msgstr ""
+
+#: views/categories/columns.php:31
+#@ default
+msgid "All columns must be in the same table."
+msgstr ""
+
+#: views/categories/columns.php:55
+#: views/menu_array.php:210
+#@ default
+msgid "Category Description"
+msgstr ""
+
+#: views/categories/columns.php:103
+#: views/menu_array.php:211
+#@ default
+msgid "Category Pairing"
+msgstr ""
+
+#: views/categories/creation.php:20
+#@ default
+msgid "Create Categories"
+msgstr ""
+
+#: views/categories/creation.php:23
+#@ default
+msgid "Please ensure your category columns have been selected in the correct order before attempting to create your categories. You must also import all of your data if you wish to create all of your categories now. This is recommended as it avoids having to create categories during post creation but it is not required."
+msgstr ""
+
+#: views/dataimport/rules.php:21
+#: views/menu_array.php:160
+#@ default
+msgid "Set Expected Data Types"
+msgstr ""
+
+#: views/dataimport/rules.php:48
+#: views/menu_array.php:161
+#@ default
+msgid "Data Splitter"
+msgstr ""
+
+#: views/dataimport/rules.php:89
+#@ default
+msgid "Receiving Table"
+msgstr ""
+
+#: views/dataimport/rules.php:95
+#@ default
+msgid "Receiving Column"
+msgstr ""
+
+#: views/dataimport/rules.php:107
+#@ default
+msgid "Round Number Up"
+msgstr ""
+
+#: views/dataimport/rules.php:127
+#@ default
+msgid "Round Number"
+msgstr ""
+
+#: views/dataimport/rules.php:147
+#@ default
+msgid "Capitalize First Letter"
+msgstr ""
+
+#: views/dataimport/rules.php:167
+#@ default
+msgid "All Lower Case"
+msgstr ""
+
+#: views/dataimport/rules.php:187
+#@ default
+msgid "All Upper Case"
+msgstr ""
+
+#: views/design/content.php:25
+#: views/main/projectsettings.php:84
+#: views/menu_array.php:319
+#@ default
+msgid "Default Title Template"
+msgstr ""
+
+#: views/design/content.php:46
+#: views/main/projectsettings.php:100
+#: views/menu_array.php:321
+#@ default
+msgid "Default Content Template"
+msgstr ""
+
+#: views/design/content.php:68
+#: views/main/projectsettings.php:171
+#@ default
+msgid "Multiple Designs Rules"
+msgstr ""
+
+#: views/design/content.php:83
+#: views/menu_array.php:324
+#@ default
+msgid "Data"
+msgstr ""
+
+#: views/design/content.php:102
+#@ default
+msgid "Spintax Test"
+msgstr ""
+
+#: views/design/content.php:118
+#@ default
+msgid "Grouped Image Importing"
+msgstr ""
+
+#: views/design/content.php:126
+#: views/main/projectsettings.php:357
+#@ default
+msgid "Image Directory Does Not Exist"
+msgstr ""
+
+#: views/design/content.php:137
+#: views/main/log.php:272
+#: views/main/projectsettings.php:368
+#@ default
+#@ csv2post
+msgid "Enable"
+msgstr ""
+
+#: views/design/dates.php:25
+#: views/main/projectsettings.php:291
+#@ default
+msgid "Publish Dates"
+msgstr ""
+
+#: views/design/dates.php:36
+#: views/menu_array.php:303
+#@ default
+msgid "Date Method"
+msgstr ""
+
+#: views/design/dates.php:36
+#@ default
+msgid "Imported Dates"
+msgstr ""
+
+#: views/design/dates.php:36
+#@ default
+msgid "Incremental"
+msgstr ""
+
+#: views/design/dates.php:36
+#@ default
+msgid "Random"
+msgstr ""
+
+#: views/design/dates.php:43
+#: views/menu_array.php:304
+#@ default
+msgid "Pre-Made Dates"
+msgstr ""
+
+#: views/design/dates.php:67
+#@ default
+msgid "Incremental dates configuration..."
+msgstr ""
+
+#: views/design/dates.php:71
+#: views/main/projectsettings.php:320
+#: views/menu_array.php:306
+#@ default
+msgid "Start Date"
+msgstr ""
+
+#: views/design/dates.php:75
+#: views/main/projectsettings.php:321
+#: views/menu_array.php:307
+#@ default
+msgid "Variation Low"
+msgstr ""
+
+#: views/design/dates.php:79
+#: views/main/projectsettings.php:322
+#: views/menu_array.php:308
+#@ default
+msgid "Variation High"
+msgstr ""
+
+#: views/design/dates.php:82
+#@ default
+msgid "Random dates configuration..."
+msgstr ""
+
+#: views/design/dates.php:86
+#: views/main/projectsettings.php:326
+#: views/menu_array.php:309
+#@ default
+msgid "Earliest Date"
+msgstr ""
+
+#: views/design/dates.php:90
+#: views/main/projectsettings.php:327
+#: views/menu_array.php:310
+#@ default
+msgid "Latest Date"
+msgstr ""
+
+#: views/design/generalsettings.php:27
+#@ default
+msgid "Basic Post Option"
+msgstr ""
+
+#: views/design/generalsettings.php:44
+#: views/main/projectsettings.php:39
+#@ default
+msgid "Ping Status"
+msgstr ""
+
+#: views/design/generalsettings.php:49
+#: views/main/projectsettings.php:40
+#@ default
+msgid "Comment Status"
+msgstr ""
+
+#: views/design/generalsettings.php:54
+#: views/main/projectsettings.php:41
+#@ default
+msgid "Default Author"
+msgstr ""
+
+#: views/design/generalsettings.php:59
+#: views/main/projectsettings.php:42
+#@ default
+msgid "Default Category"
+msgstr ""
+
+#: views/design/generalsettings.php:64
+#: views/main/projectsettings.php:43
+#@ default
+msgid "Default Post Type"
+msgstr ""
+
+#: views/design/generalsettings.php:69
+#: views/main/projectsettings.php:44
+#@ default
+msgid "Default Post Format"
+msgstr ""
+
+#: views/design/generalsettings.php:79
+#: views/menu_array.php:291
+#@ default
+msgid "Data Based Options"
+msgstr ""
+
+#: views/design/generalsettings.php:93
+#: views/main/projectsettings.php:191
+#@ default
+msgid "Tags"
+msgstr ""
+
+#: views/design/generalsettings.php:101
+#@ default
+msgid "Featured Images"
+msgstr ""
+
+#: views/design/generalsettings.php:109
+#: views/main/projectsettings.php:64
+#@ default
+msgid "Permalink Column"
+msgstr ""
+
+#: views/design/generalsettings.php:117
+#@ default
+msgid "URL Cloak 1"
+msgstr ""
+
+#: views/design/generalsettings.php:130
+#: views/menu_array.php:292
+#@ default
+msgid "Author Options"
+msgstr ""
+
+#: views/design/generalsettings.php:144
+#@ default
+msgid "Email Address Data"
+msgstr ""
+
+#: views/design/generalsettings.php:152
+#@ default
+msgid "Username Data"
+msgstr ""
+
+#: views/design/generalsettings.php:165
+#@ default
+msgid "Tag Rules"
+msgstr ""
+
+#: views/design/generalsettings.php:179
+#: views/main/projectsettings.php:199
+#@ default
+msgid "Text Data"
+msgstr ""
+
+#: views/design/generalsettings.php:185
+#@ default
+msgid "Numeric Tags"
+msgstr ""
+
+#: views/design/generalsettings.php:190
+#: views/main/projectsettings.php:202
+#@ default
+msgid "Tag String Length"
+msgstr ""
+
+#: views/design/generalsettings.php:195
+#: views/main/projectsettings.php:203
+#@ default
+msgid "Maximum Tags"
+msgstr ""
+
+#: views/design/posttypes.php:24
+#: views/main/projectsettings.php:272
+#@ default
+msgid "Post Type Rules"
+msgstr ""
+
+#: views/main/about.php:17
+#@ csv2post
+msgid "Computer Sample Data"
+msgstr ""
+
+#: views/main/about.php:38
+#@ default
+msgid "View Original Spreadsheets"
+msgstr ""
+
+#: views/main/about.php:45
+#@ default
+msgid "Download CSV Files"
+msgstr ""
+
+#: views/main/about.php:46
+#@ default
+msgid "Warning: Google does not seem to handle the third file with text well, often adding line breaks in different places each time the file is downloaded. Simply correct them before using."
+msgstr ""
+
+#: views/main/about.php:60
+#@ csv2post
+msgid "Links"
+msgstr ""
+
+#: views/main/about.php:65
+#@ csv2post
+msgid "CSV 2 POST Portal"
+msgstr ""
+
+#: views/main/about.php:66
+#@ csv2post
+msgid "Plugins Facebook Page"
+msgstr ""
+
+#: views/main/about.php:67
+#@ csv2post
+msgid "GitHub"
+msgstr ""
+
+#: views/main/about.php:68
+#@ csv2post
+msgid "Plugin Website"
+msgstr ""
+
+#: views/main/about.php:69
+#@ csv2post
+msgid "Plugin Forum"
+msgstr ""
+
+#: views/main/about.php:70
+#@ csv2post
+msgid "Plugins Tweets"
+msgstr ""
+
+#: views/main/about.php:71
+#@ csv2post
+msgid "LinkedIn"
+msgstr ""
+
+#: views/main/about.php:72
+#@ csv2post
+msgid "WTG Facebook Page"
+msgstr ""
+
+#: views/main/about.php:77
+#@ csv2post
+msgid "Reciprocal Link Exchange"
+msgstr ""
+
+#: views/main/about.php:81
+#@ csv2post
+msgid ""
+"Link your CSV 2 POST built site to www.webtechglobal.co.uk. Your link must be in a promenant\n"
+"        location on your website and permanent. In return your autoblogged WP site will be published at multiple locations."
+msgstr ""
+
+#: views/main/about.php:90
+#: views/menu_array.php:137
+#@ csv2post
+#@ default
+msgid "Translators Needed"
+msgstr ""
+
+#: views/main/about.php:94
+#@ csv2post
+msgid "Get listed here as the sole and dedicated translator for your region..."
+msgstr ""
+
+#: views/main/about.php:102
+#@ csv2post
+msgid "Support"
+msgstr ""
+
+#: views/main/about.php:113
+#@ csv2post
+msgid "ADA Compliant Videos"
+msgstr ""
+
+#: views/main/about.php:128
+#@ csv2post
+msgid "Please Like CSV 2 POST"
+msgstr "Like CSV 2 POST on Facebook"
+
+#: views/main/about.php:151
+#@ csv2post
+msgid "About Plugin Author"
+msgstr ""
+
+#: views/main/about.php:155
+#@ csv2post
+msgid "My name is Ryan Bayne and I developed this plugin..."
+msgstr ""
+
+#: views/main/generalsettings.php:21
+#@ default
+msgid "Use the schedule to control repeat automation."
+msgstr ""
+
+#: views/main/generalsettings.php:31
+#@ csv2post
+msgid "Days"
+msgstr ""
+
+#: views/main/generalsettings.php:56
+#@ csv2post
+msgid "Hours"
+msgstr ""
+
+#: views/main/generalsettings.php:79
+#@ csv2post
+msgid "Daily Limit"
+msgstr ""
+
+#: views/main/generalsettings.php:82
+#: views/main/generalsettings.php:101
+#: views/main/generalsettings.php:120
+#@ csv2post
+msgid "1"
+msgstr ""
+
+#: views/main/generalsettings.php:83
+#: views/main/generalsettings.php:102
+#: views/main/generalsettings.php:121
+#@ csv2post
+msgid "5"
+msgstr ""
+
+#: views/main/generalsettings.php:84
+#: views/main/generalsettings.php:103
+#: views/main/generalsettings.php:122
+#@ csv2post
+msgid "10"
+msgstr ""
+
+#: views/main/generalsettings.php:85
+#: views/main/generalsettings.php:104
+#@ csv2post
+msgid "24"
+msgstr ""
+
+#: views/main/generalsettings.php:86
+#: views/main/generalsettings.php:105
+#: views/main/generalsettings.php:124
+#@ csv2post
+msgid "50"
+msgstr ""
+
+#: views/main/generalsettings.php:87
+#: views/main/generalsettings.php:107
+#@ csv2post
+msgid "250"
+msgstr ""
+
+#: views/main/generalsettings.php:88
+#: views/main/generalsettings.php:109
+#@ csv2post
+msgid "1000"
+msgstr ""
+
+#: views/main/generalsettings.php:89
+#@ csv2post
+msgid "2000"
+msgstr ""
+
+#: views/main/generalsettings.php:90
+#@ csv2post
+msgid "5000"
+msgstr ""
+
+#: views/main/generalsettings.php:98
+#@ csv2post
+msgid "Hourly Limit"
+msgstr ""
+
+#: views/main/generalsettings.php:106
+#: views/main/generalsettings.php:125
+#@ csv2post
+msgid "100"
+msgstr ""
+
+#: views/main/generalsettings.php:108
+#@ csv2post
+msgid "500"
+msgstr ""
+
+#: views/main/generalsettings.php:117
+#: views/menu_array.php:80
+#@ csv2post
+#@ default
+msgid "Event Limit"
+msgstr ""
+
+#: views/main/generalsettings.php:123
+#@ csv2post
+msgid "25"
+msgstr ""
+
+#: views/main/generalsettings.php:126
+#@ csv2post
+msgid "200"
+msgstr ""
+
+#: views/main/generalsettings.php:127
+#@ csv2post
+msgid "300"
+msgstr ""
+
+#: views/main/generalsettings.php:135
+#: views/menu_array.php:81
+#@ csv2post
+#@ default
+msgid "Focus"
+msgstr ""
+
+#: views/main/generalsettings.php:155
+#@ csv2post
+msgid "No Focus"
+msgstr ""
+
+#: views/main/generalsettings.php:163
+#: views/menu_array.php:82
+#@ csv2post
+#@ default
+msgid "Last Schedule Finish Reason"
+msgstr ""
+
+#: views/main/generalsettings.php:169
+#@ csv2post
+msgid "No event refusal reason has been set yet"
+msgstr ""
+
+#: views/main/generalsettings.php:173
+#: views/menu_array.php:83
+#@ csv2post
+#@ default
+msgid "Events Counter - 60 Minute Period"
+msgstr ""
+
+#: views/main/generalsettings.php:179
+#@ csv2post
+msgid "No events have been done during the current 60 minute period"
+msgstr ""
+
+#: views/main/generalsettings.php:183
+#: views/menu_array.php:84
+#@ csv2post
+#@ default
+msgid "Events Counter - 24 Hour Period"
+msgstr ""
+
+#: views/main/generalsettings.php:189
+#@ csv2post
+msgid "No events have been done during the current 24 hour period"
+msgstr ""
+
+#: views/main/generalsettings.php:193
+#: views/menu_array.php:85
+#@ csv2post
+#@ default
+msgid "Last Event Type"
+msgstr ""
+
+#: views/main/generalsettings.php:215
+#@ csv2post
+msgid "No events have been carried out yet"
+msgstr ""
+
+#: views/main/generalsettings.php:219
+#@ csv2post
+msgid "Last Event Action"
+msgstr ""
+
+#: views/main/generalsettings.php:225
+#@ csv2post
+msgid "No event actions have been carried out yet"
+msgstr ""
+
+#: views/main/generalsettings.php:229
+#@ csv2post
+msgid "Last Event Time"
+msgstr ""
+
+#: views/main/generalsettings.php:235
+#@ csv2post
+msgid "No schedule events have ran on this server yet"
+msgstr ""
+
+#: views/main/generalsettings.php:239
+#@ csv2post
+msgid "Last Hourly Reset"
+msgstr ""
+
+#: views/main/generalsettings.php:245
+#@ csv2post
+msgid "No hourly reset has been done yet"
+msgstr ""
+
+#: views/main/generalsettings.php:249
+#@ csv2post
+msgid "Last 24 Hour Period Reset"
+msgstr ""
+
+#: views/main/generalsettings.php:255
+#@ csv2post
+msgid "No 24 hour reset has been done yet"
+msgstr ""
+
+#: views/main/generalsettings.php:259
+#@ csv2post
+msgid "Your Servers Current Data and Time"
+msgstr ""
+
+#: views/main/generalsettings.php:272
+#: views/menu_array.php:86
+#@ default
+msgid "Global Switches"
+msgstr ""
+
+#: views/main/generalsettings.php:291
+#@ default
+msgid "Global Data Settings"
+msgstr ""
+
+#: views/main/install.php:18
+#: views/menu_array.php:116
+#@ default
+msgid "Partial Un-Install"
+msgstr ""
+
+#: views/main/install.php:21
+#@ default
+msgid "Remove individual option records, tables and files..."
+msgstr ""
+
+#: views/main/install.php:25
+#@ csv2post
+msgid "Partial Uninstallation"
+msgstr ""
+
+#: views/main/install.php:27
+#: views/menu_array.php:117
+#@ csv2post
+#@ default
+msgid "Core Plugin Tables"
+msgstr ""
+
+#: views/main/install.php:30
+#: views/menu_array.php:118
+#@ csv2post
+#@ default
+msgid "Folders"
+msgstr ""
+
+#: views/main/install.php:33
+#: views/menu_array.php:119
+#@ csv2post
+#@ default
+msgid "Option Records"
+msgstr ""
+
+#: views/main/install.php:47
+#: views/main/install.php:54
+#@ default
+#@ csv2post
+msgid "Re-Install Database Tables"
+msgstr ""
+
+#: views/main/install.php:50
+#@ default
+msgid "Use with care, will delete all existing tables for this plugin..."
+msgstr ""
+
+#: views/main/install.php:60
+#@ csv2post
+msgid "Tables Already Installed"
+msgstr ""
+
+#: views/main/install.php:67
+#: views/main/install.php:75
+#: views/main/install.php:99
+#: views/main/install.php:107
+#@ csv2post
+msgid "Table Names"
+msgstr ""
+
+#: views/main/install.php:68
+#: views/main/install.php:76
+#@ csv2post
+msgid "Rows"
+msgstr ""
+
+#: views/main/install.php:92
+#@ csv2post
+msgid "Tables Not Installed"
+msgstr ""
+
+#: views/main/install.php:100
+#: views/main/install.php:108
+#@ csv2post
+msgid "Required"
+msgstr ""
+
+#: views/main/install.php:133
+#: views/main/install.php:140
+#@ default
+#@ csv2post
+msgid "Install Test Data"
+msgstr ""
+
+#: views/main/install.php:136
+#@ default
+msgid "Install test data on test blogs only."
+msgstr ""
+
+#: views/main/install.php:154
+#@ default
+msgid "Plugin Configuration"
+msgstr ""
+
+#: views/main/install.php:157
+#@ default
+msgid "Values that tell us about the current package/build and the installation."
+msgstr ""
+
+#: views/main/install.php:159
+#@ csv2post
+msgid "Package Values"
+msgstr ""
+
+#: views/main/install.php:161
+#: views/main/log.php:409
+#@ csv2post
+msgid "Plugin Version"
+msgstr ""
+
+#: views/main/install.php:170
+#@ csv2post
+msgid "Debug Mode"
+msgstr ""
+
+#: views/main/install.php:171
+#@ csv2post
+msgid "Developer Mode"
+msgstr ""
+
+#: views/main/install.php:172
+#@ csv2post
+msgid "Is Event"
+msgstr ""
+
+#: views/main/install.php:173
+#@ csv2post
+msgid "Installation Drive"
+msgstr ""
+
+#: views/main/install.php:174
+#@ csv2post
+msgid "Is Installed"
+msgstr ""
+
+#: views/main/install.php:175
+#@ csv2post
+msgid "Extension Loaded:"
+msgstr ""
+
+#: views/main/install.php:191
+#@ default
+msgid "Environment Settings"
+msgstr ""
+
+#: views/main/install.php:194
+#@ default
+msgid "Server configuration including PHP, MySQL and modules..."
+msgstr ""
+
+#: views/main/install.php:205
+#@ csv2post
+msgid "Common Functions (returned value)"
+msgstr ""
+
+#: views/main/install.php:220
+#@ default
+msgid "WordPress Configuration"
+msgstr ""
+
+#: views/main/install.php:223
+#@ default
+msgid "WordPress settings which effect how this plugin operates..."
+msgstr ""
+
+#: views/main/install.php:226
+#@ csv2post
+msgid "WordPress Database Charset:"
+msgstr ""
+
+#: views/main/install.php:227
+#@ csv2post
+msgid "WordPress Blog Charset:"
+msgstr ""
+
+#: views/main/log.php:241
+#: views/main/log.php:248
+#@ default
+#@ csv2post
+msgid "Log Settings"
+msgstr ""
+
+#: views/main/log.php:244
+#@ default
+msgid "Options that apply to all all sections and procedures."
+msgstr ""
+
+#: views/main/log.php:275
+#@ csv2post
+msgid "Disable"
+msgstr ""
+
+#: views/main/log.php:299
+#: views/menu_array.php:123
+#@ csv2post
+msgid "Log"
+msgstr ""
+
+#: views/main/log.php:387
+#@ csv2post
+msgid "Outcome"
+msgstr ""
+
+#: views/main/log.php:389
+#@ csv2post
+msgid "Line"
+msgstr ""
+
+#: views/main/log.php:391
+#@ csv2post
+msgid "File"
+msgstr ""
+
+#: views/main/log.php:393
+#@ csv2post
+msgid "Function"
+msgstr ""
+
+#: views/main/log.php:395
+#@ csv2post
+msgid "SQL Result"
+msgstr ""
+
+#: views/main/log.php:397
+#@ csv2post
+msgid "SQL Query"
+msgstr ""
+
+#: views/main/log.php:399
+#@ csv2post
+msgid "SQL Error"
+msgstr ""
+
+#: views/main/log.php:401
+#@ csv2post
+msgid "WordPress Erro"
+msgstr ""
+
+#: views/main/log.php:403
+#@ csv2post
+msgid "Screenshot URL"
+msgstr ""
+
+#: views/main/log.php:405
+#@ csv2post
+msgid "Users Comment"
+msgstr ""
+
+#: views/main/log.php:407
+#@ csv2post
+msgid "Page"
+msgstr ""
+
+#: views/main/log.php:411
+#@ csv2post
+msgid "Panel Name"
+msgstr ""
+
+#: views/main/log.php:413
+#@ csv2post
+msgid "Screen Name *"
+msgstr ""
+
+#: views/main/log.php:415
+#@ csv2post
+msgid "Dump"
+msgstr ""
+
+#: views/main/log.php:417
+#@ csv2post
+msgid "IP Address"
+msgstr ""
+
+#: views/main/log.php:421
+#@ csv2post
+msgid "Developers Comment"
+msgstr ""
+
+#: views/main/log.php:423
+#@ csv2post
+msgid "Entry Type"
+msgstr ""
+
+#: views/main/log.php:425
+#@ csv2post
+msgid "Category"
+msgstr ""
+
+#: views/main/log.php:431
+#: views/menu_array.php:325
+#@ csv2post
+#@ default
+msgid "Trigger"
+msgstr ""
+
+#: views/main/log.php:439
+#@ csv2post
+msgid "The database table for storing log entries has not been installed. You can install it on the Install screen."
+msgstr ""
+
+#: views/main/log.php:441
+#@ csv2post
+msgid "There are no log entries matches your current search criteria."
+msgstr ""
+
+#: views/main/main.php:36
+#@ csv2post
+msgid "The plugins files have been replaced with a new version. You now need to complete the update by clicking below."
+msgstr ""
+
+#: views/main/main.php:36
+#, php-format
+#@ csv2post
+msgid "CSV 2 POST Update %s"
+msgstr ""
+
+#: views/main/main.php:54
+#@ csv2post
+msgid "Update CSV 2 POST Installation"
+msgstr ""
+
+#: views/main/projects.php:19
+#@ default
+msgid "All Projects"
+msgstr ""
+
+#: views/main/projects.php:40
+#: views/menu_array.php:55
+#@ default
+msgid "New Project & New CSV Files"
+msgstr ""
+
+#: views/main/projects.php:80
+#: views/main/projects.php:90
+#: views/menu_array.php:60
+#@ default
+msgid "New Project & Existing CSV Files"
+msgstr ""
+
+#: views/main/projects.php:121
+#: views/main/projects.php:128
+#: views/menu_array.php:61
+#@ default
+msgid "Delete Project"
+msgstr ""
+
+#: views/main/projectsettings.php:30
+#@ default
+msgid "WordPress Post Settings (global)"
+msgstr ""
+
+#: views/main/projectsettings.php:45
+#@ default
+msgid "Category Assignment"
+msgstr ""
+
+#: views/main/projectsettings.php:55
+#@ default
+msgid "WordPress Post Settings (specific source)"
+msgstr ""
+
+#: views/main/projectsettings.php:61
+#@ default
+msgid "Featured Image Column"
+msgstr ""
+
+#: views/main/projectsettings.php:67
+#@ default
+msgid "Email Column"
+msgstr ""
+
+#: views/main/projectsettings.php:70
+#@ default
+msgid "Username Column"
+msgstr ""
+
+#: views/main/projectsettings.php:73
+#@ default
+msgid "Cloak Column"
+msgstr ""
+
+#: views/main/projectsettings.php:90
+#@ default
+msgid "Title Template"
+msgstr ""
+
+#: views/main/projectsettings.php:115
+#@ default
+msgid "SEO"
+msgstr ""
+
+#: views/main/projectsettings.php:144
+#@ default
+msgid "Post Meta/Custom Fields"
+msgstr ""
+
+#: views/main/projectsettings.php:197
+#@ default
+msgid "Ready-made Tags"
+msgstr ""
+
+#: views/main/projectsettings.php:201
+#@ default
+msgid "Numerics"
+msgstr ""
+
+#: views/main/projectsettings.php:213
+#@ default
+msgid "Categories"
+msgstr ""
+
+#: views/main/projectsettings.php:232
+#@ default
+msgid "Category Descriptions"
+msgstr ""
+
+#: views/main/projectsettings.php:252
+#@ default
+msgid "Post Adoption"
+msgstr ""
+
+#: views/main/projectsettings.php:258
+#@ default
+msgid "Adoption Method"
+msgstr ""
+
+#: views/main/projectsettings.php:259
+#@ default
+msgid "Allowed Changes"
+msgstr ""
+
+#: views/main/projectsettings.php:260
+#@ default
+msgid "Settings below here are for the meta adoption method..."
+msgstr ""
+
+#: views/main/projectsettings.php:336
+#: views/postcreation/updating.php:9
+#@ default
+msgid "Post Updating"
+msgstr ""
+
+#: views/main/projectsettings.php:351
+#@ default
+msgid "Grouped Image Import"
+msgstr ""
+
+#: views/menu_array.php:36
+#@ default
+msgid "Column Replacement Tokens"
+msgstr ""
+
+#: views/menu_array.php:36
+#@ default
+msgid "Column replacement tokens are values replaced with your data. The token must be one of your column names wrapped with hashes i.e #mycolumn#, #prices#, #someprices#. These are used to place data in templates, especially the main content template. You may see me using them in some text fields that require column names. However the hash is not actually required, I just do out of habit. I expect users to do the same and so to avoid confusion we can enter column names into text fields that require a single \"Column\" without hashes. This does not apply to text fields which are labelled as a \"Template\". They require hash so that the plugin can distingish what as meant to be a column and what is meant to be text content."
+msgstr ""
+
+#: views/menu_array.php:49
+#@ csv2post
+msgid "Projects"
+msgstr ""
+
+#: views/menu_array.php:54
+#@ default
+msgid "I came up with an original approach that requires data to be imported to a database table before creating posts. This approach is more professional and gives us more options for our projects. But it does require some learning."
+msgstr ""
+
+#: views/menu_array.php:55
+#@ default
+msgid "After uploading your .csv file/s using WordPress, FTP or another plugin. Enter the path/s into the form then submit. The plugin will do various checks to ensure your file/s can be used and end with creating one or more database tables."
+msgstr ""
+
+#: views/menu_array.php:56
+#@ default
+msgid "Single File"
+msgstr ""
+
+#: views/menu_array.php:56
+#@ default
+msgid "This is the default. You must change it if you are using two or more .csv files in one project."
+msgstr ""
+
+#: views/menu_array.php:57
+#@ default
+msgid "Join Columns"
+msgstr ""
+
+#: views/menu_array.php:57
+#@ default
+msgid "If your data is split into two or more files for the sake of practicality of file sizes. You may want to still import all the data to a single database table and can by selecting this option. This means if your first file has 10 columns and your second file has 15 columns then the resulting database table would have 25 columns for storing your data. The only column header that can be a duplicate and must be is an ID column which you can select. If you do not have any type of ID per row this approach is still possible, contact WTG for further details."
+msgstr ""
+
+#: views/menu_array.php:58
+#@ default
+msgid "Append Rows"
+msgstr ""
+
+#: views/menu_array.php:58
+#@ default
+msgid "This is suitable if you have multiple files only because all rows cannot practically be stored in a single file. Two or more .csv files must have the exact same headers. The plugin will create a single database table. It will import data from the second file once import from the first is complete and import from the third file once the second is complete...so on. This is the best option and approach if you expect to receive more files with identical headers but different rows. The plugin allows you to add those files to the project and append the rows to existing rows."
+msgstr ""
+
+#: views/menu_array.php:59
+#@ default
+msgid "Individual Tables"
+msgstr ""
+
+#: views/menu_array.php:59
+#@ default
+msgid "Select this if you need each of your files (it will be all of them) to be imported to individual tables. A new database table will be created per file and I've done all the hard work to make it possible. It does mean that some procedures will need to perform more complex database queries. This should be taking into consideration when automatically creating or update posts."
+msgstr ""
+
+#: views/menu_array.php:60
+#@ default
+msgid "The project creation form with menus instead of text fields allows us to create a project using existing data sources. We can store data sources for management and ease when working with many sources/files. One set of data can be used in more than one project although not a commonly used feature. If using "
+msgstr ""
+
+#: views/menu_array.php:61
+#@ default
+msgid "Version 8.0.0 adds more caution to deleting projects by requiring a random code to be repeated. You still need to enter the correct project ID, get that wrong and...oops!"
+msgstr ""
+
+#: views/menu_array.php:62
+#@ default
+msgid "Current Projects Table"
+msgstr ""
+
+#: views/menu_array.php:62
+#@ default
+msgid "This table will be more use to anyone using the plugin to import affiliate data because that usually involves many files from different affiliate networks. Then usually we create a project per file which is a key ability in CSV 2 POST. However please note that it is possible to append new files to existing projects so that we do not keep creating many database tables. The exact approach depends...well it just depends. A video tutorial will be needed to explain that further."
+msgstr ""
+
+#: views/menu_array.php:66
+#@ csv2post
+msgid "All Data Sources"
+msgstr ""
+
+#: views/menu_array.php:71
+#@ default
+msgid "You will have little use for this screen if your working with a single .csv file or database table. But it will still tell you something. The table is populated queries the wp_c2psources table which holds progress and other important details."
+msgstr ""
+
+#: views/menu_array.php:75
+#@ csv2post
+msgid "General Settings"
+msgstr ""
+
+#: views/menu_array.php:80
+#@ default
+msgid "An event in CSV 2 POST is to do with automation and most automation is triggered by any visitor loading your blog. Automation happens within the days and hours you permit. But we need to control how much processing takes place during automation. The limit helps avoid asking too much of the server and a suitable number depends on your website."
+msgstr ""
+
+#: views/menu_array.php:81
+#@ default
+msgid "I have designed the schedule to cycle through all event types. Event types include post creation, post update, data import, data update and eventually there will be more. The focus option allows us to process a selected event type more than others."
+msgstr ""
+
+#: views/menu_array.php:82
+#@ default
+msgid "A short sentencing telling us why the schedule procedure ended. There are many reasons including some for detecting possible problems. This information helps to confirm that the schedule is active and working or can help us spot issues with our configuration or bugs in the plugin."
+msgstr ""
+
+#: views/menu_array.php:83
+#@ default
+msgid "This tells us how many events have been processed within the current 60 minute period (not hour). The 60 minute counter beings when the first schedule event is executed. There is no recommended target it all depends on your project and server. Always remember the schedule is triggered by any visitor to your blog unless your settings restrict it to administrators only."
+msgstr ""
+
+#: views/menu_array.php:84
+#@ default
+msgid "The total number of events over the current 24 hour period (not a day ). This is not from midnight to midnight. The 24 hour counter begins from the first event. This information will help you decide if your settings and traffic are allowing the plugin to get enough done."
+msgstr ""
+
+#: views/menu_array.php:85
+#@ default
+msgid "There are many event types. This helps us to confirm different types are being executed."
+msgstr ""
+
+#: views/menu_array.php:87
+#@ default
+msgid "Text Spin Re-Spinning"
+msgstr ""
+
+#: views/menu_array.php:87
+#@ default
+msgid "This global switch can be used to stop re-spinners from spinning again. Re-spinners are those that re-spin based on other conditions. The result is new content per spin. This behaviour will only be seen when using specific spintax shortcodes clearly labelled for this purpose."
+msgstr ""
+
+#: views/menu_array.php:88
+#@ default
+msgid "Systematic Post Updating"
+msgstr ""
+
+#: views/menu_array.php:88
+#@ default
+msgid "Systematic post updating will update a post when it has been requested for viewing if the posts record has changed. Updating will happen when visitors visit a post/page and when admin open the post for editing. The purpose of this approach is to apply new data gradually rather than doing it in one or possibly many updating events. Third party software can make changes to your imported data and does not need to trigger post updating."
+msgstr ""
+
+#: views/menu_array.php:92
+#@ csv2post
+msgid "Default Project Settings"
+msgstr ""
+
+#: views/menu_array.php:97
+#@ default
+msgid "This screen allows you to set default project settings resulting in a couple of advantages. One is for developers who need to delete projects and re-create them during testing. Some default settings make that a little quicker. The other is for anyone who needs to make many projects and all posts need to be the same or even just similar. You can still configure projects individually but it is recommended you always set the defaults as those settings will be checked first during the plugins operations and lead to efficiency. I should mention that anyone with new CSV files can append them to existing projects using the plugins merge ability (not to be confused with join which increases the number of columns in the project table)."
+msgstr ""
+
+#: views/menu_array.php:98
+#@ default
+msgid "Templates"
+msgstr ""
+
+#: views/menu_array.php:98
+#@ default
+msgid "Fields with \"Template\" can have more than one column name pasted along with any letters, numbers or special characters. Column names should begin and end with a hash. This allows us to use the word used as a column name in normal text."
+msgstr ""
+
+#: views/menu_array.php:99
+#@ default
+msgid "Columns"
+msgstr ""
+
+#: views/menu_array.php:99
+#@ default
+msgid "Fields with \"Column\" requires a single column name and nothing else should be entered. Hash is not required. The plugin expects the entered value to match a column name in your data source (usually a database table). This is why a new project, using a different data source will not work with default settings. Meaning these defaults do not suit everyone all of the time. If you feel that is you, simply focus on configuring each project from start to finish. The Default Project Settings screen is not a requirement."
+msgstr ""
+
+#: views/menu_array.php:100
+#@ default
+msgid "Defaults"
+msgstr ""
+
+#: views/menu_array.php:100
+#@ default
+msgid "Some options are defaults for project defaults. Meaning projects have options for setting defaults i.e. default author, default category. When you see \"Default\" on this screen it suggests an option that is one of those defaults and is not labelled with \"Default\" because it is on this screen."
+msgstr ""
+
+#: views/menu_array.php:101
+#@ default
+msgid "Samples"
+msgstr ""
+
+#: views/menu_array.php:101
+#@ default
+msgid "Samples can only be generated if the main/common data source is selected, giving this screen data to work with. Samples are generated based on all options i.e. adding a column to the Tags field will show whatever data is in the column you add. If you then or already have complete the Tag Rules options then those options will change the sample."
+msgstr ""
+
+#: views/menu_array.php:102
+#@ default
+msgid "Optional"
+msgstr ""
+
+#: views/menu_array.php:102
+#@ default
+msgid "All fields on this screen are optional as mentioned in a couple of places already however I want to make it clear that using some options does not require others to be complete also i.e. using the Tags Column field does not require you to complete the Tags Rules. In that example CSV 2 POST would simply use the data in the column as it is."
+msgstr ""
+
+#: views/menu_array.php:103
+#@ default
+msgid "Many Forms"
+msgstr ""
+
+#: views/menu_array.php:103
+#@ default
+msgid "This screen actually has a single form, just many buttons for convenience. Clicking any button submits everything you see so no need to click Submit per panel."
+msgstr ""
+
+#: views/menu_array.php:104
+#@ default
+msgid "Coded Settings"
+msgstr ""
+
+#: views/menu_array.php:104
+#@ default
+msgid "All settings can be found in settings_array.php file. The PHP array in there is stored in wp_options table but with our own configuration. The array in-file is used during activation of the plugin only. That means anyone with experience can edit that file as their approach to configuring projects. Handy if you want to use the same configuration on multiple blogs. You need to know the values to use per setting though. Getting it wrong will cause some errors."
+msgstr ""
+
+#: views/menu_array.php:105
+#@ default
+msgid "Grey/Read Only Fields"
+msgstr ""
+
+#: views/menu_array.php:105
+#@ default
+msgid "The greyed out fields are called \"read-only\" and they offer a sample of data based on your selections. The sample is generated using the same methods used for creating posts so what you see is what your going to get, most of the time. With this approach being so new there may be some issues. To get samples you also need to import data and select your data source for your default project settings to be based on. Otherwise the fields will stay empty. The sample values are great for testing and learning how the plugin operates."
+msgstr ""
+
+#: views/menu_array.php:107
+#@ default
+msgid "Procedures"
+msgstr ""
+
+#: views/menu_array.php:116
+#@ default
+msgid "Intended for advanced users. This panel allows surgical removal of data or files we no longer require or wish to re-install. I have important data re-installing automatically after deletion so this is not always intended for 100% un-installation of the plugin."
+msgstr ""
+
+#: views/menu_array.php:117
+#@ default
+msgid "A list of the plugins database tables required for correct operation. You may this to cleanup if you wish to uninstall the plugin 100% as the tables will not be automatically reinstalled. Core (none project or custom) tables will be reinstalled if you disabled and activate the plugin again in WordPress."
+msgstr ""
+
+#: views/menu_array.php:118
+#@ default
+msgid "Please check the contents of folders before deleting them."
+msgstr ""
+
+#: views/menu_array.php:119
+#@ default
+msgid "These are rows in the wp_options table. They are all created by this plugin however if you have a plugin installed that is integreated with CSV 2 POST that plugins options may show in this list. Some options are critical to the plugin working and will be reinstalled automatically, some are critical and will not be reinstalled. Custom or project related options are usually safe to delete without disrupting the state of the entire plugin."
+msgstr ""
+
+#: views/menu_array.php:128
+#@ default
+msgid "The plugin mostly makes log entries when automated events are processed. I try not to log too much however I could easily log anything. If you need the log to show you something just let me know."
+msgstr ""
+
+#: views/menu_array.php:132
+#@ csv2post
+msgid "About"
+msgstr ""
+
+#: views/menu_array.php:137
+#@ default
+msgid "It is my hope to give translators something back. If you can translate a language not already listed please let me know what you would like in return."
+msgstr ""
+
+#: views/menu_array.php:138
+#@ default
+msgid "Please Donate"
+msgstr ""
+
+#: views/menu_array.php:138
+#@ default
+msgid "You can donate to paypal@webtechglobal.co.uk or click one of the affiliatated ads. If you happen to want your own product added here please email me a link to where I can create an affiliate account."
+msgstr ""
+
+#: views/menu_array.php:159
+#@ default
+msgid "One of the more advanced screens. In short we can use it to improve our data before it is used to create posts. It is easy for WebTechGlobal to add more options to this screen and do various things with your data using PHP."
+msgstr ""
+
+#: views/menu_array.php:160
+#@ default
+msgid "The plugin gets smarter the more we tell it about our file and in this case we tell it what types of data are expected in each column. You must be 100% sure a column is not mixed (not including null or empty values). Sure I could make it guess the strict data type by checking a single row but that could lead to problems. My other plugin Easy CSV Importer does that kind of guessing and may save time but is not always the most professional way. CSV 2 POST is aimed at devs who need to ensure every configuration is perfect."
+msgstr ""
+
+#: views/menu_array.php:161
+#@ default
+msgid "Split a string of values from single column into multiple columns (splitting is a must to use the data for category creation). It is common for affiliate data to have a single category column but multiple levels of categories. Each category term separated by a special character. The splitter tool divides the data before post creation. This reduces processing during the creation procedure and allows us to work with the separated category terms in various ways.<br><br>If you enter invalid, none existing database table names this will fail. But if you enter column names that do not exist for the entered table, the columns will be created for you using MySql alter query."
+msgstr ""
+
+#: views/menu_array.php:170
+#@ default
+msgid "Import data from .csv file to database tables. That is a required step before creating posts. If you are working with multiple database tables/sources you may see multiple panels. Most people will import a single file and so there will be a single panel. Either way each panel imports data to a specific table, not always different tables i.e. multiple .csv files can be imported to the same table to complete one set of data in one place."
+msgstr ""
+
+#: views/menu_array.php:179
+#@ default
+msgid "You will see any database tables associated with your currently active project on this screen."
+msgstr ""
+
+#: views/menu_array.php:188
+#@ default
+msgid "This screen lists your current projects source data. This comes from the wp_c2psources table and includes information about your .csv file and about how it is used by CSV 2 POST."
+msgstr ""
+
+#: views/menu_array.php:209
+#@ default
+msgid "Use this panel if you need to put your posts into two or more categories. Select each of your category data columns in hierarchical order so that the plugin knows which terms in your data are to match different levels within your existing categories. Once your selections are made you can map all values/terms to existing categories."
+msgstr ""
+
+#: views/menu_array.php:210
+#@ default
+msgid "This panel will display text areas after you select your category columns in the first panel. Enter any characters in the text areas to create a description per category, including column tokens. You may enter a single column token and no other characters if you already have category descriptions in your data and do not want to add any other text to those descriptions."
+msgstr ""
+
+#: views/menu_array.php:211
+#@ default
+msgid "This panel will also become clearer after you select and save your category columns. CSV 2 POST will query each of your columns and list their distinct values. Essentially a list of category terms to be. If you stop your cursor over the text fields you can read which column each term belongs to, this will be browser dependant. On the right we have a column of menus which include all existing categories within our blog. Each categories ID is displayed for blogs that have the same child category names under different parents. The idea is to map the distinct values/categories in our data to existing categories. Where we do not map the plugin will create, unless it determines the category exists already and in that case it will still use the existing category. Mapping is meant in situations where the term in our data is not the same as an existing category but we still want them to be associated. Essentially avoiding another category being created and putting posts into the existing one."
+msgstr ""
+
+#: views/menu_array.php:220
+#@ default
+msgid "This screen predicts category creation. The idea is to quickly confirm that our configuration is correct before creating the categories. The table shows various values that make up each category or have a relationship with each category within the blog. Different users require different behaviour and the idea is for the table to show how various settings will change the outcome of category creation. This tool is great for live blogs and offers an option for diagnostic/debugging."
+msgstr ""
+
+#: views/menu_array.php:221
+#@ default
+msgid "Term Column"
+msgstr ""
+
+#: views/menu_array.php:221
+#@ default
+msgid "This column displays a list of distinct values from your category data. Those values will become term names for the category taxonomy or will already exist as terms."
+msgstr ""
+
+#: views/menu_array.php:222
+#@ default
+msgid "Mapped ID Column"
+msgstr ""
+
+#: views/menu_array.php:222
+#@ default
+msgid "The ID for the existing blog categories you map your category data to will be shown in this column. If you have a distinct value that you never mapped but it exists. The word \"Create\" will be displayed and this tells us that the value in our data will be used to create a new category. If the word \"Exists\" tells us that we did not map a category in our data to an existing category in our blog when we could have. That is alright though CSV 2 POST will automatically find the existing category and put apply it to posts. This is done on a per level basis."
+msgstr ""
+
+#: views/menu_array.php:223
+#@ default
+msgid "Slug Column"
+msgstr ""
+
+#: views/menu_array.php:223
+#@ default
+msgid "This is not a slug in the blog. They may match one in the blog but there is no relationship. The value is simply the cleaned version of the category names/terms in your data. I expect this slug to be prepared to existing slugs in some configurations however that procedure is not ready yet."
+msgstr ""
+
+#: views/menu_array.php:224
+#@ default
+msgid "Level Column"
+msgstr ""
+
+#: views/menu_array.php:224
+#@ default
+msgid "This shows the level as per your own hierarchy based on your category column selection. CSV 2 POST pairs category names not just on the name itself but the level it falls within."
+msgstr ""
+
+#: views/menu_array.php:225
+#@ default
+msgid "Parent Term Column"
+msgstr ""
+
+#: views/menu_array.php:225
+#@ default
+msgid "This is the category name for the parent, if your category in data has or is to have a parent. You should not see a value for your first level of categories, level zero. For the second level there must always be a parent. It may be for a category that already exists or one that will be created using categories in your data."
+msgstr ""
+
+#: views/menu_array.php:226
+#@ default
+msgid "Parent ID Column"
+msgstr ""
+
+#: views/menu_array.php:226
+#@ default
+msgid "If the term has a parent, this column displays the terms ID (category ID)."
+msgstr ""
+
+#: views/menu_array.php:256
+#@ default
+msgid "Custom Fields can be found on the Edit Post screen and are a type of meta. This meta is usually used to populate theme values. If you plan to spend a lot of time using WordPress I recommend reading the official codex page for this topic."
+msgstr ""
+
+#: views/menu_array.php:257
+#@ default
+msgid "The name is often unique among the custom fields for any post but it does not have to be. The name is also known as the key by developers because it is used to access a specific value."
+msgstr ""
+
+#: views/menu_array.php:258
+#@ default
+msgid "Updating"
+msgstr ""
+
+#: views/menu_array.php:258
+#@ default
+msgid "This plugin can avoid updating specific custom fields. This is important if you, staff or even visitors may change values manually and you do not want those changes reversed during update procedures by CSV 2 POST. In version 8.0.0 there is no good procedure for updating multiple custom fields using the same name/key. Right now if you attempt to update your custom fields and you have multiple values using the same name. All meta values using that name will be updated at the same time. This is not ideal but the solution is not really that straight forward either. If you do need a solution please contact me."
+msgstr ""
+
+#: views/menu_array.php:259
+#@ default
+msgid "Unique"
+msgstr ""
+
+#: views/menu_array.php:259
+#@ default
+msgid "The same custom field name can be used many times for a single post. This is usually the case for values that build a list or history keeping. If you need the same name/key to be used many times set this to no. Leaving it set to yes will ensure the custom field name can only be used once per post and any update will write over the existing value."
+msgstr ""
+
+#: views/menu_array.php:260
+#@ default
+msgid "Value"
+msgstr ""
+
+#: views/menu_array.php:260
+#@ default
+msgid "An entire WYSIWYG editor has been added for the creation of your custom field value. Normally we would just paste a singe column token into the editor. That would put the data from a single column into custom fields as the value. The purpose of the editor is to create a more complex template that includes your own text and even HTML."
+msgstr ""
+
+#: views/menu_array.php:290
+#@ default
+msgid "Basic Post Options"
+msgstr ""
+
+#: views/menu_array.php:290
+#@ default
+msgid "These are the first and most commonly used options when creating posts in WordPress. The selections you make here will only apply to posts created by this plugin. If you want to read more about each setting you should use the WordPress.org codex."
+msgstr ""
+
+#: views/menu_array.php:291
+#@ default
+msgid "Most of these settings are related to other options you have when manually creating posts in WP. When creating posts manually we will type in tags, change the permalink or upload an image. In this plugin you need to tell the plugin which columns has the applicable data so it can apply it in the same way. URL cloaking is not a WP core feature though. This option allows us to replace long URL with a shorter one that includes your own domain. On clicking the local domain the user is forwarded to the hidden one."
+msgstr ""
+
+#: views/menu_array.php:292
+#@ default
+msgid "Create users in your blog and their associated posts will also be connected to them. The plugin can create users using the email address only."
+msgstr ""
+
+#: views/menu_array.php:293
+#@ default
+msgid "Generate Tags"
+msgstr ""
+
+#: views/menu_array.php:293
+#@ default
+msgid "If you do not have a column of data suitable as pre-made tags then you can generate some using a body of text. Some options are provide to increase the quality of tags. The tags string length is the total characters of all tags when put together including commas which separate each word or phrase."
+msgstr ""
+
+#: views/menu_array.php:302
+#@ default
+msgid "Panel: Publish Dates"
+msgstr ""
+
+#: views/menu_array.php:303
+#@ default
+msgid "CSV 2 POST offers three custom date options for anyone who does not want post publish dates to be the time and date when the post was made by this plugin. You may import dates data, you may increment dates to look as if constant blogging has been done and you can even randomize dates."
+msgstr ""
+
+#: views/menu_array.php:304
+#@ default
+msgid "If you have dates data you can select your dates column here. Remember your column can have any name it does not need to be \"dates\" or \"date\"."
+msgstr ""
+
+#: views/menu_array.php:305
+#@ default
+msgid "Format"
+msgstr ""
+
+#: views/menu_array.php:305
+#@ default
+msgid "Here we select the expected data format within our data. If you are importing dates data you may need to make a selection in this menu. This is used by PHP to convert a date string to a standard format with accuracy."
+msgstr ""
+
+#: views/menu_array.php:306
+#@ default
+msgid "Incremental method option. Use this to tell the plugin the earliest publish date to be applied to the first post created."
+msgstr ""
+
+#: views/menu_array.php:307
+#@ default
+msgid "This is part of setting an increment. If you enter the same value in this field as in Variation High then the increment will be precise per post. The gap between publish dates will not appear as natural. Enter the number of seconds to set the soonest allowed publish date after the previous."
+msgstr ""
+
+#: views/menu_array.php:308
+#@ default
+msgid "Enter a number to set the latest allowed publish date for the next post. Enter the same value as entered in Variation Low to force an exact number of seconds between each publish date."
+msgstr ""
+
+#: views/menu_array.php:309
+#@ default
+msgid "Random method option. This is the low part of a range we create and all random dates generated will exist after the date set here. This is much the same as Start Date only the date you enter here is not always used, due to it being random. "
+msgstr ""
+
+#: views/menu_array.php:310
+#@ default
+msgid "Enter the final date allowed for any post. All posts created will have a date before this date."
+msgstr ""
+
+#: views/menu_array.php:320
+#@ default
+msgid "You may enter column replacement tokens into the provided field and text. Using one or more of your columns you can easily create a great SEO worthy title."
+msgstr ""
+
+#: views/menu_array.php:322
+#@ default
+msgid "You may work on the WYSIWYG editors design view or HTML code view. You can enter column replacement tokens in a way that displays raw data to visitors. You may enter the tokens within HTML so that it populates image or link attributes. You can even populate short-codes or snippets of script for more advanced presentation."
+msgstr ""
+
+#: views/menu_array.php:323
+#@ default
+msgid "Multiple Design Rules"
+msgstr ""
+
+#: views/menu_array.php:324
+#@ default
+msgid "Select a column of data that is used to determine what template should be used for any giving post. Your data may not have a suitable column of data. If your not sure please go to the forum and post a sample of your data maybe I can help you determine a suitable column."
+msgstr ""
+
+#: views/menu_array.php:325
+#@ default
+msgid "Enter a single value, it must be a match for a value in the selected data column. The match per row will determine what template applies to that row/post."
+msgstr ""
+
+#: views/menu_array.php:326
+#@ default
+msgid "Design"
+msgstr ""
+
+#: views/menu_array.php:326
+#@ default
+msgid "Select the template design that should be used when a match is made. Allowing a range of different templates and presentation to be used for a single set of data within a single project."
+msgstr ""
+
+#: views/menu_array.php:327
+#@ default
+msgid "Grouped Image Imports"
+msgstr ""
+
+#: views/menu_array.php:328
+#@ default
+msgid "This feature imports groups of images per post, using a single term per row of data. All images with the matched term, in a selected column of data, will be imported to the WordPress media library. My sample data includes \"empire\", \"predator\" and \"revolution\" for three groups of images. The images are provided in the CSV 2 POST.zip in \"samples/imagegroups\". CSV 2 POST will automatically locate all images in a group if the data is created properly. The new media is also attached to the post being created as this all happens during post creation. Please keep in mind that a procedure like this gives WordPress a lot to do per post so try not to make too many images in one event."
+msgstr ""
+
+#: views/menu_array.php:329
+#@ default
+msgid "Filename Data:"
+msgstr ""
+
+#: views/menu_array.php:329
+#@ default
+msgid "Select the column that contains terms that can be found in your image names. My data terms are \"empire\", \"predator\" and \"revolution\". All images with \"empire\" in their name would be imported and assigned to that row/post as new attachments. The images would also be found in the WordPress media library."
+msgstr ""
+
+#: views/menu_array.php:330
+#@ default
+msgid "Incremental:"
+msgstr ""
+
+#: views/menu_array.php:330
+#@ default
+msgid "This option is not fully in play. My idea is to allow users to control how specific numbered images are used. By telling CSV 2 POST that the images are numerically incremented other options will become available and more procedures will come into play during post creation."
+msgstr ""
+
+#: views/menu_array.php:360
+#: views/postcreation/tools.php:22
+#@ default
+msgid "Create Posts"
+msgstr ""
+
+#: views/menu_array.php:360
+#@ default
+msgid "Enter the number of posts you would like to create using unused rows of data already imported. If no rows are imported no posts can be created. If all previously imported rows have been used, no posts will be created."
+msgstr ""
+
+#: views/menu_array.php:361
+#: views/postcreation/tools.php:37
+#@ default
+msgid "Update Posts"
+msgstr ""
+
+#: views/menu_array.php:361
+#@ default
+msgid "Please use on a test blog and ensure the plugins update procedure works as expected and suits your needs. The plugins normal update procedure will re-build a post and meta. The plugin can easily be adapted and new options provided to help you perfect exactly what updating does. Updating cannot be forced using this panel. It will only update posts when either a projects settings have changed since the post was created or the original data has been updated."
+msgstr ""
+
+#: views/menu_array.php:362
+#: views/postcreation/tools.php:52
+#@ default
+msgid "Update Posts: New Data Only"
+msgstr ""
+
+#: views/menu_array.php:362
+#@ default
+msgid "Update posts where the original row of data used to create the post has changed since the post was created. The change to data could be manual within MySQL database, by an integrated plugin or CSV 2 POST data update itself. Posts will not be updated based on project settings changes using this form. This form will allow you to test the specific functionality and if needed we can add further options for filtering which updated data is applied to posts."
+msgstr ""
+
+#: views/menu_array.php:363
+#: views/postcreation/tools.php:67
+#@ default
+msgid "Update Posts: Project Changes Only"
+msgstr ""
+
+#: views/menu_array.php:363
+#@ default
+msgid "CSV 2 POST records the date and time per project whenever that project is changed. We can compare any projects \"settingschange\" column which is a time, with the applied dates per row of data. Those are the dates when a row of data is used for post creation or post updating. The time values are stored in \"c2p_applied\" within the projects database table. This form allows us to initiate an update of posts that were created before further changes are made to a projects settings. It is possible to automate this but testing manually is recommended."
+msgstr ""
+
+#: views/menu_array.php:364
+#: views/postcreation/tools.php:82
+#@ default
+msgid "Update Specific Post"
+msgstr ""
+
+#: views/menu_array.php:364
+#@ default
+msgid "Force update a specific post. This form will update a post even if the data has not been updated or project settings changed. It is simply another form to help us test a new project before allowing it to autoblog over long periods of time with little monitoring."
+msgstr ""
+
+#: views/menu_array.php:373
+#@ default
+msgid "empty."
+msgstr ""
+
+#: views/meta/customfields.php:24
+#@ default
+msgid "New Custom Field"
+msgstr ""
+
+#: views/meta/customfields.php:39
+#@ default
+msgid "Yes"
+msgstr ""
+
+#: views/meta/customfields.php:39
+#@ default
+msgid "No"
+msgstr ""
+
+#: views/meta/taxonomies.php:26
+#@ default
+msgid "Single Taxonomies"
+msgstr ""
+
+#: views/meta/taxonomies.php:30
+#@ default
+msgid "None hierarchical taxonomy options. Data selected here will not work like categories do."
+msgstr ""
+
+#: views/postcreation/lastpost.php:29
+#@ default
+msgid "Last Post Details"
+msgstr ""
+
+#: views/postcreation/lastpost.php:54
+#@ default
+msgid "Content"
+msgstr ""
+
+#: views/postcreation/tools.php:29
+#: views/postcreation/tools.php:44
+#: views/postcreation/tools.php:59
+#: views/postcreation/tools.php:74
+#@ default
+msgid "Total Posts"
+msgstr ""
+
+#: views/postcreation/tools.php:89
+#@ default
+msgid "Post ID"
+msgstr ""
+

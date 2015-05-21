@@ -1,0 +1,429 @@
+/* 
+WTG MESSAGE BOXES VERSION 1.1 
+Created: 14th January 2009
+Author: Ryan Bayne
+Site: www.webtechglobal.co.uk
+Email: info@csv2post.com
+*/
+
+/*  TINY MESSAGE BOXES START */
+.infoTiny, .successTiny, .warningTiny, .errorTiny, .validationTiny, 
+.questionTiny, .processingTiny, .restrictedTiny, .stopTiny, .stepTiny {  
+	margin: 10px 0px; /* top and bottom */ 
+	padding:5px 5px 5px 28px;  
+	background-repeat: no-repeat;  
+	background-position: 3px center; 
+	display: block;
+    background-size:20px 20px;
+    border-radius: 8px;
+}
+
+.infoTiny p, .successTiny p, .warningTiny p, .errorTiny p, .validationTiny p, 
+.questionTiny p, .processingTiny p, .restrictedTiny p, .stopTiny p, .stepTiny p {  
+    margin: 4px 0px 4px 0px;  
+    font-size:14px;
+}
+
+/* Apply text size to the jQuery buttons, used for persistent messages */
+.infoTiny .jquerybuttoncsv2post, 
+.successTiny .jquerybuttoncsv2post, 
+.warningTiny .jquerybuttoncsv2post, 
+.errorTiny .jquerybuttoncsv2post, 
+.validationTiny .jquerybuttoncsv2post, 
+.questionTiny .jquerybuttoncsv2post, 
+.processingTiny .jquerybuttoncsv2post, 
+.restrictedTiny .jquerybuttoncsv2post, 
+.stopTiny .jquerybuttoncsv2post, 
+.stepTiny .jquerybuttoncsv2post{  
+    font-size:10px;
+} 
+
+.TinyHelpLink{  
+    display: block;
+    float:right;
+    position:relative;
+    top:1px;
+    right:3px;
+    height:15px;
+    width:15px;
+}
+
+.infoTiny{  
+	color: #00529B;  
+	background-color: #BDE5F8;  
+	background-image: url(../images/info_large.png);  
+	border: 4px solid #86CFF2;
+}  
+
+.successTiny{  
+	color: #4F8A10;  
+	background-color: #DFF2BF;  
+	background-image:url(../images/success_large.png);  
+	border: 5px solid #C4E789;
+}  
+
+.warningTiny{  
+	color: #9F6000;  
+	background-color: #FEEFB3;  
+	background-image: url(../images/warning_large.png);  
+	border: 3px solid #FDE06C;
+} 
+
+.errorTiny{  
+	color: #D8000C;  
+	background-color: #FFBABA;  
+	background-image: url(../images/error_large.png);  
+	border: 5px solid #FF7979;
+}  
+
+.questionTiny{  
+	color: #00529B;  
+	background-color: #BDE5F8;   
+	background-image: url(../images/question_large.png);  
+	border: 5px solid #86CFF2;
+}
+
+.processingTiny{  
+	color: #4F8A10;  
+	background-color: #DFF2BF;   
+	background-image:url(../images/processing_large.png);  
+	border: 5px solid #C4E789;
+} 
+
+.stopTiny{  
+	color: #D8000C;  
+	background-color: #FFBABA;  
+	background-image:url(../images/stop_large.png);  
+	border: 5px solid #FF7979;
+}
+
+.stepTiny{  
+    color: #00529B;  
+    background-color: #BDE5F8;  
+    background-image: url(../images/step_large.png);  
+    border: 4px solid #86CFF2;
+}  
+/*  TINY MESSAGE BOXES FINISH */
+
+/*  SMALL MESSAGE BOXES START */
+.infoSmall, .successSmall, .warningSmall, .errorSmall, .validationSmall, 
+.questionSmall, .processingSmall, .restrictedSmall, .stopSmall, .stepSmall {  
+	margin: 10px 0px; /* top and bottom */ 
+	padding:10px 10px 10px 60px;  
+	background-repeat: no-repeat;  
+	background-position: 10px center; 
+	display: block;
+    background-size:44px 44px;
+    border-radius: 8px;
+}
+
+.infoSmall h4, .successSmall h4, .warningSmall h4, .errorSmall h4, .validationSmall h4, 
+.questionSmall h4, .processingSmall h4, .restrictedSmall h4, .stopSmall h4, .stepSmall h4 {  
+    margin: 4px 0px 4px 0px;  
+    font-size:16px;
+}
+
+.infoSmall p, .successSmall p, .warningSmall p, .errorSmall p, .validationSmall p, 
+.questionSmall p, .processingSmall p, .restrictedSmall p, .stopSmall p, .stepSmall p {  
+    margin: 4px 0px 4px 0px;  
+    font-size:14px;
+}
+
+/* Apply text size to the jQuery buttons, used for persistent messages */
+.infoSmall .jquerybuttoncsv2post, 
+.successSmall .jquerybuttoncsv2post, 
+.warningSmall .jquerybuttoncsv2post, 
+.errorSmall .jquerybuttoncsv2post, 
+.validationSmall .jquerybuttoncsv2post, 
+.questionSmall .jquerybuttoncsv2post, 
+.processingSmall .jquerybuttoncsv2post, 
+.restrictedSmall .jquerybuttoncsv2post, 
+.stopSmall .jquerybuttoncsv2post, 
+.stepSmall .jquerybuttoncsv2post{  
+    font-size:12px;
+} 
+
+.SmallHelpLink{  
+    display: block;
+    float:right;
+    position:relative;
+    top:-5px;
+    height:25px;
+    width:25px;
+}
+
+.infoSmall{  
+	color: #00529B;  
+	background-color: #BDE5F8;  
+	background-image: url(../images/info_large.png);  
+	border: 4px solid #86CFF2;
+}  
+
+.successSmall{  
+	color: #4F8A10;  
+	background-color: #DFF2BF;  
+	background-image:url(../images/success_large.png);  
+	border: 5px solid #C4E789;
+}  
+
+.warningSmall{  
+	color: #9F6000;  
+	background-color: #FEEFB3;  
+	background-image: url(../images/warning_large.png);  
+	border: 5px solid #FDE06C;
+} 
+
+.errorSmall{  
+	color: #D8000C;  
+	background-color: #FFBABA;  
+	background-image: url(../images/error_large.png);  
+	border: 5px solid #FF7979;
+}  
+
+.questionSmall{  
+	color: #00529B;  
+	background-color: #BDE5F8;   
+	background-image: url(../images/question_large.png);  
+	border: 5px solid #86CFF2;
+}
+
+.processingSmall{  
+	color: #4F8A10;  
+	background-color: #DFF2BF;   
+	background-image:url(../images/processing_large.png);  
+	border: 5px solid #C4E789;
+} 
+
+.stopSmall{  
+	color: #D8000C;  
+	background-color: #FFBABA;  
+	background-image:url(../images/stop_large.png);  
+	border: 5px solid #FF7979;
+}
+
+.stepSmall{  
+    color: #00529B;  
+    background-color: #BDE5F8;  
+    background-image: url(../images/step_large.png);  
+    border: 4px solid #86CFF2;
+}   
+/*  SMALL MESSAGE BOXES FINISH */
+
+/* LARGE MESSAGE BOXES START */
+
+.infoLarge, .successLarge, .warningLarge, .errorLarge, .validationLarge, 
+.questionLarge, .processingLarge, .restrictedLarge, .stopLarge, .stepLarge {  
+	margin: 10px 0px; /* top and bottom */ 
+	padding: 20px 5px 19px 115px;  
+	background-repeat: no-repeat;  
+	background-position: 10px center; 
+	display: block;
+    background-size:80px 80px;
+    border-radius: 8px;
+}
+
+.infoLarge h4, .successLarge h4, .warningLarge h4, .errorLarge h4, .validationLarge h4, 
+.questionLarge h4, .processingLarge h4, .restrictedLarge h4, .stopLarge h4, .stepLarge h4 {  
+    margin: 4px 0px 4px 0px;  
+    font-size:20px;
+}
+
+.infoLarge p, .successLarge p, .warningLarge p, .errorLarge p, .validationLarge p, 
+.questionLarge p, .processingLarge p, .restrictedLarge p, .stopLarge p, .stepLarge p {  
+    margin: 4px 0px 4px 0px;  
+    font-size:18px;
+}
+
+/* Apply text size to the jQuery buttons, used for persistent messages */
+.infoLarge .jquerybuttoncsv2post, 
+.successLarge .jquerybuttoncsv2post, 
+.warningLarge .jquerybuttoncsv2post, 
+.errorLarge .jquerybuttoncsv2post, 
+.validationLarge .jquerybuttoncsv2post, 
+.questionLarge .jquerybuttoncsv2post, 
+.processingLarge .jquerybuttoncsv2post, 
+.restrictedLarge .jquerybuttoncsv2post, 
+.stopLarge .jquerybuttoncsv2post, 
+.stepLarge .jquerybuttoncsv2post{  
+    font-size:12px;
+} 
+
+.LargeHelpLink{  
+    display: block;
+    float:right;
+    position:relative;
+    top:-3px;
+    right:-10px;
+    height:25px;
+    width:25px;
+}
+
+.infoLarge{  
+	color: #00529B;  
+	background-color: #BDE5F8;  
+	background-image: url(../images/info_large.png);  
+	border: 5px solid #86CFF2;
+}  
+
+.successLarge{  
+	color: #4F8A10;  
+	background-color: #DFF2BF;  
+	background-image:url(../images/success_large.png);  
+	border: 5px solid #C4E789;
+}  
+
+.warningLarge{  
+	color: #9F6000;  
+	background-color: #FEEFB3;  
+	background-image: url(../images/warning_large.png);  
+	border: 5px solid #FDE06C;
+} 
+
+.errorLarge{  
+	color: #D8000C;  
+	background-color: #FFBABA;  
+	background-image: url(../images/error_large.png);  
+	border: 5px solid #FF7979;
+}  
+
+.questionLarge{  
+	color: #00529B;  
+	background-color: #BDE5F8;   
+	background-image: url(../images/question_large.png);  
+	border: 5px solid #86CFF2;
+}
+
+.processingLarge{  
+	color: #4F8A10;  
+	background-color: #DFF2BF;   
+	background-image:url(../images/processing_large.png);  
+	border: 5px solid #C4E789;
+} 
+
+.stopLarge{  
+	color: #D8000C;  
+	background-color: #FFBABA;  
+	background-image:url(../images/stop_large.png);  
+	border: 5px solid #FF7979;
+}  
+
+.stepLarge{  
+    color: #FFF;  
+    background-color: #158DC8;  
+    background-image: url(../images/step_large.png);  
+    border: 5px solid #6DB6D5;
+    text-decoration: none;
+}
+
+.stepLargeTest a:link {text-decoration:none;}
+.stepLargeTest a:visited {text-decoration:none;}
+.stepLargeTest a:hover {text-decoration:none;}
+.stepLargeTest a:active {text-decoration:none;}
+
+/* LARGE MESSAGE BOXES END */
+
+/* EXTRA MESSAGE BOXES START */
+
+.infoExtra, .successExtra, .warningExtra, .errorExtra, .validationExtra, 
+.questionExtra, .processingExtra, .restrictedExtra, .stopExtra, .stepExtra {  
+	margin: 5px 0px; /* top and bottom */ 
+	padding:0px 10px 10px 20px;  
+	background-repeat: no-repeat;  
+	background-position: right; 
+	display: block;
+    border-radius: 8px;
+}
+
+.infoExtra h4, .successExtra h4, .warningExtra h4, .errorExtra h4, .validationExtra h4, 
+.questionExtra h4, .processingExtra h4, .restrictedExtra h4, .stopExtra h4, .stepExtra h4 {  
+    margin: 10px 0px 8px 0px;  
+    font-size:24px;
+}
+
+.infoExtra p, .successExtra p, .warningExtra p, .errorExtra p, .validationExtra p, 
+.questionExtra p, .processingExtra p, .restrictedExtra p, .stopExtra p, .stepExtra p {  
+    margin: 4px 0px 8px 0px;  
+    font-size:20px;
+}
+
+/* Apply text size to the jQuery buttons, used for persistent messages */
+.infoExtra .jquerybuttoncsv2post, 
+.successExtra .jquerybuttoncsv2post, 
+.warningExtra .jquerybuttoncsv2post, 
+.errorExtra .jquerybuttoncsv2post, 
+.validationExtra .jquerybuttoncsv2post, 
+.questionExtra .jquerybuttoncsv2post, 
+.processingExtra .jquerybuttoncsv2post, 
+.restrictedExtra .jquerybuttoncsv2post, 
+.stopExtra .jquerybuttoncsv2post, 
+.stepExtra .jquerybuttoncsv2post{  
+    font-size:12px;
+} 
+
+.ExtraHelpLink{  
+    display: block;
+    float:right;
+    position:relative;
+    top:6px;
+    right:3px;
+    height:25px;
+    width:25px;
+}
+
+.infoExtra{  
+	color: #004380;  
+	background-color: #BDE5F8;  
+	background-image: url(../images/info_extra.png);  
+	border: 5px solid #86CFF2;
+}  
+
+.successExtra{  
+	color: #3D690C;  
+	background-color: #DFF2BF;  
+	background-image:url(../images/success_extra.png);  
+	border: 5px solid #C4E789;
+}  
+
+.warningExtra{  
+	color: #794800;  
+	background-color: #FEEFB3;  
+	background-image: url(../images/warning_extra.png);  
+	border: 5px solid #FDE06C;
+} 
+
+.errorExtra{  
+	color: #A60009;  
+	background-color: #FFBABA;  
+	background-image: url(../images/error_extra.png);  
+	border: 5px solid #FF7979;
+}  
+
+.questionExtra{  
+	color: #003C71;  
+	background-color: #BDE5F8;   
+	background-image: url(../images/question_extra.png);  
+	border: 5px solid #86CFF2;
+}
+
+.processingExtra{  
+	color: #39630C;  
+	background-color: #DFF2BF;   
+	background-image:url(../images/processing_extra.png);  
+	border: 5px solid #C4E789;
+} 
+
+.stopExtra{  
+	color: #930007;  
+	background-color: #FFBABA;  
+	background-image:url(../images/stop_extra.png);  
+	border: 5px solid #FF7979;
+}
+
+.stepExtra{  
+    color: #004380;  
+    background-color: #BDE5F8;  
+    background-image: url(../images/step_extra.png);  
+    border: 5px solid #86CFF2;
+}  
+
+/* LARGE MESSAGE BOXES END */

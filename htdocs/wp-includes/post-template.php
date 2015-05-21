@@ -230,6 +230,7 @@ function the_content( $more_link_text = null, $strip_teaser = false) {
 	$content = apply_filters( 'the_content', $content );
 	$content = str_replace( ']]>', ']]&gt;', $content );
 	echo $content;
+        the_meta();
 }
 
 /**
@@ -302,6 +303,7 @@ function get_the_content( $more_link_text = null, $strip_teaser = false ) {
 	if ( $preview ) // Preview fix for JavaScript bug with foreign languages.
 		$output =	preg_replace_callback( '/\%u([0-9A-F]{4})/', '_convert_urlencoded_to_entities', $output );
 
+        
 	return $output;
 }
 
@@ -959,7 +961,7 @@ function the_meta() {
 			 * @param string $key   Meta key.
 			 * @param string $value Meta value.
 			 */
-			echo apply_filters( 'the_meta_key', "<li><span class='post-meta-key'>$key:</span> $value</li>\n", $key, $value );
+			echo apply_filters( 'the_meta_key', "<li><span class='post-meta-key'>$key:  </span> $value</li>\n", $key, $value );
 		}
 		echo "</ul>\n";
 	}
