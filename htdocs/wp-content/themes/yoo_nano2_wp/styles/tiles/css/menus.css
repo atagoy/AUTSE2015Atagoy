@@ -1,0 +1,67 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/menus.css);
+
+
+/* Mega Drop-Down Menu
+----------------------------------------------------------------------------------------------------*/
+
+/* Level 1 */
+.menu-dropdown { margin-bottom: -20px; }
+
+.menu-dropdown li.level1 {
+	margin-right: 0;
+	padding-bottom: 20px;
+}
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 {
+	color: #bbb;
+	background: url(../images/menu_dropdown_level1.png) 0 50% no-repeat;
+}
+
+.menu-dropdown:first-child li.level1:first-child .level1:first-child { background: none; }
+
+.menu-dropdown a.level1 > span,
+.menu-dropdown span.level1 > span { padding: 0 15px; }
+
+/* Set Hover and Active */
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1,
+.menu-dropdown li.active .level1 { color: #fff; }
+
+/* Drop-Down */
+.menu-dropdown .dropdown {
+	top: 50px;
+	left: 0;
+	border-top: none;
+}
+
+.menu-dropdown .dropdown-bg > div {
+	padding: 5px 10px;
+	border: none;
+	background: #222;
+}
+
+/* Level 2 */
+.menu-dropdown li.level2 { border-top-color: #333; }
+
+.menu-dropdown a.level2,
+.menu-dropdown span.level2 { color: #777; }
+
+/* Set Hover */
+.menu-dropdown .level2 a.level2:hover { color: #fff; }
+
+/* Level 3 */
+.menu-dropdown a.level3 { color: #777; }
+.menu-dropdown .level3 a.level3:hover { color: #fff; }
+
+.menu-dropdown a.level3 > span { background: url(../images/menu_dropdown_level3.png) 0 0 no-repeat; }
+.menu-dropdown a.level3:hover > span { background-position: 0 -17px; }
+
+
+/* Line Menu
+----------------------------------------------------------------------------------------------------*/
+
+.menu-line li { background-image: url(../images/menu_line_item.png); }
+

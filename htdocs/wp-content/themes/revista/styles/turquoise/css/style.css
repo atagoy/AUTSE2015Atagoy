@@ -1,0 +1,181 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Style Style Sheet - Defines the main look like colors and backgrounds
+ * Not all style related CSS is included, only colors and backgrounds which may change for different theme styles
+ */
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+h1,
+h3,
+h4,
+a,
+.mod-box .module-title,
+.mod-line .module-title,
+.menu-dropdown li.active .level1,
+.menu-dropdown a.level2:hover,
+.menu-dropdown a.level3:hover,
+.menu-sidebar a:hover,
+.menu-sidebar li > span:hover,
+.wk-slideshow-revista-tabs .nav li.active { color: #518f89; }
+
+a:hover { color: #0a3f39; }
+
+em,
+code { color: #AB3446; }
+
+ins,
+mark,
+#system span.highlight { background-color: #d2f2ee; }
+
+mark { color: #518f89; }
+
+::-moz-selection { background: #d2f2ee; color: #518f89; }
+::selection { background: #d2f2ee; color: #518f89; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#menubar { background: url(../images/menubar.png) 0 0 repeat-x; }
+
+#toolbar a:hover,
+.mod-box-black a:hover { color: #7bb0ab; }
+
+#footer { background: url(../images/footer.png) 0 0 repeat-x; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1,
+.mod-box-color .menu-sidebar a,
+.mod-box-color .menu-sidebar li > span { color: #d2f2ee; }
+
+.menu-dropdown li.active .level1 { color: #0a3f39; }
+
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1 { border-bottom-color: #77b5ad; }
+
+.menu-dropdown a.level3 { background: url(../images/menu_dropdown_level3.png) 0 0 no-repeat; }
+
+.mod-box-color .menu-sidebar li.level1 { border-top-color: #6ba69e; }
+
+.menu-sidebar .level2 a { background: url(../images/menu_sidebar_level2.png) 0 0 no-repeat; }
+
+#toolbar .menu-line li { background: url(../images/menu_line_top.png) 0 0 no-repeat; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+/* Module Box Color */
+.mod-box-color {
+	border: 1px solid #447c76;
+	background: #559b94 url(../images/module_box_color.png) 0 0 repeat-x;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.mod-box-color .module-title { border-bottom-color: #6ba69e; }
+
+.mod-box-color .module-title .color { color: #fff; }
+
+.mod-box-color h2,
+.mod-box-color h3,
+.mod-box-color h5,
+.mod-box-color a,
+.mod-box-color em,
+.mod-box-color code,
+.mod-box-color .module-title,
+.mod-box-color .module-title span.subtitle { color: #d2f2ee; }
+
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Button More */
+.mod-box-color a.button-more,
+.mod-box-color form.style button,
+.mod-box-color form.style input[type="button"],
+.mod-box-color form.style input.button,
+.mod-box-color form.style #submit {
+	border-color: #447c76;
+	border-bottom-color: #36635e;
+}
+
+.mod-box-color a.button-more:hover,
+.mod-box-color form.style button:hover,
+.mod-box-color form.style input[type="button"]:hover,
+.mod-box-color form.style input.button:hover,
+.mod-box-color form.style #submit:hover {
+	border-color: #447c76;
+	border-bottom-color: #36635e;
+}
+
+.mod-box-color a.button-more:active,
+.mod-box-color form.style button:active,
+.mod-box-color form.style input[type="button"]:active,
+.mod-box-color form.style input.button:active,
+.mod-box-color form.style #submit:active {
+	border-color: #447c76;
+	border-top-color: #36635e;
+	border-bottom-color: #447c76;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.3);
+}
+
+/* Line */
+.mod-box-color ul.line > li { border-top-color: #6ba69e; }
+
+/* Check */
+ul.check > li { background: url(../images/tools/list_check.png) 0 0 no-repeat; }
+
+/* Zebra List and Table */
+.mod-box-color ul.zebra > li { border-bottom-color: #6ba69e; }
+.mod-box-color ul.zebra > li:first-child{ border-top-color: #6ba69e; }
+
+.mod-box-color ul.zebra > li.odd { background: #69a5a0; }
+.mod-box-color ul.zebra > li:nth-of-type(odd) { background: #69a5a0; }
+
+em.box {
+	border-color: #6ba69e;
+	background: #e6faf8;
+	color: #518f89;
+}
+
+/* Form Elements */
+.mod-box-color form.style input[type="text"],
+.mod-box-color form.style input[type="password"],
+.mod-box-color form.style select,
+.mod-box-color form.style textarea,
+.mod-box-color form.style input[type="text"]:focus,
+.mod-box-color form.style input[type="password"]:focus,
+.mod-box-color form.style select:focus,
+.mod-box-color form.style textarea:focus  {
+	border-color: #447c76;
+	border-top-color: #36635e;
+}
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+#searchbox input:-moz-placeholder { color: #d2f2ee; }
+#searchbox input::-webkit-input-placeholder { color: #d2f2ee; }
+#searchbox input.placeholder { color: #d2f2ee; }
+
+#searchbox.loading button { background: url(../images/searchbox_loader.gif) 50% 50% no-repeat; }
+
+
+/* Extensions
+----------------------------------------------------------------------------------------------------*/
+
+/* Slideshow */
+.wk-gallery-revista-default .nav span { background-image: url(../images/widgetkit/nav_overlay.png); }
+.wk-slideshow-revista-articles .nav span,
+.wk-slideset-revista .nav.icon span { background-image: url(../images/widgetkit/nav.png); }

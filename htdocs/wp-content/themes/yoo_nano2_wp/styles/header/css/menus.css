@@ -1,0 +1,30 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/menus.css);
+
+
+/* Mega Drop-Down Menu
+----------------------------------------------------------------------------------------------------*/
+
+/* Level 1 */
+.menu-dropdown li.level1 { margin-right: 0; }
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 {
+	background: url(../images/menu_dropdown_level1.png) 0 50% no-repeat;
+	color: #BBB;
+}
+.menu-dropdown:first-child .level1:first-child .level1 { background: none; }
+
+.menu-dropdown a.level1 > span,
+.menu-dropdown span.level1 > span { padding: 0 15px 0 16px; }
+
+/* Set Hover and Active*/
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1,
+.menu-dropdown li.active .level1 { color: #FFF; }
+
+/* Drop-Down */
+.menu-dropdown .dropdown,
+.menu-dropdown .dropdown-bg > div { border-radius: 4px; }
+

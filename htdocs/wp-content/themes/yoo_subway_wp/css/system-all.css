@@ -1,0 +1,329 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* General
+----------------------------------------------------------------------------------------------------*/
+
+#system > .title { color: #fff; }
+
+#system .title a { color: #444; }
+
+#system small { color: #999; }
+
+
+/* Item
+----------------------------------------------------------------------------------------------------*/
+
+.isblog #system .item,
+.noblog #content {
+	padding: 20px;
+	background: #fff;
+}
+
+.system-transparent.isblog #system .item,
+.system-transparent.noblog #content {	
+	color: #fff;
+	box-shadow: 0 0 1px rgba(255,255,255,0.2);
+}
+
+.system-transparent #content a,
+.mod-box-transparent a { color: rgba(255,255,255,0.6); }
+.system-transparent #content a:hover,
+.system-transparent #system .item .title a,
+.mod-box-transparent a:hover { color: rgba(255,255,255,1); }
+
+#system .item > header { position: relative; }
+
+#system .item > header .meta { color: #999; }
+
+.system-transparent #system .item > header .meta { 
+	color: #fff;
+	color: rgba(255,255,255,0.5);
+}
+
+#system .item > header .subtitle{ color: #777; }
+
+#system .item > header > time {
+	width: 28px;
+	left: -55px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	display: block;
+	position: absolute;
+}
+
+#system .item > header > time > span { 
+	float: right;
+	text-transform: lowercase;
+}
+
+#system .item > header > time .day { 
+	font-size: 20px;
+	line-height: 21px;
+	font-weight: bold;
+}
+
+#system .item > header > time .month { font-size: 12px; line-height: 13px; }
+#system .item > header > time .year { font-size: 10px; line-height: 13px; }
+
+#system .item + .links {
+	height: 35px;
+	margin: 1px 10px 0px 10px;
+	line-height: 35px;
+}
+
+.system-white #system .item + .links { margin-top: 0; }
+
+#system .item + .links a { 
+	width: 60px;
+	height: 35px;
+	line-height: 35px;
+	background: url(../images/system_continue_reading.png) 0 0 no-repeat;
+	float: right;
+	text-indent: 100px;
+	display: block;
+	overflow: hidden;
+}
+
+#system .item + .links a:hover { background-position: 0 -40px; }
+
+.isblog.system-transparent.transparency-25 #system .item,
+.noblog.system-transparent.transparency-25 #content,
+.transparency-25 #system .item + .links,
+.transparency-25 .mod-box-transparent { background: url(../images/module_box_transparency25.png) 0 0 repeat; }
+.isblog.system-transparent.transparency-50 #system .item,
+.noblog.system-transparent.transparency-50 #content,
+.transparency-50 #system .item + .links,
+.transparency-50 .mod-box-transparent { background: url(../images/module_box_transparency50.png) 0 0 repeat; }
+.isblog.system-transparent.transparency-75 #system .item,
+.noblog.system-transparent.transparency-75 #content,
+.transparency-75 #system .item + .links,
+.transparency-75 .mod-box-transparent { background: url(../images/module_box_transparency75.png) 0 0 repeat; }
+
+
+/* Items
+----------------------------------------------------------------------------------------------------*/
+
+#system .items .item { margin-top: 20px; }
+
+#system .items .item:first-child { margin-top: 0; }
+
+#system .items-col-2 .width50 .item > header > time,
+#system .items-col-3 .width33 .item > header > time,
+#system .items-col-4 .width25 .item > header > time {
+	left: auto;
+	margin-right: 10px;
+	position: relative;
+	float: left;
+}
+
+.system-white #system .items-col-2 .width50 .item > header > time,
+.system-white #system .items-col-3 .width33 .item > header > time,
+.system-white #system .items-col-4 .width25 .item > header > time { color: #444; }
+
+
+/* Pagination
+----------------------------------------------------------------------------------------------------*/
+
+#system .pagination a,
+#system .pagination a.previous,
+#system .pagination a.next,
+#system .pagination strong {
+	padding: 0;
+	height: 35px;
+	line-height: 35px;
+	width: 25px;
+	background: url(../images/pagination.png) 0 0 no-repeat;
+}
+
+#system .pagination a:hover,
+#system .pagination strong { background-position: 0 -40px; }
+
+#system .pagination a.first,
+#system .pagination a.last,
+#system .pagination a.previous,
+#system .pagination a.next { background: none; }
+
+#system .pagination a.first { margin-right: 10px; }
+#system .pagination a.last { margin-left: 10px; }
+
+#system .pagination strong { color: #fff; }
+
+/* Search Box
+----------------------------------------------------------------------------------------------------*/
+
+#searchbox {
+	width: 145px;
+	height: 34px;
+	border: 1px solid #fff;
+	border-color: rgba(255,255,255,0.6);
+	padding: 0 30px 0 0;
+}
+
+#searchbox:hover { border-color: rgba(255,255,255,1); }
+
+#searchbox input {
+	height: 34px;
+	color: #fff;
+	font-size: 20px;
+	opacity: 0.6;
+}
+
+#searchbox button { opacity: 0.6; }
+
+#searchbox:hover input,
+#searchbox:hover button { opacity: 1; }
+
+#searchbox input:first-child {
+	padding-left: 30px;
+	background: url(../images/searchbox_magnifier.png) 0 50% no-repeat;
+}
+
+#searchbox input:-moz-placeholder { color: #fff; }
+#searchbox input::-webkit-input-placeholder { color: #fff; }
+#searchbox input.placeholder { color: #fff;  }
+
+#searchbox.filled button {
+	width: 25px;
+	background: url(../images/searchbox_reset.png) 50% 50% no-repeat; 
+}
+#searchbox.loading button { background: url(../images/searchbox_loader.gif) 50% 50% no-repeat; }
+
+/* Drop-Down Results */
+#searchbox .results {
+	top: 54px;
+	right: -1px;
+	width: 300px;
+	padding: 20px;
+	background: url(../images/menu_dropdown_dropdown.png) 0 0 repeat;
+}
+
+#searchbox .results li.results-header {
+	height: 45px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 10px;
+	text-transform: lowercase;
+	font-size: 28px;
+	line-height: 30px;
+	text-indent: 0;
+}
+
+#searchbox .results li.more-results {
+	margin-top: 10px;
+	padding-top: 5px;
+	border-top: 1px solid #fff;
+	text-transform: lowercase;
+	text-indent: 0;
+	height: 40px;
+	line-height: 40px;
+}
+
+#searchbox .results li.result {
+	border: 1px solid transparent;
+	padding: 10px;
+}
+
+#searchbox .results li.result.selected { 
+	border-color: #808080;
+	border-color: rgba(255,255,255,0.6);
+}
+
+#searchbox .results li.result > * { opacity: 0.6; }
+#searchbox .results li.result.selected > * { opacity: 1; }
+
+
+/* Breadcrumbs
+----------------------------------------------------------------------------------------------------*/
+
+.breadcrumbs a,
+.breadcrumbs > span,
+.breadcrumbs strong {
+	padding: 0 15px 0 14px;
+	border-right: 1px solid rgba(255,255,255,0.15);
+	background-clip: padding-box;
+}
+
+.breadcrumbs a,
+.breadcrumbs > span {
+	height: 35px;
+	line-height: 35px;
+	margin-right: 0;
+	color: rgba(255,255,255,0.5);
+}
+
+.breadcrumbs a:hover {
+	color: rgba(255,255,255,1);
+	background-color: rgba(0,0,0,0.3);
+}
+
+.breadcrumbs strong { 
+	color: #ffffff;
+	font-weight: normal;
+}
+
+/* Author Box
+----------------------------------------------------------------------------------------------------*/
+
+#system .author-box {
+	padding: 15px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	background: #fafafa;
+}
+
+.system-transparent #content .author-box { 
+	border: none;
+	background-color: rgba(0,0,0,0.3);
+	box-shadow: 0 0 1px rgba(255,255,255,0.2);
+}
+
+#system .author-box .avatar {
+	padding: 3px;
+	border: 1px solid #ddd;
+	background: #fff;
+}
+
+#system .author-box .name { color: #444; }
+
+.system-transparent #content .author-box .name { color: #fff; }
+
+
+/* Comments
+----------------------------------------------------------------------------------------------------*/
+
+/* Head */
+#system #comments .comment-head {
+	padding: 5px;
+	border: 1px solid #e6e6e6;
+	background: #fafafa;
+}
+
+.system-transparent #system #comments .comment-head { 
+	border: none;
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: 0 0 1px rgba(255,255,255,0.2);
+}
+
+#system #comments .comment-byadmin .comment-head {
+	border: 1px solid #dce6be;
+	background: #faffe6;
+}
+
+.system-transparent #system #comments .comment-byadmin .comment-head { 
+	border: none;
+	background-color: rgba(0,0,0,0.4);
+}
+
+/* Body */
+#system #comments ul.level1 ul { background: url(../images/comments_arrow.png) 0 0 no-repeat; }
+
+/* Respond */
+#system #respond h3 { color: #444; }
+
+
+/* Latest Comments
+----------------------------------------------------------------------------------------------------*/
+
+.comments-list > article { border-top: 1px solid #ddd; }
+.comments-list > article:first-child { border: none; }
+
+.comments-list .meta { color: #999; }

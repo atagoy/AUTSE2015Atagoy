@@ -1,0 +1,70 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/system.css);
+
+
+/* Item
+----------------------------------------------------------------------------------------------------*/
+
+.isblog #system .item {
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-bottom-color: #bbb;
+	border-radius: 6px;
+	box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Items
+----------------------------------------------------------------------------------------------------*/
+
+.isblog #system .items { margin: 0 -7px 0 -7px; }
+
+.isblog #system .items .item {
+	margin: 14px 7px 0 7px;
+	padding-top: 20px;
+}
+
+.isblog #system .items .item:first-child {
+	margin-top: 0;
+	padding-top: 15px;
+	border-width: 1px;
+}
+
+
+/* Pagination
+----------------------------------------------------------------------------------------------------*/
+
+#system .pagination { margin-top: 14px; }
+
+
+/* Search Box
+----------------------------------------------------------------------------------------------------*/
+
+.searchbox .results { top: 39px; }
+
+
+/* Items (Addition, only Joomla)
+----------------------------------------------------------------------------------------------------*/
+ 
+.isblog #system .items .leading .item {
+	margin-bottom: 14px;
+	padding-bottom: 15px;
+	border-bottom-color: #bbb;
+}
+
+
+/* Item List (Addition, only Joomla)
+----------------------------------------------------------------------------------------------------*/
+
+#system .item-list {
+	margin-top: 14px;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-bottom-color: #bbb;
+	border-radius: 6px;
+	box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.1);
+}
+
+#system .item-list h3 { margin-top: 0; }
+#system .item-list ul { margin-bottom: 0; }

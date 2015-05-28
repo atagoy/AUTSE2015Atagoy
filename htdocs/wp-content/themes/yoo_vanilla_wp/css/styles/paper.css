@@ -1,0 +1,28 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+#page-header .page-header-1 { background: none; }
+
+#page-top { 
+	background-image: url(../../images/styles/paper/page_top_bg.jpg);
+	background-repeat: repeat;
+}
+#page-top .page-top-1 { background-image: url(../../images/styles/paper/page_top_bg_b.png); }
+#page-top .page-top-2 { 
+	background-position: 50% 0;
+	background-repeat: repeat-x;
+}
+
+#page-body  { background: url(../../images/styles/paper/page_body_bg.jpg) 50% 0 repeat; }
+#page-body .page-body-1,
+#page-body .page-body-2 { background-image: none; }
+
+#page-footer { background: none; }
+
+/* modules */
+#bottom div.mod-box h3.header { background-image: url(../../images/styles/paper/module_box_header_bottom.png); }
+
+#bottom .horizontal div.mod-line { background-image: url(../../images/styles/paper/module_line_bg_bottom.png); }
+
+/* menus */
+#footer .menu li a { background-image: url(../../images/styles/paper/footermenu_item_bg.png); }

@@ -1,0 +1,13 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+h2,
+h3,
+h4,
+h5,
+h6 { font-family: Arial, Helvetica, sans-serif; }
+
+/* Frontpage Hgroup */
+#top-a hgroup > h2 { font-size: 37px; }
+
+/* Module Headline Module Title */
+.mod-headline .module-title { font-size: 14px; }

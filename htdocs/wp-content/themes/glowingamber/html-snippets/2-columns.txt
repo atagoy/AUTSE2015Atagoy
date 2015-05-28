@@ -1,0 +1,14 @@
+<div class="columnwrapper">
+<div class="two">
+<h2>Heading</h2>
+<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+<p>Aliquam nisi orci, porta et volutpat quis, pellent esque semper sapien. Phasellus nibh velit, semper eu 
+sagittis et, rhoncus a lectus. Ut lobortis, metus sit amet aliquam.</p
+</div>
+<div class="two end">
+<h2>Heading</h2>
+<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+<p>Aliquam nisi orci, porta et volutpat quis, pellent esque semper sapien. Phasellus nibh velit, semper 
+eu sagittis et, rhoncus a lectus. Ut lobortis, metus sit amet aliquam.</p>
+</div>
+</div>

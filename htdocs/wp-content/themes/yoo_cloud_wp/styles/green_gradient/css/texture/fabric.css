@@ -1,0 +1,8 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Texture: Fabric
+----------------------------------------------------------------------------------------------------*/
+
+body#page.page { background: #c9e4d8 url(../../images/texture/fabric/page.jpg) 0 0 repeat; }
+
+div#page-bg { background: url(../../images/texture/fabric/texture.jpg) 0 0 repeat-x; }

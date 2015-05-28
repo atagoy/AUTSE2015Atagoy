@@ -1,0 +1,22 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Noise Background
+ */
+ 
+#block-top-a { 
+	overflow: hidden;
+	position: relative;
+	background: #353535 url(../../images/background/noise/noise_bg.jpg) 50% 0 repeat;
+}
+
+.top-a-layer-1 {
+	position: absolute;
+	top: -15px;
+	left: 50%;
+	height: 800px;
+	width: 1800px;
+	margin-left: -900px;
+	background: url(../../images/background/noise/gradient.svg) 50% 0 no-repeat;
+	background-size: 1800px 800px;
+}

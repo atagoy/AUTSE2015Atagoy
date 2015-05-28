@@ -1,0 +1,77 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@media (min-device-width: 1025px)  {
+
+    body { -webkit-font-smoothing: antialiased; }
+
+    /* Layout Animation */
+    a {
+        -moz-transition: color 0.2s ease-in-out;
+        -webkit-transition: color 0.2s ease-in-out;
+        -o-transition: color 0.2s ease-in-out;
+        -ms-transition: color 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out;
+    }
+
+    form.style input,
+    form.style select,
+    form.style textarea,
+    form.style button:hover,
+    form.style input[type="button"]:hover,
+    form.style input.button:hover,
+    form.style #submit:hover,
+    .mobile-switcher {
+        -webkit-transition:
+            color 0.25s ease-in-out,
+            background 0.25s ease-in-out;
+        -moz-transition:
+            color 0.25s ease-in-out,
+            background 0.25s ease-in-out;
+        -o-transition:
+            color 0.25s ease-in-out,
+            background 0.25s ease-in-out;
+        -ms-transition:
+            color 0.25s ease-in-out,
+            background 0.25s ease-in-out;
+        transition:
+            color 0.25s ease-in-out,
+            background 0.25s ease-in-out;
+    }
+
+    /* Steam Zoom */
+    .steam-zoom {
+        -moz-transition: opacity 0.2s ease-in-out;
+        -webkit-transition: opacity 0.2s ease-in-out;
+        -o-transition: opacity 0.2s ease-in-out;
+        -ms-transition: opacity 0.2s ease-in-out;
+        transition: opacity 0.2s ease-in-out;
+        opacity: 0.8;
+    }
+    .steam-zoom:hover {
+        opacity: 1;
+        -moz-transform: scale(1.1);
+        -moz-transition: -moz-transform 0.15s ease-in-out 0s;
+        -webkit-transform: scale(1.1);
+        -webkit-transition: -moz-transform 0.15s ease-in-out 0s;
+        -o-transform: scale(1.1);
+        -o-transition: -moz-transform 0.15s ease-in-out 0s;
+        -ms-transform: scale(1.1);
+        -ms-transition: -moz-transform 0.15s ease-in-out 0s;
+        transform: scale(1.1);
+        transition: -moz-transform 0.15s ease-in-out 0s;
+    }
+
+    /* Steam Opacity */
+    .steam-opacity {
+        -moz-transition: opacity 0.3s ease-in-out;
+        -webkit-transition: opacity 0.3s ease-in-out;
+        -o-transition: opacity 0.3s ease-in-out;
+        -ms-transition: opacity 0.3s ease-in-out;
+        transition: opacity 0.3s ease-in-out;
+        opacity: 0.8;
+    }
+    .steam-opacity:hover {
+        opacity: 1;
+    }
+
+}

@@ -1,0 +1,9 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body#page { background: #f4f4f4 url(../../images/background/noise/white.jpg) 0 0 repeat; }
+
+#page-bg { background: url(../../images/background/fabric.png) 0 0 repeat; }
+
+#headerbar,
+#footer,
+.mod-plain a { color: #888; }

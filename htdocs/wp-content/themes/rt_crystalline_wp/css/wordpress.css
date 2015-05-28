@@ -1,0 +1,152 @@
+/**
+ * @version   1.0 October 16, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/* Article */
+.rt-wordpress .rt-article {margin-bottom: 35px;}
+.rt-wordpress .rt-articleinfo {margin: 0 0 10px 0;padding: 5px 0;overflow: hidden;}
+.rt-wordpress .rt-articleinfo2 {float: left;height: 24px;line-height: 24px;}
+.rt-author, .rt-date-posted, .rt-date-modified, .rt-comment-text {display: block;font-weight: bold;letter-spacing: 0;font-size: 12px;}
+.rt-wordpress .rt-article-cat {margin-top: 10px;margin-bottom: 15px;}
+.rt-wordpress .rt-article-title {font-size: 160%;margin: 0;line-height: 100%;padding: 10px 12px 10px 25px;font-weight: normal;letter-spacing: normal;}
+.rt-wordpress .rt-article-bg {border-bottom: none;padding: 0;}
+.rt-wordpress .rt-pagetitle {font-size: 160%;margin: 0;line-height: 100%;padding: 10px 12px 10px 25px;font-weight: normal;letter-spacing: normal;}
+body .rt-wordpress .rt-blog .rt-description {border-bottom: none;}
+.rt-wordpress ol {margin-left: 5px;}
+
+/* Typography */
+.rt-wordpress .rt-article-icons {width: auto;margin-top: 10px;padding: 1px 5px 0 4px;}
+.rt-wordpress .edit {margin-right: 0;}
+#form-login ul li, #com-form-login ul li, ul.rt-more-articles li, .rt-section-list ul li {list-style: none;}
+#form-login ul li a, #com-form-login ul li a, ul.rt-more-articles li a, .rt-section-list ul li a {padding-left: 10px;font-size: 110%;}
+#form-login .inputbox, .rt-wordpress .user input#email, .rt-wordpress .user input#name, .rt-wordpress .user input#username, .rt-wordpress .user input#password, .rt-wordpress .user input#passwd, .rt-wordpress .user input#password2, #rt-popup .widget_gantry_loginform .inputbox {padding: 5px;outline: none;}
+#rt-popup .widget_gantry_loginform .inputbox {border:none !important;}
+.col12 .rt-grid-2 #form-login .inputbox {width: 100px;}
+.col12 .rt-grid-3 #form-login .inputbox {width: 180px;}
+.col12 .rt-grid-4 #form-login .inputbox, .col12 .rt-grid-5 #form-login .inputbox, .col12 .rt-grid-6 #form-login .inputbox, .col12 .rt-grid-7 #form-login .inputbox, .col12 .rt-grid-8 #form-login .inputbox, .col12 .rt-grid-9 #form-login .inputbox, .col12 .rt-grid-10 #form-login .inputbox, .col12 .rt-grid-12 #form-login .inputbox, #com-form-login .inputbox, .rt-wordpress .user input#email, .rt-wordpress .user input#name, .rt-wordpress .user input#username, .rt-wordpress .user input#password, .rt-wordpress .user input#password2 {width: 260px;}
+#com-form-login .inputbox {padding: 5px 10px;outline: none;}
+.rt-pagination {margin-top: 15px;}
+ul.pagination {list-style-type:none;margin:0;padding:0;text-align:left;}
+ul.pagination li {display:inline;padding:2px 5px 0;text-align:left;}
+ul.pagination li a {padding:2px;}
+#rt-main-surround .tab {display: inline-block;margin-right: 8px;}
+#rt-main-surround .page-block {display: inline-block;margin-right: 4px;font-weight: bold;}
+#rt-main-surround .page-active, #rt-main-surround .page-inactive {padding: 0 4px;}
+#rt-main-surround .page-inactive:hover {cursor: pointer;}
+#com-form-login ul {margin-top: 15px;}
+.rt-wordpress .results ol.list {margin-top: 0;}
+.rt-wordpress .results ol.list h4 {border: 0;margin-top: 0;margin-bottom: 0;display: inline;}
+.rt-wordpress .results ol.list li {padding: 10px 5px;margin-bottom: 5px;}
+.rt-wordpress .results ol.list li p {margin-top: 0;font-size: 90%;}
+.rt-wordpress .results ol.list .description {margin-bottom: 15px;}
+.rt-wordpress .results ol.list li span.small {font-size: 90%;}
+.rt-wordpress .user legend, .rt-wordpress .contact legend {text-transform: uppercase;font-weight: bold;font-size: 160%;line-height: 120%;}
+.rt-wordpress .user {margin-top: 0px;}
+.rt-wordpress .user legend {text-transform: none;margin-top: 15px;}
+.rt-wordpress .user fieldset div {overflow: visible;clear: both;margin-bottom: 8px;}
+.rt-wordpress .user td.paramlist_key {width: 180px;}
+.rt-wordpress .search_result select#ordering.inputbox {margin-right: 10px;}
+.rt-wordpress .contact h1 {font-size: 160%;}
+.rt-polltitle {display: block;font-size: 120%;font-weight: bold;margin-bottom: 15px;}
+.pollstableborder td div {border: 0;height: 20px !important;min-width: 2px !important;}
+#rt-main-surround .rt-wordpress .inputbox.invalid {color: #c00;}
+
+/* RokAjaxSearch */
+#rokajaxsearch {overflow: hidden;}
+#rt-main-surround #rokajaxsearch .inputbox {float: left;width: 269px;height: 15px;line-height: 12px;padding: 4px 5px 5px 12px;border: 0;font-size: 13px;outline: none;background: none;color: inherit;}
+#rokajaxsearch .roksearch-wrapper {height: 25px;display: inline-block;float: left;}
+.search_options {float: left;margin: 4px 10px 0 12px;}
+.search_options label {margin-right: 10px;}
+#roksearch_results {border-bottom: 0;}
+#roksearch_search_str {width: auto;padding: 4px;}
+#roksearch_results {z-index: 10000;position: absolute;width: 400px;float: right;margin-top: -1px;text-align: left;visibility: hidden;}
+#roksearch_results a#roksearch_link {float: right;padding-right: 5px;margin-top: 10px;display: block;height: 12px;width: 12px;background-position: 0 -50px;}
+#roksearch_results h3 {margin-top: 0;margin-bottom: 0;line-height: 110%;font-size: 120%;padding-bottom: 0;}
+#roksearch_results span {display: block;line-height: 130%;font-size: 90%;}
+#roksearch_results .container-wrapper {overflow: hidden;}
+#roksearch_results .page {float: left;}
+#roksearch_results .roksearch_header, #roksearch_results .roksearch_row_btm {padding: 10px;line-height: 100%;text-transform: uppercase;font-weight: normal;font-size: 100%;}
+#roksearch_results .roksearch_row_btm {overflow: hidden;}
+#roksearch_results .roksearch_row_btm span {line-height: 140%;}
+#roksearch_results span.small {display: inline-block;margin-top: 2px;margin-bottom: 7px;font-size: 10px;}
+#roksearch_results span.highlight {display: inline;}
+#roksearch_results a.clr {font-size: 100%;}
+#roksearch_results a:hover {text-decoration: none;}
+#roksearch_results .roksearch_odd {padding: 15px;position: relative;}
+#roksearch_results .roksearch_even {padding: 15px;position: relative;}
+#roksearch_results .container-arrows {height: 12px;width: 30px;float: left;margin-right: 5px;position: relative;}
+#roksearch_results .arrow-left, #roksearch_results .arrow-left-disabled, #roksearch_results .arrow-right, #roksearch_results .arrow-right-disabled {width: 12px;height: 12px;position: absolute;top: 0;}
+#roksearch_results .arrow-left {left: 0;cursor: pointer;background-position: 0 2px;}
+#roksearch_results .arrow-left-disabled {left: 0;background-position: 0 -33px;}
+#roksearch_results .arrow-right {left: 18px;cursor: pointer;background-position: 0 -15px;}
+#roksearch_results .arrow-right-disabled {left: 18px;background-position: 0 -33px;}
+#roksearch_results .viewall span {line-height: 100%;}
+#roksearch_results a.viewall {float: left;margin-right: 5px;}
+#roksearch_results .estimated_res, #roksearch_results .pagination_res {font-size: 9px;font-style: italic;text-transform: none;float:left;}
+#roksearch_results .pagination_res {font-style: normal;float: right;font-size: 11px;margin-top: -1px;}
+#roksearch_results .powered-by-google {text-transform: lowercase;font-style: italic;font-size: 9px;}
+#roksearch_results .google-search a#roksearch_link {margin-top: 5px;}
+#roksearch_results .readon {display: inline-block;margin-left: 10px;height: 34px;margin-top: 15px;}
+#roksearch_results .readon span, #roksearch_results .readon .button {display: block;margin-left: -10px;padding: 0 15px 3px 15px;border: 0;font-size: 13px;cursor: pointer;height: 34px;line-height: 32px;float: left;font-weight: bold;}
+#roksearch_results .google-thumb-image {margin: 0 auto;}
+.searchintro {overflow: hidden;}
+#rokajaxsearch .rokradios {padding: 1px 5px 1px 20px;line-height: 120%;}
+
+/* RokTabs */
+.roktabs-wrapper {margin: 0 -10px;padding: 0;position: relative;}
+.roktabs {position: relative;z-index: 3;}
+.roktabs-wrapper .roktabs-container-inner {position:relative;overflow: hidden;}
+.roktabs-wrapper .roktabs-container-wrapper {clear: both;position: relative;overflow:hidden;width:50000px;}
+.roktabs-wrapper .roktabs-container-wrapper div {float: left;}
+.roktabs-wrapper .roktabs-container-wrapper div.wrapper {padding: 25px;width: auto;float: none;}
+.roktabs-wrapper .roktabs-links {margin: 0;padding: 0;height: 92px;overflow:hidden;}
+.roktabs-wrapper .active-arrows .roktabs-links {margin: 0 34px;padding: 0;height: 92px;}
+.roktabs-wrapper .roktabs-links ul {text-align: left;list-style-type: none;overflow:hidden;margin: 0;padding: 0;height: 92px;}
+.roktabs-wrapper .roktabs-links ul li {float: left;padding: 0;margin: 0;text-decoration: none;position: relative;height: 92px;line-height: 96px;font-size: 120%;}
+.roktabs-wrapper .roktabs-links ul li span {display: block;padding: 0 25px;font-size: 15px;}
+.roktabs-wrapper .roktabs-scroller {position: absolute;bottom: 0;right: 0;height: 92px;}
+.roktabs-wrapper .arrow-next, .roktabs-wrapper .arrow-prev {text-align: center;cursor: pointer;z-index: 2;position: absolute;top: 0;height:92px;width: 34px;}
+.roktabs-wrapper .arrow-prev span, .roktabs-wrapper .arrow-next span {display: none;}
+.roktabs-wrapper .arrow-next {background-position: 100% 0;background-repeat: no-repeat;right: 0;}
+.roktabs-wrapper .arrow-next:hover {background-position: 100% -95px;background-repeat: no-repeat;}
+.roktabs-wrapper .arrow-prev {background-position: 0 0;background-repeat: no-repeat;left: 0;}
+.roktabs-wrapper .arrow-prev:hover {background-position: 0 -95px;background-repeat: no-repeat;}
+.roktabs-wrapper .tab-icon {margin-right: 10px;}
+.header-shadows-dark #rt-showcase .roktabs-wrapper .active-arrows .roktabs-links ul li.last span, .header-shadows-light #rt-showcase .roktabs-wrapper .active-arrows .roktabs-links ul li.last span, .header-shadows-none #rt-showcase .roktabs-wrapper .active-arrows .roktabs-links ul li.last span {background: none;}
+
+/* Editing */
+.rt-wordpress .edit-article fieldset legend {text-transform: uppercase;font-weight: bold;font-size: 260%;}
+.rt-wordpress .edit-article fieldset div {overflow: visible;margin-bottom: 8px;}
+.rt-wordpress .edit-article fieldset #editor-xtd-buttons div {clear: none;}
+#system-message dd.notice {border: 0;background: none;}
+.rt-wordpress .edit-article .save  {padding-left:25px;}
+.save {background-position:0px 4px;}
+#editor-xtd-buttons .image {background-position:right top;}
+
+/* Buttons */
+#editor-xtd-buttons {padding: 5px 0;}
+.button2-left, .button2-right, .button2-left div, .button2-right div {float: left;}
+.button2-left a, .button2-right a, .button2-left span, .button2-right span {display: block;height: 22px;float: left;line-height: 22px;font-size: 11px;cursor: pointer;margin-bottom: 5px;}
+.button2-left span, .button2-right span {cursor: default;}
+.button2-left .page a, .button2-right .page a, .button2-left .page span, .button2-right .page span {padding: 0 6px;}
+.button2-left a:hover, .button2-right a:hover {text-decoration: none;}
+.button2-left a, .button2-left span {padding: 0 24px 0 6px;}
+.button2-right a, .button2-right span {padding: 0 6px 0 24px;}
+.button2-left .blank a {padding-right: 6px;}
+.img_caption.left {float: left;margin-right: 1em;}
+.img_caption.right {float: right;margin-left: 1em;}
+.img_caption.left p {clear: left;text-align: center;}
+.img_caption.right p {clear: right;text-align: center;}
+.img_caption {text-align: center!important;}
+.edit-article fieldset div input, .edit-article fieldset textarea {padding: 4px;}
+.edit-article fieldset div .label-left {padding: 0;}
+.edit-article fieldset div img.calendar {vertical-align: middle;margin-left: 5px;}
+
+/* Input */
+.rt-wordpress .contact .inputbox, .rt-wordpress .inputbox, #form-login .inputbox {border: 0;}
+
+
+/* iPhone */
+body #gantry-viewswitcher {z-index: 100;right:50%;position:relative;top:inherit;right:inherit;margin: 1em auto;}

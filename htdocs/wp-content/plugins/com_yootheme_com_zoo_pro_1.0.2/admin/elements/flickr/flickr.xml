@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element type="flickr" group="Web Service">
+	<name>Flickr</name>
+	<author>YOOtheme</author>
+	<creationDate>March 2009</creationDate>
+	<copyright>Copyright (C) 2007 - 2009 YOOtheme GmbH</copyright>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Flickr Photo Sharing (http://www.flickr.com/)</description>
+	<params>
+		<param name="name" type="configeditname" default="" label="Name" description="Unique name" />
+		<param name="label" type="text" default="" label="Label" description="Label used in item editor" />
+		<param name="description" type="text" default="" label="Description" description="Description tooltip used in item editor" />
+		<param name="display" type="list" default="3" label="Display" description="Display element only on selected view">
+			<option value="1">On item view</option>
+			<option value="2">On category view</option>
+			<option value="3">On item/category view</option>
+			<option value="0">Hide</option>
+		</param>
+		<param name="height" type="text" default="500" label="Height" description="Height of the Flickr slideshow" />
+		<param name="width" type="text" default="500" label="Width" description="Width of the Flickr slideshow" />
+	</params>
+</element>

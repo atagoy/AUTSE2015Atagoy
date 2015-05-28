@@ -1,0 +1,530 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/tools.css);
+
+
+/* Buttons (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+a.button-more,
+form.style button,
+form.style input[type="button"],
+form.style input.button,
+form.style #submit {
+	padding: 3px 10px 2px 10px;
+	border: 1px solid #d9d9d9;
+	border-bottom-color: #bfbfbf;
+	background: url(../images/tools/button_more.png) 0 0 repeat-x;
+	background-clip: border-box;
+	box-shadow:
+		inset 0 1px 0 rgba(255,255,255,1.0),
+		0 1px 1px rgba(0,0,0,0.05);
+	line-height: 16px;
+	color: #777;
+	font-size: 11px;
+	text-shadow: 0 1px 0 rgba(255,255,255,1.0);
+	text-transform: uppercase;
+}
+
+a.button-more:hover,
+form.style button:hover,
+form.style input[type="button"]:hover,
+form.style input.button:hover,
+form.style #submit:hover {
+	border-color: #cfcfcf;
+	border-bottom-color: #b5b5b5;
+	background-position: 0 -50px;
+}
+
+a.button-more:active,
+form.style button:active,
+form.style input[type="button"]:active,
+form.style input.button:active,
+form.style #submit:active {
+	border-color: #cfcfcf;
+	border-top-color: #a2a2a2;
+	border-bottom-color: #cfcfcf;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.mod-box-color a.button-more,
+.mod-box-black a.button-more,
+.mod-box-color form.style button,
+.mod-box-black form.style button,
+.mod-box-color form.style input[type="button"],
+.mod-box-black form.style input[type="button"],
+.mod-box-color form.style input.button,
+.mod-box-black form.style input.button,
+.mod-box-color form.style #submit,
+.mod-box-black form.style #submit {
+	background-image: url(../images/tools/button_more_color.png);
+	box-shadow:
+		inset 0 1px 0 rgba(255,255,255,0.1),
+		0 1px 1px rgba(0,0,0,0.05);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+.mod-box-color a.button-more:hover,
+.mod-box-black a.button-more:hover,
+.mod-box-color form.style button:hover,
+.mod-box-black form.style button:hover,
+.mod-box-color form.style input[type="button"]:hover,
+.mod-box-black form.style input[type="button"]:hover,
+.mod-box-color form.style input.button:hover,
+.mod-box-black form.style input.button:hover,
+.mod-box-color form.style #submit:hover,
+.mod-box-black form.style #submit:hover {
+	box-shadow:
+		inset 0 1px 0 rgba(255,255,255,0.25),
+		0 1px 1px rgba(0,0,0,0.05);
+	color: #fff;
+}
+
+.mod-box-black a.button-more,
+.mod-box-black form.style button,
+.mod-box-black form.style input[type="button"],
+.mod-box-black form.style input.button,
+.mod-box-black form.style #submit {
+	border-color: #242424;
+	border-bottom-color: #111;
+	color: #ccc;
+}
+
+.mod-box-black a.button-more:hover,
+.mod-box-black form.style button:hover,
+.mod-box-black form.style input[type="button"]:hover,
+.mod-box-black form.style input.button:hover,
+.mod-box-black form.style #submit:hover {
+	border-color: #202020;
+	border-bottom-color: #0f0f0f;
+}
+
+.mod-box-black a.button-more:active,
+.mod-box-black form.style button:active,
+.mod-box-black form.style input[type="button"]:active,
+.mod-box-black form.style input.button:active,
+.mod-box-black form.style #submit:active {
+	border-color: #111;
+	border-top-color: #000;
+	border-bottom-color: #111;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.5);
+}
+
+
+/* Images and Objects (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+img.border-box {
+	padding: 2px;
+	border: 1px solid #d2d2d2;
+	border-bottom-color: #c2c2c2;
+	background: #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+}
+
+
+/* Lists and Tables (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+/* Line */
+ul.line > li {
+	margin-top: 3px;
+	padding-top: 3px;
+	border-top: 1px solid #e2e2e2;
+}
+ul.line > li:first-child {
+	padding-top: 3px;
+	border: none;
+}
+
+.mod-box-black ul.line > li { border-top-color: #4b4b4b; }
+
+/* Line Icon */
+ul.line-icon > li {
+	margin-top: 1px;
+	padding-top: 1px;
+	padding-left: 16px;
+	border: none;
+	background: url(../images/tools/list_line_icon.png) 0 0 no-repeat;
+}
+
+ul.line-icon > li:first-child { padding-top: 1px; }
+
+.mod-box-color ul.line-icon > li,
+.mod-box-black ul.line-icon > li { background-image: url(../images/tools/list_line_icon_color.png); }
+
+/* Check */
+ul.check > li {
+	padding: 4px 0 0 30px;
+	background: url(../images/tools/list_check.png) 0 0 no-repeat;
+}
+
+.mod-box-color ul.check > li,
+.mod-box-black ul.check > li { background-image: url(../images/tools/list_check_color.png); }
+
+/* Zebra List and Table */
+ul.zebra > li { padding: 3px 5px; }
+
+ul.zebra > li,
+table.zebra tbody td { border-bottom: 1px solid #e2e2e2; }
+ul.zebra > li:first-child,
+table.zebra tbody tr:first-child td { border-top: 1px solid #e2e2e2; }
+
+ul.zebra > li.odd,
+table.zebra tbody tr.odd { background: #fafafa; }
+ul.zebra > li:nth-of-type(odd),
+table.zebra tbody tr:nth-of-type(odd) { background: #fafafa; }
+
+.mod-box-black ul.zebra > li { border-bottom-color: #4b4b4b; }
+.mod-box-black ul.zebra > li:first-child{ border-top-color: #4b4b4b; }
+
+.mod-box-black ul.zebra > li.odd { background: #3e3e3e; }
+.mod-box-black ul.zebra > li:nth-of-type(odd) { background: #3e3e3e; }
+
+table.zebra {
+	border-right: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+table.zebra caption { color: #777; }
+
+table.zebra thead {
+	background: #efefef;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#f7f7f7 0%,
+					#e8e8e8 100%
+				);
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #f7f7f7),
+					color-stop(100%, #e8e8e8)
+				);
+}
+
+table.zebra thead th {
+	color: #888;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+table.zebra tr { border-top: 1px solid #d3d3d3; }
+
+table.zebra tr:hover,
+table.zebra tbody tr:nth-of-type(odd):hover,
+table.zebra tbody tr.odd:hover {
+	background: #fff;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.06);
+}
+
+table.zebra tr td,
+table.zebra tr th {	border-left: 1px solid #d3d3d3; }
+
+table.zebra tfoot tr {
+	border-bottom: 1px solid #c3c3c3;
+	background: rgba(0,0,0,0.02);
+}
+
+
+/* Definition Lists
+----------------------------------------------------------------------------------------------------*/
+
+dl.separator dt {	
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+/* border code because of RTL */
+dl.separator dd {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-color: #e2e2e2;
+}
+
+dl.separator dt:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -15px;
+	width: 30px;
+	border-top: 1px solid #e2e2e2;
+}
+
+dl.separator dt:after {
+	content: "";
+	position:absolute;
+	top: -3px;
+	right: -3px;
+	width: 5px;
+	height: 5px;
+	background: #fff;
+	border: 1px solid #e2e2e2;
+	border-radius:6px;
+}
+
+dl.separator dt:first-child:before,
+dl.separator dt:first-child:after { display: none; }
+
+
+/* Text
+----------------------------------------------------------------------------------------------------*/
+
+/* Inline Text Box */
+em.box { 
+	border-style: dotted;
+	border-width: 1px;
+}
+
+/* Dotted Horizontal Rule */
+hr.dotted { background: url(../images/tools/line_dotted.png) 0 0 repeat-x; }
+
+
+/* Tag Cloud */
+#page .tagcloud li { 
+	margin: 0 4px 7px 0;
+	padding: 2px 3px;
+	border: 1px solid #d2d2d2;
+	background: #f7f7f7;
+}
+
+
+/* Boxes
+----------------------------------------------------------------------------------------------------*/
+
+.box-content {
+	background: #fafafa;
+	border: 1px solid #e2e2e2;
+}
+
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download {
+	background: #fafafa;
+	border: 1px solid #e2e2e2;
+}
+
+.box-info {
+	background: #ebf5fa url(../images/tools/box_info.png) 0 0 no-repeat;
+	border-color: #d2dce1;
+	color: #1d5e80;
+}
+
+.box-warning {
+	background: #fff0eb url(../images/tools/box_warning.png) 0 0 no-repeat;
+	border-color: #ffd7cd;
+	color: #963e27;
+}
+
+.box-hint {
+	background: #fffae6 url(../images/tools/box_hint.png) 0 0 no-repeat;
+	border-color: #fae6be;
+	color: #6a4f16;
+}
+
+.box-download {
+	background: #faffe6 url(../images/tools/box_download.png) 0 0 no-repeat;
+	border-color: #dce6be;
+	color: #51621c;
+}
+
+
+/* Forms (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+form.box fieldset{
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	border: 1px solid #e2e2e2;
+}
+
+form.box fieldset legend {
+	color: #999;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+form.style input[type="text"],
+form.style input[type="password"],
+form.style select,
+form.style textarea {
+	padding: 4px;
+	border: 1px solid #d2d2d2;
+	border-top-color: #aeaeae;
+	background-color: #fcfcfc;
+	box-shadow: inset 0 0 8px rgba(0,0,0,0.04);
+	color: #777;
+}
+
+form.style input[type="text"]:focus,
+form.style input[type="password"]:focus,
+form.style select:focus,
+form.style textarea:focus {
+	outline: none;
+	color: #444;
+	border-color: #b9b9b9;
+	border-top-color: #919191;
+	background-color: #fff;
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.12);
+}
+
+form.style textarea { padding: 8px; }
+
+.mod-box-black form.style input[type="text"],
+.mod-box-black form.style input[type="password"],
+.mod-box-black form.style select,
+.mod-box-black form.style textarea,
+.mod-box-black form.style input[type="text"]:focus,
+.mod-box-black form.style input[type="password"]:focus,
+.mod-box-black form.style select:focus,
+.mod-box-black form.style textarea:focus  {
+	border-color: #242424;
+	border-top-color: #111;
+}
+
+
+/* Mobile Switcher (Needed for Mobile)
+----------------------------------------------------------------------------------------------------*/
+
+.mobile-switcher {
+	background: #fafafa;
+	border: 1px solid #c2c2c2;
+}
+
+
+/* Social Icons
+----------------------------------------------------------------------------------------------------*/
+
+.social-icons {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+.social-icons li {
+	float: left;
+	margin: 0 3px 0 0;
+	line-height: 25px;
+}
+
+.social-icons li a {
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	float: left;
+	overflow: hidden;
+	background: url(../images/tools/icons_social.png) 0 0 no-repeat;
+}
+
+.social-icons .rss a { background-position: 0 0; }
+.social-icons .rss a:hover { background-position: 0 -30px; }
+
+.social-icons .twitter a { background-position: 0 -60px; }
+.social-icons .twitter a:hover { background-position: 0 -90px; }
+
+.social-icons .facebook a { background-position: 0 -120px; }
+.social-icons .facebook a:hover { background-position: 0 -150px; }
+
+.social-icons .flickr a { background-position: 0 -180px; }
+.social-icons .flickr a:hover { background-position: 0 -210px; }
+
+.social-icons .linkedin a { background-position: 0 -240px; }
+.social-icons .linkedin a:hover { background-position: 0 -270px; }
+
+.social-icons .myspace a { background-position: 0 -300px; }
+.social-icons .myspace a:hover { background-position: 0 -330px; }
+
+.social-icons .lastfm a { background-position: 0 -360px; }
+.social-icons .lastfm a:hover { background-position: 0 -390px; }
+
+.social-icons .dribbble a { background-position: 0 -420px; }
+.social-icons .dribbble a:hover { background-position: 0 -450px; }
+
+.social-icons .digg a { background-position: 0 -480px; }
+.social-icons .digg a:hover { background-position: 0 -510px; }
+
+.social-icons .delicious a { background-position: 0 -540px; }
+.social-icons .delicious a:hover { background-position: 0 -570px; }
+
+.social-icons .deviantart a { background-position: 0 -600px; }
+.social-icons .deviantart a:hover { background-position: 0 -630px; }
+
+.social-icons .technorati a { background-position: 0 -660px; }
+.social-icons .technorati a:hover { background-position: 0 -690px; }
+
+.social-icons .stumbleupon a { background-position: 0 -720px; }
+.social-icons .stumbleupon a:hover { background-position: 0 -750px; }
+
+.social-icons .yahoo a { background-position: 0 -780px; }
+.social-icons .yahoo a:hover { background-position: 0 -810px; }
+
+.social-icons .openid a { background-position: 0 -840px; }
+.social-icons .openid a:hover { background-position: 0 -870px; }
+
+.social-icons .xing a { background-position: 0 -900px; }
+.social-icons .xing a:hover { background-position: 0 -930px; }
+
+.social-icons .forrst a { background-position: 0 -960px; }
+.social-icons .forrst a:hover { background-position: 0 -990px; }
+
+.social-icons .googleplus a { background-position: 0 -1020px; }
+.social-icons .googleplus a:hover { background-position: 0 -1050px; }
+
+.social-icons .youtube a { background-position: 0 -1080px; }
+.social-icons .youtube a:hover { background-position: 0 -1110px; }
+
+.social-icons .vimeo a { background-position: 0 -1140px; }
+.social-icons .vimeo a:hover { background-position: 0 -1170px; }
+
+.social-icons .foursquare a { background-position: 0 -1200px; }
+.social-icons .foursquare a:hover { background-position: 0 -1230px; }
+
+.social-icons .github a { background-position: 0 -1260px; }
+.social-icons .github a:hover { background-position: 0 -1290px; }
+
+
+/* Social Icons Special
+----------------------------------------------------------------------------------------------------*/
+
+.social-icons-special {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.social-icons-special li {
+	float: right;
+	margin: 0 0 0 6px;
+	line-height: 26px;
+}
+
+.social-icons-special li a {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	float: right;
+	background: rgba(0,0,0,0.1) url(../images/tools/icons_social_special.png) 0 0 no-repeat;
+	box-shadow:
+		inset 0 0 0 1px rgba(0,0,0,0.15),
+		inset 0 1px 1px rgba(0,0,0,0.1),
+		0 1px 0 rgba(255,255,255,0.1);
+}
+
+.social-icons-special li a:hover { background-color: rgba(0,0,0,0.2); }
+
+.social-icons-special .twitter a { background-position: 0 0; }
+.social-icons-special .facebook a { background-position: 0 -30px; }
+.social-icons-special .youtube a { background-position: 0 -60px; }
+.social-icons-special .vimeo a { background-position: 0 -90px; }
+.social-icons-special .rss a { background-position: 0 -120px; }

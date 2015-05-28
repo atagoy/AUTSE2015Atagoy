@@ -1,0 +1,337 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+@import url(../warp/css/rtl.css);
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	/* Layout */
+	#page #main #maininner { 
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px; 
+	}
+
+	#page .menu-dropdown:first-child li.level1:first-child .level1 { 
+		border-top-left-radius: 0; 
+		border-top-right-radius: 4px; 
+	}
+
+	#page.sidebar-a-left.sidebar-b-right #sidebar-a,
+	#page.sidebar-a-right.sidebar-b-left #sidebar-b { 
+		border-bottom-right-radius: 4px; 
+		border-bottom-left-radius: 0; 
+	}
+
+	#page.sidebar-a-left.sidebar-b-right #sidebar-b,
+	#page.sidebar-a-right.sidebar-b-left #sidebar-a {
+		border-bottom-left-radius: 4px;
+		border-bottom-right-radius: 0;
+	}
+
+}
+
+/* Only Phones (Portrait) */
+@media (max-width: 479px) {
+
+	#page.sidebar-a-right.sidebar-b-left #sidebar-b { border-bottom-left-radius: 4px; }
+	#page.sidebar-a-left.sidebar-b-right #sidebar-a { border-bottom-right-radius: 0; }
+	#page.sidebar-a-left.sidebar-b-right #sidebar-b { border-bottom-right-radius: 4px; }
+	#page.sidebar-a-right.sidebar-b-left #sidebar-a { border-bottom-left-radius: 0; }
+}
+
+/* Main */
+#main #maininner { border-radius: 5px; }
+
+.sidebar-a-right #maininner section:last-child, 
+.sidebar-b-right #maininner section:last-child { border-bottom-right-radius: 4px; }
+
+.sidebar-a-left #main #maininner,
+.sidebar-b-left #main #maininner { 
+	border-right: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.sidebar-a-right #main #maininner,
+.sidebar-b-right #main #maininner { 
+	border-left: none;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+/* Sidebars */
+.sidebar-a-left #sidebar-a, 
+.sidebar-b-left #sidebar-b { 
+	border-radius: 0 4px 4px 0; 
+	box-shadow: inset 20px 0 20px -10px rgba(20,20,25,0.3);
+}
+
+.sidebar-a-right #sidebar-a, 
+.sidebar-b-right #sidebar-b { 
+	border-radius: 4px 0 0 4px; 
+	box-shadow: inset -20px 0 20px -10px rgba(20,20,25,0.3);
+}
+
+.sidebar-a-left.sidebar-b-left #sidebar-b,
+.sidebar-a-right.sidebar-b-right #sidebar-a { border-radius: 0px; }
+
+.sidebar-a-left.sidebar-b-left #sidebar-b,
+.sidebar-a-right.sidebar-b-right #sidebar-a { box-shadow: none; }
+
+/* Menu */
+.sidebar-a-left #menubar,
+.sidebar-b-left #menubar { 
+	border-top-right-radius: 0; 
+	border-top-left-radius: 4px;
+}
+
+.sidebar-a-right #menubar,
+.sidebar-b-right #menubar { 
+	border-top-left-radius: 0; 
+	 border-top-right-radius: 4px; 
+}
+
+#totop-scroller {
+	right: auto;
+	left: 0;
+}
+
+/* Footer */
+#footer { text-align: right; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Mega Drop-Down Menu */
+.menu-dropdown li:hover .dropdown.flip,
+.menu-dropdown li.remain .dropdown.flip {
+	right: auto;
+	right: -6px;
+}
+
+.menu-dropdown:last-child li:hover .dropdown,
+.menu-dropdown:last-child li.remain .dropdown {
+	right: auto;
+	left: -5px;
+}
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 { 
+	border-right: none;
+	border-left: 1px solid #d7d8d9; 
+}
+
+.menu-dropdown:first-child li.level1:first-child .level1 { 
+	border-top-left-radius: 0; 
+	border-top-right-radius: 4px; 
+}
+
+.sidebar-a-left .menu-dropdown:first-child li.level1:first-child .level1, 
+.sidebar-b-left .menu-dropdown:first-child li.level1:first-child .level1 { border-top-right-radius: 0; }
+
+/* Set Hover */
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1 {
+	margin-left: 0;
+	margin-right: -1px;
+}
+
+.menu-dropdown:first-child li.level1:first-child:hover .level1,
+.menu-dropdown:first-child li.remain:first-child .level1 {
+	margin-left: 0;
+	margin-right: 0px;
+	border-left: 1px solid #bfc1c2;
+	border-right: none;
+}
+
+
+
+/* Drop-Down */
+.menu-dropdown .dropdown { right: -6px; }
+.menu-dropdown li:hover .dropdown.flip,
+.menu-dropdown li.remain .dropdown.flip { left: -5px; }
+
+/* Level 3 */
+.menu-dropdown a.level3 {
+	margin-left: 0;
+	margin-right: 10px; 
+	padding-right: 15px;
+	background-position: 100% 0;
+}
+
+/* Set Hover */
+.menu-dropdown a.current.level3:hover,
+.menu-dropdown a.level3:hover { background-position: 100% -30px; }
+
+/* Set Current */
+.menu-dropdown a.current.level3 { background-position: 100% -60px; } 
+
+
+/* Sidebar/Accordion Menu
+----------------------------------------------------------------------------------------------------*/
+
+.menu-sidebar li.parent .level1 > span { background-position: 0 0; }
+
+.menu-sidebar li.parent .level1 > span:hover,
+.mod-box-dark .menu-sidebar li.parent .level1 > span { background-position: 0 -60px; }
+
+.menu-sidebar li.parent.active .level1 > span { background-position: 0 -30px; }
+.menu-sidebar li.parent.active .level1 > span:hover,
+.mod-box-dark .menu-sidebar li.parent.active .level1 > span { background-position: 0 -90px; }
+
+.module ul.level2 { margin-right: 15px; }
+.menu-sidebar ul.level2 a { 
+	padding-right: 15px;
+	background-position: 100% 0;
+}
+
+.menu-sidebar ul.level2 a:hover { background-position: 100% -30px; }
+
+.menu-sidebar .level2 a.current { background-position: 100% -60px; }
+
+
+/* Line Menu
+----------------------------------------------------------------------------------------------------*/
+
+.menu-line li {
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-right: 12px;
+	padding-right: 12px;
+	background-position: 100% 50%;
+}
+
+.menu-line li:first-child {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge { left: 15px; }
+.mod-line .badge { left: 0; }
+
+.mod-corner { background: url(../images/rtl/module_corner.png) 100% 0 no-repeat; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Buttons */
+.button-default.icon-buy > span,
+.button-default.icon-download > span,
+.button-primary.icon-buy > span,
+.button-primary.icon-download > span {
+	float: right;
+	background-position: 100% -50px;
+ 	-moz-transition: background-position 200ms ease-in-out 0s;
+ 	-webkit-transition: background-position 200ms ease-in-out 0s;
+	transition: background-position 200ms ease-in-out 0s;
+}
+
+.button-default.icon-buy > span:before,
+.button-default.icon-download > span:before,
+.button-primary.icon-buy > span:before,
+.button-primary.icon-download > span:before {
+	right: 25px;
+	background-position: 100% 0;
+}
+
+.button-default.icon-buy,
+.button-default.icon-download,
+.button-primary.icon-buy,
+.button-primary.icon-download { 
+	padding-right: 10px;
+	padding-left: 20px;
+	line-height: 50px;
+}
+
+.button-default.icon-buy > span,
+.button-primary.icon-buy > span { background-position: 100% -150px; }
+
+.button-default:hover,
+.button-primary:hover > span { background-position: 100% 0; }
+
+.button-default.icon-buy:hover > span,
+.button-primary.icon-buy:hover > span { background-position: 100% -100px; }
+
+/* Line-Icon */
+.module ul.line-icon > li {
+	padding-right: 20px;
+	background-position: 100% 0;
+}
+
+.mod-box-dark ul.line-icon > li,
+.mod-box-color ul.line-icon > li,
+.sidebar .mod-transparent { background-position: 100% -500px; }
+
+/* Check */
+#page ul.check > li {
+	padding-right: 20px;
+	padding-left: 0;
+	background-position: 100% 0;
+}
+
+/* Definition Lists */
+dl.separator dd { border-width: 0 1px 0 0; }
+
+dl.separator dt:before {
+	right: auto;
+	left: -15px;
+}
+
+dl.separator dt:after {
+	right: auto;
+	left: -3px;
+}
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Search Box */
+.searchbox input {
+	padding: 0 50px 0 0;
+	background-image: url(../images/rtl/searchbox_magnifier.png);
+	background-position:  100% 50%;
+}
+
+.searchbox .results {
+	right: auto;
+}
+
+.searchbox.filled button {
+	left: 6px;
+	background-position: 100% 50%; 
+}
+
+.searchbox.loading button { background-position: 100% 50%; }
+
+/* Drop-Down Results */
+.searchbox .results {
+	left: 6px;
+	right: 6px;
+}
+
+/* Breadcrumbs */
+.breadcrumbs a,
+.breadcrumbs > span {
+	padding-right: 0;
+	padding-left: 15px;
+	background-position: 0 50%;
+}
+
+#system #comments ul.level1 ul { background: url(../images/rtl/comments_arrow.png) 100% 0 no-repeat; }
+
+#system .pagination a.next { background-position: 50% -30px; }
+
+#system .pagination a.previous { background-position: 50% 0; }
+

@@ -1,0 +1,8 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Texture: Stripes
+----------------------------------------------------------------------------------------------------*/
+
+body#page.page { background: #fde0c3 url(../../images/texture/stripes/page.jpg) 0 0 repeat; }
+
+div#page-bg { background: url(../../images/texture/stripes/texture.jpg) 0 0 repeat-x; }

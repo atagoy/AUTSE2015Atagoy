@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gantrytips>
+	
+	<tip label="Content Settings">The Content Settings give you complete control over the various sections of your WordPress content layout. You can select categories, toggle functionality on and off as well as provide a custom query to isolate the exact content you wish to display.</tip>
+	
+	<tip label="Style Settings">The Style Settings panel in the Gantry based theme administration interface provides several options for configuring the main stylistic aspects of the template. While the default Gantry theme includes several options, you can easily add and configure many more based on your template's needs.</tip>
+	
+	<tip label="Gizmos Settings">The Gizmos Settings allow you to control the built-in functionality available in this theme. </tip>
+	
+	<tip label="Layout Settings">The Layouts settings give you complete control over the layout of your pages. Each position element can be configured for the number of sets of published widgets in that position. If you have 3 sets of widgets (i.e. widgets separated by 2 dividers), click the number 3 and then move the slider to the desired ratio for the layout you are trying to achieve.</tip>
+	
+	<tip label="iPhone Settings">The iPhone settings available in this interface allow you to control the style and functionality of the iPhone costum theme which is a powerful feature included in the Gantry Framework.</tip>
+	
+	<tip label="Advanced Settings">The Advanced Settings panel in the Gantry based theme administration interface includes a variety of powerful features that you can take advantage off within your WordPress site.</tip>
+
+</gantrytips>

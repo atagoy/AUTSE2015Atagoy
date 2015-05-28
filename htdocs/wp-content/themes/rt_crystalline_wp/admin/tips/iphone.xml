@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gantrytips>
+	
+	<tip label="iPhone Enabled"><![CDATA[You can enable or disable the custom iPhone and iPod Touch automatic theme support.]]></tip>
+	
+	<tip label="iPhone Scalable"><![CDATA[You can enable or disable the zooming feature on your website when viewed via an iPhone.]]></tip>
+	
+	<tip label="iPhone Images"><![CDATA[You can enable the <strong>iPhone Images</strong> setting which allows you to automatically have your website's images resized for iPhone viewers. Images that exceed the minimum width will be resized to the set percentage. Even with this option disabled, an autoresize of all the images bigger than the viewport is built-in.]]></tip>
+
+    <tip label="Positions Aliases"><![CDATA[Allows to 'redirect' an iPhone custom position to a different one. Useful if you want to show some content you already have and don't want to update twice.]]></tip>
+
+</gantrytips>

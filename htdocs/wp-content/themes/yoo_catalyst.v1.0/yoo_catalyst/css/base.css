@@ -1,0 +1,41 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/base.css);
+
+
+/* New style-related Base Values
+----------------------------------------------------------------------------------------------------*/
+
+body { font: normal 13px/20px Arial, Helvetica, sans-serif; }
+
+code,
+em.box {
+	padding: 1px 2px;
+	border-radius: 2px;
+}
+
+em.box { font-style: normal; }
+
+hr { border-top-color: #1B1B1D; }
+
+pre {
+	border: 1px solid #1B1B1D;
+	border-radius: 5px;
+	background: #08080A;
+}
+
+
+/* Useful Snippets
+----------------------------------------------------------------------------------------------------*/
+
+a:not([class]):active,
+a:not([class]):focus {
+	position: relative;
+	top: 1px;
+}
+
+a:not([class]):active > *,
+a:not([class]):focus > * {
+	position: relative;
+	top: -1px;
+}

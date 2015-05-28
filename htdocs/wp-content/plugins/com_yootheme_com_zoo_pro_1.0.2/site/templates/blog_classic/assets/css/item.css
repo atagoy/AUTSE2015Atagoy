@@ -1,0 +1,96 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*************************************
+*
+* view: item
+*
+*************************************/
+
+/*
+ * item
+ */
+
+div#yoo-zoo div.item {
+	overflow: hidden;
+}
+
+div#yoo-zoo div.item h1.name {
+	margin: 0px 0px 8px 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 42px;
+	color: #323232;
+	letter-spacing: -2px;
+}
+
+div#yoo-zoo div.item p.postmeta {
+	margin: 0px 0px 23px 0px;
+	font-size: 11px;
+	color: #969696;
+	line-height: 13px;
+	font-style: italic;
+}
+
+div#yoo-zoo div.item h2.subheadline {
+	margin: 0px 0px 8px 0px;
+	font-size: 14px;
+	color: #787878;
+	line-height: 16px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+div#yoo-zoo div.item div.image-top,
+div#yoo-zoo div.item div.image-bottom,
+div#yoo-zoo div.item a.image-top,
+div#yoo-zoo div.item a.image-bottom {
+	display: block;
+	margin: 0px 0px 12px 0px;
+}
+
+div#yoo-zoo div.item div.image-between,
+div#yoo-zoo div.item a.image-between {
+	display: block;
+	margin: 12px 0px 12px 0px;
+}
+
+div#yoo-zoo div.item div.image-left,
+div#yoo-zoo div.item a.image-left {
+	display: block;
+	margin: 0px 15px 0px 0px;
+	float: left;
+}
+
+div#yoo-zoo div.item div.image-right,
+div#yoo-zoo div.item a.image-right {
+	display: block;
+	margin: 0px 0px 0px 15px;
+	float: right;
+}
+
+div#yoo-zoo div.item div.video {
+	margin: 12px 0px 12px 0px;
+	text-align: center;
+}
+
+div#yoo-zoo div.item div.video object { outline: none; }
+
+div#yoo-zoo div.item div.text {
+	margin: 0px 0px 12px 0px;
+	overflow: hidden;
+}
+
+div#yoo-zoo div.item div.socialbookmarks {
+	margin: 20px 0px 0px 0px;
+	overflow: hidden;
+}
+
+div#yoo-zoo div.item div.socialbookmarks p {
+	margin: 0px 0px 5px 0px;
+}
+
+div#yoo-zoo div.item div.socialbookmarks div.element-socialbookmarks {
+	float: left;
+	cursor: pointer;
+}

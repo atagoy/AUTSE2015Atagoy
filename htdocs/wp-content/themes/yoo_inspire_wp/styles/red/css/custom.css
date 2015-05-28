@@ -1,0 +1,5 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/custom.css);
+
+#logo .custom-logo { background-image: url(../../../../../images/yootheme/logo_red.png); }

@@ -1,0 +1,140 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+.module,
+#breadcrumbs,
+#content { margin: 15px; }
+
+#toolbar,
+#header,
+#footer { margin: 0 15px; }
+
+#menu .module { margin: 10px 5px; }
+
+#headerbar .module {
+	margin-top: 0;
+	margin-bottom: 45px;
+}
+
+#footer .module { margin: 0; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+/* Blocks*/
+#block-toolbar {
+	padding: 7px 0;
+	background: #252525;
+	background: -moz-linear-gradient(top, #252525 50%, #1f1f1f 100%);
+	background: -webkit-linear-gradient(top, #252525 50%, #1f1f1f 100%);
+	background: -o-linear-gradient(top, #252525 50%, #1f1f1f 100%);
+}
+
+#block-header {
+	padding: 10px 0;
+	background: #333;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.05) inset;
+}
+
+#block-main {
+	padding: 15px 0;
+	background: #fff;
+}
+
+#block-bottom {
+	padding: 15px 0;
+	background: #333;
+	box-shadow: 0 -1px 0 rgba(255,255,255,0.05) inset;
+	color: #777;
+}
+
+body#page { background: #252525; }
+#block-footer {
+	padding: 15px 0;
+	background: -moz-linear-gradient(top, #1f1f1f 0%, #252525 40px);
+	background: -webkit-linear-gradient(top, #1f1f1f 0%, #252525 40px);
+	background: -o-linear-gradient(top, #1f1f1f 0%, #252525 40px);
+}
+
+/* Header */
+#toolbar {
+	line-height: 26px;
+	font-size: 12px;
+}
+
+#header { min-height: 40px; }
+
+#menu {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+/* Block Separators */
+#top-a:after,
+#top-b:after,
+#innertop:after {
+	content: "";
+	display: block;
+	margin: 0 15px;
+	height: 1px;
+	background: url(../images/line_dotted.png) 0 0 repeat-x;
+}
+
+#bottom-a:before,
+#innerbottom:before {
+	content: "";
+	display: block;
+	margin: 0 15px;
+	height: 1px;
+	background: url(../images/line_dotted.png) 0 0 repeat-x;
+}
+
+/* Remove Block Separators if System Output is disabled */
+#header + #bottom-a:before,
+#top-a + #bottom-a:before,
+#top-b + #bottom-a:before { display: none; }
+
+/* Footer + Header */
+#toolbar,
+#toolbar a,
+#headerbar,
+#footer { color: #777; }
+#headerbar a,
+#footer a { color: #bbb; }
+#toolbar a:hover,
+#headerbar a:hover,
+#footer a:hover { color: #fff; }
+
+/* Footer */
+#footer {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: -26px;
+	left: 50%;
+	z-index: 1;
+	width: 27px;
+	height: 15px;
+	margin-left: -13px;
+	background: #1f1f1f url(../images/totop_scroller.png) 50% 7px no-repeat;
+	box-shadow: 0 -1px 0 rgba(255,255,255,0.05);
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+#totop-scroller:hover {
+	top: -31px;
+	padding-bottom: 5px;
+}
+

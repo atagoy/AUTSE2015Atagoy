@@ -1,0 +1,24 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/responsive.css);
+
+
+/* Breakpoints
+----------------------------------------------------------------------------------------------------*/
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	/* Layout */
+	.sidebars-1 .grid-v:first-child > .mod-line { margin-top: 0; }
+
+}
+
+/* Only Phones (Portrait) */
+@media (max-width: 479px) {
+
+	/* Modules */
+	.grid-h .mod-line:before { width: auto; }
+
+}
+

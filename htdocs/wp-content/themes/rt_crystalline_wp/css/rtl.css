@@ -1,0 +1,185 @@
+/**
+ * @version   1.0 October 16, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/* template.css RTL */
+body.rtl #rt-login-button {padding-left: 0;padding-right: 14px;}
+body.rtl #rt-login-button .buttontext {padding-left: 0;padding-right: 20px;}
+body.rtl #rt-breadcrumbs {padding: 0 5px 25px 10px;}
+body.rtl #rt-breadcrumbs .breadcrumb-wrapper {float: right;}
+body.rtl #breadcrumbs-home {float: right;}
+body.rtl div.breadcrumbs a, body.rtl div.no-link {float: right;}
+body.rtl #rt-feature .rt-alpha .module-content {background:none;}
+body.rtl #rt-feature .title {background-position: 100% 50%;padding:10px 25px 10px 0;}
+body.rtl .rt-wordpress .rt-article-title {padding:10px 25px 10px 12px;}
+body.rtl .title {padding:10px 25px 10px 12px}
+body.rtl ul.menu ul {margin-left: 0;margin-right: 25px;}
+body.rtl #rt-main-surround ul.menu li {margin-right: 0;}
+body.rtl #developed-by {float: right;}
+body.rtl #powered-by {float: left;}
+body.rtl #rocket {margin:0 10px 0 0;}
+body.rtl #gantry-logo {margin-left: 0;margin-right: 10px;}
+body.rtl #gantry-totop {left: inherit;right: 10px;}
+body.rtl .rokradios, body.rtl .rokchecks {padding: 0 20px 7px 5px;}
+body.rtl .rokradios {background-position:100% 0;}
+body.rtl .rokradios-active {background-position:100% -325px;}
+body.rtl .rokchecks {background-position: 100% -644px;}
+body.rtl .rokchecks-active {background-position: 100% -971px;}
+body.rtl #rokajaxsearch .rokradios{padding: 0 20px 7px 5px;}
+body.rtl ol {margin-right: 15px;}
+body.rtl .rt-article ul {margin-right: 15px;}
+body.rtl #rt-accessibility {float: left;text-align: left;margin-right: 0;margin-left: -12px;}
+body.rtl #rt-accessibility .rt-desc {float: right;text-align: right;margin-right: 0;margin-left: 0;}
+body.rtl #rt-accessibility a.small .button {margin-right: 0;margin-left: 5px;}
+body.rtl #rt-main-surround ul.menu a span, body.rtl #rt-main-surround ul.menu .separator span, body.rtl #rt-main-surround ul.menu .item span {padding: 8px 25px 8px 13px;}
+body.rtl #rt-main-surround .body-shadows-dark ul.menu li li, body.rtl #rt-main-surround .body-shadows-light ul.menu li li {background: none;}
+body.rtl #rt-main-surround .body-shadows-dark ul.menu li.active li .item, body.rtl #rt-main-surround .body-shadows-dark ul.menu li.active li a, body.rtl #rt-main-surround .body-shadows-dark ul.menu li.active li .separator, body.rtl #rt-main-surround .body-shadows-dark ul.menu li:hover li .item, body.rtl #rt-main-surround .body-shadows-dark ul.menu li:hover li a, body.rtl #rt-main-surround .body-shadows-dark ul.menu li:hover li .seperator, body.rtl #rt-main-surround .body-shadows-light ul.menu li.active li .item, body.rtl #rt-main-surround .body-shadows-light ul.menu li.active li a, body.rtl #rt-main-surround .body-shadows-light ul.menu li.active li .separator, body.rtl #rt-main-surround .body-shadows-light ul.menu li:hover li .item, body.rtl #rt-main-surround .body-shadows-light ul.menu li:hover li a, body.rtl #rt-main-surround .body-shadows-light ul.menu li:hover li .seperator {background: none;}
+body.rtl #rt-main-surround .body-shadows-dark ul.menu li:first-child, body.rtl #rt-main-surround .body-shadows-light ul.menu li:first-child {background: none;}
+body.rtl #rt-colorchooser #preset-creator span {padding: 2px 25px 5px 0;}
+.headerShadows-dark .basic .module-title, .body-shadows-dark .basic .module-title, .feature-shadows-dark .basic .module-title, .bottom-shadows-dark .basic .module-title {background: none;}
+.headerShadows-dark .basic .module-title2, .body-shadows-dark .basic .module-title2, .feature-shadows-dark .basic .module-title2, .bottom-shadows-dark .basic .module-title2 {background: none;}
+.headerShadows-dark .basic .title, .body-shadows-dark .basic .title, .basic .feature-shadows-dark .basic .title, .bottom-shadows-dark .basic .title, .body-shadows-dark .basic .rt-article-title, .basic .body-shadows-dark .rt-pagetitle {background: none;}
+body.rtl .headerShadows-dark .basic .module-title, body.rtl .body-shadows-dark .basic .module-title, body.rtl .feature-shadows-dark .basic .module-title, body.rtl .bottom-shadows-dark .basic .module-title {background: none;}
+body.rtl .headerShadows-dark .basic .module-title2, body.rtl .body-shadows-dark .basic .module-title2, body.rtl .feature-shadows-dark .basic .module-title2, body.rtl .bottom-shadows-dark .basic .module-title2 {background: none;}
+body.rtl .headerShadows-dark .basic .title, body.rtl .body-shadows-dark .basic .title, body.rtl .basic .feature-shadows-dark .basic .title, body.rtl .bottom-shadows-dark .basic .title, body.rtl .body-shadows-dark .basic .rt-article-title, body.rtl .basic .body-shadows-dark .rt-pagetitle {background: none;}
+body.rtl .headerShadows-light .basic .module-title, body.rtl .body-shadows-light .basic .module-title, body.rtl .feature-shadows-light .basic .module-title, body.rtl .bottom-shadows-light .basic .module-title {background: none;}
+body.rtl .headerShadows-light .basic .module-title2, body.rtl .body-shadows-light .basic .module-title2, body.rtl .feature-shadows-light .basic .module-title2, body.rtl .bottom-shadows-light .basic .module-title2 {background: none;}
+body.rtl .headerShadows-light .basic .title, body.rtl .body-shadows-light .basic .title, body.rtl .basic .feature-shadows-light .basic .title, body.rtl .bottom-shadows-light .basic .title, body.rtl .body-shadows-light .basic .rt-article-title, body.rtl .basic .body-shadows-light .rt-pagetitle {background: none;}
+
+/* style.css RTL */
+body.rtl .menutop li > .bullet {background: url(../images/body/style1/rtl/arrows-rtl.png) 100% -406px no-repeat;}
+body.rtl .menutop li:hover > .bullet, body.rtl .menutop li.f-menuparent-itemfocus .bullet, body.rtl .menutop li.active > .bullet {background: url(../images/body/style1/rtl/arrows-rtl.png) 100% 14px no-repeat;}
+body.rtl .menutop ul li > .daddy span {background: url(../images/menus/style1/topmenu-daddy.png) 5px 15px no-repeat;}
+body.rtl #form-login ul li a, body.rtl #com-form-login ul li a, body.rtl ul.rt-more-articles li a, body.rtl .rt-section-list ul li a {background: url(../images/body/style1/rtl/arrows-rtl.png) 100% 3px no-repeat;}
+body.rtl ul.roknewspager li {background: url(../images/typography/bullet9-rtl.png) no-repeat 100% 3px;}
+body.rtl .menutop li.root.active, .menu-type-splitmenu.rtl .menutop li.active, .menu-type-splitmenu.rtl .nopill .menutop li.active:hover {background: url(../images/menus/style1/menutab-r-rtl.png) 100% 0 no-repeat !important;z-index: 10;}
+body.rtl .menutop li.root.active > .item, .menu-type-splitmenu.rtl .menutop li.active .item, .menu-type-splitmenu.rtl .nopill .menutop li.active:hover .item {z-index: 10;}
+body.rtl .header-shadows-dark .menutop li.root, .menu-type-splitmenu.rtl .header-shadows-dark .menutop li {background: url(../images/shadows/dark/menus/menutab-r.png) 0 0 no-repeat !important;}
+body.rtl .header-shadows-light .menutop li.root, .menu-type-splitmenu.rtl .header-shadows-light .menutop li {background: url(../images/shadows/light/menus/menutab-r.png) 0 0 no-repeat !important;}
+body.rtl .header-shadows-dark #rt-colorchooser #preset-creator span {background: url(../images/shadows/dark/colorchooser-icon.png) 100% 50% no-repeat;}
+body.rtl .header-shadows-light #rt-colorchooser #preset-creator span {background: url(../images/shadows/light/colorchooser-icon.png) 100% 50% no-repeat;}
+
+body.rtl .header-shadows-dark.menutop ul li {background: url(../images/shadows/dark/menus/drop-item-bg-rtl.png) 50% 100% no-repeat;}
+body.rtl .header-shadows-dark.menutop ul li:hover .item, body.rtl .header-shadows-dark.menutop ul li.f-menuparent-itemfocus .item, body.rtl .header-shadows-dark.menutop ul li.active .item {background: url(../images/shadows/dark/module-highlight-rtl.png) 5% 1px no-repeat;}
+body.rtl .header-shadows-dark.menutop ul li > .daddy span {background: url(../images/shadows/dark/menus/menu-arrow-rtl.png) 5px 50% no-repeat;}
+/* Light */
+.header-shadows-light.menutop ul li {background: url(../images/shadows/light/menus/drop-item-bg.png) 50% 100% no-repeat;}
+.header-shadows-light.menutop ul li:hover .item, .header-shadows-light.menutop ul li.f-menuparent-itemfocus .item, .header-shadows-light.menutop ul li.active .item {background: url(../images/shadows/light/module-highlight.png) -42px 1px no-repeat;}
+.header-shadows-light.menutop ul li > .daddy span {background: url(../images/shadows/light/menus/menu-arrow.png) 96% 50% no-repeat;}
+
+body.rtl .feature-shadows-light #rt-feature2 .rt-omega .module-content  {background: url(../images/shadows/light/module-div.png) no-repeat 100% 0;}
+body.rtl .feature-shadows-dark #rt-feature2 .rt-omega .module-content {background: url(../images/shadows/dark/module-div.png) no-repeat 100% 0;}
+body.rtl .feature-shadows-dark #rt-login-button {background: url(../images/shadows/dark/module-div.png) 100% -75px no-repeat;}
+body.rtl .feature-shadows-dark #rt-login-button .buttontext {background: url(../images/shadows/dark/login-icon.png) 100% 50% no-repeat;}
+body.rtl .feature-shadows-light #rt-login-button {background: url(../images/shadows/light/module-div.png) 100% -75px no-repeat;}
+body.rtl .feature-shadows-light #rt-login-button .buttontext, body.rtl .feature-shadows-none #rt-login-button .buttontext {background: url(../images/shadows/light/login-icon.png) 100% 50% no-repeat;}
+
+body.rtl .header-shadows-dark .module-title, body.rtl .body-shadows-dark .module-title, body.rtl .feature-shadows-dark .module-title, body.rtl .bottom-shadows-dark .module-title {background: url(../images/shadows/dark/module-header-rtl.png) 100% 100% no-repeat;}
+body.rtl .header-shadows-light .module-title, body.rtl .body-shadows-light .module-title, body.rtl .feature-shadows-light .module-title, body.rtl .bottom-shadows-light .module-title {background: url(../images/shadows/light/module-header-rtl.png) 100% 100% no-repeat;}
+
+body.rtl .header-shadows-dark .title, body.rtl .body-shadows-dark .title, body.rtl .feature-shadows-dark .title, body.rtl .bottom-shadows-dark .title, .body-shadows-dark .rt-article-title {background: url(../images/shadows/dark/module-icon-rtl.png) 99% 50% no-repeat;}
+body.rtl .header-shadows-light .title, body.rtl .body-shadows-light .title, body.rtl .feature-shadows-light .title, body.rtl .bottom-shadows-light .title, .body-shadows-light .rt-article-title {background: url(../images/shadows/light/module-icon-rtl.png) 99% 50% no-repeat;}
+body.rtl .header-shadows-dark .title, body.rtl .body-shadows-dark .title, body.rtl .feature-shadows-dark .title, body.rtl .bottom-shadows-dark .title, body.rtl .body-shadows-dark .rt-article-title {background: url(../images/shadows/dark/module-icon-rtl.png) 99% 50% no-repeat;}
+body.rtl .header-shadows-light .title, body.rtl .body-shadows-light .title, body.rtl .feature-shadows-light .title, body.rtl .bottom-shadows-light .title, body.rtl .body-shadows-light .rt-article-title {background: url(../images/shadows/light/module-icon-rtl.png) 99% 50% no-repeat;}
+body.rtl #rt-main-surround .body-shadows-dark ul.menu li {background: url(../images/shadows/dark/menus/drop-item-bg-rtl.png) 100% 0 no-repeat;}
+body.rtl #rt-main-surround .body-shadows-dark ul.menu li.active .item, body.rtl #rt-main-surround .body-shadows-dark ul.menu li.active a, body.rtl #rt-main-surround .body-shadows-dark ul.menu li.active .separator, body.rtl #rt-main-surround .body-shadows-dark ul.menu li:hover .item, body.rtl #rt-main-surround .body-shadows-dark ul.menu li:hover a, body.rtl #rt-main-surround .body-shadows-dark ul.menu li:hover .seperator {background: url(../images/shadows/dark/module-highlight-rtl.png) 100% 1px no-repeat;}
+body.rtl #rt-main-surround .body-shadows-dark ul.menu li a span, body.rtl #rt-main-surround .body-shadows-dark ul.menu li .separator span, body.rtl #rt-main-surround .body-shadows-dark ul.menu li .item span {background: url(../images/shadows/dark/menus/menu-arrow-rtl.png) 100% 9px no-repeat;}
+body.rtl #rt-main-surround .body-shadows-light ul.menu li {background: url(../images/shadows/light/menus/drop-item-bg-rtl.png) 100% 0 no-repeat;}
+body.rtl #rt-main-surround .body-shadows-light ul.menu li.active .item, body.rtl #rt-main-surround .body-shadows-light ul.menu li.active a, body.rtl #rt-main-surround .body-shadows-light ul.menu li.active .separator, body.rtl #rt-main-surround .body-shadows-light ul.menu li:hover .item, body.rtl #rt-main-surround .body-shadows-light ul.menu li:hover a, body.rtl #rt-main-surround .body-shadows-light ul.menu li:hover .seperator {background: url(../images/shadows/light/module-highlight-rtl.png) 100% 1px no-repeat;}
+body.rtl #rt-main-surround .body-shadows-light ul.menu li a span, body.rtl #rt-main-surround .body-shadows-light ul.menu li .separator span, body.rtl #rt-main-surround .body-shadows-light ul.menu li .item span, body.rtl #rt-main-surround .body-shadows-none ul.menu li a span, body.rtl #rt-main-surround .body-shadows-none ul.menu li .separator span, body.rtl #rt-main-surround .body-shadows-none ul.menu li .item span {background: url(../images/shadows/light/menus/menu-arrow-rtl.png) 100% 9px no-repeat;}
+body.rtl .header-shadows-dark .module-title2, body.rtl .body-shadows-dark .module-title2, body.rtl .feature-shadows-dark .module-title2, body.rtl .bottom-shadows-dark .module-title2 {background: url(../images/shadows/dark/module-highlight-rtl.png) 100% 0 no-repeat;}
+body.rtl .header-shadows-light .module-title2, body.rtl .body-shadows-light .module-title2, body.rtl .feature-shadows-light .module-title2, body.rtl .bottom-shadows-light .module-title2 {background: url(../images/shadows/light/module-highlight-rtl.png) 100% 0 no-repeat;}
+body.rtl #rt-popup #form-login ul li a {background: urL(../images/shadows/light/list-arrow-rtl.png) 100% 3px no-repeat;}
+body.rtl .header-shadows-dark #form-login ul li a, body.rtl .header-shadows-dark #com-form-login ul li a, body.rtl .header-shadows-dark ul.rt-more-articles li a, body.rtl .header-shadows-dark .rt-section-list ul li a, body.rtl .feature-shadows-dark #form-login ul li a, body.rtl .feature-shadows-dark #com-form-login ul li a, body.rtl .feature-shadows-dark ul.rt-more-articles li a, body.rtl .feature-shadows-dark .rt-section-list ul li a, body.rtl .body-shadows-dark #form-login ul li a, body.rtl .body-shadows-dark #com-form-login ul li a, body.rtl .body-shadows-dark ul.rt-more-articles li a, body.rtl .body-shadows-dark .rt-section-list ul li a, body.rtl .bottom-shadows-dark #form-login ul li a, body.rtl .bottom-shadows-dark #com-form-login ul li a, body.rtl .bottom-shadows-dark ul.rt-more-articles li a, body.rtl .bottom-shadows-dark .rt-section-list ul li a, body.rtl .header-shadows-none #form-login ul li a, body.rtl .header-shadows-none #com-form-login ul li a, body.rtl .header-shadows-none ul.rt-more-articles li a, body.rtl .header-shadows-none .rt-section-list ul li a, body.rtl .feature-shadows-none #form-login ul li a, body.rtl .feature-shadows-none #com-form-login ul li a, body.rtl .feature-shadows-none ul.rt-more-articles li a, body.rtl .feature-shadows-none .rt-section-list ul li a, body.rtl .body-shadows-none #form-login ul li a, body.rtl .body-shadows-none #com-form-login ul li a, body.rtl .body-shadows-none ul.rt-more-articles li a, body.rtl .body-shadows-none .rt-section-list ul li a, body.rtl .bottom-shadows-none #form-login ul li a, body.rtl .bottom-shadows-none #com-form-login ul li a, body.rtl .bottom-shadows-none ul.rt-more-articles li a, body.rtl .bottom-shadows-none .rt-section-list ul li a {background: urL(../images/shadows/dark/list-arrow-rtl.png) 100% 3px no-repeat;}
+body.rtl .header-shadows-light #form-login ul li a, body.rtl .header-shadows-light #com-form-login ul li a, body.rtl .header-shadows-light ul.rt-more-articles li a, body.rtl .header-shadows-light .rt-section-list ul li a, body.rtl .feature-shadows-light #form-login ul li a, body.rtl .feature-shadows-light #com-form-login ul li a, body.rtl .feature-shadows-light ul.rt-more-articles li a, body.rtl .feature-shadows-light .rt-section-list ul li a, body.rtl .body-shadows-light #form-login ul li a, body.rtl .body-shadows-light #com-form-login ul li a, body.rtl .body-shadows-light ul.rt-more-articles li a, body.rtl .body-shadows-light .rt-section-list ul li a, body.rtl .bottom-shadows-light #form-login ul li a, body.rtl .bottom-shadows-light #com-form-login ul li a, body.rtl .bottom-shadows-light ul.rt-more-articles li a, body.rtl .bottom-shadows-light .rt-section-list ul li a, body.rtl .header-shadows-none #form-login ul li a, body.rtl .header-shadows-none #com-form-login ul li a, body.rtl .header-shadows-none ul.rt-more-articles li a, body.rtl .header-shadows-none .rt-section-list ul li a, body.rtl .feature-shadows-none #form-login ul li a, body.rtl .feature-shadows-none #com-form-login ul li a, body.rtl .feature-shadows-none ul.rt-more-articles li a, body.rtl .feature-shadows-none .rt-section-list ul li a, body.rtl .body-shadows-none #form-login ul li a, body.rtl .body-shadows-none #com-form-login ul li a, body.rtl .body-shadows-none ul.rt-more-articles li a, body.rtl .body-shadows-none .rt-section-list ul li a, body.rtl .bottom-shadows-none #form-login ul li a, body.rtl .bottom-shadows-none #com-form-login ul li a, body.rtl .bottom-shadows-none ul.rt-more-articles li a, body.rtl .bottom-shadows-none .rt-section-list ul li a {background: urL(../images/shadows/light/list-arrow-rtl.png) 100% 3px no-repeat;}
+
+/* joomla.css RTL */
+body.rtl ul, ol {padding-right:0;}
+body.rtl .rokajaxsearch {text-align: right;}
+body.rtl .rokajaxsearch .inputbox {text-align: right;}
+body.rtl #roksearch_results {direction: ltr;text-align: right;}
+body.rtl #rokajaxsearch .inputbox {float: right;padding: 6px 8px 5px 5px;}
+body.rtl #rokajaxsearch .roksearch-wrapper {float: right;}
+body.rtl .search_options {float: right;}
+body.rtl .search_options label {margin-left:8px;margin-right: 0;}
+body.rtl .rt-pollbuttons .readon {float: right;}
+body.rtl .rt-pollrow {direction: ltr;text-align: right;}
+body.rtl #form-login ul li a, body.rtl #com-form-login ul li a, body.rtl ul.rt-more-articles li a, body.rtl .rt-section-list ul li a {padding-left: 0;padding-right: 15px;}
+body.rtl .rt-comment-block {float: left;}
+body.rtl .rt-wordpress .rt-article-icons {float: left;}
+body.rtl #roksearch_search_str {background-position: 10px 4px!important;}
+body.rtl #rokajaxsearch #roksearch_search_str.loading {background-position: 5px 50% !important;}
+body.rtl #roksearch_results a#roksearch_link {float: left;padding-right: 0;padding-left: 5px;background-position: 100% -50px;}
+body.rtl #roksearch_results .container-arrows {float: right;margin-right: 0;margin-left: 5px;}
+body.rtl #roksearch_results a.viewall {float: right;}
+body.rtl .rt-wordpress .search_result fieldset.word label {float: right;}
+body.rtl .roktabs-wrapper {direction: ltr;text-align: right;}
+body.rtl .roktabs-wrapper .tab-icon {float: right;margin-top: 30px;margin-left: 10px;margin-right: 0;}
+body.rtl .roktabs-wrapper .roktabs-links ul li {float: right;}
+body.rtl .rt-wordpress .label-left {float: right;}
+body.rtl .rt-date-posted span {line-height: 24px;}
+body.rtl #comments-form p {text-align: right;}
+body.rtl #comments-form p span a {float: right;}
+body.rtl #comments-form-buttons .readon {float: right;}
+body.rtl #comments-list-footer {float: left;}
+body.rtl #comments-footer a {float: left;}
+body.rtl .rokradios, body.rtl .rokradios-active, body.rtl .rokchecks, body.rtl .rokchecks-active {display: inline-block;}
+body.rtl .button2-left, body.rtl .button2-right, body.rtl .button2-left div, body.rtl .button2-right div {float: right;}
+body.rtl #editor-xtd-buttons {float: right;}
+body.rtl .edit-article fieldset table {float: right;}
+body.rtl ul.roknewspager .roknewspager-div {padding-left: 0;padding-right: 15px;}
+body.rtl .roknewspager-pages2 {margin-left: 0;margin-right: 20px;}
+body.rtl .roknewspager-div a img {float: right;margin-right: 0;margin-left: 15px;}
+body.rtl .roknewspager-spinner {float: right;}
+body.rtl .roknewspager-prev, body.rtl .roknewspager-prev-disabled {right: 0;left: inherit;}
+body.rtl .roknewspager-next, body.rtl .roknewspager-next-disabled {left: 0;right: inherit;}
+body.rtl .roknewspager-prev {background-position: -30px -26px;}
+body.rtl .roknewspager-prev-disabled {background-position: -30px 0;}
+body.rtl .roknewspager-next {background-position: 0 -26px;}
+body.rtl .roknewspager-next-disabled {background-position: 0 0;}
+body.rtl .rt-wordpress .contact .image {float:left;}
+body.rtl .rt-wordpress .search_result select#ordering.inputbox {margin-right: 0;margin-left: 10px;}
+body.rtl #rt-showcase .readon-wrap1 {float: right;}
+body.rtl pre {direction: ltr;text-align: right;}
+body.rtl #rt-main-surround ul li {margin-right:10px;} 
+
+/* fusionmenu.css RTL */
+body.rtl .menutop.theme-fusion {padding-right: 1px;}
+body.rtl .menutop.theme-fusion li.root {float: right !important;}
+body.rtl .menutop.theme-fusion ul li {padding-left: 0;margin-left: 0;float: right;}
+body.rtl .menutop.theme-fusion ul.columns2 li {float: right;padding-left: 0;margin-left: 0;margin-right: 1px;}
+body.rtl .menutop.theme-fusion li.root > .bullet {padding: 0;background: none;}
+body.rtl .menutop.theme-fusion li > .bullet {padding-left: 0;padding-right: 18px;}
+body.rtl .menutop.theme-fusion li.root > .item img {float: right;margin: 7px 8px 0 6px;}
+body.rtl .menutop.theme-fusion li > .item img {float: right;margin: 13px 8px 0 6px;}
+
+/* splitmenu.css RTL */
+.menu-type-splitmenu.rtl .menutop.theme-splitmenu {padding-right: 1px;}
+.menu-type-splitmenu.rtl .menutop.theme-splitmenu li {margin: 0 -5px 0 0}
+.menu-type-splitmenu.rtl .menutop.theme-splitmenu li, body.rtl .menutop.theme-splitmenu li.active:hover {float: right;}
+
+/* typography.css RTL */
+.rtl ul.bullet-1, .rtl ul.bullet-2, .rtl ul.bullet-3, .rtl ul.bullet-4, .rtl ul.bullet-5, .rtl ul.bullet-6, .rtl ul.bullet-7, .rtl ul.bullet-8, .rtl ul.bullet-9 {padding: 0 15px 0 0;margin-right: 0 !important;}
+.rtl ul.bullet-1 li, .rtl ul.bullet-2 li, .rtl ul.bullet-3 li, .rtl ul.bullet-4 li, .rtl ul.bullet-5 li, .rtl ul.bullet-6 li, .rtl ul.bullet-7 li, .rtl ul.bullet-8 li, .rtl ul.bullet-9 li {padding: 0 15px 3px 0;background-position: 100% 4px;}
+.rtl ul.bullet-1 li {background-image: url(../images/typography/bullet1-rtl.png);}
+.rtl ul.bullet-2 li {background-image: url(../images/typography/bullet2-rtl.png);}
+.rtl ul.bullet-3 li {background-image: url(../images/typography/bullet3-rtl.png);}
+.rtl ul.bullet-4 li {background-image: url(../images/typography/bullet4-rtl.png);}
+.rtl ul.bullet-5 li {background-image: url(../images/typography/bullet5-rtl.png);}
+.rtl ul.bullet-6 li {background-image: url(../images/typography/bullet6-rtl.png);}
+.rtl ul.bullet-7 li {background-image: url(../images/typography/bullet7-rtl.png);}
+.rtl ul.bullet-8 li {background-image: url(../images/typography/bullet8-rtl.png);}
+.rtl ul.bullet-9 li {background-image: url(../images/typography/bullet9-rtl.png);}
+.rtl span.dropcap {margin: 0 0 0 5px;float: right;}
+.rtl .typo-icon {padding: 8px 36px 0px 10px;margin: 15px 0;background-position: 99% 12px;}
+.rtl span.important-title {right: 10px;left: inherit;}
+.rtl span.inset-left {float: right;margin-left: 20px;margin-right: 0;}
+.rtl span.inset-right {float: left;margin-right: 20px;margin-left: 0;}
+.rtl span.inset-right-title, .rtl span.inset-left-title {right: 10px;left: inherit;}
+.rtl .quote-l {padding: 8px 36px 0px 10px;background: url(../images/typography/quote-r.png) no-repeat 99% 12px;}
+.rtl .quote-r {padding: 0 0 0 10px;background: url(../images/typography/quote-l.png) no-repeat 10px 100%;}
+
+/* colorchooser RTL */
+body.rtl #presets-popup {direction: ltr;}

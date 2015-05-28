@@ -1,0 +1,39 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/rtl.css);
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#menu {
+	right: auto;
+	left: 0;
+}
+
+#totop-scroller {
+	left: 0;
+	right: 50%;
+	margin-left: 0;
+	margin-right: -13px;
+}
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Mega Drop-Down Menu */
+.menu-dropdown li.level1 {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+/* Sidebar/Accordion Menu */
+.menu-sidebar ul.level2 ul { padding-right: 10px; }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+.searchbox .results { left: 0; }
+

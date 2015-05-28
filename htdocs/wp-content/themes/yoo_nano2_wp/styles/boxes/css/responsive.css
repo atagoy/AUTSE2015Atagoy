@@ -1,0 +1,21 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/responsive.css);
+
+
+/* Breakpoints
+----------------------------------------------------------------------------------------------------*/
+
+/* Only Phones (Portrait) */
+@media (max-width: 479px) {
+
+	/* System */
+	.isblog #system .items .item,
+	.isblog #system .items .item:first-child { margin-top: 14px; }
+
+	.isblog #system .items :first-child .item { margin-top: 0; }
+
+	.isblog #system .items .leading .item { margin-bottom: 0; }
+
+}
+

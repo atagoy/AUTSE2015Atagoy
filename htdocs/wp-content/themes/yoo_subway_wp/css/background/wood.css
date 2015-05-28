@@ -1,0 +1,10 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+#page {	background: #7C4C28 url(../../images/background/wood/wood_bg.jpg) 50% 0 repeat; }
+
+#page-body { background: url(../../images/background/wood/wood_img.jpg) 50% 0 no-repeat; }
+
+.page-body-1 { 
+	background: url(../../images/background/wood/radial_gradient.svg) 50% 0 no-repeat fixed;
+	background-size: 110% 180%;
+}

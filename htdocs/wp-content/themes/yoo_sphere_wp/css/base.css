@@ -1,0 +1,21 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/base.css);
+
+
+/* New style-related Base Values
+----------------------------------------------------------------------------------------------------*/
+
+body { 
+	font: normal 14px/20px Arial, Helvetica, sans-serif;
+	color: #92979E;
+ }
+
+ins, mark { border-radius: 4px; }
+
+hr { border-top-color: #dcdcdc; }
+
+pre {
+	border: 1px solid #dcdcdc;
+	background: #fff;
+}

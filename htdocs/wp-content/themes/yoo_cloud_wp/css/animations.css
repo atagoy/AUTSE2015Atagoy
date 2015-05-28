@@ -1,0 +1,141 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+a:hover {
+	-webkit-transition: color 0.25s ease-in-out;
+	-moz-transition: color 0.25s ease-in-out;
+	-o-transition: color 0.25s ease-in-out;
+	-ms-transition: color 0.25s ease-in-out;
+	transition: color 0.25s ease-in-out;
+}
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Mega Drop-Down Menu */
+
+/* Level 1 */
+.menu-dropline a.level1,
+.menu-dropline span.level1 {
+	-webkit-transition: color 0.4s ease-in-out;
+	-moz-transition: color 0.4s ease-in-out;
+	-o-transition: color 0.4s ease-in-out;
+	-ms-transition: color 0.4s ease-in-out;
+	transition: color 0.4s ease-in-out;
+}
+
+.menu-dropline a.level2:hover > span,
+.menu-dropline span.level2:hover > span {
+	-webkit-transition: color 0.35s ease-in-out;
+	-moz-transition: color 0.35s ease-in-out;
+	-o-transition: color 0.35s ease-in-out;
+	-ms-transition: color 0.35s ease-in-out;
+	transition: color 0.35s ease-in-out;
+}
+
+.menu-dropline a.level3:hover > span,
+.menu-dropline span.level3:hover > span {
+	-webkit-transition: color 0.15s ease-in-out;
+	-moz-transition: color 0.15s ease-in-out;
+	-o-transition: color 0.15s ease-in-out;
+	-ms-transition: color 0.15s ease-in-out;
+	transition: color 0.15s ease-in-out;
+}
+
+/* Menu Sidebar */
+.menu-sidebar a,
+.menu-sidebar li > span {
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+}
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+a.button-more:hover {
+	-webkit-transition: color 0.25s ease-in-out;
+	-moz-transition: color 0.25s ease-in-out;
+	-o-transition: color 0.25s ease-in-out;
+	-ms-transition: color 0.25s ease-in-out;
+	transition: color 0.25s ease-in-out;
+}
+
+form.box input[type="text"],
+form.short input[type="text"],
+form.box input[type="password"],
+form.short input[type="password"],
+form.box select,
+form.box textarea,
+form.box button,
+form.short button,
+form.box input[type="button"],
+form.box input.button,
+.mobile-switcher {
+	-webkit-transition:
+		border-color 0.25s ease-in-out,
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	-moz-transition:
+		border-color 0.25s ease-in-out,
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	-o-transition:
+		border-color 0.25s ease-in-out,
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	-ms-transition:
+		border-color 0.25s ease-in-out,
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	transition:
+		border-color 0.25s ease-in-out,
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+}
+
+img.frame {
+	-webkit-transition:
+		border-color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	-moz-transition:
+		border-color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	-o-transition:
+		border-color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	-ms-transition:
+		border-color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	transition:
+		border-color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+}
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+#searchbox .results li.result.selected {
+	-webkit-transition: 
+		color 0.3s ease-in-out,
+		background 0.3s ease-in-out;
+	-moz-transition:
+		color 0.3s ease-in-out,
+		background 0.3s ease-in-out;
+	-o-transition:
+		color 0.3s ease-in-out,
+		background 0.3s ease-in-out;
+	-ms-transition:
+		color 0.3s ease-in-out,
+		background 0.3s ease-in-out;
+	transition:
+		color 0.3s ease-in-out,
+		background 0.3s ease-in-out;
+}

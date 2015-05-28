@@ -1,0 +1,93 @@
+/**
+ * @version   1.0 October 16, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/* Zooms */
+#rt-main-overlay, #rt-feature, #rt-feature2,#rt-utility, #rt-utility2, #rt-utility3, #rt-copyright, .rt-block, #rt-main-surround, #rt-header, #rt-mainbody, #rt-bottom, .module-surround, .module-title, .rt-surround-top, .rt-surround, .rt-surround-bottom, .module-inner, .rt-main-inner, .rt-content-top, .rt-content-bottom, .module-content, ul.menutop, #rt-submenu, #rt-submenu2, #rt-logo, .title, ul.menutop li, ul.menutop li .item {zoom: 1;}
+.shadow-right, .shadow-left, .shadow-bl, .shadow-br, body.rtl .header-shadows-dark #rt-colorchooser #preset-creator span, #rt-mainbottom {zoom:1;}
+.module-l, .module-r, .module-title2{zoom:1;}
+
+/* kludge for mainbody jumping */
+
+/* Showcase */
+#rt-showcase {zoom: 1;}
+
+/* Breadcrumb */
+.rt-breadcrumb-surround {display: inline;margin:0;padding:0;height:30px;}
+#breadcrumbs-home{zoom:1;display:inline;}
+.breadcrumb-wrapper{zoom:1;display:inline-block;}
+
+/* Fusion Menu */
+.menutop {zoom:1; display:inline-block;}
+.header-shadows-dark .menutop li.root.active > .item, .header-shadows-dark .menutop li.root:hover > .item, .menu-type-splitmenu .header-shadows-dark .menutop li.active .item, .menu-type-splitmenu .header-shadows-dark .menutop li:hover .item, .menu-type-splitmenu .header-shadows-dark .nopill .menutop li.active:hover .item, .header-shadows-dark .menutop li.f-mainparent-itemfocus .item {background: url(../images/shadows/dark/menus/menutab-active.png) 0 0 repeat-x !important;zoom: 1;}
+.header-shadows-light .menutop li.root.active > .item, .header-shadows-light .menutop li.root:hover > .item, .menu-type-splitmenu .header-shadows-light .menutop li.active .item, .menu-type-splitmenu .header-shadows-light .menutop li:hover .item, .menu-type-splitmenu .header-shadows-light .nopill .menutop li.active:hover .item, .header-shadows-light .menutop li.f-mainparent-itemfocus .item {background: url(../images/shadows/light/menus/menutab-active.png) 0 0 repeat-x !important;zoom: 1;}
+
+/* Pill */
+ul.menutop {z-index: 2;}
+
+/* Popup */
+.popup-toolbar {z-index: 5000;}
+#popup-palette {position: relative;}
+#popup-palette .popup-content {left: 0;}
+#popup-presets {position: relative;z-index:1;}
+.popup-row {position: relative;z-index:0;}
+.moor-hexLabel {width:30px;}
+
+/* Modules */
+.rt-wordpress .rt-headline {display: inline;}
+
+/* Typography */
+.readon {display:inline-block;}
+.readon .button {margin-left:-20px;}
+.contact .readon .button {margin-left:-10px;}
+#rt-popup .readon {float: left;}
+
+/* RokTwittie */
+.roktwittie li, .roktwittie .roktwittie-text {zoom:1;}
+.roktwittie li, .roktwittie-text .roktwittie-date {display:inline;}
+
+/* RokAjaxSearch */
+#roksearch_results .container-wrapper {position:relative;zoom:1;}
+#roksearch_results .container-scroller {position:relative;zoom:1;}
+#roksearch_results span.small span {display: inline-block;margin-top: 0;margin-bottom: 0;font-size: 10px;}
+.search_result .display {clear: both;}
+
+/* Search Fields */
+.phrase .inputbox {vertical-align:middle;}
+
+/* Comments */
+
+#comments-form-buttons {display: inline; zoom:1;}
+#comments-form-send {margin-left: 10px;}
+#comments-form-buttons button {margin:0 0 0 -10px;}
+
+/* WordPress */
+.rt-wordpress .rt-article-icons {margin: 0px !important;display: inline-block;zoom: 1;width:75px;}
+.rt-wordpress .rt-article-title, h2.title{letter-spacing:1px;}
+.rt-wordpress ol {margin-left: 10px;}
+.rt-wordpress .save .readon {margin-right: 10px;}
+.rt-wordpress .save .readon .button {margin-left: -10px;}
+.rt-wordpress .readon {float: left;}
+
+#rt-main-surround .tab, .rt-pagination .page-block {display:inline !important;}
+.rt-pagination .tab2, .rt-pagination .page-active, .rt-pagination .page-inactive {display:block;}
+
+/* RTL */
+body.rtl #rt-showcase .feature-block {zoom: 1;padding-top: 15px;}
+body.rtl .feature-block .readon-main {direction: ltr;padding-left: 10px;}
+body.rtl .readon {float: right;}
+body.rtl .roknewspager-wrapper {direction: ltr;text-align: right;}
+body.rtl #rt-breadcrumbs {direction: ltr;text-align: right;}
+body.rtl .menutop {direction: rtl;}
+body.rtl .menutop ul li, body.rtl ul.columns2 li {text-align: right;}
+body.rtl .roknewspager-next {right:auto;}
+body.rtl ul li a.category, body.rtl ul li span.number {zoom: 1;}
+body.rtl .fusion-pill-l {z-index: 1;margin:0 1px 0 0px;}
+body.rtl .fusion-js-container {direction:ltr;}
+body.rtl .menutop li.root {zoom:1;float:right;direction:ltr;}
+body.rtl .roktabs-wrapper .tab-icon {float: left;margin-top: 30px;margin-left: 0;margin-right: 10px;}
+body.rtl .menutop.theme-fusion li.root > .item img {float:left !important;}
+body.rtl .widget_gantry_recentcomments ul {zoom:1;}
+body.rtl .widget_gantry_recentcomments ul li {zoom:1;position:relative;}

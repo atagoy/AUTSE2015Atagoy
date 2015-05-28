@@ -1,0 +1,336 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/tools.css);
+
+
+/* Buttons (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+a.button-more {
+	height: 24px;
+	padding-left: 19px;
+	line-height: 24px;
+	color: #878787;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+
+a.button-more:hover { background-position: 0 -30px; }
+
+.mod-box-color a.button-more,
+.mod-fabric a.button-more {
+	color: #DCDDDE; 
+	background-position: 0 -60px;
+	text-shadow: 0 -1px rgba(0,0,0,0.3);
+}
+
+.mod-box-color a.button-more:hover,
+.mod-fabric a.button-more:hover {
+	color: #ffffff; 
+	background-position: 0 -90px;
+}
+
+/* Images and Objects (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+img.border-box { border: 1px solid #ddd; }
+
+
+/* Lists and Tables (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+ul.line-icon,
+ul.link {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Line */
+ul.line > li { background: url(../images/tools/list_line.png) 0 0 repeat-x; }
+
+.mod-box-color ul.line > li,
+.mod-fabric ul.line > li { background-image: url(../images/tools/list_line_dark.png); }
+
+ul.line > li:first-child,
+.mod-box-color ul.line > li:first-child,
+.mod-fabric ul.line > li:first-child { background-image: none; }
+
+/* Line-Icon */
+
+ul.line-icon > li {
+	padding: 4px 0 0 25px;
+	background:	url(../images/tools/list_line.png) 0 0 repeat-x,
+				url(../images/tools/list_icon.png) 0 0 no-repeat;
+}
+
+ul.line-icon > li:first-child { 
+	background-image:	none,
+				url(../images/tools/list_icon.png);
+}
+
+.mod-box-color ul.line-icon > li,
+.mod-fabric ul.line-icon > li { 
+	background-image: url(../images/tools/list_line_dark.png),
+					  url(../images/tools/list_icon.png);
+}
+
+.mod-box-color ul.line-icon > li:first-child,
+.mod-fabric ul.line-icon > li:first-child { 
+	background-image: none,
+					  url(../images/tools/list_icon.png);
+}
+
+
+/* Check */
+ul.check > li {
+	padding: 4px 0 0 25px;
+	background:	url(../images/tools/list_line.png) 0 0 repeat-x,
+				url(../images/tools/list_check.png) 0 0 no-repeat;
+}
+
+ul.check > li:first-child { 
+	background-image: none,
+					  url(../images/tools/list_check.png);
+}
+
+.mod-box-color ul.check > li,
+.mod-fabric ul.check > li { 
+	background-image: url(../images/tools/list_line_dark.png),
+					  url(../images/tools/list_check.png);
+}
+
+.mod-box-color ul.check > li:first-child,
+.mod-fabric ul.check > li:first-child {
+	background-image: none,
+					  url(../images/tools/list_check.png);
+}
+
+/* Link */
+ul.link > li {
+	padding: 4px 0 0 25px;
+	background:	url(../images/tools/list_line.png) 0 0 repeat-x,
+				url(../images/tools/list_link.png) 0 0 no-repeat;
+}
+
+ul.link > li:first-child { 
+	background:	none,
+		url(../images/tools/list_link.png) 0 0 no-repeat;
+}
+
+.mod-box-color ul.link > li,
+.mod-fabric ul.link > li { 
+	background-image: url(../images/tools/list_line_dark.png),
+					  url(../images/tools/list_link.png);
+}
+
+.mod-box-color ul.link > li:first-child,
+.mod-fabric ul.link > li:first-child {
+	background-image:	none,
+						url(../images/tools/list_link.png);
+}
+
+ul.line-icon a,
+ul.link a,
+ul.check a,
+ul.link a { color: #868686; }
+
+/* Zebra List and Table */
+ul.zebra > li,
+table.zebra tbody td { border-bottom: 1px solid #ddd; }
+ul.zebra > li:first-child,
+table.zebra tbody tr:first-child td { border-top: 1px solid #ddd; }
+
+ul.zebra > li.odd,
+table.zebra tbody tr.odd { background: #F4F4F4; }
+ul.zebra > li:nth-of-type(odd),
+table.zebra tbody tr:nth-of-type(odd) { background: #F4F4F4; }
+
+.mod-fabric ul.zebra > li,
+.mod-fabric table.zebra tbody td { border-bottom: 1px solid #3C3C3C; }
+.mod-fabric ul.zebra > li:first-child,
+.mod-fabric table.zebra tbody tr:first-child td { border-top: 1px solid #3C3C3C; }
+
+.mod-fabric ul.zebra > li.odd,
+.mod-fabric table.zebra tbody tr.odd { background: #494949; }
+.mod-fabric ul.zebra > li:nth-of-type(odd),
+.mod-fabric table.zebra tbody tr:nth-of-type(odd) { background: #494949; }
+
+table.zebra caption { color: #999; }
+
+
+/* Definition Lists
+----------------------------------------------------------------------------------------------------*/
+
+dl.separator dt {	
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+/* border code because of RTL */
+dl.separator dd {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-color: #DDD;
+}
+
+dl.separator dt:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -15px;
+	width: 30px;
+	border-top: 1px solid #DDD;
+}
+
+dl.separator dt:after {
+	content: "";
+	position:absolute;
+	top: -3px;
+	right: -3px;
+	width: 5px;
+	height: 5px;
+	background: #FFF;
+	border: 1px solid #DDD;
+	border-radius:6px;
+}
+
+dl.separator dt:first-child:before,
+dl.separator dt:first-child:after { display: none; }
+
+
+/* Text
+----------------------------------------------------------------------------------------------------*/
+
+/* Inline Text Box */
+em.box { 
+	border: 1px solid #bbb;
+	background: #fafafa;
+	color: #444;
+	border-radius: 3px;
+}
+
+.mod-fabric em.box {
+	border-color: #3C3C3C;
+	color: #fff;
+	background: #494949;
+}
+
+/* Dotted Horizontal Rule */
+hr.dotted { background: url(../images/tools/line_dotted.png) 0 0 repeat-x; }
+
+
+/* Boxes
+----------------------------------------------------------------------------------------------------*/
+
+.box-content {
+	background: #fafafa;
+	border: 1px solid #ddd;
+}
+
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download {
+	background: #fafafa;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.box-info {
+	background: #ebf5fa url(../images/tools/box_info.png) 0 0 no-repeat;
+	border-color: #d2dce1;
+}
+
+.box-warning {
+	background: #fff0eb url(../images/tools/box_warning.png) 0 0 no-repeat;
+	border-color: #ffd7cd;
+}
+
+.box-hint {
+	background: #fffae6 url(../images/tools/box_hint.png) 0 0 no-repeat;
+	border-color: #fae6be;
+}
+
+.box-download {
+	background: #faffe6 url(../images/tools/box_download.png) 0 0 no-repeat;
+	border-color: #dce6be;
+}
+
+
+/* Forms (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+form.box fieldset { border: 1px solid #ddd; }
+form.box legend { background: #fff; }
+
+
+/* Mobile Switcher (Needed for Mobile)
+----------------------------------------------------------------------------------------------------*/
+
+.mobile-switcher {
+	background: #eee;
+	border: 1px solid #aaa;
+}
+
+/* Social Icons
+----------------------------------------------------------------------------------------------------*/
+
+ul.social-icons {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+ul.social-icons li {
+	padding: 0 3px;
+	float: left;
+	background: url(../images/menu_line_item.png) 0 50% no-repeat;
+}
+
+ul.social-icons li:first-child { background: none; }
+
+.social-icons a { 
+	display: block;
+	width: 28px;
+	height: 28px;
+	background: url(../images/icons_social.png) 0 0 no-repeat;
+}
+
+.social-icons a.youtube:hover { background-position: 0 -30px; }
+.social-icons a.googleplus { background-position: 0 -60px; }
+.social-icons a.googleplus:hover { background-position: 0 -90px; }
+.social-icons a.facebook { background-position: 0 -120px; }
+.social-icons a.facebook:hover { background-position: 0 -150px; }
+.social-icons a.twitter { background-position: 0 -180px; }
+.social-icons a.twitter:hover { background-position: 0 -210px; }
+.social-icons a.rss { background-position: 0 -240px; }
+.social-icons a.rss:hover { background-position: 0 -270px; }
+
+/* Contact Icons
+----------------------------------------------------------------------------------------------------*/
+
+ul.contact-icons {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.contact-icons li { 
+	margin-top: 5px;
+	padding-left: 20px;
+	background: url(../images/icons_contact.png) 0 0 no-repeat;
+}
+
+ul.contact-icons li:first-child { margin-top: 0; }
+
+ul.contact-icons li.location { background-position: 0 -250px; }
+ul.contact-icons li.email { background-position: 0 -500px; }
+ul.contact-icons li.phone { background-position: 0 -750px; }

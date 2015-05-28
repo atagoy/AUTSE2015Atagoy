@@ -1,0 +1,19 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+	font-family: 'OrbitronMedium';
+    src: url('orbitron-medium-webfont.eot');
+    src: url('orbitron-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('orbitron-medium-webfont.woff') format('woff'),
+         url('orbitron-medium-webfont.ttf') format('truetype'),
+         url('orbitron-medium-webfont.svg#OrbitronMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'OrbitronLight';
+    src: url('orbitron-light-webfont.eot');
+    src: url('orbitron-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('orbitron-light-webfont.woff') format('woff'),
+         url('orbitron-light-webfont.ttf') format('truetype'),
+         url('orbitron-light-webfont.svg#OrbitronLight') format('svg');
+}

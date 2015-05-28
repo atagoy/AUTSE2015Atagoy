@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: custom-fields-search\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-06 17:01+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
+"Language-Team: BestWebSoft <http://support.bestwebsoft.com>\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: custom-fields-search.php:32
+msgid "Custom fields search settings"
+msgstr "Налаштування Custom Fields Search"
+
+#: custom-fields-search.php:205
+msgid "Settings saved"
+msgstr "Установки збережено"
+
+#: custom-fields-search.php:219
+#: custom-fields-search.php:291
+#: custom-fields-search.php:305
+msgid "Settings"
+msgstr "Установки"
+
+#: custom-fields-search.php:220
+#: custom-fields-search.php:306
+msgid "FAQ"
+msgstr "Часті питання"
+
+#: custom-fields-search.php:223
+msgid "Notice:"
+msgstr "Зауважте:"
+
+#: custom-fields-search.php:223
+msgid "The plugin's settings have been changed. In order to save them please don't forget to click the 'Save Changes' button."
+msgstr "Налаштування плагіну змінено. Будь ласка, натисніть кнопку \"Зберегти\", щоб зберегти зміни."
+
+#: custom-fields-search.php:228
+msgid "Enable search for the custom field:"
+msgstr "Дозволити пошук для кастомного поля"
+
+#: custom-fields-search.php:252
+msgid "custom post type"
+msgstr "тип кастомного запису"
+
+#: custom-fields-search.php:256
+msgid "You need to"
+msgstr "Вам необхідно"
+
+#: custom-fields-search.php:256
+msgid "activate plugin"
+msgstr "активувати плагін"
+
+#: custom-fields-search.php:258
+msgid "If the type of the post is not default - you need to install and activate the plugin"
+msgstr "Якщо тип запису не стандартний, вам необхідно всановити та активувати плагін"
+
+#: custom-fields-search.php:264
+msgid "Custom fields not found."
+msgstr "Кастомні поля не знайдено."
+
+#: custom-fields-search.php:268
+msgid "Show hidden fields"
+msgstr "Відображати приховані поля"
+
+#: custom-fields-search.php:275
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: custom-fields-search.php:307
+msgid "Support"
+msgstr "Тех. підтримка"
+
+#~ msgid "requires"
+#~ msgstr "потребує"
+
+#~ msgid ""
+#~ "or higher, that is why it has been deactivated! Please upgrade WordPress "
+#~ "and try again."
+#~ msgstr ""
+#~ "або вище, тому він був деактивований! Будь ласка оновіть WordPress та "
+#~ "спробуйте ще раз."
+
+#~ msgid "Back to the WordPress"
+#~ msgstr "Повернутися до WordPress на"
+
+#~ msgid "Plugins page"
+#~ msgstr "Сторінку плагинів"
+
+#~ msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
+#~ msgstr ""
+#~ "Якщо наш плагін вам до вподоби, будь ласка, поставте п’ять зірочок на "
+#~ "сторінці WordPress"
+
+#~ msgid "Rate the plugin"
+#~ msgstr "Оцініти плагін"
+
+#~ msgid "If there is something wrong about it, please contact us"
+#~ msgstr "Якщо щось працює некоректно, будь ласка, повідомте нам"
+
+#~ msgid "Custom fields search"
+#~ msgstr "Custom fields search"
+
+#~ msgid "activate plugin Custom Search"
+#~ msgstr "активувати плагін Custom Search"
+
+#~ msgid "Custom Search"
+#~ msgstr "Custom Search"

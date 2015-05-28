@@ -1,0 +1,12 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+	font-family: 'FjordOne';
+    src: url('fjordone-regular-webfont.eot');
+    src: url('fjordone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fjordone-regular-webfont.woff') format('woff'),
+         url('fjordone-regular-webfont.ttf') format('truetype'),
+         url('fjordone-regular-webfont.svg#FjordOne') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

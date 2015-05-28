@@ -1,0 +1,27 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+
+ .mod-box.mod-box-color1 .wk-twitter-single:before {
+ 	display: block;
+ 	margin-bottom: 20px;
+ 	padding-top: 140px;
+ 	text-align: center;
+ 	font-size: 36px;
+ 	line-height: 36px;
+ 	background: url(../../../images/yootheme/icon_twitter.png) 50% 0 no-repeat;
+ 	content: "latest tweet";
+ }
+
+  .mod-box.mod-box-color1 .wk-twitter-single .content {
+  	font-family: Arial, Helvetica, sans-serif;
+  	font-style: normal;
+  	font-size: 18px;
+  	line-height: 27px;
+  	min-height: 194px;
+  }
+
+.mod-box.mod-box-color1 .wk-twitter-single .content:before,
+.mod-box.mod-box-color1 .wk-twitter-single .content:after { content: '"'; }

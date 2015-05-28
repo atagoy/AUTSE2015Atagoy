@@ -1,0 +1,110 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+
+
+.custom-logo {
+    display: inline-block;
+	width: 205px;
+	height: 70px;
+	background: url(../../../images/yootheme/logo.png) 0 0 no-repeat;
+    background-position: 0 50%;
+    background-size: contain;
+}
+
+/* Frontpage Teaser */
+#page .frontpage-teaser-1 { margin-bottom: 15px; }
+
+.frontpage-teaser-1 h1,
+.frontpage-teaser-1 p { 
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.frontpage-teaser-1 p { margin-top: 10px; }
+.frontpage-teaser-1 img { margin-top: -70px; }
+
+.frontpage-teaser-2 h1 { margin: 20px 0 0 0; }
+.frontpage-teaser-2 p { margin-top: 10px; }
+
+.frontpage-teaser-2 .width33 div { margin-top: 40px; }
+.frontpage-teaser-2 .width33 div + div { margin-top: 90px; }
+
+/* Frontpage Sidebar */
+ ul.frontpage-icons li h3 {
+ 	margin-top: 15px;
+ 	padding: 5px 5px 5px 35px;
+ 	background-size: 35px 35px;
+ 	background-position: 0 50%;
+ 	background-repeat: no-repeat;
+ }
+
+ .available-icon { margin-right: 10px; }
+
+ /* Bottom A
+  ----------------------------------------------------------------------------------------------------*/
+
+
+ /* Frontpage Font
+ ----------------------------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'JournalRegular';
+    src: url('../fonts/journal-webfont.eot');
+    src: url('../fonts/journal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/journal-webfont.woff') format('woff'),
+         url('../fonts/journal-webfont.ttf') format('truetype'),
+         url('../fonts/journal-webfont.svg#JournalRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.journal-font { 
+	font-family: "JournalRegular"; 
+	font-size: 35px;
+}
+
+
+ /* Frontpage Responsive
+ ----------------------------------------------------------------------------------------------------*/
+
+/* Only Tablets (Portrait) and Phones (Landscape) */
+@media (min-width: 480px) and (max-width: 959px) {
+
+    .frontpage-teaser-2 .width66,
+    .frontpage-teaser-2 .width33 { width: 50% }
+
+}
+
+/* Only Phones */
+@media (max-width: 767px) {
+
+    #innerbottom-b .frontpage-features,
+    #innerbottom-a .frontpage-features { margin-top: 0; }
+    #innerbottom-b .frontpage-features > h2,
+    #innerbottom-a .frontpage-features > h2 { margin-top: 20px; }
+
+}
+
+/* Only Phones (Landscape) */
+@media (min-width: 480px) and (max-width: 767px) {
+
+    .frontpage-teaser-2 .width33 div { margin-top: 20px; }
+    .frontpage-teaser-2 .width33 div + div { margin-top: 50px; }
+
+}
+
+ /* Only Phones (Portrait) */
+@media (max-width: 479px) {
+
+    .frontpage-teaser-1 { margin: 0px auto; }
+    .frontpage-center { text-align: center; }
+    .frontpage-teaser-2 .width33 div, 
+    .frontpage-teaser-2 .width33 div + div { margin-top: 0; }
+    .frontpage-teaser-1 img { margin-top: -40px; }
+
+}

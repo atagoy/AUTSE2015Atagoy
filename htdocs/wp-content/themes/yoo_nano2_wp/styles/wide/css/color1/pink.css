@@ -1,0 +1,10 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../../css/color1/pink.css);
+
+#system .pagination strong,
+#system .pagination a:hover {
+	border-color: #e49;
+	background-color: #e49;
+}
+

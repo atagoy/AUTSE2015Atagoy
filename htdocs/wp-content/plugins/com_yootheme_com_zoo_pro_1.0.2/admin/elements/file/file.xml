@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element type="file" group="Core" hidden="true">
+	<name>File</name>
+	<author>YOOtheme</author>
+	<creationDate>March 2009</creationDate>
+	<copyright>Copyright (C) 2007 - 2009 YOOtheme GmbH</copyright>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+	<version>1.0.0</version>
+	<description>File Core System</description>
+</element>

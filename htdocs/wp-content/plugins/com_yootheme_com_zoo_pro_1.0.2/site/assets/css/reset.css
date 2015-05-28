@@ -1,0 +1,158 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*
+ * Browser Reset
+ */
+
+div#yoo-zoo div,
+div#yoo-zoo dl,
+div#yoo-zoo dt,
+div#yoo-zoo dd,
+div#yoo-zoo ul,
+div#yoo-zoo ol,
+div#yoo-zoo li,
+div#yoo-zoo h1,
+div#yoo-zoo h2,
+div#yoo-zoo h3,
+div#yoo-zoo h4,
+div#yoo-zoo h5,
+div#yoo-zoo h6,
+div#yoo-zoo pre,
+div#yoo-zoo form,
+div#yoo-zoo fieldset,
+div#yoo-zoo input,
+div#yoo-zoo textarea,
+div#yoo-zoo p,
+div#yoo-zoo blockquote,
+div#yoo-zoo th,
+div#yoo-zoo td {
+	margin: 0; 
+	padding: 0;
+	background: none;
+}
+
+div#yoo-zoo fieldset, div#yoo-zoo img { border: 0; }
+div#yoo-zoo a:focus { outline: none; }
+
+/*
+ * New standard values
+ */
+
+/* paragraph */
+div#yoo-zoo p { margin: 10px 0px 15px 0px; }
+
+/* lists */
+div#yoo-zoo ul, div#yoo-zoo ol, div#yoo-zoo dl { margin: 1em 0; padding-left: 30px }
+div#yoo-zoo dl { margin: 1em 0; }
+div#yoo-zoo dd { padding-left: 40px; }
+
+/* tables */
+div#yoo-zoo td, div#yoo-zoo th { padding: 1px; }
+
+/* forms */
+div#yoo-zoo fieldset { border: 1px solid #c8c8c8; }
+div#yoo-zoo legend { background: #ffffff; }
+
+div#yoo-zoo textarea,
+div#yoo-zoo input[type='text'],
+div#yoo-zoo input[type='password'],
+div#yoo-zoo select {
+	border: 1px solid #c8c8c8; background: #ffffff;
+}
+
+div#yoo-zoo textarea:hover,
+div#yoo-zoo input[type='text']:hover,
+div#yoo-zoo input[type='password']:hover,
+div#yoo-zoo select:hover {
+	border-color: #aaaaaa;
+}
+
+div#yoo-zoo textarea:focus,
+div#yoo-zoo input[type='text']:focus,
+div#yoo-zoo input[type='password']:focus,
+div#yoo-zoo select:focus {
+	border-color: #8c8c8c; outline: 2px solid #dcdcdc;
+}
+
+div#yoo-zoo input[type='button'],
+div#yoo-zoo input[type='submit'],
+div#yoo-zoo input[type='checkbox'],
+div#yoo-zoo input[type='image'],
+div#yoo-zoo input[type='radio'],
+div#yoo-zoo input[type='reset'],
+div#yoo-zoo select, button {
+	cursor: pointer;
+}
+
+div#yoo-zoo input[type='hidden'] { display: none; }
+
+div#yoo-zoo fieldset { padding: 0 1em 1em 1em; }
+div#yoo-zoo legend { padding: 0 .8em 0 .8em; }
+div#yoo-zoo textarea, div#yoo-zoo input[type='text'], div#yoo-zoo input[type='password'] { padding: .1em 0 .1em .4em; }
+div#yoo-zoo option { padding: 0 0 .1em .4em; }
+div#yoo-zoo form div { margin: .8em 0 .8em 0; }
+div#yoo-zoo button, div#yoo-zoo input[type='button'], input[type='submit'] { padding: .2em .3em .2em .1em; line-height: 100%; }
+
+/* links */
+div#yoo-zoo a:link, div#yoo-zoo a:visited { text-decoration: none; }
+div#yoo-zoo a:hover { text-decoration: underline; }
+
+/* headings */
+div#yoo-zoo h1,
+div#yoo-zoo h2,
+div#yoo-zoo h3,
+div#yoo-zoo h4,
+div#yoo-zoo h5,
+div#yoo-zoo h6 {
+	font-weight: bold;
+	margin-bottom: 5px;
+	line-height: 100%;
+}
+
+div#yoo-zoo h1 { font-size: 300%; }
+div#yoo-zoo h2 { font-size: 250%; }
+div#yoo-zoo h3 { font-size: 200%; }
+div#yoo-zoo h4 { font-size: 175%; }
+div#yoo-zoo h5 { font-size: 150%; }
+div#yoo-zoo h6 { font-size: 125%; }
+
+/* horizontal rule */
+div#yoo-zoo hr {
+	margin: 15px 0px 15px 0px;
+	display: block;
+	background: #c8c8c8;
+	height: 1px;
+	border: none;
+}
+
+/* blockquotes, cites */
+div#yoo-zoo blockquote {
+	margin: 10px 0 10px 15px;
+	padding: 0px 0px 0px 0px;
+	font-style: italic;
+	font-size: 130%
+}
+
+div#yoo-zoo blockquote:first-letter {
+	font-size: 150%
+}
+
+/* preformatted text elements */
+div#yoo-zoo pre {
+	margin: 10px 0 10px 0px;
+	padding: 5px 0 5px 10px;
+	border: 1px dotted #aab4be;
+	border-left: 20px solid #b4b4b4;
+	background: #fafafa;
+	font-size: 90%;
+	color: #2E8B57;
+	font-family: "Courier New", Courier, monospace;
+}
+
+/* acronym */
+div#yoo-zoo acronym, div#yoo-zoo abbr {
+	border-bottom: 1px dashed #969696;
+	cursor: help;
+	font-variant: small-caps;
+	text-transform: lowercase;
+}

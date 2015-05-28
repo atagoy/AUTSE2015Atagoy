@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: custom-search\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-05 11:37+0300\n"
+"PO-Revision-Date: 2015-03-05 11:37+0300\n"
+"Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
+"Language-Team: Fernando De Le&oacute;n <mrjosefernando@gmail.com>\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ custom-search
+#: custom-search-plugin.php:32
+#: custom-search-plugin.php:134
+msgid "Custom Search Settings"
+msgstr "Configuraci&oacute;n de B&uacute;squeda personalizada"
+
+# @ captcha
+#: custom-search-plugin.php:130
+msgid "Settings saved"
+msgstr "Configuraci&oacute;n"
+
+# @ captcha
+#: custom-search-plugin.php:136
+#: custom-search-plugin.php:176
+#: custom-search-plugin.php:190
+msgid "Settings"
+msgstr "Configuraci&oacute;n"
+
+#: custom-search-plugin.php:137
+#: custom-search-plugin.php:191
+msgid "FAQ"
+msgstr ""
+
+#: custom-search-plugin.php:140
+msgid "Notice:"
+msgstr ""
+
+#: custom-search-plugin.php:140
+msgid "The plugin's settings have been changed. In order to save them please don't forget to click the 'Save Changes' button."
+msgstr ""
+
+# @ custom-search
+#: custom-search-plugin.php:145
+msgid "Enable Custom search for:"
+msgstr "Activar la b&uacute;squeda personalizada en:"
+
+# @ default
+#: custom-search-plugin.php:155
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+# @ custom-search
+#: custom-search-plugin.php:160
+msgid "No custom post type found."
+msgstr "No ha producido ning&uacute;n tipo de mensaje personalizado."
+
+#: custom-search-plugin.php:192
+msgid "Support"
+msgstr ""
+
+# @ custom-search
+#~ msgid "Custom search"
+#~ msgstr " B&uacute;squeda personalizada"
+# @ captcha
+#, fuzzy
+#~ msgid "Plugins page"
+#~ msgstr "Plugins recomendados"
+
+# @ captcha
+#, fuzzy
+#~ msgid "Rate the plugin"
+#~ msgstr "Plugins recomendados"
+
+# @ captcha
+#~ msgid "Activated plugins"
+#~ msgstr "Plugins activados"
+# @ captcha
+#~ msgid "Read more"
+#~ msgstr "Leer m&aacute;s"
+# @ captcha
+#~ msgid "Installed plugins"
+#~ msgstr "Plugins instalados"
+# @ captcha
+#~ msgid "Recommended plugins"
+#~ msgstr "Plugins recomendados"
+# @ captcha
+#~ msgid "Download"
+#~ msgstr "Descargar"
+# @ default
+#~ msgid "Install %s"
+#~ msgstr "Instalar %s"
+# @ captcha
+#~ msgid "Install now from wordpress.org"
+#~ msgstr "Instalar ahora desde wordpress.org"
+# @ captcha
+#, fuzzy
+#~ msgid "Active Plugins"
+#~ msgstr "Plugins activados"
+
+# @ captcha
+#, fuzzy
+#~ msgid "Inactive Plugins"
+#~ msgstr "Plugins activados"

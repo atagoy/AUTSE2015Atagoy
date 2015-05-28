@@ -1,0 +1,12 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+    font-family: 'RangerRegular';
+    src: url('rangerwebfont.eot');
+    src: url('rangerwebfont.eot?#iefix') format('embedded-opentype'),
+         url('rangerwebfont.woff') format('woff'),
+         url('rangerwebfont.ttf') format('truetype'),
+         url('rangerwebfont.svg#RangerRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

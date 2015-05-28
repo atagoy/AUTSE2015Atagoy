@@ -1,0 +1,68 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/rtl.css);
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+/* Menubar */
+#menubar {
+	padding-right: 0;
+	padding-left: 5px;
+}
+
+/* Search */
+#search {
+	margin-right: 0;
+	margin-left: 3px;
+}
+
+/* Sidebar Backgrounds */
+.sidebar-a-right #sidebar-a:before,
+.sidebar-b-right #sidebar-b:before {
+	border: none;
+	background-position: 100% 0;
+}
+
+.sidebar-a-left #sidebar-a:before,
+.sidebar-b-left #sidebar-b:before {
+	border: none;
+	background-position: 0 0;
+}
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Mega Drop-Down Menu */
+.menu-dropdown li.level1 { margin-left: 0; }
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 { background-position: 100% 50%; }
+
+.menu-dropdown a.level1 > span,
+.menu-dropdown span.level1 > span {
+	padding-left: 15px;
+	padding-right: 16px;
+}
+
+/* Sidebar/Accordion Menu */
+.menu-sidebar ul.level2 ul { padding-right: 10px; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.grid-v .mod-line .badge {
+	right: auto;
+	left: 6px;
+}
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Search Box */
+.searchbox .results { left: -8px; }
+

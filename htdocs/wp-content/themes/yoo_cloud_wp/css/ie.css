@@ -1,0 +1,105 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie.css);
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+/* Toolbar */
+#block-toolbar { border-bottom: 1px solid #d4d4d6; }
+
+/* Menubar */
+#menubar { border: 1px solid #303032; }
+
+/* System */
+#content,
+#breadcrumbs { box-shadow: 0 0 0 1px rgba(0,0,2,0.1); }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Menu Dropdown */
+.menu-dropdown li.active .level1 {
+	border-top: 1px solid #2a2a2c;
+	border-right: 1px solid #272729;
+	border-bottom: 1px solid #272729;
+	border-left: 1px solid #2a2a2c;
+}
+
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1 { border: 1px solid #2a2a2c; }
+
+.menu-dropdown .dropdown { top: 30px; left: 0; }
+
+.menu-dropdown .dropdown-bg { margin: 0; }
+
+.menu-dropdown .dropdown-bg > div {
+	border: 1px solid #2a2a2c;
+	border-top: none;
+}
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box { box-shadow: 0 0 0 1px rgba(0,0,2,0.1); }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Pagination */
+#system .pagination a { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E6E6E8', endColorstr='#CDCDCF',GradientType=0 ); }
+#system .pagination strong { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5A5A5C', endColorstr='#414143',GradientType=0 ); }
+#system .pagination a.previous,
+#system .pagination a.next { filter: none; }
+
+/* Search */
+#searchbox {
+	border-top: 1px solid #2a2a2c;
+	border-right: 1px solid #272729;
+	border-bottom: 1px solid #272729;
+	border-left: 1px solid #2a2a2c;
+	background: #333435 url(../images/searchbox_magnifier.png) 0 50% no-repeat;
+}
+
+#searchbox .results { top: 42px; }
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Line Icon */
+ul.line-icon > li,
+#page ul.line-icon > li:first-child { background: url(../images/tools/list_line_icon.png) 0 0 no-repeat; }
+
+ul.line-icon > li { border-top: 1px solid #dedee0; }
+
+#page ul.line-icon > li:first-child { border-top: none; }
+
+/* Line Icon Black */
+.mod-black ul.line-icon > li,
+#page .mod-black ul.line-icon > li:first-child { background: url(../images/tools/list_line_icon_black.png) 0 0 no-repeat; }
+
+.mod-black ul.line-icon > li { border-top: 1px solid #262627; }
+
+#page .mod-black ul.line-icon > li:first-child { border-top: none; }
+
+/* Line Icon Color */
+.mod-color ul.line-icon > li,
+#page .mod-color ul.line-icon > li:first-child { background: url(../images/tools/list_line_icon_color.png) 0 0 no-repeat; }
+
+.mod-color ul.line-icon > li { border-top: 1px solid #fefefe; }
+
+#page .mod-color ul.line-icon > li:first-child { border-top: none; }
+
+/* List Zebra */
+ul.zebra > li.odd,
+table.zebra tbody tr.odd { background: #fdfdff; }
+
+/* Module Black */
+.mod-black ul.zebra > li.odd, { background: transparent url(../images/menu_sidebar_level1_active_black.png) 0 0 repeat; }
+
+/* Module Color */
+.mod-color ul.zebra > li.odd { background: transparent url(../images/menu_sidebar_level1_active_color.png) 0 0 repeat; }

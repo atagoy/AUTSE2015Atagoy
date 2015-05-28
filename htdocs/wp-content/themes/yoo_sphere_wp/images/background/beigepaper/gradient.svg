@@ -1,0 +1,9 @@
+<!-- SVG syntax --> 
+<svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 1 1" preserveAspectRatio="none">
+<radialGradient id="g505" gradientUnits="userSpaceOnUse" cx="50%" cy="20%" r="40%" >
+	<stop offset="0" style="stop-color:#fefefe;stop-opacity:0.8"/>
+	<stop offset="0.3" style="stop-color:#fefefe;stop-opacity:0"/>
+	<stop offset="1" style="stop-color:#898884;stop-opacity:0.25"/>
+</radialGradient>
+<rect x="-50" y="-50" width="101" height="101" fill="url(#g505)" />
+</svg>

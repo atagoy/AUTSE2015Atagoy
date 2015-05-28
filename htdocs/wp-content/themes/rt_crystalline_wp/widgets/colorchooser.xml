@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+		<field name="text" type="text" label="Text" description="Text" class="widefat" size="30" default="Color Chooser" readonly="false"/>
+	</fieldset>
+</form>

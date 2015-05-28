@@ -1,0 +1,12 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+    font-family: 'GearedSlabRegular';
+    src: url('gearedslabwebfont.eot');
+    src: url('gearedslabwebfont.eot?#iefix') format('embedded-opentype'),
+         url('gearedslabwebfont.woff') format('woff'),
+         url('gearedslabwebfont.ttf') format('truetype'),
+         url('gearedslabwebfont.svg#GearedSlabRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

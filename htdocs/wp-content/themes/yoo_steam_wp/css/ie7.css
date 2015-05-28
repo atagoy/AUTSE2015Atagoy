@@ -1,0 +1,25 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie7.css);
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#headerbar .float-left,
+#headerbar .float-right { width: 360px; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+a.button-more {
+	margin: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Search Box */
+.searchbox input { line-height: 28px; }

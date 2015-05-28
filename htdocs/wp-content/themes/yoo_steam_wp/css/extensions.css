@@ -1,0 +1,64 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Widgetkit
+----------------------------------------------------------------------------------------------------*/
+
+/* Widgetkit Accordion */
+.wk-accordion-default .toggler {
+	padding: 4px 8px;
+	border: none;
+}
+
+/* Widgetkit Twitter */
+.wk-twitter-single.image {
+	background-position: 0 3px;
+	background-repeat: no-repeat;
+}
+
+.wk-twitter-bubbles .content,
+.wk-twitter .image {
+	border: none;
+	border-radius: 3px;
+	background-color: transparent;
+	background-position: 0 0;
+	background-repeat: repeat;
+	box-shadow: none;
+}
+
+.wk-twitter-bubbles .content:after {
+	width: 18px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+/* Widgetkit Maps */
+.wk-map .wk-content,
+.wk-map .wk-content h3 { font-family: Arial, Helvetica, sans-serif; }
+
+.wk-map .wk-content {
+	line-height: 20px;
+	font-size: 14px;
+	color: #444;
+	text-shadow: none;
+}
+
+.wk-map .wk-content h3 {
+	font-size: 28px;
+	color: #222;
+	text-transform: none;
+}
+
+
+/* ZOO
+----------------------------------------------------------------------------------------------------*/
+
+#yoo-zoo { line-height: 22px!important; }
+
+#yoo-zoo h1,
+#yoo-zoo h2,
+#yoo-zoo h3,
+#yoo-zoo h4,
+#yoo-zoo h5,
+#yoo-zoo h6 { font-family: Arial, Helvetica, sans-serif; }
+
+#yoo-zoo .categories ul.sub-items { line-height: 20px; }

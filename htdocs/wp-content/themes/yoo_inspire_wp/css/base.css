@@ -1,0 +1,56 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/base.css);
+
+
+/* New style-related Base Values
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	font: normal 14px/20px Arial, Helvetica, sans-serif;
+	color: #6E6E6E;
+}
+
+ins, mark { background-color: #ffa; }
+mark { color: #444; }
+
+hr { border-top-color: #ddd; }
+
+pre {
+	border: 1px solid #ddd;
+	background: #fafafa;
+}
+
+
+blockquote {
+	position: relative;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+}
+
+blockquote:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 12px;
+	width: 17px;
+	background: url(../images/quote_start.png) 0 0 no-repeat;
+}
+
+blockquote:after {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	right: 0;
+	height: 12px;
+	width: 17px;
+	background: url(../images/quote_end.png) 0 0 no-repeat;
+}
+
+
+/* Useful Snippets
+----------------------------------------------------------------------------------------------------*/

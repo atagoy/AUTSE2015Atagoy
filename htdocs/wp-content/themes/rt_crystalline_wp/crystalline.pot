@@ -1,0 +1,510 @@
+# Translation of the WordPress theme Crystalline 1.0 by RocketTheme, LLC.
+# Copyright (C) 2010 RocketTheme, LLC
+# This file is distributed under the same license as the Crystalline package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Crystalline 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/crystalline\n"
+"POT-Creation-Date: 2010-10-17 00:13+0200\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions.php:19
+msgid ""
+"The active theme requires the Gantry Framework Plugin to be installed and "
+"active"
+msgstr ""
+
+#: gizmos/styledeclaration.php:126
+msgid "Unable to write \"overlay.css\" in the \"/css\" folder."
+msgstr ""
+
+#: html/404.php:8
+msgid "404 Page Not Found"
+msgstr ""
+
+#: html/archive.php:76
+msgid "Category:"
+msgstr ""
+
+#: html/archive.php:78
+msgid "Posts Tagged"
+msgstr ""
+
+#: html/archive.php:80 html/archive.php:82 html/archive.php:84
+msgid "Archive for"
+msgstr ""
+
+#: html/archive.php:86
+msgid "Author Archive"
+msgstr ""
+
+#: html/archive.php:88
+msgid "Blog Archives"
+msgstr ""
+
+#: html/archive.php:159 html/home.php:107 html/index.php:107 html/page.php:63
+#: html/search.php:117 html/single.php:63
+msgid "Posted on"
+msgstr ""
+
+#: html/archive.php:169 html/home.php:117 html/index.php:117 html/page.php:73
+#: html/search.php:127 html/single.php:73
+msgid "Last Updated on"
+msgstr ""
+
+#: html/archive.php:179 html/home.php:127 html/index.php:127 html/page.php:83
+#: html/search.php:137 html/single.php:83
+msgid "Written by"
+msgstr ""
+
+#: html/archive.php:193 html/archive.php:199 html/home.php:141
+#: html/home.php:147 html/index.php:141 html/index.php:147 html/page.php:93
+#: html/search.php:151 html/search.php:157 html/single.php:93
+msgid "0 Comments"
+msgstr ""
+
+#: html/archive.php:193 html/archive.php:199 html/home.php:141
+#: html/home.php:147 html/index.php:141 html/index.php:147 html/page.php:93
+#: html/search.php:151 html/search.php:157 html/single.php:93
+msgid "1 Comment"
+msgstr ""
+
+#: html/archive.php:193 html/archive.php:199 html/home.php:141
+#: html/home.php:147 html/index.php:141 html/index.php:147 html/page.php:93
+#: html/search.php:151 html/search.php:157 html/single.php:93
+msgid "% Comments"
+msgstr ""
+
+#: html/archive.php:261 html/home.php:209 html/index.php:209
+#: html/search.php:219
+msgid "Older Entries"
+msgstr ""
+
+#: html/archive.php:264 html/home.php:212 html/index.php:212
+#: html/search.php:222
+msgid "Newer Entries"
+msgstr ""
+
+#: html/archive.php:276
+msgid "Sorry, but there aren't any posts matching your query."
+msgstr ""
+
+#: html/gantrymenu/themes/catalog.php:9
+msgid "Crystalline Fusion"
+msgstr ""
+
+#: html/gantrymenu/themes/catalog.php:11
+msgid "Crystalline SplitMenu"
+msgstr ""
+
+#: html/gantrymenu/themes/catalog.php:13
+msgid "Crystalline Touch"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:22
+msgid "Subtext"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:31
+msgid "Icon"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:58
+msgid "Number of Columns in Submenu"
+msgstr ""
+
+#: html/layouts/comment_basic.php:45
+msgid "Posted On"
+msgstr ""
+
+#: html/layouts/comment_basic.php:48
+msgid "Posted By"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:40
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:57
+msgid "Comments"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:61
+msgid "Reply"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:68
+msgid "Older Comments"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:69
+msgid "Newer Comments"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:88
+msgid "Comments are closed."
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:101
+msgid "Leave a Reply"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:101
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:111
+msgid "You must be"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:111
+msgid "logged in"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:111
+msgid "to post a comment."
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:119
+#: html/layouts/commentstempl_basic.php:146
+msgid "Website"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:124
+msgid "Logged in as"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:125
+msgid "Log out of this account"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:125
+msgid "Log out"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:131
+#: html/layouts/commentstempl_basic.php:132
+#: html/layouts/commentstempl_basic.php:133
+msgid "Name (Required)"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:139
+#: html/layouts/commentstempl_basic.php:140
+#: html/layouts/commentstempl_basic.php:141
+msgid "E-mail (Required)"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:159
+msgid "Send"
+msgstr ""
+
+#: html/page.php:111 html/single.php:111
+msgid "Pages:"
+msgstr ""
+
+#: html/page.php:113 html/single.php:123
+msgid "Edit this entry."
+msgstr ""
+
+#: html/page.php:148
+msgid "Sorry, no pages matched your criteria."
+msgstr ""
+
+#: html/search.php:34
+msgid "Search Results for"
+msgstr ""
+
+#: html/search.php:234
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: html/single.php:117
+msgid "Tags:"
+msgstr ""
+
+#: html/single.php:130
+msgid "This entry was posted"
+msgstr ""
+
+#: html/single.php:135
+msgid "on"
+msgstr ""
+
+#: html/single.php:135
+msgid "at"
+msgstr ""
+
+#: html/single.php:136
+msgid "and is filed under"
+msgstr ""
+
+#: html/single.php:137
+msgid "You can follow any responses to this entry through the"
+msgstr ""
+
+#: html/single.php:137
+msgid "feed"
+msgstr ""
+
+#: html/single.php:141
+msgid "You can"
+msgstr ""
+
+#: html/single.php:141
+msgid "leave a response"
+msgstr ""
+
+#: html/single.php:141
+msgid "or"
+msgstr ""
+
+#: html/single.php:141 html/single.php:145
+msgid "trackback"
+msgstr ""
+
+#: html/single.php:141 html/single.php:145
+msgid "from your own site."
+msgstr ""
+
+#: html/single.php:145
+msgid "Responses are currently closed, but you can"
+msgstr ""
+
+#: html/single.php:149
+msgid ""
+"You can skip to the end and leave a response. Pinging is currently not "
+"allowed."
+msgstr ""
+
+#: html/single.php:153
+msgid "Both comments and pings are currently closed."
+msgstr ""
+
+#: html/single.php:155
+msgid "Edit this entry"
+msgstr ""
+
+#: html/single.php:195
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: widgets/colorchooser.php:54
+msgid "Gantry Presets Saver"
+msgstr ""
+
+#: widgets/colorchooser.php:55
+msgid ""
+"Select the Presets you want to save and choose a new name for them. Hit "
+"\"skip\" on a Presets section if you dont want to save as new that specific "
+"Preset."
+msgstr ""
+
+#: widgets/colorchooser.php:56
+msgid "Preset Name"
+msgstr ""
+
+#: widgets/colorchooser.php:57
+msgid "Key Name"
+msgstr ""
+
+#: widgets/colorchooser.php:58
+msgid "Preset Naming for"
+msgstr ""
+
+#: widgets/colorchooser.php:59
+msgid "Skip"
+msgstr ""
+
+#: widgets/colorchooser.php:60
+msgid "NEW PRESET SAVED WITH SUCCESS!"
+msgstr ""
+
+#: widgets/colorchooser.php:61
+msgid ""
+"<p>The new Presets have been successfully saved and they are ready to be "
+"used right now. You will find them from the list of the respective presets.</"
+"p><p>Click \"Close\" button below to close this window.</p>"
+msgstr ""
+
+#: widgets/colorchooser.php:62
+msgid "SAVE FAILED"
+msgstr ""
+
+#: widgets/colorchooser.php:63
+msgid ""
+"<p>It looks like the saving of the new Preset didnt succeed. Make sure your "
+"template folder and \"custom/presets.ini\" at your template folder root have "
+"write permissions.</p><p>Once you think you have fixed the permission, hit "
+"the button \"Retry\" below.</p><p>If it still fails, please ask for support "
+"on RocketTheme forums</p>"
+msgstr ""
+
+#: widgets/colorchooser.php:64
+msgid "Cancel"
+msgstr ""
+
+#: widgets/colorchooser.php:65
+msgid "Save"
+msgstr ""
+
+#: widgets/colorchooser.php:66
+msgid "Retry"
+msgstr ""
+
+#: widgets/colorchooser.php:67
+msgid "Close"
+msgstr ""
+
+#: widgets/colorchooser.php:68
+msgid "Show Parameters"
+msgstr ""
+
+#: widgets/colorchooser.php:109
+msgid "min"
+msgstr ""
+
+#: widgets/colorchooser.php:110
+msgid "close"
+msgstr ""
+
+#: widgets/colorchooser.php:114
+msgid "Presets"
+msgstr ""
+
+#: widgets/colorchooser.php:117
+msgid "Load Preset"
+msgstr ""
+
+#: widgets/colorchooser.php:121 widgets/colorchooser.php:130
+msgid "Choose Preset"
+msgstr ""
+
+#: widgets/colorchooser.php:154
+msgid "Save New"
+msgstr ""
+
+#: widgets/colorchooser.php:156
+msgid "Apply"
+msgstr ""
+
+#: widgets/colorchooser.php:162
+msgid "Header"
+msgstr ""
+
+#: widgets/colorchooser.php:166 widgets/colorchooser.php:214
+#: widgets/colorchooser.php:255 widgets/colorchooser.php:296
+#: widgets/colorchooser.php:337
+msgid "Background"
+msgstr ""
+
+#: widgets/colorchooser.php:170 widgets/colorchooser.php:218
+#: widgets/colorchooser.php:259 widgets/colorchooser.php:300
+#: widgets/colorchooser.php:341
+msgid "Text"
+msgstr ""
+
+#: widgets/colorchooser.php:174 widgets/colorchooser.php:222
+#: widgets/colorchooser.php:263 widgets/colorchooser.php:304
+#: widgets/colorchooser.php:345
+msgid "Link"
+msgstr ""
+
+#: widgets/colorchooser.php:180 widgets/colorchooser.php:228
+#: widgets/colorchooser.php:269 widgets/colorchooser.php:310
+#: widgets/colorchooser.php:351
+msgid "Overlay"
+msgstr ""
+
+#: widgets/colorchooser.php:189 widgets/colorchooser.php:237
+#: widgets/colorchooser.php:278 widgets/colorchooser.php:319
+#: widgets/colorchooser.php:360
+msgid "Shadows"
+msgstr ""
+
+#: widgets/colorchooser.php:192 widgets/colorchooser.php:240
+#: widgets/colorchooser.php:281 widgets/colorchooser.php:322
+#: widgets/colorchooser.php:363
+msgid "None"
+msgstr ""
+
+#: widgets/colorchooser.php:194 widgets/colorchooser.php:242
+#: widgets/colorchooser.php:283 widgets/colorchooser.php:324
+#: widgets/colorchooser.php:365
+msgid "Light"
+msgstr ""
+
+#: widgets/colorchooser.php:196 widgets/colorchooser.php:244
+#: widgets/colorchooser.php:285 widgets/colorchooser.php:326
+#: widgets/colorchooser.php:367
+msgid "Dark"
+msgstr ""
+
+#: widgets/colorchooser.php:201
+msgid "Header Graphic"
+msgstr ""
+
+#: widgets/colorchooser.php:210
+msgid "Main"
+msgstr ""
+
+#: widgets/colorchooser.php:251
+msgid "Feature"
+msgstr ""
+
+#: widgets/colorchooser.php:292
+msgid "Body"
+msgstr ""
+
+#: widgets/colorchooser.php:333
+msgid "Bottom"
+msgstr ""
+
+#: widgets/colorchooser.php:374
+msgid "Palette"
+msgstr ""
+
+#: widgets/colorchooser.php:396
+msgid "Save Palette"
+msgstr ""
+
+#: widgets/copyright.php:48
+msgid "Developed By"
+msgstr ""
+
+#: widgets/copyright.php:51
+msgid "Powered By"
+msgstr ""
+
+#: widgets/loginform.php:47
+msgid "Username"
+msgstr ""
+
+#: widgets/loginform.php:51
+msgid "Password"
+msgstr ""
+
+#: widgets/loginform.php:55 widgets/loginform.php:56
+msgid "Remember Me"
+msgstr ""
+
+#: widgets/loginform.php:58
+msgid "Login"
+msgstr ""
+
+#: widgets/loginform.php:62
+msgid "Forgot your password?"
+msgstr ""
+
+#: widgets/loginform.php:66
+msgid "Register"
+msgstr ""

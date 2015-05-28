@@ -1,0 +1,9 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+	font-family: 'BebasNeueRegular';
+	src: url('BebasNeue-webfont.eot?') format('eot'),
+		 url('BebasNeue-webfont.woff') format('woff'),
+		 url('BebasNeue-webfont.ttf') format('truetype'),
+		 url('BebasNeue-webfont.svg#webfontj1CI1MAi') format('svg');
+}

@@ -1,0 +1,15 @@
+/* Right Now */
+
+#dashboard_right_now td.last {
+	width: 40%; /* default 1px */
+}
+
+/* QuickPress */
+
+#dashboard_quick_press .cancel {
+	width: 60px;
+}
+
+#dashboard_quick_press .button-primary {
+	width: 120px;
+}

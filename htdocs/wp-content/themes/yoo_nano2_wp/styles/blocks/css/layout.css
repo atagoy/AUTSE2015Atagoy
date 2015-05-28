@@ -1,0 +1,111 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+.module { margin: 20px; }
+
+#menu .module { margin: 10px; }
+
+#top-a,
+#top-b,
+#bottom-a,
+#bottom-b,
+#main,
+#footer { margin: 15px 20px; }
+
+#menu .module { margin: 10px 5px; }
+
+#header { margin: 15px 20px 30px 20px; }
+
+#toolbar,
+#headerbar { margin-bottom: 15px; }
+#headerbar .module { margin: 15px 0 15px 15px; }
+
+#breadcrumbs,
+#content { margin: 20px; }
+
+#footer .module { margin: 0; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+/* Background */
+body#page { background: #fafafa; }
+
+/* Menubar */
+#menubar {
+	border: 1px solid #d5d5d5;
+	background: #eee;
+	border-radius: 6px;
+}
+
+/* Search */
+#search { margin: 6px 6px 0 0; }
+
+/* Blocks */
+#top-a,
+#top-b,
+#bottom-a,
+#bottom-b,
+#main {
+	border: 1px solid #ddd;
+	background: #FFF;
+	border-radius: 6px;
+}
+
+#innertop { border-bottom: 1px solid #eee; }
+#innerbottom { border-top: 1px solid #eee; }
+
+/* Sidebar Backgrounds */
+#sidebar-a,
+#sidebar-b { position: relative; }
+
+#sidebar-a:before,
+#sidebar-b:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border: 0 solid #eee;
+}
+
+.sidebar-a-right #sidebar-a:before,
+.sidebar-b-right #sidebar-b:before { border-width: 0 0 0 1px; }
+
+.sidebar-a-left #sidebar-a:before,
+.sidebar-b-left #sidebar-b:before { border-width: 0 1px 0 0; }
+
+/* Footer + Toolbar */
+#footer,
+#toolbar {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+/* ToTop Scroller */
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	width: 21px;
+	height: 21px;
+	border: 1px solid #ddd;
+	background: #fff url(../../../images/totop_scroller.png) 50% 50% no-repeat;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+#totop-scroller:hover {
+	border-color: #ccc;
+	background-color: #EEE;
+}

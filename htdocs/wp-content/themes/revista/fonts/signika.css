@@ -1,0 +1,12 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+	font-family: 'SignikaNegativeRegular';
+    src: url('signikanegative-regular-webfont.eot');
+    src: url('signikanegative-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('signikanegative-regular-webfont.woff') format('woff'),
+         url('signikanegative-regular-webfont.ttf') format('truetype'),
+         url('signikanegative-regular-webfont.svg#SignikaNegativeRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

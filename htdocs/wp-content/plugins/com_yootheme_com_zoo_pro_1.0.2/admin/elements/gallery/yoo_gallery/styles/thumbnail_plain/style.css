@@ -1,0 +1,9 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+div.plain div.yoo-gallery div.thumbnail {
+	float: left;
+}
+
+div.plain div.yoo-gallery div.thumbnail img {
+	float: left;
+}

@@ -1,0 +1,18 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/custom.css);
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+
+/* Logo */
+#logo .custom-logo { background-image: url(../../../../../images/yootheme/logo_black.png); }
+
+/* Frontpage Demo Ticket */
+#bottom-c .demo-ticket { background-image: url(../images/demo_ticket.png); }
+
+/* Social Icons
+----------------------------------------------------------------------------------------------------*/
+
+.social-icons li a { background-image: url(../images/tools/icons_social.png); }

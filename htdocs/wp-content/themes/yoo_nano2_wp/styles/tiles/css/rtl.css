@@ -1,0 +1,96 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/rtl.css);
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+/* Header */
+#logo,
+#logo > img { float: none; }
+
+/* Header Bars */
+#toolbar {
+	padding-left: 7px;
+	padding-right: 15px;
+}
+
+#headerbar .module {
+	margin-right: 0;
+	margin-left: 15px;
+	float: right;
+}
+
+#menu {
+	left: auto;
+	right: 280px;
+}
+
+/* Sidebar Backgrounds */
+.sidebar-a-left #sidebar-a:before,
+.sidebar-b-left #sidebar-b:before {
+	right: 0;
+	left: -1px;
+}
+
+/* Footer */
+#footer { text-align: right; }
+
+#totop-scroller { left: 10px; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Mega Drop-Down Menu */
+.menu-dropdown li.level1 { margin-left: 0; }
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 { background-position: 100% 50%; }
+
+.menu-dropdown a.level3 > span { background-position: 100% 0; }
+.menu-dropdown a.level3:hover > span { background-position: 100% -17px; }
+
+/* Sidebar/Accordion Menu */
+.menu-sidebar ul.level2 ul { padding-right: 10px; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+/* Module Type: Box */
+.grid-h .mod-line:before { right: -15px; }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Drop-Down Results */
+.searchbox .results {
+	right: auto;
+	left: -7px;
+}
+
+
+/* Responsive
+----------------------------------------------------------------------------------------------------*/
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	#page #menu {
+		left: auto;
+		right: 230px;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	#header-responsive .logo {
+		left: 0;
+		right: -15px;
+	}
+
+}

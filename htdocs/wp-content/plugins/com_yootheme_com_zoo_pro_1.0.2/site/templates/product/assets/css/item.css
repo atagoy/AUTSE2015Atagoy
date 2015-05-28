@@ -1,0 +1,108 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*************************************
+*
+* view: item
+*
+*************************************/
+
+/*
+ * box
+ */
+
+div#yoo-zoo div.box-t1 {
+	background: url(../images/box_tl.png) 0 0 no-repeat;
+}
+
+div#yoo-zoo div.box-t2 {
+	padding: 0px 10px 0px 10px;
+	background: url(../images/box_tr.png) 100% 0 no-repeat;
+}
+
+div#yoo-zoo div.box-t3 {
+	height: 9px;
+	border-top: 1px solid #C8CBCD;
+	background: #ffffff;
+}
+
+div#yoo-zoo div.box-1 {
+	border-left: 1px solid #C8CBCD;
+	border-right: 1px solid #C8CBCD;
+	background: #ffffff;
+	overflow: hidden;
+}
+
+div#yoo-zoo div.box-b1 {
+	background: url(../images/box_bl.png) 0 0 no-repeat;
+}
+
+div#yoo-zoo div.box-b2 {
+	padding: 0px 10px 0px 10px;
+	background: url(../images/box_br.png) 100% 0 no-repeat;
+}
+
+div#yoo-zoo div.box-b3 {
+	height: 9px;
+	border-bottom: 1px solid #C8CBCD;
+	background: #ffffff;
+}
+
+/*
+ * item
+ */
+
+div#yoo-zoo div.item {
+}
+
+div#yoo-zoo div.item div.box-1 {
+	padding: 4px 14px 4px 14px;
+}
+
+div#yoo-zoo div.item div.details {
+	overflow: hidden;
+}
+
+div#yoo-zoo div.item div.image {
+	margin: 0px 15px 0px 0px;
+	float: left;
+}
+
+div#yoo-zoo div.item h1.name {
+	margin: 0px;
+	font-size: 175%;
+	color: #505050;
+	line-height: 150%;
+	font-weight: bold;
+}
+
+div#yoo-zoo div.item div.element-rating {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+div#yoo-zoo div.item div.element-rating div.rating {
+	margin-right: 10px;
+	float: left;
+}
+
+div#yoo-zoo div.item div.element-rating div.vote-message {
+	line-height: 190%;
+}
+
+div#yoo-zoo div.item div.description {
+	margin-bottom: 10px;
+}
+
+div#yoo-zoo div.item h2.specifications {
+	margin: 0px 0px 5px 0px;
+	color: #505050;
+	font-size: 150%;
+	font-weight: normal;
+	line-height: 150%;
+}
+
+div#yoo-zoo div.item td.label {
+	padding-right: 10px;
+	font-weight: bold;
+	vertical-align: top;
+}

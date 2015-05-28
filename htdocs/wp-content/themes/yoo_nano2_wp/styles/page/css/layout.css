@@ -1,0 +1,131 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+.module,
+#breadcrumbs,
+#content { margin: 20px; }
+
+#menu .module { margin: 10px 5px; }
+
+#toolbar,
+#headerbar { margin: 15px; }
+
+#headerbar .module {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#footer .module { margin: 0; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+/* Background */
+body#page {
+	padding: 40px 0;
+	background: #f5f5f5;
+}
+
+.wrapper > div {
+	margin: 0 20px;
+	border: 1px solid #ddd;
+	background: #FFF;
+	border-radius: 6px;
+}
+
+/* Header */
+#menubar {
+	border-top: 1px solid #ddd;
+	background: #fcfcfc;
+}
+
+#menu { margin-bottom: -1px; }
+
+#search { margin: 6px 6px 0 0; }
+
+/* Block Separators */
+#header { border-bottom: 1px solid #ddd; }
+#top-a,
+#top-b,
+#innertop { border-bottom: 1px solid #eee; }
+
+#bottom-a,
+#bottom-b,
+#innerbottom { border-top: 1px solid #eee; }
+#footer { border-top: 1px solid #ddd; }
+
+/* System Output Disabled */
+#header + #bottom-a,
+#header + #bottom-b,
+#top-a + #bottom-a,
+#top-a + #bottom-b,
+#top-b + #bottom-a,
+#top-b + #bottom-b { border-top: none; }
+
+/* Sidebar Backgrounds */
+#sidebar-a,
+#sidebar-b {
+	position: relative;
+	z-index: 0;
+}
+
+#sidebar-a:before,
+#sidebar-b:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	border: 0 solid #eee;
+}
+
+.sidebar-a-right #sidebar-a:before,
+.sidebar-b-right #sidebar-b:before { border-width: 0 0 0 1px; }
+
+.sidebar-a-left #sidebar-a:before,
+.sidebar-b-left #sidebar-b:before {
+	right: -1px;
+	border-width: 0 1px 0 0;
+}
+
+/* Footer + Toolbar */
+#footer,
+#toolbar {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#footer {
+	padding: 20px;
+	background: #fcfcfc;
+	border-radius: 0 0 6px 6px;
+}
+
+/* ToTop Scroller */
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 1;
+	width: 21px;
+	height: 21px;
+	border: 1px solid #ddd;
+	background: #fff url(../../../images/totop_scroller.png) 50% 50% no-repeat;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+#totop-scroller:hover {
+	border-color: #ddd;
+	background-color: #EEE;
+}

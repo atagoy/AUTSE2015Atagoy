@@ -1,0 +1,13 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 {
+	font-family: 'MarvelRegular', sans-serif;
+	font-size: 19px;
+}
+
+
+.menu-dropdown a.level1 > span,
+.menu-dropdown span.level1 > span {
+	line-height: 35px;
+}

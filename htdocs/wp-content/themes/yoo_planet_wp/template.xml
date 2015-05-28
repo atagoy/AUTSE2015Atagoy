@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="template">
+	<name>Planet</name>
+	<version>5.5.1</version>
+	<creationDate>December 2010</creationDate>
+	<author>YOOtheme</author>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+    <copyright>Copyright (C) 2007 - 2010 YOOtheme GmbH</copyright>
+    <license>YOOtheme Proprietary Use License (http://www.yootheme.com/license)</license>
+	<description>Planet is the January 2010 theme of the YOOtheme club. It is based on YOOtheme's Warp CMS theme framework. NOTE: It is not free or public. This theme is for members of the YOOtheme club only.</description>
+	<positions>
+		<position>absolute</position>
+		<position>search</position>
+		<position>logo</position>
+		<position configurable="0" info="This position is not configurable.">menu</position>
+		<position>banner</position>
+		<position>toolbarleft</position>
+		<position>toolbarright</position>
+		<position>headerleft</position>
+		<position>headerright</position>
+		<position>breadcrumbs</position>
+		<position>top</position>
+		<position>topblock</position>
+		<position>left</position>
+		<position>right</position>
+		<position>maintop</position>
+		<position>contentleft</position>
+		<position>contentright</position>
+		<position>contenttop</position>
+		<position>contentbottom</position>
+		<position>mainbottom</position>
+		<position>bottom</position>
+		<position>bottomblock</position>
+		<position>footer</position>
+	</positions>
+	<params group="General">
+		<param name="presets" type="preset" label="Presets" description="Presets" default="{}" />
+		<param name="allow_dynamic_preset" type="radio" default="1" label="Allow dynamic preset" description="Allow dynamic preset.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="color" type="list" default="default" label="Template Color" description="Used color for template">
+			<option value="default">Ice Planet: Blue</option>
+			<option value="blackblue">Dark Planet: Blue</option>
+			<option value="blackgreen">Dark Planet: Green</option>
+			<option value="blacklilac">Dark Planet: Lilac</option>
+			<option value="blackorange">Dark Planet: Orange</option>
+			<option value="whiteorange">Ice Planet: Orange</option>
+			<option value="greenorange">Battle Planet: Orange</option>
+			<option value="greenwhite">Battle Planet: White</option>
+			<option value="bluewhite">Water Planet: White</option>
+			<option value="blueyellow">Water Planet: Yellow</option>
+		</param>
+		<param name="template_width" type="text" size="10" default="900" label="Template Width" description="Set the template width." />
+		<param name="template_width_unit" type="radio" default="px" label="Template Width Unit" description="Set the template width length unit to pixel or percent. For example use 90% to get a fluid layout.">
+			<option value="px">Pixel</option>
+			<option value="%">Percent</option>
+		</param>
+		<param name="multicolumns" type="list" default="1" label="Frontpage Multi Columns" description="Set the number of item columns on the frontpage.">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</param>
+		<param name="multicolumns_order" type="radio" default="1" label="Multi Columns Order" description="Set the items order to across or down.">
+			<option value="1">Across</option>
+			<option value="0">Down</option>
+		</param>	
+		<param name="date" type="radio" default="1" label="Show Date" description="Show/Hide the date.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="compression" type="list" default="0" label="Compression" description="Select the compression mode: Minify and combine templates css and javascript into a single file. Compress these files with gzip. Use Data URIs instead of images to remove all image file requests.">
+			<option value="0">None</option>
+			<option value="1">Combination + Minify</option>
+			<option value="2">Combination + Minify + Gzip</option>
+			<option value="3">Combination + Minify + Gzip + Data URIs</option>
+		</param>	
+	</params>
+	<params group="Advanced">
+		<param name="direction" type="radio" default="ltr" label="Content direction" description="Set the direction of your content">
+			<option value="ltr">ltr</option>
+			<option value="rtl">rtl</option>
+		</param>
+		<param name="language" type="text" size="10" default="en" label="Content language" description="Set the language of your content" />
+		<param name="left_width" type="text" size="10" default="220" label="Left Width" description="Set the width of the #left column in pixels. Don't forget to modify existent background images to match the new width if needed." />
+		<param name="left_space" type="text" size="10" default="5" label="Left Space" description="Set the space between the #left and #main column in pixels." />
+		<param name="right_width" type="text" size="10" default="220" label="Right Width" description="Set the width of the #right column in pixels. Don't forget to modify existent background images to match the new width if needed." />
+		<param name="right_space" type="text" size="10" default="5" label="Right Space" description="Set the space between the #main and #right column in pixels." />
+		<param name="contentleft_width" type="text" size="10" default="220" label="Contentleft Width" description="Set the width of the #contentleft column in pixels. Don't forget to modify existent background images to match the new width if needed." />
+		<param name="contentleft_space" type="text" size="10" default="5" label="Contentleft Space" description="Set the space between the #contentleft and #content column in pixels." />
+		<param name="contentright_width" type="text" size="10" default="220" label="Contentright Width" description="Set the width of the #contentright column in pixels. Don't forget to modify existent background images to match the new width if needed." />
+		<param name="contentright_space" type="text" size="10" default="5" label="Contentright Space" description="Set the space between the #content and #contentright column in pixels." />
+		<param name="menu_width" type="text" size="10" default="250" label="Drop Down Column Width" description="Set the width of one column of the drop down menu in pixels." />
+	</params>
+    <modulesettings>
+		<setting name="title" type="list" label="Title" default="1">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</setting>
+        <setting name="style" type="style" label="Style" nav_menu="false">
+            <option name="None" value="" />
+            <option name="Fading" value="fading">
+            	<color name="Theme Color" value="templatecolor" />
+            	<color name="Glow" value="glow" />
+            </option>
+            <option name="Monitor" value="monitor" />
+			<option name="Postit" value="postit" />
+			<option name="Polaroid" value="polaroid" />
+			<option name="Blank" value="blank" />
+        </setting>
+        <setting name="icon" type="list" label="Icon">
+			<option value="">None</option>
+			<option value="download">Download</option>
+			<option value="users">Users</option>
+			<option value="feed">Feed</option>
+			<option value="twitter">Twitter</option>
+			<option value="mail">Mail</option>
+			<option value="message">Message</option>
+			<option value="shopping">Shopping</option>
+			<option value="lock">Lock</option>
+        </setting>
+        <setting name="badge" type="list" label="Badge">
+            <option value="">None</option>
+            <option value="hot">Hot</option>
+            <option value="new">New</option>
+			<option value="top">Top</option>
+			<option value="pick">Pick</option>
+        </setting>
+		<setting name="display" type="display" label="Display" />
+    </modulesettings>
+</install>

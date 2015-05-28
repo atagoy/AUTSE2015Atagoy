@@ -1,0 +1,12 @@
+/**
+ * @version   1.0 October 16, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+ 
+.module-title .title br {display: none;}
+body.rtl .rokradios, body.rtl .rokradios-active, body.rtl .rokchecks, body.rtl .rokchecks-active {display: inline-block;}
+body.rtl .ribbon1 .module-title, body.rtl .ribbon2 .module-title, body.rtl .ribbon3 .module-title, body.rtl .ribbon4 .module-title, body.rtl .ribbon5 .module-title, body.rtl .ribbon6 .module-title, body.rtl .ribbon7 .module-title, body.rtl .ribbon8 .module-title {margin: 3px -28px 3px 0;float: right;}
+body.rtl .rt-wordpress .rt-headline {float: right;}
+body.rtl .rt-wordpress .rt-article-title {clear: both;}

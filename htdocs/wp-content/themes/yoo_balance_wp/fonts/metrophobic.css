@@ -1,0 +1,11 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+	font-family: 'MetrophobicRegular';
+	src: url('Metrophobic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('Metrophobic-webfont.woff') format('woff'),
+		 url('Metrophobic-webfont.ttf') format('truetype'),
+		 url('Metrophobic-webfont.svg#MetrophobicRegular') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}

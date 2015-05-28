@@ -1,0 +1,261 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/tools.css);
+
+
+/* Buttons (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+a.button-more {
+	padding-right: 38px;
+	line-height: 30px;
+	font-size: 22px;
+	color: #444;
+	background: url(../images/button_more.png) 100% 50% no-repeat;
+	opacity: 0.6;
+}
+
+a.button-more:hover {
+	color: #444;
+	opacity: 1;
+}
+
+.module a.button-more { font-size: 24px; }
+
+.system-transparent #content a.button-more,
+.mod-box-transparent a.button-more,
+.mod-box-color1 a.button-more,
+.mod-box-color2 a.button-more {
+	color: #fff;
+	background-image: url(../images/button_more_white.png);
+}
+
+/* Images and Objects (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+img.border-box { border: 1px solid #7F7F7F; }
+
+
+/* Lists and Tables (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+/* Line */
+ul.line > li { 
+	border-top: 1px solid #919191;
+	line-height: 24px;
+}
+
+.system-transparent #content ul.line > li,
+.mod-box-transparent ul.line > li,
+.mod-box-color1 ul.line > li,
+.mod-box-color2 ul.line > li { 
+	border-top: 1px solid #ffffff;
+	border-top-color: rgba(255,255,255,0.5);
+}
+
+ul.line > li:first-child { border: none; }
+
+/* Check */
+ul.check > li {
+	padding: 4px 0 0 30px;
+	line-height: 24px;
+	background: url(../images/tools/list_check.png) 0 50% no-repeat;
+}
+
+.system-transparent #content ul.check > li,
+.mod-box-transparent ul.check > li,
+.mod-box-color1 ul.check > li,
+.mod-box-color2 ul.check > li { background-image: url(../images/tools/list_check_white.png); }
+
+/* Zebra List and Table */
+ul.zebra > li.odd,
+table.zebra tbody tr.odd { background: url(../images/tools/table_zebra.png) 0 0 repeat; }
+ul.zebra > li:nth-of-type(odd),
+table.zebra tbody tr:nth-of-type(odd) { background: url(../images/tools/table_zebra.png) 0 0 repeat; }
+
+table.zebra caption { color: #999; }
+
+.system-transparent #content table.zebra caption,
+.mod-box-transparent table.zebra caption,
+.mod-box-color1 table.zebra caption,
+.mod-box-color2 table.zebra caption { color: #fff; }
+
+
+/* Definition Lists
+----------------------------------------------------------------------------------------------------*/
+
+dl.separator dt {	
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+/* border code because of RTL */
+dl.separator dd {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-color: #DDD;
+}
+
+dl.separator dt:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -15px;
+	width: 30px;
+	border-top: 1px solid #DDD;
+}
+
+dl.separator dt:after {
+	content: "";
+	position:absolute;
+	top: -3px;
+	right: -3px;
+	width: 5px;
+	height: 5px;
+	background: #FFF;
+	border: 1px solid #DDD;
+	border-radius:6px;
+}
+
+dl.separator dt:first-child:before,
+dl.separator dt:first-child:after { display: none; }
+
+
+/* Text
+----------------------------------------------------------------------------------------------------*/
+
+/* Inline Text Box */
+em.box { 
+	border: 1px solid #bbb;
+	background: #fafafa;
+	color: #444;
+}
+
+.system-transparent #content em.box,
+.mod-box-transparent em.box,
+.mod-box-color1 em.box,
+.mod-box-color2 em.box { border: none; }
+
+.system-transparent #content em.box { color: #444; }
+
+
+/* Dotted Horizontal Rule */
+hr.dotted { background: url(../images/tools/line_dotted.png) 0 0 repeat-x; }
+
+
+/* Boxes
+----------------------------------------------------------------------------------------------------*/
+
+.box-content {
+	background: #fafafa;
+	border: 1px solid #ddd;
+}
+
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download {
+	background: #fafafa;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.system-transparent #content .box-content,
+.system-transparent #content .box-note,
+.system-transparent #content .box-info,
+.system-transparent #content .box-warning,
+.system-transparent #content .box-hint,
+.system-transparent #content .box-download { 
+	border: none;
+	background-color: rgba(0,0,0,0.3);
+	box-shadow: 0 0 1px rgba(255,255,255,0.2);
+}
+
+.box-info {
+	background: #ebf5fa url(../images/tools/box_info.png) 0 0 no-repeat;
+	border-color: #d2dce1;
+}
+
+.system-transparent #content .box-info { background-image: url(../images/tools/box_info_white.png); }
+
+.box-warning {
+	background: #fff0eb url(../images/tools/box_warning.png) 0 0 no-repeat;
+	border-color: #ffd7cd;
+}
+
+.system-transparent #content .box-warning { background-image: url(../images/tools/box_warning_white.png); }
+
+.box-hint {
+	background: #fffae6 url(../images/tools/box_hint.png) 0 0 no-repeat;
+	border-color: #fae6be;
+}
+
+.system-transparent #content .box-hint { background-image: url(../images/tools/box_hint_white.png); }
+
+.box-download {
+	background: #faffe6 url(../images/tools/box_download.png) 0 0 no-repeat;
+	border-color: #dce6be;
+}
+
+.system-transparent #content .box-download { background-image: url(../images/tools/box_download_white.png); }
+
+
+/* Forms (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+form.box fieldset { border: 1px solid #ddd; }
+
+.system-transparent #content form.box fieldset { border-color: rgba(255,255,255,0.2); }
+
+form.box legend { background: #fff; }
+
+.system-transparent #content legend { color: #444; }
+
+/* Mobile Switcher (Needed for Mobile)
+----------------------------------------------------------------------------------------------------*/
+
+.mobile-switcher {
+	background: #eee;
+	border: 1px solid #aaa;
+}
+
+/* Social Icons
+----------------------------------------------------------------------------------------------------*/
+
+#socialbar.untouched .social-icons,
+.social-icons {
+	margin-left: 60px;
+	padding: 20px 0 20px 30px;
+	list-style: none;
+	background-position: 10px 21px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.social-icons:hover,
+#socialbar.touched .social-icons { 
+	margin-left: 0;
+	cursor: pointer;
+}
+
+.social-icons > li { opacity: 0.6; }
+.social-icons > li:hover { opacity: 1; }
+.social-icons > li:first-child { border-top: 1px solid rgba(255,255,255,0.1); }
+
+.social-icons a {
+	height: 60px;
+	width: 60px;
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+	border-left: 1px solid rgba(255,255,255,0.1);
+	background: url(../images/tools/social_icons.png) 0 0 no-repeat;
+	display: block;
+}
+
+.social-icons a.facebook { background-position: 0 -60px; }
+.social-icons a.googleplus { background-position: 0 -120px; }
+.social-icons a.feed { background-position: 0 -180px; }

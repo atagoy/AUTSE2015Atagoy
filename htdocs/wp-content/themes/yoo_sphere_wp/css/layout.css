@@ -1,0 +1,183 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+#main,
+.module { margin: 10px; }
+
+#header { margin: 20px 10px 15px 10px; }
+
+#toolbar { margin-bottom: 20px; }
+
+#headerbar { margin-bottom: 15px; }
+
+#content,
+#breadcrumbs { padding: 20px; }
+
+#innertop-a,
+#innertop-b,
+#innerbottom-a,
+#innerbottom-b { padding: 10px; }
+
+.sidebar {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 3px;
+} 
+
+.sidebar .module { margin: 3px; }
+
+#footer { margin: 30px 10px; }
+#footer .module { margin: 0; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#main {
+	padding: 4px;
+	border: 1px solid rgba(20,20,25,0.2);
+	border-radius: 5px;
+	background: #d1d2d6;
+	background: rgba(90,90,100,0.15);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.4),
+				0 1px 3px rgba(20,20,25,0.2),
+				inset 0 -1px 0 rgba(255,255,255,0.2);
+}
+
+#toolbar,
+#footer {
+	text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+	font-size: 12px;
+}
+
+/* Main */
+#maininner {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #f6f6f6;
+	border: 1px solid rgba(20,20,25,0.3);
+	border-radius: 5px;
+}
+
+#breadcrumbs,
+#innertop-a,
+#innertop-b,
+#content,
+#innerbottom-a,
+#innerbottom-b { 
+	border-top: 1px solid #ddd;
+	box-shadow: inset 0 1px 0 #fff;
+}
+
+#maininner > #breadcrumbs + *,
+#maininner > #menubar + * {
+	border-top: none;
+	box-shadow: none;
+} 
+
+.position-bg-grey { background: #eff0f0; }
+.position-bg-white { background: #f6f6f6; }
+.position-bg-gradient { 
+	background-color: #f0f0f0;
+	background-image: -o-linear-gradient(top,  #f0f0f0 0%, #f6f6f6 40px,  #f6f6f6 80%, #f0f0f0 100%);
+	background-image: -webkit-linear-gradient(top,  #f0f0f0 0%, #f6f6f6 40px,  #f6f6f6 80%, #f0f0f0 100%);
+	background-image: -moz-linear-gradient(top,  #f0f0f0 0%, #f6f6f6 40px,  #f6f6f6 80%, #f0f0f0 100%);
+	background-image: linear-gradient(to bottom,  #f0f0f0 0%, #f6f6f6 40px,  #f6f6f6 80%, #f0f0f0 100%);
+}
+
+#maininner section:last-child { 
+	border-bottom-left-radius: 4px; 
+	border-bottom-right-radius: 4px;
+}
+
+.sidebar-a-right #maininner section:last-child,
+.sidebar-b-right #maininner section:last-child { border-bottom-right-radius: 0; }
+
+.sidebar-a-left #maininner section:last-child,
+.sidebar-b-left #maininner section:last-child { border-bottom-left-radius: 0; }
+
+
+.sidebar-a-left #maininner,
+.sidebar-b-left #maininner { 
+	border-left: none;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.sidebar-a-right #maininner,
+.sidebar-b-right #maininner { 
+	border-right: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+/* Sidebars */
+.sidebar {
+	background: #494E54;
+	background: -o-linear-gradient(top, #494E54 0%,#5B6066 15%,#5B6066 40%,#494E54 100%);
+	background: -webkit-linear-gradient(top, #494E54 0%,#5B6066 15%,#5B6066 40%,#494E54 100%); 
+	background: -moz-linear-gradient(top, #494E54 0%,#5B6066 15%,#5B6066 40%,#494E54 100%);
+	background: linear-gradient(to bottom, #494E54 0%,#5B6066 15%,#5B6066 40%,#494E54 100%);
+}
+
+.sidebar-a-left #sidebar-a, 
+.sidebar-b-left #sidebar-b { 
+	border-radius: 4px 0 0 4px;
+	box-shadow: inset -20px 0 20px -10px rgba(20,20,25,0.3); 
+}
+
+.sidebar-a-right #sidebar-a, 
+.sidebar-b-right #sidebar-b { 
+	border-radius: 0 4px 4px 0; 
+	box-shadow: inset 20px 0 20px -10px rgba(20,20,25,0.3);
+}
+
+.sidebar-a-left.sidebar-b-left #sidebar-b,
+.sidebar-a-right.sidebar-b-right #sidebar-a { border-radius: 0px; }
+
+.sidebar-a-left.sidebar-b-left #sidebar-a,
+.sidebar-a-right.sidebar-b-right #sidebar-b { box-shadow: none; }
+
+/* Menu */
+#menubar { 
+	height: 60px;
+	border-radius: 5px 5px 0 0;
+	background: url(../images/menubar.png) 0 0 repeat-x;
+}
+
+.sidebar-a-left #menubar,
+.sidebar-b-left #menubar {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.sidebar-a-right #menubar,
+.sidebar-b-right #menubar {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+/* Footer */
+#footer { text-align: left; }
+
+/* ToTop Scroller */
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	width: 24px;
+	height: 25px;
+	background: url(../images/totop_scroller.png) 0 0 no-repeat;
+	text-decoration: none;
+}
+
+#totop-scroller:hover { background-position: 0 -30px; }

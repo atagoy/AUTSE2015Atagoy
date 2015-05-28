@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+		<field name="title" label="Title" description="Title" default="Blogroll" class="widefat" size="30" readonly="false"/>
+		<field name="category" type="linkcategories" label="Links Category" description="Please choose the category of links" default="" class="widefat" readonly="false"/>
+		<field name="image" type="checkbox" label="Show Link Image" default="1" value="1" readonly="false"/>
+		<field name="name" type="checkbox" label="Show Link Name" default="1" value="1" readonly="false"/>
+		<field name="description" type="checkbox" label="Show Link Description" default="0" value="1" readonly="false"/>
+		<field name="rating" type="checkbox" label="Show Link Rating" default="0" value="1" readonly="false"/>
+		<field name="categorize" type="checkbox" label="Categorize" default="0" value="1" readonly="false"/>
+		<field name="category_orderby" type="list" class="widefat" label="Categories Order By" description="Categories Order By" default="name" readonly="false">
+            <option value="count">Count</option>
+            <option value="name">Name</option>
+			<option value="slug">Slug</option>
+			<option value="ID">ID</option>
+        </field>
+        <field name="links_orderby" type="list" class="widefat" label="Links Order By" description="Links Order By" default="name" readonly="false">
+            <option value="length">Length</option>
+            <option value="name">Name</option>
+			<option value="url">URL</option>
+			<option value="rand">Random</option>
+			<option value="rating">Rating</option>
+			<option value="target">Target</option>
+			<option value="ID">ID</option>
+        </field>
+        <field name="limit" type="text" label="Limit Links" description="Limit Links, -1 displays all" class="widefat" size="30" default="-1" readonly="false"/>
+		<field name="menu_class" type="text" label="List Class" description="List Class" class="widefat" size="30" default="menu" readonly="false"/>
+		<field name="category_class" type="text" label="Category Class" description="Adds a class to div surrounding each category" class="widefat" size="30" default="link_category" readonly="false"/>
+	</fieldset>
+</form>

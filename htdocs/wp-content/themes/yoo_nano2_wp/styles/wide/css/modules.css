@@ -1,0 +1,51 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../warp/css/modules.css);
+
+
+/* Module Badges
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge {
+	top: -2px;
+	right: 0;
+	width: 32px;
+	height: 22px;
+	background: url(../../../images/module_badges.png) 0 0 no-repeat;
+}
+ 
+.module .badge-hot { background-position: 0 0; }
+.module .badge-top { background-position: 0 -25px; }
+.module .badge-free { background-position: 0 -50px; }
+.module .badge-new { background-position: 0 -75px; }
+
+
+/* Module Icons
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title .icon { background: url(../../../images/module_icons.png) 0 0 no-repeat; }
+
+.module .module-title .icon-download { background-position: 0 0; }
+.module .module-title .icon-twitter { background-position: 0 -30px; }
+.module .module-title .icon-mail { background-position: 0 -60px; }
+.module .module-title .icon-bubble { background-position: 0 -90px; }
+.module .module-title .icon-login { background-position: 0 -120px; }
+.module .module-title .icon-cart { background-position: 0 -150px; }
+
+
+/* Module Type: Line
+----------------------------------------------------------------------------------------------------*/
+
+/* vertical line */
+#block-main .grid-v .mod-line:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: -15px;
+	left: 0;
+	right: 0;
+	height: 1px;
+	background: url(../images/line_dotted.png) 0 100% repeat-x;
+}
+#block-main .grid-v:first-child > .mod-line:before { display: none; }
+

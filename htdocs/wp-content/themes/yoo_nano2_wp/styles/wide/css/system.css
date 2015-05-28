@@ -1,0 +1,62 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/system.css);
+
+
+/* Pagination
+----------------------------------------------------------------------------------------------------*/
+
+#system .pagination a,
+#system .pagination strong { background: #EEE; }
+
+#system .pagination strong,
+#system .pagination a:hover {
+	border-color: #48b;
+	background-color: #48b;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+	color: #fff;
+}
+
+
+/* Search Box
+----------------------------------------------------------------------------------------------------*/
+
+.searchbox {
+	height: 26px;
+	border: none;
+	background-color: #000;
+	background-image: url(../images/searchbox_magnifier.png);
+	box-shadow: 0 1px 0 rgba(255,255,255,0.1);
+}
+
+.searchbox input {
+	height: 26px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.searchbox input:-moz-placeholder { color: #777; }
+.searchbox input::-webkit-input-placeholder { color: #777; }
+.searchbox input.placeholder { color: #777; }
+
+.searchbox.filled button { background-image: url(../images/searchbox_reset.png); }
+.searchbox.loading button { background-image: url(../images/searchbox_loader.gif); }
+
+/* Drop-Down Results */
+.searchbox .results {
+	top: 39px;
+	right: 0;
+	border: none;
+	background: #111;
+	line-height: 20px;
+}
+
+.searchbox .results li.results-header,
+.searchbox .results li.more-results,
+.searchbox .results li.result { border-color: #222; }
+
+.searchbox .results li.result.selected {
+	background-color: #222;
+	color: #bbb;
+}
+

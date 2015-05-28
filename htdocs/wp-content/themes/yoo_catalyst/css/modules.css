@@ -1,0 +1,176 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/modules.css);
+
+
+/* Module Title
+----------------------------------------------------------------------------------------------------*/
+.module .module-title { font-size: 22px; }
+.module .module-title .subtitle {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+/* Module Badges
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge {
+	top: -18px;
+	right: -9px;
+	width: 60px;
+	height: 60px;
+	background: url(../images/module_badges.png) 0 0 no-repeat;
+}
+ 
+.module .badge-hot { background-position: 0 0; }
+.module .badge-top { background-position: 0 -60px; }
+.module .badge-free { background-position: 0 -120px; }
+.module .badge-new { background-position: 0 -180px; }
+
+
+/* Module Icons
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title .icon {
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.module .module-title .icon-download { background-position: 0 0; }
+.module .module-title .icon-twitter { background-position: 0 -30px; }
+.module .module-title .icon-mail { background-position: 0 -60px; }
+.module .module-title .icon-bubble { background-position: 0 -90px; }
+.module .module-title .icon-login { background-position: 0 -120px; }
+.module .module-title .icon-cart { background-position: 0 -150px; }
+
+
+/* Module Type: Box
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box {
+	padding: 15px;
+	border-radius: 10px;
+	background: url(../images/module_box.png) 0 0 repeat;
+	box-shadow:
+		inset 0 0 0 1px rgba(255,255,255,0.06),
+		0 0 0 1px rgba(0,0,0,0.9),
+		inset 0 0 5px rgba(0,0,0,0.4),
+		0 3px 5px rgba(0,0,0,0.5),
+		0 2px 0 1px rgba(0,0,0,0.5);
+}
+
+.mod-box .module-title { color: #BEC5CA; }
+
+
+/* Module Type: Color
+----------------------------------------------------------------------------------------------------*/
+
+.mod-color {
+	padding: 15px;
+	border-radius: 10px;
+}
+
+
+/* Module Type: Metal
+----------------------------------------------------------------------------------------------------*/
+
+.mod-metal {
+	border-radius: 10px;
+	box-shadow:
+		0 3px 5px rgba(0,0,0,0.5),
+		0 1px 0 1px rgba(69,69,71,1.0);
+}
+
+.mod-metal > div {
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow:
+		inset 0 1 0 rgba(255,255,255,1.0),
+		inset 0 0 0 1px rgba(255,255,255,0.6),
+		0 0 0 1px rgba(0,0,0,0.9),
+		inset 0 0 5px rgba(0,0,0,0.4);
+	color: #47474E;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+
+.module.mod-metal .module-title .icon { background-image: url(../images/module_icons_metal.png); }
+
+.mod-metal .badge {
+	top: -10px; 
+	right: -5px;
+	background-image: url(../images/module_badges_metal.png);
+}
+
+.mod-metal .module-title { color: #5F616B; }
+
+.module.mod-metal .module-title,
+.module.mod-metal .module-title .color { text-shadow: 0 1px 0 rgba(255,255,255,0.3); }
+
+.module.mod-metal .module-title .subtitle { color: #6B6C72; }
+
+.module.mod-metal .module-title .color,
+.mod-metal strong,
+.mod-metal em,
+.mod-metal code { color: #131415; }
+
+.mod-metal a:hover {
+	color: #000;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.mod-metal code,
+.mod-metal em.box {
+	border: 1px solid #bbb;
+	border: 1px solid rgba(0,0,0,0.2);
+	background: url(../images/code_metal.png) 0 0 repeat-x;
+	box-shadow: 1px 1px 0 rgba(255,255,255,0.35);
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+
+/* Module Type: Line
+----------------------------------------------------------------------------------------------------*/
+
+.mod-line {
+	padding: 0 0 0 25px;
+	background: url(../images/module_line_h.png) 0 0 repeat-y;
+}
+
+.mod-line .badge {
+	top: -20px;
+	right: -15px;
+}
+
+.grid-h .mod-line { margin-left: 0; }
+
+.grid-v .mod-line {
+	padding: 25px 0 0 0;
+	background: url(../images/module_line_v.png) 0 0 repeat-x;
+}
+
+.grid-v .mod-line .badge { top: -8px; }
+
+#page .grid-h:first-child .mod-line { background: none; }
+#page .grid-v:first-child .mod-line {
+	padding: 0;
+	background: none;
+}
+
+.mod-line .module-title { color: #BEC5CA; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+#headerbar .module {
+	color: #fff;
+	text-shadow:
+		0 -1px 0 rgba(0,0,0,0.2),
+		0 1px 3px rgba(0,0,0,0.7);
+}
+
+.menu-dropdown .module {
+	margin: 0;
+	padding: 10px;
+}

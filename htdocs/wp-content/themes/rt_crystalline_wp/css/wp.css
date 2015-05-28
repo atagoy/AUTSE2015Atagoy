@@ -1,0 +1,91 @@
+/**
+ * @version   1.0 October 16, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+ 
+/* General */
+
+.rt-wordpress .rt-article-content ol {margin-left: 20px;}
+
+/* Pagination */
+
+div.pagination {padding: 0 0 15px; margin-top: 5px;}
+div.rt-pagination {margin-bottom: 10px;}
+div.rt-page .rt-pagination a, div.rt-post .rt-pagination a {font-size: 130%; font-weight: bold;}
+div.rt-page #comments .rt-pagination a, div.rt-post #comments .rt-pagination a {font-size: 100%; font-weight: normal;}
+
+/* Page & Single */
+
+div.edit-entry {margin: 10px 0;}
+
+/* Single */
+
+.rt-post .rt-post-footer small {font-size: 90%; line-height: 130%;}
+.rt-post .rt-post-footer {margin: 0 0 15px 0;}
+
+.rt-post .rt-tags {overflow:hidden; display: block;margin: 15px 0;background-repeat: repeat-x;background-position: 0 100%; color: #666666;background-image: url(../images/typography/download.png);background-color: #FCFCFC;border-bottom: 1px solid #D3D3D3;border-right: 1px solid #D3D3D3;padding: 8px 15px 10px;}
+.rt-post .rt-tags span {font-style: italic;}
+
+/* Search */
+
+.search-excerpt {background: #FBDE21;}
+
+/* Comments */
+
+#comments {margin: 0;padding: 0;width: 100%;text-align: left;text-decoration: none;text-transform: none;text-indent: 0}
+#jc .clear {clear: both; height: 1px; overflow: hidden}
+
+#comments .comment-box {margin: 0;padding: 0; color: #999}
+#comments .comment-info { width:100px;float:left;text-align:right;padding-right: 10px;}
+#comments .comment-avatar {float: right;margin: 0;padding: 5px;}
+#comments h5 {text-transform:uppercase;font-size:95%;line-spacing:-3px;color:#666;border-top:1px solid #ccc;margin:10px 0 0;line-height:20px;}
+
+#comments .avatar-indent {padding-left: 120px}
+
+#comments .comment-anchor {color: #777; text-decoration: none; border: none}
+#comments .comment-author, #comments .author-homepage {font-weight:bold;margin: 0;padding: 0}
+
+#comments .comment-date {font-size: 10px;color: #999;margin: 0;padding: 0 0 0 12px;background: url(../images/jc/jc_date.gif) no-repeat center left}
+#comments a[rel*=external] {background: url(../images/jc/jc_link.gif) no-repeat center right;padding: 0 10px 0 0;margin: 0 2px}
+
+#comments .quote, #comments blockquote, #comments .code, #comments code, #comments pre {margin: 0; display: block; background-image: none}
+#comments blockquote, #comments .hidden, #comments code, #comments pre {text-align: left;padding: 8px;margin-bottom: 8px}
+#comments blockquote, #comments .hidden {border: 1px dotted #ccc; font-size:110%;}
+#comments code, #comments pre {border: 1px solid #999;overflow: hidden;white-space:normal}
+#comments .code {background: none; border: none; padding:0}
+#comments .hidden {clear: both;display: block;margin: 5px 0}
+
+#comments .comment-body img {padding: 0; border: 0 none}
+#comments .comment-body .img {padding: 4px 0 !important; max-width: 500px}
+
+#comments .comments-list {height: 1%}
+#comments .comments-list .comments-list {margin-left:20px;}
+
+#comments .comments-buttons {height: 27px;z-index:100;margin-right:-5px;overflow:hidden;position:absolute;bottom:-4px;right:10px;}
+
+#jc .rok-comment-entry {padding:15px 10px 20px 10px;}
+
+.rok-comment-entry .cbt-2, .rok-comment-entry .cbt-3, .rok-comment-entry .comment-body-middle, .rok-comment-entry .comment-body-bottom .cbt-2  {background-image:none;}
+.rok-comment-entry .comment-body, .bodylevel-high code  {color:#666;}
+
+#jc .comment-body-top {position:relative;}
+#jc .comment-body-middle {margin-left:6px;padding: 1px 10px 50px 0px;position:relative;z-index:2;}
+#jc .comment-body-top .cbt-1 {background-position: 0 0;position:absolute;height:15px;width:6px;left:0;top:0;}
+#jc .comment-body-top .cbt-2 {background-position: -13px 0;position:absolute;height:15px;width:4px;right:0;top:0;}
+#jc .comment-body-top .cbt-3 {height:15px;margin:0 4px 0 6px;}
+#jc .comment-body-bottom {margin-left:6px;position:relative;z-index:1;}
+#jc .comment-body-bottom .cbt-1 {background-position: -6px -11px;position:absolute;height:4px;width:4px;left:0;top:0;}
+#jc .comment-body-bottom .cbt-2 {height:4px;margin-left:4px;}
+#jc .cbutton {display:block;float:left;line-height:27px;position:relative;margin-left:3px;font-weight: bold;}
+#jc .cbutton .cbutton-end {display:block;position:absolute;width:3px;height:27px;background: none;}
+#jc .cbutton a {display:block;margin-left:3px;height:27px;padding: 0 10px 0 7px;}
+
+/* Write Comment */
+
+#comments-form {margin: 15px 0 10px;}
+#comments-form textarea {font-family:Helvetica,Arial,sans-serif; font-size:13px; height:120px; margin:0; padding:5px; width:97%;border: 1px solid #E6E6E6;}
+#comments-form #author, #comments-form #email, #comments-form #url {padding: 7px 5px; width:97%; font-family:Helvetica,Arial,sans-serif; font-size:13px;border: 1px solid #E6E6E6;}
+#comments-form #comments-form-send button.readon {border: none; padding: 0; cursor: pointer;}
+#comments-form #comments-form-send button.readon span {margin-top: -1px; margin-left: -6px;}

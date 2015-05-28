@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<name>Item Edit Form</name>
+	<params addpath="/administrator/components/com_content/elements">
+		<param name="created_by" type="author" default="" label="Author" description="DETAILAUTHOR" />
+		<param name="created_by_alias" type="text" size="20" default="" label="Author Alias" description="DETAILAUTHORALIAS" />
+		<param name="access" type="list" size="20" default="0" label="Access Level" description="DETAILACCESS">
+			<option value="0">Public</option>
+			<option value="1">Registered</option>
+			<option value="2">Special</option>
+		</param>
+		<param name="created" type="calendar" default="" label="Created Date" description="DETAILCREATED" />
+		<param name="publish_up" type="calendar" default="" label="Start Publishing" description="DETAILSTART" />
+		<param name="publish_down" type="calendar" default="" label="Finish Publishing" description="DETAILFINISH" />
+	</params>
+	<params group="metadata">
+		<param name="description" type="textarea" rows="5" cols="30" default="" label="Description" description="METADESC" />
+		<param name="keywords" type="textarea" rows="5" cols="30" default="" label="Keywords" description="METAKEYS" />
+		<param name="robots" type="text" size="20" default="" label="Robots" description="METAROBOTS" />
+		<param name="author" type="text" size="20" default="" label="Author" description="METAAUTHOR" />
+	</params>
+</form>

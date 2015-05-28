@@ -1,0 +1,113 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Background Red Fabric */
+
+body#page { background: #641425 url(../../images/background/redfabric/fabric_bg.jpg) 0 0 repeat; }
+
+@media (min-device-width: 1025px) {
+
+	body#page { 
+		background: url(../../images/background/redfabric/circle_1.svg) 25% -20% no-repeat fixed,
+					url(../../images/background/redfabric/circle_2.svg) 60% -70% no-repeat fixed,
+					url(../../images/background/redfabric/circle_3.svg) 30% 20% no-repeat fixed,
+					url(../../images/background/redfabric/fabric_bg.jpg) 0 0 repeat;
+	}
+
+}
+
+#main {
+	border-color: rgba(20,20,25,0.2);
+	background: rgba(20,20,25,0.2);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),
+				0 1px 3px rgba(20,20,25,0.3);
+}
+
+#maininner { border-color: rgba(60,10,25,0.7); }
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	/* Layout */
+	#page #main #maininner,
+	#page.sidebar-a-right.sidebar-b-left #maininner,
+	#page.sidebar-a-left.sidebar-b-right #maininner { 
+		border-left: 1px solid rgba(60,10,25,0.7); 
+		border-right: 1px solid rgba(60,10,25,0.7);
+	}
+
+}
+
+
+/* Font Color
+----------------------------------------------------------------------------------------------------*/
+
+#header,
+#header a:hover,
+#footer,
+#footer a:hover,
+.outer .mod-transparent,
+.outer .mod-transparent a:hover,
+.outer .mod-transparent li a { 
+	color: #380a15;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.1);
+}
+
+#header a,
+#footer a,
+.outer .mod-transparent a,
+.outer .mod-transparent li a:hover,
+#toolbar time { 
+	color: #e6eaee; 
+	text-shadow: 0 1px 0 rgba(20,20,20,0.5);
+}
+
+.outer .mod-transparent em,
+.outer .mod-transparent code { 
+	color: #f4b2bf;
+	text-shadow: 0 1px 0 rgba(20,20,20,0.3);
+}
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.outer .mod-line .module-title { background-image: url(../../images/module_line_dark.png); }
+
+.outer .mod-transparent ul.line > li { 
+	border-top: 1px solid #641425;
+	border-top: 1px solid rgba(20,20,25,0.2);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.15);
+}
+
+.outer .mod-inset {
+	border: 1px solid #5d1427;
+	border: 1px solid rgba(255,255,255,0.1);
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	background: #6e182e;
+	background: rgba(20,20,25,0.1);
+}
+
+
+ /* Tools
+ ----------------------------------------------------------------------------------------------------*/
+
+/* Only Phones */
+@media (max-width: 767px) {
+
+	#page #header-responsive .searchbox input {
+		box-shadow: 0 1px 0 rgba(255,255,255,0.25);
+		color: #fff;
+		text-shadow: 0 1px 0 rgba(20, 20, 25, 0.2);
+	}
+
+}
+
+#page .outer .mod-transparent form.style input {
+	border: none;
+	background: rgba(20,20,25,0.15);
+	color: #e6eaee;
+	box-shadow: inset 0 0 0 1px rgba(20,20,25,0.2);
+ }
+
+#page .outer .mod-transparent form.style input:-moz-placeholder { color: #380a15; }
+#page .outer .mod-transparent form.style input::-webkit-input-placeholder { color: #380a15; }

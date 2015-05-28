@@ -1,0 +1,17 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-family: 'MarvelRegular', sans-serif; }
+
+h1 { font-size: 28px; line-height: 28px; }
+h2 { font-size: 25px; line-height: 25px; }
+h3 { font-size: 20px; line-height: 19px; }
+h4 { font-size: 16px; line-height: 16px; }
+h5 { font-size: 15px; line-height: 15px; }
+
+
+.slideset-content h3 { font-size: 17px; line-height: 17px; }

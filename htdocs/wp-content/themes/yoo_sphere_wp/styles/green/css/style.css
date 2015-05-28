@@ -1,0 +1,172 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Style Style Sheet - Defines the main look like colors and backgrounds
+ * Not all style related CSS is included, only colors and backgrounds which may change for different theme styles
+ */
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+a { color: #8DB048; }
+a:hover { color: #6F6157; }
+
+em, code { color: #F77D0F; }
+
+ins, mark { 
+	background-color: #e4ecd5;
+	color: #666B71;
+}
+
+mark { background-color: #d7e5bd; }
+
+::-moz-selection { background: #C8E0F3; color: #fff; }
+::selection { background: #C8E0F3; color: #fff; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown a.level2:hover { 
+	background: #95B94D; 
+	background: -o-linear-gradient(top, #9EC453 0%, #8DB048 100%);
+	background: -webkit-linear-gradient(top, #9EC453 0%, #8DB048 100%);
+	background: -moz-linear-gradient(top, #9EC453 0%, #8DB048 100%);
+	background: linear-gradient(to bottom, #9EC453 0%, #8DB048 100%);
+	box-shadow: 0 1px 0 #6D942E;
+}
+
+.menu-dropdown a.level3 { background-image: url(../images/menu_dropdown_level3.png); }
+
+.menu-dropdown a.current.level3:hover,
+.menu-dropdown a.level3:hover { color: #8DB048; }
+
+.menu-sidebar li.level1 .level1:hover { 
+	background: #95B94D;
+	background: -o-linear-gradient(top, #9EC453 0%, #8DB048 100%);
+	background: -webkit-linear-gradient(top, #9EC453 0%, #8DB048 100%);
+	background: -moz-linear-gradient(top, #9EC453 0%, #8DB048 100%);
+	background: linear-gradient(to bottom, #9EC453 0%, #8DB048 100%); 
+}
+
+.menu-sidebar ul.level2 a { background-image: url(../images/menu_sidebar_level2.png); }
+.menu-sidebar ul.level2 a:hover { color: #8DB048; }
+
+.menu-line li a:hover { color: #6f6157; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box-color {
+	border: 1px solid #84A842;
+	border-bottom: 1px solid #6D942E;
+	background: #95B94D;
+	background: -o-linear-gradient(top, #9EC453 0%, #8DB048 100%);
+	background: -webkit-linear-gradient(top, #9EC453 0%, #8DB048 100%);
+	background: -moz-linear-gradient(top, #9EC453 0%, #8DB048 100%);
+	background: linear-gradient(to bottom, #9EC453 0%, #8DB048 100%);
+}
+
+@media (max-device-width: 1024px) {
+
+	.mod-box-color { background: #95B94D; }
+	
+}
+
+.mod-box-color a { color: #6f8b37; }
+.mod-box-color a:hover { color: #516835; }
+
+.mod-box-color em,
+.mod-box-color code { color: #fdefdf; }
+
+.mod-box-color em.box { 
+	border: 1px solid #CF7E4C;
+	background: #de864e;
+	color: #fdefdf;
+}
+
+.mod-box-dark a { color: #8DB048; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+.button-primary,
+.mod-box-color .button-primary,
+form.style button,
+form.style input[type="button"],
+form.style input.button,
+form.style #submit {
+	border: 1px solid #6D942E;
+	background: #95B94D;
+	background: -o-linear-gradient(top, #9EC453 0%, #8DB048 100%);
+	background: -webkit-linear-gradient(top, #9EC453 0%, #8DB048 100%);
+	background: -moz-linear-gradient(top, #9EC453 0%, #8DB048 100%);
+	background: linear-gradient(to bottom, #9EC453 0%, #8DB048 100%);
+	color: #f5ffe1;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.outer .mod-transparent .button-primary:hover,
+.button-primary:hover,
+.mod-box-color .button-primary:hover,
+form.style button:hover,
+form.style input[type="button"]:hover,
+form.style input.button:hover,
+form.style #submit:hover { 
+	background: #8aac47;
+	background: -o-linear-gradient(top, #8DB048 0%, #9EC453 100%);
+	background: -webkit-linear-gradient(top, #8DB048 0%, #9EC453 100%);
+	background: -moz-linear-gradient(top, #8DB048 0%, #9EC453 100%);
+	background: linear-gradient(to bottom, #8DB048 0%, #9EC453 100%);
+	color: #668033;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+
+.outer .mod-transparent .button-primary:active,
+.button-primary:active,
+.mod-box-color .button-primary:active,
+form.style button:active,
+form.style input[type="button"]:active,
+form.style input.button:active,
+form.style #submit:active { 
+	background: #7e9d40;
+	background: -o-linear-gradient(top, #f18a58 0%, #f29d58 100%);
+	background: -webkit-linear-gradient(top, #7daa3b 0%, #8bbc44 100%);
+	background: -moz-linear-gradient(top, #f18a58 0%, #f29d58 100%);
+	background: linear-gradient(to bottom, #f18a58 0%, #f29d58 100%);
+	color: #5c7628;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+
+.mod-box-color .button-primary,
+.mod-box-color form.style button,
+.mod-box-color form.style input[type="button"],
+.mod-box-color form.style input.button,
+.mod-box-color form.style #submit { 
+	border-color: rgba(0,0,0,0.2);
+	background-clip: padding-box;
+}
+
+ul.check > li { background-image: url(../images/tools/list_check.png); }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Drop-Down Results */
+.searchbox .results li.result.selected { 
+	background: #8aac47;
+	background: -o-linear-gradient(top, #8DB048 0%, #9EC453 100%);
+	background: -webkit-linear-gradient(top, #8DB048 0%, #9EC453 100%);
+	background: -moz-linear-gradient(top, #8DB048 0%, #9EC453 100%);
+	background: linear-gradient(to bottom, #8DB048 0%, #9EC453 100%);
+}
+
+
+/* Widgetkit Sphere Tabs
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-tabssphere a { color: #8DB048; }

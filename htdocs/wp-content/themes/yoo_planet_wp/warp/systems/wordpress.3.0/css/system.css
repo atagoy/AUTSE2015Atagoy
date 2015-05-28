@@ -1,0 +1,239 @@
+/* Copyright  2007 - 2010 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * author
+ */
+
+#system .author-box {
+	margin-bottom: 20px;
+	border-top: 1px solid #c8c8c8;
+	border-bottom: 1px solid #c8c8c8;
+	background: #fafafa;
+}
+
+#system .item + .author-box { margin-top: 20px; }
+
+#system .author-box > div {
+	padding: 15px 0 15px 0;
+	overflow: hidden;
+}
+
+#system .author-box .avatar {
+	margin: 0 15px 0 0;
+	padding: 3px;
+	border: 1px solid #E6E6E6;
+	background: #ffffff;
+	float: left;
+}
+
+#system .author-box .name {
+	margin: 3px 0 5px 0;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 18px;
+	color: #323232;
+}
+
+#system .author-box .description {}
+
+/*
+ * comments
+ */
+
+div#comments { margin-top: 20px; }
+
+div#comments h3.comments-meta {
+	margin: 0 0 10px 0;
+	color: #323232;
+}
+
+div#comments ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* comment head */
+div#comments .comment-head {
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid #e6e6e6;
+	background: #fafafa;
+	overflow: hidden;
+}
+
+div#comments .comment-byadmin .comment-head {
+	border: 1px solid #dce6b4;
+	background: #f0f5d7;
+}
+
+div#comments .comment-head .avatar {
+	margin-right: 10px;
+	float: left;
+}
+
+div#comments .comment-head .author {
+	margin-top: 6px;
+	font-size: 18px;
+	line-height: 18px;
+	color: #464646;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 1.0);
+}
+
+div#comments .comment-head .meta {
+	margin-top: 3px;
+	font-size: 11px;
+}
+
+/* body */
+div#comments .comment-body {
+	margin: 0 0 20px 0;
+	padding: 0 10px 0 10px;
+}
+
+div#comments .comment-body .content { text-align: justify; }
+
+div#comments .comment-body .reply { margin-top: 10px }
+
+div#comments .no-response .comment-body .reply { display: none; }
+
+div#comments .comment-body .moderation {
+	margin-top: 10px;
+	font-size: 14px;
+	font-style: italic;
+}
+
+div#comments ul.level1 ul {
+	padding-left: 55px;
+	background: url(../../../images/comments_arrow.png) 0 0 no-repeat;
+}
+
+/* respond */
+div#comments #respond { padding-left: 2px; }
+
+div#comments #respond h2 {
+	margin: 0 0 10px 0;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: normal;
+	color: #323232;
+}
+
+div#comments #respond p.user { margin: 0; }
+
+div#comments #respond input[type='text'] {
+	width: 200px;
+	height: 25px;
+}
+
+div#comments #respond label {
+	margin-left: 5px;
+	font-size: 10px;
+	color: #969696;
+}
+div#comments #respond .required label:after { content: "*"; }
+
+div#comments #respond textarea {
+	width: 97%;
+	max-width: 400px;
+	height: 100px;
+}
+
+/* moved respond */
+div#comments ul #respond {
+	margin: 0 0 30px 0;
+	padding-left: 10px;
+}
+
+/*
+ * latest comments
+ */
+
+ul.line.comments .avatar {
+	margin-right: 10px;
+	float: left;
+}
+
+ul.line.comments h3.author {
+	margin: 2px 0 0 0;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+ul.line.comments p.meta {
+	margin: 0;
+	font-size: 11px;
+	color: #969696;
+	line-height: 13px;
+	font-style: italic;
+}
+
+ul.line.comments .content p { margin: 5px 0 0 0; }
+
+
+/*------------------- Tools ---------------*/
+
+
+/*
+ * calendar
+ */
+
+table.calendar {
+	width: 100%;
+	margin: auto;
+	border-spacing: 2px;
+	border-left: 5px solid #e6e6e6;
+	border-right: 5px solid #e6e6e6;
+	background: #e6e6e6;
+}
+
+table.calendar caption {
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+table.calendar th { width: 14%; }
+
+table.calendar th,
+table.calendar td {
+	padding: 0;
+	text-align: center;
+	line-height: 25px;
+}
+
+table.calendar td a {
+	display: block;
+	line-height: 25px;
+}
+
+table.calendar tbody td { background: #ffffff; }
+
+table.calendar tfoot td { text-align: right; }
+table.calendar tfoot td:first-child { text-align: left; }
+
+/*
+ * tag cloud
+ */
+
+.tagcloud ul { text-align: center; }
+
+.tagcloud li {
+	display: inline;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.tagcloud a { white-space: nowrap; }
+
+.tagcloud .weight1 a { font-size: 11px; }
+.tagcloud .weight2 a { font-size: 12px; }
+.tagcloud .weight3 a { font-size: 13px; }
+.tagcloud .weight4 a { font-size: 14px; }
+.tagcloud .weight5 a { font-size: 15px; }
+.tagcloud .weight6 a { font-size: 16px; }
+.tagcloud .weight7 a { font-size: 18px; }
+.tagcloud .weight8 a { font-size: 20px; }
+.tagcloud .weight9 a { font-size: 23px; letter-spacing: -1px; }
+.tagcloud .weight10 a { font-size: 26px; letter-spacing: -1px; }

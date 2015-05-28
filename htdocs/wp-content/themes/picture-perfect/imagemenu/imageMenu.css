@@ -1,0 +1,85 @@
+
+#imageMenu {
+	width: 240px;         /*overall image container width*/
+	overflow: hidden;
+	background-color: #000;
+	border-style: none;
+  height: 708px;             /*overall container height*/
+	float: left;
+	text-align: left;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	left: 24px;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+}
+
+
+#imageMenu ul {
+	list-style: none;
+	display: block;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+
+#imageMenu ul li {
+	/*float: left;*/
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+#imageMenu ul li a {
+
+	/* change to 	text-indent: -1000px; if you want to use images in the menu instead of text*/
+	background:#FFFFFF none repeat scroll 0%;	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	width:240px;				/*image width*/
+	height: 100px;
+	font-weight: inherit;	font-style: inherit;	font-size: 100%;	font-family: inherit;	vertical-align: baseline;
+		font-weight: bold;	font-size: 24px;	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: white;
+	text-align: left;
+	text-indent: 10px;
+	vertical-align: baseline;
+	text-shadow: 3px 3px 4px#000;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+#imageMenu ul li.bk1 a {
+	background: url(images/1.jpg) repeat scroll ;
+}
+
+#imageMenu ul li.bk2 a {
+	background: url(images/2.jpg) repeat scroll ;
+}
+
+#imageMenu ul li.bk3 a {
+	background: url(images/3.jpg) repeat scroll ;
+}
+
+#imageMenu ul li.bk4 a {
+	background: url(images/4.jpg) repeat scroll ;
+}
+
+#imageMenu ul li.bk5 a {
+	background: url(images/5.jpg) repeat scroll ;
+}
+
+#imageMenu ul li.bk6 a {
+	background: url(images/6.jpg) repeat scroll ;
+}
+
+
+#imageMenu ul li.bk7 a {
+	background: url(images/7.jpg) repeat scroll ;
+	border-right-style: none;
+}

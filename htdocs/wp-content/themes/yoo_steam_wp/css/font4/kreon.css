@@ -1,0 +1,16 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+h2,
+h3,
+h4,
+h5,
+h6 { font-family: "KreonRegular", sans-serif; }
+
+h2 { font-size: 36px; line-height: 37px; }
+h3 { font-size: 32px; line-height: 33px; }
+h4 { font-size: 25px; line-height: 26px; }
+h5 { font-size: 19px; line-height: 20px; }
+h6 { font-size: 15px; line-height: 16px; }
+
+/* Frontpage Hgroup */
+#top-a hgroup > h2 { font-size: 42px; }

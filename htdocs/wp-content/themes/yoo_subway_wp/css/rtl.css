@@ -1,0 +1,272 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/rtl.css);
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#socialbar { 
+	right: auto;
+	left: 0;
+}
+
+#totop-scroller {
+	right: auto;
+	left: 0;
+}
+
+.sidebar-a-left #maininner > section,
+.sidebar-b-left #maininner > section { 
+	margin-right: 30px;
+	margin-left: 0;
+}
+
+.sidebar-a-left #maininner > #content,
+.sidebar-b-left #maininner > #content,
+.sidebar-a-left #maininner > #breadcrumbs,
+.sidebar-b-left #maininner > #breadcrumbs  { 
+	margin-right: 35px;
+	margin-left: 5px;
+}
+
+.sidebar-a-right #maininner > section,
+.sidebar-b-right #maininner > section { 
+	margin-left: 30px;
+	margin-right: 0;
+}
+
+.sidebar-a-right #maininner > #content,
+.sidebar-b-right #maininner > #content,
+.sidebar-a-right #maininner > #breadcrumbs,
+.sidebar-b-right #maininner > #breadcrumbs  { 
+	margin-left: 35px;
+	margin-right: 5px;
+}
+
+.sidebar-a-left.sidebar-b-right #maininner > section,
+.sidebar-b-left.sidebar-a-right #maininner > section { 
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.sidebar-a-right.sidebar-b-left #maininner > #content,
+.sidebar-b-right.sidebar-a-left #maininner > #content,
+.sidebar-a-right.sidebar-b-left #maininner > #breadcrumbs,
+.sidebar-b-right.sidebar-a-left #maininner > #breadcrumbs  { 
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Mega Drop-Down Menu */
+
+.menu-dropdown li.level1 {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.menu-dropdown li.level1.parent:hover,
+.menu-dropdown li.remain.parent { background-image: url(../images/rtl/menu_dropdown_arrow.png); }
+
+.menu-dropdown .dropdown {
+	left: auto;
+	right: 10px;
+}
+
+.menu-dropdown li.level3 {
+	padding-left: 0;
+	padding-right: 15px; 
+	background-position: 100% 0;
+}
+
+.menu-dropdown li.level3:hover,
+.menu-dropdown li.current.level3 { background-position: 100% -100px; }
+
+.menu-dropdown li.level2 .level2 span.icon {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+.menu-dropdown .level1 .level1 span.icon + span,
+.menu-dropdown .level1 .level1 span.icon + span + span { margin-right: 0; }
+
+
+.menu-dropdown li.level2 .level2 span.icon + span,
+.menu-dropdown li.level2 .level2 span.icon + span + span {
+	margin-left: 0;
+	margin-right: 39px;
+}
+
+/* Sidebar/Accordion Menu */
+.menu-sidebar li.parent .level1 > span { background-position: 0 0; }
+.menu-sidebar li.parent.active .level1 > span { background-position: 0 -100px; }
+
+.menu-sidebar .level2 a > span {
+	padding-left: 0;
+	padding-right: 15px;
+	background-position: 100% 0;
+}
+
+.menu-sidebar .level2 a > span:hover,
+.menu-sidebar .level2 a.current > span { background-position: 100% -100px; }
+
+
+.menu-sidebar ul.level2 ul {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.menu-sidebar span.icon {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+/* Line Menu */
+.menu-line li {
+	margin-left: 0;
+	padding-left: 0;
+	margin-right: 7px;
+	padding-right: 8px;
+	background-position: 100% 50%;
+}
+
+.menu-line li:first-child {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box .badge {
+	right: auto;
+	left: -7px;
+}
+
+.module.has-icon .module-title { text-align: right; }
+
+.module .module-title .icon { margin-left: 10px; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Buttons (Needed for System Markup) */
+
+a.button-more {
+	padding-right: 0;
+	padding-left: 38px;
+	background-position: 0 50%;
+}
+
+/* Check List */
+ul.check > li {
+	padding-left: 0;
+	padding-right: 30px;
+	background-position: 100% 0;
+}
+
+/* Definition Lists */
+dl.separator dd { border-width: 0 1px 0 0; }
+
+dl.separator dt:before {
+	right: auto;
+	left: -15px;
+}
+
+dl.separator dt:after {
+	right: auto;
+	left: -3px;
+}
+
+/* Social Icons */
+#socialbar.untouched .social-icons,
+.social-icons {
+	margin-left: 0;
+	margin-right: 60px;
+	padding-left: 0;
+	padding-right: 30px;
+	background-image: url(../images/rtl/socialbar_button.png);
+	background-position: 100% 21px;
+}
+
+.social-icons:hover,
+#socialbar.touched .social-icons { margin-right: 0px; }
+
+.social-icons a {
+	border-left: none;
+	border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Item */
+#system .item > header > time {
+	right: -55px;
+	left: 0;
+}
+
+#system .item > header > time > span { float: left; }
+
+#system .item + .links a { 	
+	float: left;
+	background-image: url(../images/rtl/system_continue_reading.png);
+}
+
+#system .items-col-2 .width50 .item > header > time,
+#system .items-col-3 .width33 .item > header > time,
+#system .items-col-4 .width25 .item > header > time {
+	right: auto;
+	margin-left: 10px;
+	margin-right: 0;
+	float: right;
+}
+
+#system .pagination a.first { 
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+#system .pagination a.last { 
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+
+/* Search Box */
+#searchbox {
+	padding-left: 30px;
+	padding-right: 0;
+}
+
+#searchbox input:first-child {
+	padding-left: 0;
+	padding-right: 30px;
+	background-position: 100% 50%;
+}
+
+#searchbox .results {
+	right: auto;
+	left: -1px;
+}
+
+/* Breadcrumgs */
+
+.breadcrumbs a,
+.breadcrumbs > span,
+.breadcrumbs strong {
+	padding-left: 15px;
+	padding-right: 14px;
+	border-right: none;
+	border-left: 1px solid rgba(255,255,255,0.15);
+	background-position: 0 0;
+}
+
+.breadcrumbs a,
+.breadcrumbs > span { margin-left: 0; }

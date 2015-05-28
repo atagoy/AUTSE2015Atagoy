@@ -1,0 +1,309 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+#top-a,
+#top-b,
+#bottom-a,
+#bottom-b,
+#bottom-c { margin: 20px 0; }
+
+.module,
+#header,
+#breadcrumbs,
+#content,
+#footer { margin: 10px; }
+
+#headerbar { margin: 40px 0; }
+
+#footer .module { margin: 0; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+/* Centering Floating Elements */
+.block-center,
+.block-center > div {
+	float: left;
+	position: relative;
+}
+
+.block-center { left: 50%; }
+.block-center > div { left: -50%; }
+
+/* Sections */
+#top-b,
+#bottom-b {
+	padding-top: 40px;
+	background-position: 50% 0;
+	background-repeat: repeat-x;
+}
+
+/* Toolbar */
+#toolbar {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+/* Logo */
+#logo {
+	display: block;
+	margin: 0 auto;
+	float: none;
+}
+
+/* Headerbar */
+#headerbar .module {
+	margin: 30px 0 0 0;
+	max-width: 330px;
+}
+
+#headerbar .float-left .module {
+	margin-right: 30px;
+	float: left;
+}
+#headerbar .float-right .module { margin-left: 30px; }
+
+/* Menubar */
+#menubar > div,
+#menubar > div > div { background-repeat: no-repeat; }
+
+#menubar > div {
+	padding-left: 205px;
+	background-position: 0 0;
+}
+
+#menubar > div > div {
+	padding-right: 205px;
+	background-position: 100% -160px;
+}
+
+#menubar > div > div > div {
+	height: 71px;
+	min-width: 1px;
+	margin: 0 -1px;
+	background-position: 0 -80px;
+	background-repeat: repeat-x;
+}
+
+#menubar #menu { margin: 0 -149px; }
+
+/* Breadcrumbs */
+#breadcrumbs {
+	padding: 15px 0 20px 0;
+	background-position: 50% 100%;
+	background-repeat: repeat-x;
+	text-align: left;
+}
+
+/* Main */
+#main { margin: 20px auto; }
+
+/* Footer */
+#footer {
+	padding-top: 50px;
+	font-size: 14px;
+}
+
+#footer .menu-line {
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	width: 100%;
+	height: 35px;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+#totop-scroller:hover { background-position: 50% -40px; }
+
+
+/* System White
+----------------------------------------------------------------------------------------------------*/
+
+.system-white #content {
+	padding: 15px;
+	border-radius: 4px;
+	background: #FDFDFF;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+	color: #555;
+	text-shadow: none;
+}
+
+.system-white #content hr { border-top-color: #d7d7d7; }
+
+.system-white #content ::-moz-selection { background: #2d2d2d; color: #fff; }
+.system-white #content ::selection { background: #2d2d2d; color: #fff; }
+
+.system-white #content form.box legend,
+.system-white #content #system .item header time { color: #424242; }
+
+.system-white #content form.style button,
+.system-white #content form.style input[type="button"] { color: #777777;}
+
+.system-white #content a.button-more a { color: #626262; }
+
+.system-white #content em.box,
+.system-white #content #system .item header time { color: #666; }
+
+.system-white #content a:hover,
+.system-white #content #system .title a:hover { color: #2d2d2d; }
+
+.system-white #content #system small,
+.system-white #content #system blockquote,
+.system-white #content table.zebra caption,
+.system-white #content form.style input,
+.system-white #content form.style textarea,
+.system-white #content form.style select,
+.system-white #content #system .item > header .meta,
+.system-white #content #system .item > header .subtitle,
+.system-white #content .comments-list .meta { color: #777777; }
+
+.system-white #content #system .pagination a:hover,
+.system-white #content #system .item > .links a:hover,
+.system-white #content #system span.highlight { background-color: #FFFFFF; }
+
+.system-white #content mark,
+.system-white #content ins,
+.system-white #content a.button-more:hover,
+.system-white #content form.style button:hover,
+.system-white #content form.style input[type="button"]:hover,
+.system-white #content form.style input:focus,
+.system-white #content form.style textarea:focus,
+.system-white #content form.style select:focus,
+.system-white #content #system .pagination strong { color: #FFFFFF; text-shadow: none; }
+
+.system-white #content mark,
+.system-white #content a.button-more:hover,
+.system-white #content form.style input[type="button"]:hover,
+.system-white #content #system .pagination strong { background-color: #444; }
+
+.system-white #content ins,
+.system-white #content form.style input:focus,
+.system-white #content form.style textarea:focus,
+.system-white #content form.style select:focus,
+.system-white #content form.style button:hover { background-color: #424242; }
+
+.system-white #content pre,
+.system-white #content .box-content,
+.system-white #content .box-note,
+.system-white #content .box-info,
+.system-white #content .box-warning,
+.system-white #content .box-hint,
+.system-white #content .box-download,
+.system-white #content #system #comments .comment-head {
+	background-color: #efefef;
+	border: 1px solid #d2d2d2;
+	box-shadow: none;
+	color: #444;
+}
+
+.system-white #content .box-content { background-image: none; }
+
+.system-white #content dl.separator dd,
+.system-white #content dl.separator dt:before,
+.system-white #content dl.separator dt:after { border-color: #efefef; }
+
+.system-white #content dl.separator dt:after { background: #999; }
+
+.system-white #content form.box fieldset,
+.system-white #content #system .author-box { border-color: #efefef; }
+
+.system-white #content a.button-more,
+.system-white #content form.style button,
+.system-white #content form.style input.button { background: #f1f1f1; }
+
+.system-white #content a.button-more {
+	margin: 0;
+	padding-right: 12px;
+	padding-left: 12px;
+	border-radius: 3px;
+	text-shadow: none;
+}
+
+.system-white #content a.button-more:before,
+.system-white #content a.button-more:after { display: none; }
+
+.system-white #content ul.line > li,
+.system-white #content .comments-list > article,
+.system-white #content .wk-twitter-list article,
+.system-white #content ul.zoo-list > li,
+.system-white #content .zoo-comments-list > article,
+.system-white #content #system .item-list { background-image: url(../images/white/list_line_white.png); }
+
+.system-white #content ul.line-icon > li,
+.system-white #content ul.line-icon > li:first-child li:first-child { background-image: url(../images/white/list_icon_white.png); }
+
+.system-white #content ul.check > li { background-image: url(../images/white/list_check_white.png); }
+
+.system-white #content ul.zebra > li.odd { background-image: url(../images/white/list_zebra_white.png); }
+
+.system-white #content ul.zebra > li:nth-of-type(odd) { background-image: url(../images/white/list_zebra_white.png); }
+
+.system-white #content table.zebra tbody td,
+.system-white #content table.zebra tbody tr:first-child td { border-color: #d2d2d2; }
+
+.system-white #content table.zebra tbody tr.odd { background: #efefef; }
+.system-white #content table.zebra tbody tr:nth-of-type(odd) { background: #efefef; }
+
+.system-white #content em.box { background-image: url(../images/white/em_box_white.png); }
+
+.system-white #content hr.dotted { background-image: url(../images/white/line_dotted_white.png); }
+
+.system-white #content hr.stars,
+.system-white #content #system .items .item,
+#page.system-white #content #system .items .leading .item { background: url(../images/white/line_stars_white.png) 50% 100% no-repeat; }
+
+/* Widgetkit Twitter */
+.system-white #content .wk-twitter-single.image { background-image: url(../images/white/bird_white.png); }
+
+.system-white #content .wk-twitter-bubbles .content,
+.system-white #content .wk-twitter .image { background-image: url(../images/white/bubble_white.png); }
+
+.system-white #content.wk-twitter-bubbles .content:after { background-image: url(../images/white/arrow_white.png); }
+
+/* Form Style */
+.system-white #content form.style input,
+.system-white #content form.style button,
+.system-white #content form.style input[type="button"],
+.system-white #content form.style select,
+.system-white #content form.style textarea {
+	background-color: #efefef;
+	border: 1px solid #d2d2d2;
+	box-shadow: none;
+}
+
+.system-white #content form.style input:hover,
+.system-white #content form.style select:hover,
+.system-white #content form.style textarea:hover { border-color: #a2a2a2; }
+
+.system-white #content form.style button:hover,
+.system-white #content form.style input[type="button"]:hover { border-color: #222; }
+
+.system-white #content form.style input:focus,
+.system-white #content form.style button:focus,
+.system-white #content form.style input[type="button"]:focus,
+.system-white #content form.style select:focus,
+.system-white #content form.style textarea:focus {
+	border-color: #222;
+	box-shadow: none;
+}
+
+/* Item */
+.system-white #content #system .item header time {
+	background-image: url(../images/white/system_time_white.png);
+	color: #fff;
+}

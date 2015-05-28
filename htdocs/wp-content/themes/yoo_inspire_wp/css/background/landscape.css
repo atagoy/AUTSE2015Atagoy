@@ -1,0 +1,59 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Landscape Background
+ */
+ 
+body { -webkit-font-smoothing: antialiased; }
+
+#block-top-a { 
+	overflow: hidden;
+	position: relative;
+	background: #addadb url(../../images/background/landscape/landscape_img.jpg) 50% 100% no-repeat;
+}
+
+.no-top-a #block-top-a { background-image: none; }
+
+.top-a-layer-1 {
+	position: absolute;
+	left: 50%;
+	bottom: 190px;
+	height: 300px;
+	width: 2560px;
+	margin-left: -1280px;
+	background: url(../../images/background/landscape/landscape_clouds1.png) 0 0 no-repeat;
+	-webkit-animation: slide 240s linear infinite;
+	-moz-animation: slide 240s linear infinite;
+	-ms-animation: slide 240s linear infinite;
+	animation: slide 240s linear infinite;
+}
+
+.top-a-layer-2 {
+	position: absolute;
+	left: 50%;
+	bottom: 140px;
+	height: 130px;
+	width: 130px;
+	margin-left: -642px;
+	background: url(../../images/background/landscape/landscape_wings.png) 0 0 no-repeat;
+	-webkit-animation: spinner-l 50s linear infinite;
+	-moz-animation: spinner-l 50s linear infinite;
+	-ms-animation: spinner-l 50s linear infinite;
+	animation: spinner-l 50s linear infinite;
+}
+
+.top-a-layer-3 {
+	position: absolute;
+	left: 50%;
+	bottom: 250px;
+	height: 153px;
+	width: 225px;
+	margin-left: 500px;
+	background: url(../../images/background/landscape/landscape_airship.png) 0 0 no-repeat;
+	-webkit-animation: zeppelin 10s infinite;
+	-moz-animation: zeppelin 10s infinite;
+	-ms-animation: zeppelin 10s infinite;
+	animation: zeppelin 10s infinite;
+}
+	
+	

@@ -1,0 +1,24 @@
+/**
+ * @version   1.0 October 16, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+ 
+/* Root Items */
+#rt-navigation ul {margin:0;z-index: 200;position: relative;}
+#rt-navigation li {list-style:none;float:left;height:31px;position:relative;background:none;}
+#rt-navigation li .item {white-space: nowrap;display: block;float: left;font-weight: bold;padding: 0 18px;font-size: 12px;z-index: 100;cursor: pointer;position:relative;margin: 0;outline: none;text-transform: uppercase;line-height: 31px;}
+#rt-navigation li .item span {display: block;margin: 0;outline: none;padding: 7px 0;}
+#rt-navigation li a:hover, #rt-navigation li:hover a, #rt-navigation li.sfHover a,#rt-navigation #current a{text-decoration:none;}
+
+/* Dropdowns */
+#rt-navigation li ul {position:absolute;width:180px;left:-999em;}
+#rt-navigation li ul ul {margin:-50px 0 0 180px;}
+#rt-navigation li:hover ul ul, #rt-navigation li:hover ul ul ul, #rt-navigation li:hover ul ul ul ul, #rt-navigation li.sfHover ul ul, #rt-navigation li.sfHover ul ul ul, #rt-navigation li.sfHover ul ul ul ul {left:-999em;}
+#rt-navigation li li {margin: 0;padding:0;height:auto;width:180px;}
+#rt-navigation li li .item, #rt-navigation li li.active .item, #rt-navigation li li .item:hover {margin:0;padding: 0 0 0 15px;height: auto;float: none;width: auto;line-height:20px;display: block;}
+#rt-navigation li li .item span, #rt-navigation li li.active .item span, #rt-navigation li li .item:hover span {width: auto;display: block;line-height: 20px;text-transform: none;}
+#rt-navigation li li a, #rt-navigation li.active li a {font-weight:normal;}
+#rt-navigation li:hover ul, #rt-navigation li.sfHover ul {left:0;top: 44px;}
+#rt-navigation li li:hover ul, #rt-navigation li li li:hover ul, #rt-navigation li li li li:hover ul, #rt-navigation li li.sfHover ul, #rt-navigation li li li.sfHover ul, #rt-navigation li li li li.sfHover ul {left:0;}

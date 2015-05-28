@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: custom-fields-search\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-06 17:00+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
+"Language-Team: BestWebSoft <http://support.bestwebsoft.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: custom-fields-search.php:32
+msgid "Custom fields search settings"
+msgstr "Configuración de búsqueda en campos personalizados"
+
+#: custom-fields-search.php:205
+msgid "Settings saved"
+msgstr "Configuración guardada"
+
+#: custom-fields-search.php:219
+#: custom-fields-search.php:291
+#: custom-fields-search.php:305
+msgid "Settings"
+msgstr "Configuración"
+
+#: custom-fields-search.php:220
+#: custom-fields-search.php:306
+msgid "FAQ"
+msgstr "Preguntas frecuentes"
+
+#: custom-fields-search.php:223
+msgid "Notice:"
+msgstr "Aviso:"
+
+#: custom-fields-search.php:223
+msgid "The plugin's settings have been changed. In order to save them please don't forget to click the 'Save Changes' button."
+msgstr "La configuración del plugin ha cambiado. Para salvar los cambios no olvide pulsar el botón 'Guardar cambios'"
+
+#: custom-fields-search.php:228
+msgid "Enable search for the custom field:"
+msgstr "Habilitar la búsqueda para el campo personalizado:"
+
+#: custom-fields-search.php:252
+msgid "custom post type"
+msgstr "tipo de post personalizado"
+
+#: custom-fields-search.php:256
+msgid "You need to"
+msgstr "Necesita"
+
+#: custom-fields-search.php:256
+#, fuzzy
+msgid "activate plugin"
+msgstr "Valore el plugin"
+
+#: custom-fields-search.php:258
+msgid "If the type of the post is not default - you need to install and activate the plugin"
+msgstr "Si el tipo de post no es el establecido por defecto - necesitará inatalar y activar el plugin"
+
+#: custom-fields-search.php:264
+msgid "Custom fields not found."
+msgstr "Campos personalizados no encontrados."
+
+#: custom-fields-search.php:268
+msgid "Show hidden fields"
+msgstr ""
+
+#: custom-fields-search.php:275
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: custom-fields-search.php:307
+msgid "Support"
+msgstr "Soporte"
+
+#~ msgid "requires"
+#~ msgstr "requerido"
+
+#~ msgid ""
+#~ "or higher, that is why it has been deactivated! Please upgrade WordPress "
+#~ "and try again."
+#~ msgstr ""
+#~ "o superior, por esto es por lo que ha sido desactivado. Por favor, "
+#~ "actualize su versión de Wordpress e inténtelo de nuevo"
+
+#~ msgid "Back to the WordPress"
+#~ msgstr "Volver a Wordpress"
+
+#~ msgid "Plugins page"
+#~ msgstr "Página del plugin"
+
+#~ msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
+#~ msgstr ""
+#~ "Si le gusta nuestro plugin, por favor otórgenos 5 estrellas en Wordpress"
+
+#~ msgid "Rate the plugin"
+#~ msgstr "Valore el plugin"
+
+#~ msgid "If there is something wrong about it, please contact us"
+#~ msgstr "Si hay algún problema, contacte con nosotors"
+
+#~ msgid "Custom fields search"
+#~ msgstr "Búsqueda en campos personalizados"
+
+#~ msgid "activate plugin Custom Search"
+#~ msgstr "activar el plugin Custom Search"
+
+#~ msgid "Custom Search"
+#~ msgstr "Búsqueda personalizada"

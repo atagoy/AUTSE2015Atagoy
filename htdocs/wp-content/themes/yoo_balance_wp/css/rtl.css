@@ -1,0 +1,290 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/rtl.css);
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#menubar-r { border-radius: 4px 0 0 4px; }
+
+#menubar-r > div {
+	border-right: none;
+	border-left: 1px solid #d3d3d3;
+	border-radius: 4px 0 0 4px;
+}
+
+#search {
+	right: auto;
+	left: 9px;
+}
+
+#footer { text-align: right; }
+
+#totop-scroller {
+	right: auto;
+	left: 0;
+}
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Level 1 */
+.menu-dropdown li.level1 {
+	padding: 0 0 4px 1px;
+	background-position: 0 0;
+}
+
+/* First Item */
+.menu-dropdown:first-child li.level1:first-child { border-radius: 0 4px 4px 0; }
+
+.menu-dropdown:first-child li.level1:first-child .level1 {
+	border-right: 1px solid #d3d3d3;
+	border-left: none;
+	border-radius: 0 4px 4px 0;
+}
+
+/* First Item Active */
+.menu-dropdown:first-child li.level1:first-child .level1.active {
+	box-shadow: inset 8px 0 12px -10px #999,
+				0 1px 0 #a9a9a9,
+				0 2px 0 rgba(255,255,255,0.4);
+}
+
+.menu-dropdown a.level3 {
+	padding-right: 16px;
+	padding-left: 0;
+	background-position: 100% 0;
+}
+
+.menu-dropdown a.level3:hover { background-position: 100% -40px; }
+.menu-dropdown a.level3.current { background-position: 100% -80px; }
+
+
+/* Mega Drop-Down Menu */
+.menu-dropdown .level1 .level1 span.icon {
+	margin-left: 0;
+	margin-right: -5px;
+}
+.menu-dropdown .level1 .level1 span.icon + span,
+.menu-dropdown .level1 .level1 span.icon + span + span {
+	margin-left: 0;
+	margin-right: 25px;
+}
+
+.menu-dropdown li.level2 .level2 span.icon {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+.menu-dropdown li.level2 .level2 span.icon + span,
+.menu-dropdown li.level2 .level2 span.icon + span + span {
+	margin-left: 0;
+	margin-right: 39px;
+}
+
+/* Sidebar/Accordion Menu */
+.menu-sidebar li.parent .level1 > span {  background-position: 0 0; }
+.menu-sidebar li.parent.active .level1 > span { background-position: 0 -80px; }
+
+.menu-sidebar ul.level2 ul {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.menu-sidebar a.level2 {
+	padding-right: 16px;
+	padding-left: 0;
+	background-position: 100% 0;
+}
+
+.menu-sidebar a.level2:hover { background-position: 100% -40px; }
+.menu-sidebar a.level2.current { background-position: 100% -80px; }
+
+.menu-sidebar span.icon {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+/* Line Menu */
+.menu-line li {
+	margin-left: 0;
+	padding-left: 0;
+	margin-right: 10px;
+	padding-right: 9px;
+	background-position: 100% 50%;
+}
+
+.menu-line li:first-child {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge {
+	right: auto;
+	left: 12px;
+}
+
+.grid-h .mod-line {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Buttons (Needed for System Markup) */
+a.button-more {
+	margin: 0 27px 0 12px;
+	padding: 0 5px 0 0;
+}
+
+a.button-more,
+a.button-more:before,
+a.button-more:after { background-image: url(../images/rtl/tools/button_more.png); }
+
+.mod-box-black a.button-more,
+#bottom-b .mod-line a.button-more,
+.mod-box-black a.button-more:before,
+#bottom-b .mod-line a.button-more:before,
+.mod-box-black a.button-more:after,
+#bottom-b .mod-line a.button-more:after { background-image: url(../images/rtl/tools/button_more_black.png); }
+
+.mod-box-color a.button-more,
+.mod-box-color a.button-more:before,
+.mod-box-color a.button-more:after { background-image: url(../images/rtl/tools/button_more_color.png); }
+
+a.button-more:before {
+	width: 27px;
+	right: -27px;
+	background-position: 100% -120px;
+}
+a.button-more:after {
+	width: 12px;
+	left: -12px;
+	background-position: 0 0;
+}
+
+
+/* Lists and Tables (Needed for System Markup) */
+/* Line Icon */
+ul.line-icon > li {
+	padding-right: 30px;
+	padding-left: 0;
+}
+
+ul.line-icon > li {
+	background:	url(../images/tools/list_line.png) 0 0 repeat-x,
+				url(../images/rtl/tools/list_line_icon.png) 100% 0 no-repeat;
+}
+
+#page ul.line-icon > li:first-child {
+	background:	none,
+				url(../images/rtl/tools/list_line_icon.png) 100% 0 no-repeat;
+}
+
+.mod-box-black ul.line-icon > li,
+#bottom-b .mod-line ul.line-icon > li {
+	background:	url(../images/tools/list_line_black.png) 0 0 repeat-x,
+				url(../images/rtl/tools/list_line_icon_black.png) 100% 0 no-repeat;
+}
+
+#page .mod-box-black ul.line-icon > li:first-child,
+#page #bottom-b .mod-line ul.line-icon > li:first-child {
+	background:	none,
+				url(../images/rtl/tools/list_line_icon_black.png) 100% 0 no-repeat;
+}
+
+.mod-box-color ul.line-icon > li {
+	background:	url(../images/tools/list_line_color.png) 0 0 repeat-x,
+				url(../images/rtl/tools/list_line_icon_black.png) 100% 0 no-repeat;
+}
+
+#page .mod-box-color ul.line-icon > li:first-child {
+	background:	none,
+				url(../images/rtl/tools/list_line_icon_black.png) 100% 0 no-repeat;
+}
+
+/* Check */
+ul.check > li {
+	padding: 5px 30px 0 0;
+	background: url(../images/rtl/tools/list_check.png) 100% 0 no-repeat;
+}
+
+.mod-box-black ul.check > li,
+.mod-box-color ul.check > li,
+#bottom-b .mod-line ul.check > li { background-image: url(../images/rtl/tools/list_check_black.png); }
+
+/* Arrow */
+ul.arrow > li {
+	margin-top: 5px;
+	padding: 5px 30px 0 0;
+	background: url(../images/rtl/tools/list_arrow.png) 100% 0 no-repeat;
+}
+
+.mod-box-black ul.arrow > li,
+.mod-box-color ul.arrow > li,
+#bottom-b .mod-line ul.arrow > li { background-image: url(../images/rtl/tools/list_arrow_black.png); }
+
+/* Definition Lists */
+dl.separator dd { border-width: 0 1px 0 0; }
+
+dl.separator dt:before {
+	right: auto;
+	left: -15px;
+}
+
+dl.separator dt:after {
+	right: auto;
+	left: -3px;
+}
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Item */
+#system .item header time {
+	position: relative;
+	top: 5px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#system .item header time .day {
+	position: absolute;
+	top: 5px;
+	right: 0;
+	left: auto;
+}
+
+#system .item header time .month,
+#system .item header time .year {
+	margin-right: 40px;
+	margin-left: 0;
+}
+
+/* Search Box */
+#searchbox {
+	padding: 0 25px 0 35px;
+	background: url(../images/rtl/searchbox_magnifier.png) 0 50% no-repeat;
+}
+
+#searchbox .results {
+	right: auto;
+	left: -1px;
+}
+
+/* Breadcrumgs */
+.breadcrumbs a,
+.breadcrumbs > span {
+	padding-right: 0;
+	padding-left: 15px;
+	background-position: 0 50%;
+}

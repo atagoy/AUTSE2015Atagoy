@@ -457,7 +457,7 @@ class Profile_Builder_Form_Creator{
             }
         }
 		
-		return apply_filters( 'wppb_add_to_user_signup_form_meta', $meta, $global_request );
+		return $meta;
 	}
 
     /**

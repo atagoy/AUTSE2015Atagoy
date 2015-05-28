@@ -1,0 +1,9 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+
+@import url(../../../css/custom.css);
+
+.custom-logo { background-image: url(../../../../../images/yootheme/logo_garnet.png); }

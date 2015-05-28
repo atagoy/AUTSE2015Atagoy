@@ -1,0 +1,77 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../warp/css/modules.css);
+
+
+/* Module Badges
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge {
+	top: -2px;
+	right: 0;
+	width: 32px;
+	height: 22px;
+	background: url(../../../images/module_badges.png) 0 0 no-repeat;
+}
+ 
+.module .badge-hot { background-position: 0 0; }
+.module .badge-top { background-position: 0 -25px; }
+.module .badge-free { background-position: 0 -50px; }
+.module .badge-new { background-position: 0 -75px; }
+
+
+/* Module Icons
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title .icon { background: url(../../../images/module_icons.png) 0 0 no-repeat; }
+
+.module .module-title .icon-download { background-position: 0 0; }
+.module .module-title .icon-twitter { background-position: 0 -30px; }
+.module .module-title .icon-mail { background-position: 0 -60px; }
+.module .module-title .icon-bubble { background-position: 0 -90px; }
+.module .module-title .icon-login { background-position: 0 -120px; }
+.module .module-title .icon-cart { background-position: 0 -150px; }
+
+
+/* Module Headings
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title {
+	font-size: 15px;
+	line-height: 15px;
+	text-transform: uppercase;
+}
+
+
+/* Module Type: Line
+----------------------------------------------------------------------------------------------------*/
+
+/* horizontal line */
+.grid-h .mod-line:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -20px;
+	width: 1px;
+	border: 0 solid #ddd; /* For Responsive */
+	background: url(../images/line_dotted_v.png) 0 0 repeat-y;
+}
+.grid-h:first-child > .mod-line:before { display: none; }
+
+/* vertical line */
+.grid-v .mod-line { margin-top: 0; }
+.grid-v:first-child > .mod-line { margin-top: 20px; }
+
+.grid-v .mod-line .module-title {
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #444;
+	border-radius: 4px;
+	color: #FFF;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.grid-v .mod-line .badge { top: 6px; right: 6px; }

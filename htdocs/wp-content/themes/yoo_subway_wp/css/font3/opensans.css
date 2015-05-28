@@ -1,0 +1,11 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1,
+.menu-dropdown a.level2, .menu-dropdown span.level2,
+.menu-dropdown li.level3,
+.menu-sidebar a.level1 > span,
+.menu-sidebar span.level1 > span,
+.menu-sidebar .level2 a > span,
+#searchbox input,
+#searchbox .results li.results-header { font-family: "OpenSansRegular"; }

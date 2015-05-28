@@ -1,0 +1,28 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*
+ * view: category
+ */
+
+/* layout */
+div#yoo-zoo div.row {
+	zoom: 1;
+}
+
+/* category */
+div#yoo-zoo div.category {
+	zoom: 1;
+}
+
+/* items */
+div#yoo-zoo div.items {
+	zoom: 1;
+}
+
+div#yoo-zoo div.teaser-item {
+	zoom: 1;
+}
+
+/*
+ * view: item
+ */

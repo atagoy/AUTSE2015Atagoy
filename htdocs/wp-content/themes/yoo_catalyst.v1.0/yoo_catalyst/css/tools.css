@@ -1,0 +1,592 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/tools.css);
+
+
+/* Buttons (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+a.button-more {
+	position: relative;
+	height: 40px;
+	margin: 0 13px;
+	padding: 0 13px;
+	background-position: 0 -80px;
+	background-repeat: repeat-x;
+	line-height: 41px;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+a.button-more:before,
+a.button-more:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 13px;
+	height: 40px;
+	background-repeat: no-repeat;
+}
+
+a.button-more:before {
+	right: -13px;
+	background-position: 0 -160px;
+}
+a.button-more:after {
+	left: -13px;
+	background-position: 0 0;
+}
+
+a.button-more:hover { background-position: 0 -120px; }
+
+a.button-more:hover:before { background-position: 0 -200px; }
+a.button-more:hover:after { background-position: 0 -40px; }
+
+/* Module Style */
+.mod-metal a.button-more,
+.mod-metal a.button-more:before,
+.mod-metal a.button-more:after,
+.content-whitebg #content a.button-more,
+.content-whitebg #content a.button-more:before,
+.content-whitebg #content a.button-more:after { background-image: url(../images/tools/button_more_metal.png); }
+
+.mod-metal a.button-more,
+.content-whitebg #content a.button-more {
+	line-height: 44px;
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
+.mod-metal a.button-more:hover,
+.content-whitebg #content a.button-more { text-shadow: 0 1px 3px rgba(0,0,0,1.0); }
+
+
+/* Images and Objects (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+img.border-box { border: 1px solid #ddd; }
+
+
+/* Lists and Tables (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+/* Line */
+ul.line > li,
+.comments-list > article,
+.wk-twitter-list article {
+	border: none;
+	background: url(../images/tools/list_line.png) 0 0 repeat-x;
+}
+#page ul.line > li:first-child { background: none; padding-top: 5px; }
+
+.mod-metal ul.line > li,
+.mod-metal .comments-list > article,
+.mod-metal .wk-twitter-list article,
+.content-whitebg #content ul.line > li,
+.content-whitebg #content .comments-list > article,
+.content-whitebg #content .wk-twitter-list article { background: url(../images/tools/list_line_metal.png) 0 0 repeat-x; }
+
+/* Line Icon */
+ul.line-icon > li { padding-left: 20px; }
+
+.mod-metal ul.line-icon > li,
+.content-whitebg #content ul.line-icon > li {
+	background:
+		url(../images/tools/list_line_metal.png) 0 0 repeat-x,
+		url(../images/tools/list_line_icon_metal.png) 0 0 no-repeat;
+}
+#page .mod-metal ul.line-icon > li:first-child,
+#page .content-whitebg #content ul.line-icon > li:first-child {
+	background:
+		none,
+		url(../images/tools/list_line_icon_metal.png) 0 0 no-repeat;
+}
+
+/* Check */
+ul.check > li { padding: 4px 0 0 30px; }
+
+.mod-metal ul.check > li,
+.content-whitebg #content ul.check > li { background: url(../images/tools/list_check_metal.png) 0 0 no-repeat; }
+
+/* Zebra List and Table */
+table.zebra tbody td { border-bottom: 1px solid #000; }
+table.zebra tbody tr:first-child td { border-top: 1px solid #000; }
+
+ul.zebra > li.odd,
+table.zebra tbody tr.odd { background: #1d1d1f; }
+ul.zebra > li:nth-of-type(odd),
+table.zebra tbody tr:nth-of-type(odd) { background: #1d1d1f; }
+
+.mod-metal ul.zebra > li.odd {
+	background: rgba(0,0,0,0.1);
+	box-shadow:
+		inset 0 1px 0 rgba(0,0,0,0.1),
+		0 1px 0 rgba(255,255,255,0.3);
+}
+.mod-metal ul.zebra > li:nth-of-type(odd) {
+	background: rgba(0,0,0,0.1);
+	box-shadow:
+		inset 0 1px 0 rgba(0,0,0,0.1),
+		0 1px 0 rgba(255,255,255,0.3);
+}
+
+table.zebra {
+	border: 1px solid #000;
+	background: #121214;
+	box-shadow: 0 8px 4px -4px rgba(0,0,0,0.8);
+}
+
+table.zebra caption { color: #000; }
+
+table.zebra thead { background: #111; }
+
+table.zebra thead tr td,
+table.zebra thead tr th { border: 1px solid #000; }
+
+table.zebra thead th {
+	color: #88888a;
+	text-shadow: 0 -1px 1px rgba(0,0,2,0.6);
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+table.zebra tbody tr:hover,
+table.zebra tbody tr:nth-of-type(odd):hover,
+table.zebra tbody tr.odd:hover { background: #222224; }
+
+table.zebra tr td,
+table.zebra tr th {	border-left: 1px solid #000; }
+
+table.zebra tfoot tr {
+	border-bottom: 1px solid #000;
+	background: #111;
+	color: #575759;
+}
+
+.content-whitebg #content table.zebra tbody td { border-bottom: 1px solid #d3d3d3; }
+.content-whitebg #content table.zebra tbody tr:first-child td { border-top: 1px solid #d3d3d3; }
+
+.content-whitebg #content table.zebra tbody tr.odd { background: #f0f0f0; }
+.content-whitebg #content table.zebra tbody tr:nth-of-type(odd) { background: #f0f0f0; }
+
+.content-whitebg #content table.zebra {
+	border: 1px solid #d3d3d3;
+	background: #f8f8f8;
+	box-shadow: 0 8px 4px -4px rgba(0,0,0,0.1);
+}
+
+.content-whitebg #content table.zebra caption { color: #333; }
+
+.content-whitebg #content table.zebra thead { background: #f4f4f4; }
+
+.content-whitebg #content table.zebra thead tr td,
+.content-whitebg #content table.zebra thead tr th { border: 1px solid #d3d3d3; }
+
+.content-whitebg #content table.zebra thead th {
+	color: #88888a;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.content-whitebg #content table.zebra tbody tr:hover,
+.content-whitebg #content table.zebra tbody tr:nth-of-type(odd):hover,
+.content-whitebg #content table.zebra tbody tr.odd:hover { background: #fff; }
+
+.content-whitebg #content table.zebra tr td,
+.content-whitebg #content table.zebra tr th {	border-left: 1px solid #d3d3d3; }
+
+.content-whitebg #content table.zebra tfoot tr {
+	border-bottom: 1px solid #c7c7c7;
+	background: #efefef;
+	color: #444;
+}
+
+
+/* Definition Lists
+----------------------------------------------------------------------------------------------------*/
+
+dl.separator dt {	
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+/* border code because of RTL */
+dl.separator dd {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-color: #1B1B1D;
+}
+
+dl.separator dt:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -15px;
+	width: 30px;
+	border-top: 1px solid #1B1B1D;
+}
+
+dl.separator dt:after {
+	content: "";
+	position:absolute;
+	top: -3px;
+	right: -3px;
+	width: 5px;
+	height: 5px;
+	background: #000;
+	border: 1px solid #1B1B1D;
+	border-radius:6px;
+}
+
+dl.separator dt:first-child:before,
+dl.separator dt:first-child:after { display: none; }
+
+
+dl.separator dt {	
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.content-whitebg #content dl.separator dd { border-color: #d3d3d3; }
+
+.content-whitebg #content dl.separator dt:before { border-top: 1px solid #d3d3d3; }
+
+.content-whitebg #content dl.separator dt:after {
+	background: #FFF;
+	border: 1px solid #d3d3d3;
+}
+
+
+/* Text
+----------------------------------------------------------------------------------------------------*/
+
+/* Inline Text Box */
+
+/* Dotted Horizontal Rule */
+hr.dotted { background: url(../images/tools/line_dotted.png) 0 0 repeat-x; }
+
+
+/* Boxes
+----------------------------------------------------------------------------------------------------*/
+
+.box-content,
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+.box-content {
+	border-color: #1B1B1D;
+	background: #08080A;
+}
+
+.box-note {
+	border-color: rgba(255,255,255,0.16);
+	background: rgba(255,255,255,0.08);
+	color: #ccc;
+}
+
+.box-info {
+	border-color: rgba(70,120,185,0.4);
+	background: rgba(0,87,132,0.2) url(../images/tools/box_info.png) 0 0 no-repeat;
+	color: #64b2de;
+}
+
+.box-warning {
+	border-color: rgba(190,40,40,0.4);
+	background: rgba(145,0,0,0.2) url(../images/tools/box_warning.png) 0 0 no-repeat;
+	color: #d67f76;
+}
+
+.box-hint {
+	border-color: rgba(142,98,0,0.5);
+	background: rgba(142,98,0,0.2) url(../images/tools/box_hint.png) 0 0 no-repeat;
+	color: #f0a868;
+}
+
+.box-download {
+	border-color: rgba(90,132,0,0.5);
+	background: rgba(90,132,0,0.2) url(../images/tools/box_download.png) 0 0 no-repeat;
+	color: #bacd86;
+}
+
+.content-whitebg #content .box-content,
+.content-whitebg #content .box-note,
+.content-whitebg #content .box-info,
+.content-whitebg #content .box-warning,
+.content-whitebg #content .box-hint,
+.content-whitebg #content .box-download {
+	border: 1px solid #d3d3d3;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow:
+		0 2px 4px rgba(0,0,0,0.1),
+		inset 0 0 10px rgba(0,0,0,0.06);
+}
+
+.content-whitebg #content .box-note {
+	background: #666;
+	border-color: #2f2f2f;
+	box-shadow:
+		0 2px 4px rgba(0,0,0,0.3),
+		inset 0 0 10px rgba(0,0,0,0.2);
+	color: #fefefe;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+.content-whitebg #content .box-info {
+	background: #ebf5fa url(../images/tools/box_info.png) 0 0 no-repeat;
+	border-color: #a1c0d0;
+	color: #1d5e80;
+}
+
+.content-whitebg #content .box-warning {
+	background: #fff0eb url(../images/tools/box_warning.png) 0 0 no-repeat;
+	border-color: #edb1a2;
+	color: #963e27;
+}
+
+.content-whitebg #content .box-hint {
+	background: #fffae6 url(../images/tools/box_hint.png) 0 0 no-repeat;
+	border-color: #e2c487;
+	color: #6a4f16;
+}
+
+.content-whitebg #content .box-download {
+	background: #faffe6 url(../images/tools/box_download.png) 0 0 no-repeat;
+	border-color: #c2d685;
+	color: #51621c;
+}
+
+
+/* Forms (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+form.box fieldset{
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	box-shadow:
+		1px 1px 0 rgba(255,255,255,0.04),
+		inset 1px 1px 0 rgba(255,255,255,0.04);
+}
+
+form.box fieldset legend {
+	color: #a2a2a4;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+form.style input[type="text"],
+form.style input[type="password"],
+form.style select,
+form.style textarea {
+	padding: 6px;
+	border: 1px solid #1d1d1f;
+	border: 1px solid rgba(255,255,255,0.09);
+	border-radius: 2px;
+	background-color: #000;
+	background-color: rgba(0,0,0,0.6);
+	box-shadow: 0 0 8px rgba(255,255,255,0.04);
+	color: #565658;
+}
+
+form.style input[type="text"]:focus,
+form.style input[type="password"]:focus,
+form.style select:focus,
+form.style textarea:focus {
+	outline: none;
+	color: #797979;
+	border-color: #242426;
+	border-color: rgba(255,255,255,0.15);
+	background-color: rgba(0,0,0,0.7);
+	box-shadow: inset 0 0 5px rgba(255,255,255,0.08);
+}
+
+form.style textarea { padding: 8px; }
+
+form.style button,
+form.style input[type="button"],
+form.style input.button,
+form.style #submit {
+	margin: 3px;
+	padding: 8px 12px;
+	border: none;
+	border-radius: 5px;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/* Mod Style */
+.content-whitebg #content form.box fieldset{
+	border: 1px solid #ddd;
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: none;
+}
+
+.mod-metal form.style input,
+.mod-metal form.style select,
+.mod-metal form.style textarea,
+.content-whitebg #content form.style input,
+.content-whitebg #content form.style select,
+.content-whitebg #content form.style textarea {
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+
+/* Mobile Switcher (Needed for Mobile)
+----------------------------------------------------------------------------------------------------*/
+
+.mobile-switcher {
+	background: #242426;
+	border: 2px solid #000;
+	border-radius: 10px;
+}
+
+
+/* Social Icons
+----------------------------------------------------------------------------------------------------*/
+
+.social-icons {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+.social-icons li {
+	float: left;
+	margin: 0 6px 0 0;
+	line-height: 25px;
+}
+
+.social-icons li a {
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	float: left;
+	overflow: hidden;
+	background: url(../images/tools/icons_social.png) 0 0 no-repeat;
+	text-indent: 50px;
+}
+
+.social-icons .rss a { background-position: 0 0; }
+.social-icons .rss a:hover { background-position: 0 -30px; }
+
+.social-icons .twitter a { background-position: 0 -60px; }
+.social-icons .twitter a:hover { background-position: 0 -90px; }
+
+.social-icons .facebook a { background-position: 0 -120px; }
+.social-icons .facebook a:hover { background-position: 0 -150px; }
+
+.social-icons .flickr a { background-position: 0 -180px; }
+.social-icons .flickr a:hover { background-position: 0 -210px; }
+
+.social-icons .linkedin a { background-position: 0 -240px; }
+.social-icons .linkedin a:hover { background-position: 0 -270px; }
+
+.social-icons .myspace a { background-position: 0 -300px; }
+.social-icons .myspace a:hover { background-position: 0 -330px; }
+
+.social-icons .lastfm a { background-position: 0 -360px; }
+.social-icons .lastfm a:hover { background-position: 0 -390px; }
+
+.social-icons .dribbble a { background-position: 0 -420px; }
+.social-icons .dribbble a:hover { background-position: 0 -450px; }
+
+.social-icons .digg a { background-position: 0 -480px; }
+.social-icons .digg a:hover { background-position: 0 -510px; }
+
+.social-icons .delicious a { background-position: 0 -540px; }
+.social-icons .delicious a:hover { background-position: 0 -570px; }
+
+.social-icons .deviantart a { background-position: 0 -600px; }
+.social-icons .deviantart a:hover { background-position: 0 -630px; }
+
+.social-icons .technorati a { background-position: 0 -660px; }
+.social-icons .technorati a:hover { background-position: 0 -690px; }
+
+.social-icons .stumbleupon a { background-position: 0 -720px; }
+.social-icons .stumbleupon a:hover { background-position: 0 -750px; }
+
+.social-icons .yahoo a { background-position: 0 -780px; }
+.social-icons .yahoo a:hover { background-position: 0 -810px; }
+
+.social-icons .openid a { background-position: 0 -840px; }
+.social-icons .openid a:hover { background-position: 0 -870px; }
+
+.social-icons .xing a { background-position: 0 -900px; }
+.social-icons .xing a:hover { background-position: 0 -930px; }
+
+.social-icons .forrst a { background-position: 0 -960px; }
+.social-icons .forrst a:hover { background-position: 0 -990px; }
+
+.social-icons .googleplus a { background-position: 0 -1020px; }
+.social-icons .googleplus a:hover { background-position: 0 -1050px; }
+
+.social-icons .youtube a { background-position: 0 -1080px; }
+.social-icons .youtube a:hover { background-position: 0 -1110px; }
+
+.social-icons .vimeo a { background-position: 0 -1140px; }
+.social-icons .vimeo a:hover { background-position: 0 -1170px; }
+
+.social-icons .foursquare a { background-position: 0 -1200px; }
+.social-icons .foursquare a:hover { background-position: 0 -1230px; }
+
+.social-icons .github a { background-position: 0 -1260px; }
+.social-icons .github a:hover { background-position: 0 -1290px; }
+
+
+/* Social Icons Special
+----------------------------------------------------------------------------------------------------*/
+
+.social-icons-special {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+#headerbar .module .social-icons-special { margin-top: 20px; }
+
+.social-icons-special li {
+	float: left;
+	margin: 0 10px 0 0;
+	line-height: 26px;
+}
+
+.social-icons-special li a {
+	display: inline-block;
+	width: 24px;
+	height: 26px;
+	float: left;
+	overflow: hidden;
+	background: url(../images/tools/icons_social_special.png) 0 0 no-repeat;
+	text-indent: 50px;
+}
+
+.social-icons-special .googleplus a { background-position: 0 0; }
+.social-icons-special .googleplus a:hover { background-position: 0 -30px; }
+
+.social-icons-special .twitter a { background-position: 0 -60px; }
+.social-icons-special .twitter a:hover { background-position: 0 -90px; }
+
+.social-icons-special .facebook a { background-position: 0 -120px; }
+.social-icons-special .facebook a:hover { background-position: 0 -150px; }

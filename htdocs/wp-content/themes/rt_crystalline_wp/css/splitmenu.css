@@ -1,0 +1,23 @@
+/**
+ * @version   1.0 October 16, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/* Global */
+.menutop.theme-splitmenu li {height: auto;margin: 0;padding: 0;position: relative;list-style: none;}
+.menutop.theme-splitmenu em {font-size:80%;font-weight:normal;display:block;font-style:normal;}
+.menutop.theme-splitmenu li .item .menutop.theme-splitmenu li.active .item {display: block;margin: 0;text-decoration: none;float: none;width: auto;}
+
+/* Root Items */
+.menutop.theme-splitmenu .subtext span {line-height: 18px;}
+.menutop.theme-splitmenu .subtext em {line-height:13px;}
+.menutop.theme-splitmenu {list-style: none;margin: 0;padding: 0;position: relative;line-height: 1.0;}
+.menutop.theme-splitmenu li {float: left;margin: 0 -5px 0 0;}
+.menutop.theme-splitmenu li .item {white-space: nowrap;display: block;font-weight: normal;padding: 0;font-size: 15px;z-index: 100;cursor: pointer;position:relative;margin: 0 4px 0 0;outline: none;text-align: center;line-height: 32px;text-transform: uppercase;}
+.menutop.theme-splitmenu li .item span {display: block;margin: 0;outline: none;padding: 10px 20px;width: auto;}
+.menutop.theme-splitmenu li .item em {font-size:11px;font-weight:normal;display:block;font-style:normal;text-transform: lowercase;}
+
+/* Splitmenu */
+.fusion-pill-l {height: 60px;margin:0;top:0;position:absolute;left:0;}
+.fusion-pill-r {height: 60px;}

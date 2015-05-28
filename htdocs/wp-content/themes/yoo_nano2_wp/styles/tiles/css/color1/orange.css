@@ -1,0 +1,18 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../../css/color1/orange.css);
+
+#logo,
+#system .pagination strong,
+#system .pagination a:hover {
+	border-color: #f16d1a;
+	background-color: #f16d1a;
+}
+
+/* Only Phones */
+@media (max-width: 767px) {
+
+	#page #header-responsive .logo { background: #f16d1a; }
+
+}
+

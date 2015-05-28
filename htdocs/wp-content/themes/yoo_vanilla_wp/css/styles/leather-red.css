@@ -1,0 +1,9 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(leather.css);
+@import url(bgcolor-red.css);
+
+body.yoopage { background-image: url(../../images/styles/leather/red/page_footer_bg.jpg); }
+#page-header { background-image: url(../../images/styles/leather/red/page_header_bg.jpg); }
+#page-bottom { background-image: url(../../images/styles/leather/red/page_bottom_bg.jpg); }
+#page-bottom .page-bottom-1 { background-image: url(../../images/styles/leather/red/page_bottom_bg_t.jpg); }

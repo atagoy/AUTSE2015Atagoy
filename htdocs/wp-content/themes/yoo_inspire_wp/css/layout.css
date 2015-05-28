@@ -1,0 +1,98 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+.module,
+#header,
+#breadcrumbs,
+#content,
+#footer { margin: 15px; }
+
+#footer .module { margin: 0; }
+
+#logo { margin-right: 15px; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+body#page { background: #F0F0F0; }
+
+#block-toolbar { background: url(../images/toolbar_bg.png) 0 0 repeat-x; }
+
+#toolbar {
+	padding: 3px 15px 4px 15px;
+	min-height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	color: #D5D5D5;
+}
+
+#search { margin-left: 10px; }
+
+#block-header {
+	border-bottom: 1px solid #fff;
+	background: #F7F7F7;
+	background: -moz-radial-gradient(50% 0%, #F7F7F7 0%, #EFEFF0 50%, #E0E1E2 100%); /* Firefox */
+	background: -webkit-radial-gradient(50% 0%, #F7F7F7 0%, #EFEFF0 50%, #E0E1E2 100%); /* Safari, Chrome */
+}
+
+#header { min-height: 50px; }
+
+#menu { 
+	position: absolute;
+	right: -10px;
+	bottom: -17px;
+	text-shadow: 0 1px 0 rgba(255,255,255,1);
+}
+
+#headerbar { margin-bottom: 50px; }
+
+#block-top-a { padding: 15px 0; }
+
+.top-a-shadow {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0 -1px 3px rgba(0,0,0,0.3) inset, 0 1px 3px rgba(0,0,0,0.5) inset;
+}
+
+#block-main {
+	padding: 30px 0 15px 0;
+	border-bottom: 1px solid #ffffff;
+	background: #FCFCFC;
+}
+
+#block-bottom {
+	border-top: 1px solid #E4E4E4;
+	border-bottom: 1px solid #ffffff;
+	padding: 15px 0;
+	background: #F9F9F9;
+}
+
+#block-footer { 
+	border-top: 1px solid #E4E4E4;
+	font-size: 12px;
+	color: #868686;
+}
+
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	width: 20px;
+	height: 20px;
+	background: url(../images/totop_scroller.png) 0 0 no-repeat;
+	text-decoration: none;
+}
+
+#totop-scroller:hover { background-position: 0 -20px; }

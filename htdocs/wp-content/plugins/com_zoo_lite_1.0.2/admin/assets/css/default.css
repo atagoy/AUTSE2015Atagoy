@@ -1,0 +1,150 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*
+ * general
+ */
+
+.icon-48-zoo {
+	background: url(../images/zoo.png) 0 0 no-repeat;
+}
+
+input#search {
+	width: 250px;
+	padding: 2px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+table.admintable td {
+	text-align: left;
+}
+
+div.image-preview {
+	margin: 3px 0px 0px 0px;
+	padding: 3px;
+	width: 370px;
+	height: 100px;
+	border: 1px solid #CCCCCC;
+	overflow: auto;
+}
+
+div.copyright {
+	margin: 10px 0px 0px 0px;
+	font-size: 10px;
+	text-align: center;
+}
+
+span.notice {
+	margin: 0px 0px 0px 5px;
+}
+
+.inputerror {
+	border: 1px solid #E52525;
+}
+
+/*
+ * submenu
+ */
+
+#submenu-box #submenu li {
+	margin: 0px 0px 0px 10px;
+	line-height: 16px;
+}
+
+#submenu-box #submenu li.item1 {
+	background: url(../images/book.png) 0 0 no-repeat;
+}
+
+#submenu-box #submenu li.item2 {
+	background: url(../images/page_white.png) 0 0 no-repeat;
+}
+
+#submenu-box #submenu li.item3 {
+	background: url(../images/bricks.png) 0 0 no-repeat;
+}
+
+#submenu-box #submenu li a {
+	padding: 0px 10px 0px 22px;
+}
+
+/*
+ * type - edit elements
+ */
+
+#edit-elements {
+	overflow: hidden;
+}
+
+#edit-elements div.element {
+	position: relative;
+}
+
+#edit-elements div.dragging fieldset.adminform {
+	background: #E9E9E9;
+	border: 1px dashed #000000;
+}
+
+#edit-elements div.sort-element {
+	background: url(../images/sort.png) 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 10px;
+	right: 37px;
+	cursor: move;
+}
+
+#edit-elements div.delete-element {
+	background: url(../images/brick_delete.png) 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 10px;
+	right: 16px;
+	cursor: pointer;
+}
+
+#edit-elements #add-element ul.groups {
+	margin: 0px;
+	padding: 5px;
+	list-style-type: none;
+}
+
+#edit-elements #add-element ul.groups li.group {
+	font-weight: bold;
+}
+
+#edit-elements #add-element ul.elements {
+	margin: 0px;
+	padding: 5px 5px 5px 10px;
+	list-style-type: none;
+}
+
+#edit-elements #add-element ul.elements li {
+	background: url(../images/brick_add.png) 0 0 no-repeat;
+	line-height: 16px;
+	text-indent: 22px;
+	height: 20px;
+	cursor: pointer;	
+	font-weight: normal;
+}
+
+#edit-elements #add-element ul.elements li:hover {
+	text-decoration: underline;
+}
+
+/*
+ * catalogs - default
+ */
+
+#catalogs-default .adminlist a.edit-categories:hover {
+	text-decoration: none;
+}
+
+#catalogs-default .adminlist a.edit-categories img {
+	margin: 0px 0px -4px 0px;
+}
+
+#catalogs-default .adminlist a.edit-categories span.count {
+	color: #666666;
+}

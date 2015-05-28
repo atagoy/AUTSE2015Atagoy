@@ -1,0 +1,160 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*************************************
+*
+* view: category
+*
+*************************************/
+
+/*
+ * layout
+ */
+
+div#yoo-zoo {
+}
+
+div#yoo-zoo div.row {
+	overflow: hidden;
+}
+
+div#yoo-zoo div.row div.width25 {
+	float: left;
+	width: 24.999%;
+}
+
+div#yoo-zoo div.row div.width33 {
+	float: left;
+	width: 33.333%;
+}
+
+div#yoo-zoo div.row div.width50 {
+	float: left;
+	width: 49.999%;
+}
+ 
+/*
+ * category
+ */
+ 
+div#yoo-zoo div.category {
+	margin: 0px 0px 20px 0px;
+	overflow: hidden;
+}
+
+div#yoo-zoo div.category h1.name {
+	letter-spacing: -2px;
+}
+
+div#yoo-zoo div.category div.description {
+	margin: 10px 0px 0px 0px;
+	padding-bottom: 20px;
+	background: url(../images/line_dotted_h.png) 0 100% repeat-x;
+	overflow: hidden;
+}
+
+div#yoo-zoo div.category img.image {
+	margin: 0px 0px 0px 15px;
+	float: right;
+}
+
+/*
+ * items
+ */
+
+div#yoo-zoo div.items {
+	overflow: hidden;
+}
+
+div#yoo-zoo div.items div.teaser-item {
+	padding: 0px 15px 20px 15px;
+}
+
+div#yoo-zoo div.items div.first div.teaser-item {
+	padding-left: 0px;
+}
+
+div#yoo-zoo div.items div.last div.teaser-item {
+	padding-right: 0px;
+}
+
+div#yoo-zoo div.items div.teaser-item-bg {
+	padding: 0px 0px 20px 0px;
+	background: url(../images/line_dotted_h.png) 0 100% repeat-x;
+	overflow: hidden;
+}
+
+div#yoo-zoo div.items h1.name {
+	letter-spacing: -2px;
+}
+
+div#yoo-zoo div.items h1.name a:link,
+div#yoo-zoo div.items h1.name a:visited,
+div#yoo-zoo div.items h1.name a:hover {
+	text-decoration: none;
+}
+
+div#yoo-zoo div.items p.postmeta {
+	font-size: 95%;
+}
+
+div#yoo-zoo div.items span.date {
+	display: block;
+	font-weight: bold;
+}
+
+div#yoo-zoo div.items span.related {
+	display: block;
+}
+
+div#yoo-zoo div.items span.author {
+	display: block;
+	color: #969696;
+	font-style: italic;
+}
+
+div#yoo-zoo div.items div.text {
+	overflow: hidden;
+}
+
+div#yoo-zoo div.items p.continue {
+	margin: 0px 0px 0px 0px;
+}
+
+div#yoo-zoo div.items p.continue span.arrow {
+	font-size: 120%;
+}
+
+/* variations depending on column number */
+div#yoo-zoo div.items-col-3 div.teaser-item,
+div#yoo-zoo div.items-col-4 div.teaser-item{
+	padding: 0px 10px 10px 10px;
+}
+
+div#yoo-zoo div.items-col-2 h1.name {
+	font-size: 200%;
+	letter-spacing: -1px;
+}
+
+div#yoo-zoo div.items-col-3 h1.name,
+div#yoo-zoo div.items-col-4 h1.name {
+	font-size: 150%;
+	letter-spacing: -1px;
+}
+
+/*
+ * pagination
+ */
+ 
+div#yoo-zoo div.pagination {
+	text-align: center;
+}
+
+div#yoo-zoo div.pagination span.pagination-bg{
+	cursor: pointer;
+}
+
+div#yoo-zoo div.pagination a:link,
+div#yoo-zoo div.pagination a:visited,
+div#yoo-zoo div.pagination a:hover {
+	text-decoration: none;
+}

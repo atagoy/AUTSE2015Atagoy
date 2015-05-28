@@ -1,0 +1,133 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+.module,
+#breadcrumbs,
+#content,
+#footer { margin: 20px; }
+
+#menu .module { margin: 10px 5px; }
+
+#header { margin: 15px 20px 0 20px; }
+
+#toolbar,
+#headerbar { margin-bottom: 15px; }
+#headerbar .module { margin: 15px 0 15px 15px; }
+
+#footer { margin-top: 0; }
+#footer .module { margin: 0; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+/* Separators */
+#header {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #DDD;
+}
+
+#footer {
+	padding-top: 24px;
+	border-top: 1px solid #EEE;
+}
+
+#header:before,
+#footer:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	border-bottom: 1px solid #EEE;
+}
+
+#header:before { bottom: 2px; }
+
+#footer:before {
+	top: 2px;
+	border-color: #DDD;
+}
+
+#menubar {
+	padding: 10px 0 9px 0;
+	background: url(../images/line_dotted.png) 0 0 repeat-x;
+}
+
+/* Block Separators */
+#top-a:after,
+#top-b:after,
+#innertop:after {
+	content: "";
+	display: block;
+	margin: 0 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+#bottom-a:before,
+#bottom-b:before,
+#innerbottom:before {
+	content: "";
+	display: block;
+	margin: 0 20px;
+	border-top: 1px solid #ddd;
+}
+
+/* Remove Block Separators if System Output is disabled */
+#header + #bottom-a:before,
+#header + #bottom-b:before,
+#top-a + #bottom-a:before,
+#top-a + #bottom-b:before,
+#top-b + #bottom-a:before,
+#top-b + #bottom-b:before { border: none; }
+
+/* Sidebar Backgrounds */
+#sidebar-a,
+#sidebar-b { position: relative; }
+
+#sidebar-a:before,
+#sidebar-b:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 20px;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.sidebar-a-right #sidebar-a:before,
+.sidebar-b-right #sidebar-b:before { background: url(../images/line_dotted_v.png) 0 0 repeat-y; }
+
+.sidebar-a-left #sidebar-a:before,
+.sidebar-b-left #sidebar-b:before { background: url(../images/line_dotted_v.png) 100% 0 repeat-y; }
+
+/* Footer + Toolbar */
+#footer,
+#toolbar {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+/* ToTop Scroller */
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: 25px;
+	right: 0;
+	z-index: 1;
+	width: 21px;
+	height: 21px;
+	border: 1px solid #ddd;
+	background: url(../../../images/totop_scroller.png) 50% 50% no-repeat;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+#totop-scroller:hover { background-color: #EEE; }
+

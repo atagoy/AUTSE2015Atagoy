@@ -1,0 +1,42 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*************************************
+*
+* view: item
+*
+*************************************/
+
+/*
+ * item
+ */
+
+div#yoo-zoo div.item {
+	overflow: hidden;
+}
+
+div#yoo-zoo div.item h1.name {
+	letter-spacing: -2px;
+}
+
+div#yoo-zoo div.item p.postmeta {
+	font-size: 95%;
+}
+
+div#yoo-zoo div.item span.date {
+	display: block;
+	font-weight: bold;
+}
+
+div#yoo-zoo div.item span.related {
+	display: block;
+}
+
+div#yoo-zoo div.item span.author {
+	display: block;
+	color: #969696;
+	font-style: italic;
+}
+
+div#yoo-zoo div.item div.text {
+	overflow: hidden;
+}

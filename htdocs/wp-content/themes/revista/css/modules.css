@@ -1,0 +1,167 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/modules.css);
+
+
+/* Module Badges
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge {
+	width: 27px;
+	height: 13px;
+	background: url(../images/module_badges.png) 0 0 no-repeat;
+}
+ 
+.module .badge-hot { background-position: 0 0; }
+.module .badge-top { background-position: 0 -25px; }
+.module .badge-live { background-position: 0 -50px; }
+.module .badge-new { background-position: 0 -75px; }
+
+
+/* Module Icons
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title .icon { background: url(../images/module_icons.png) 0 0 no-repeat; }
+
+.module.mod-box-color .module-title .icon,
+.module.mod-box-black .module-title .icon { background-image: url(../images/module_icons_color.png); }
+
+.module .module-title .icon-download { background-position: 0 0; }
+.module .module-title .icon-twitter { background-position: 0 -30px; }
+.module .module-title .icon-mail { background-position: 0 -60px; }
+.module .module-title .icon-bubble { background-position: 0 -90px; }
+.module .module-title .icon-login { background-position: 0 -120px; }
+.module .module-title .icon-cart { background-position: 0 -150px; }
+
+
+/* Module Type: Box
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box {
+	padding: 15px;
+	border: 1px solid rgba(0,0,0,0.15);
+	border-bottom-color: rgba(0,0,0,0.25);
+	background: #fff;
+	background-clip: padding-box;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+}
+
+.mod-box .badge { top: 15px; right: 15px; }
+
+.mod-box .module-title {
+	margin-bottom: 7px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #e2e2e2;
+	text-transform: uppercase;
+}
+
+.mod-box .module-title .color { color: #444; }
+
+.mod-box .module-title span.subtitle { color: #999; }
+
+/* Color Grey */
+.mod-box-grey {
+	border: 1px solid rgba(0,0,0,0.2);
+	border-bottom-color: rgba(0,0,0,0.3);
+	background: #f2f2f2;
+	background-clip: padding-box;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.mod-box-grey .module-title { border-bottom-color: #d2d2d2; }
+
+/* Color Black */
+.mod-box-black {
+	border: 1px solid #222;
+	background: #2D2D2D url(../images/module_box_black.png) 0 0 repeat-x;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+	color: #aaa;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+.module.mod-box-black .module-title {
+	border-bottom-color: #4b4b4b;
+	color: #ccc;
+}
+
+.module.mod-box-black .module-title .color { color: #fff; }
+
+.mod-box-black h1,
+.mod-box-black h4 { color: #bbb; }
+
+.mod-box-black h3 { color: #e2e2e2; }
+
+.mod-box-black h2,
+.mod-box-black h5 { color: #999; }
+
+.mod-box-black a { color: #fff; }
+
+.mod-box-black em,
+.mod-box-black code { color: #e2e2e2; }
+
+/* Color Color */
+.mod-box-color h1,
+.mod-box-color h4,
+.mod-box-color a:hover { color: #fff; }
+
+
+/* Module Type: Plain
+----------------------------------------------------------------------------------------------------*/
+
+.mod-plain { text-shadow: 0 1px 0 rgba(255,255,255,0.4); }
+
+.grid-h .mod-plain { padding: 10px 20px 10px 0; }
+
+.grid-v .mod-plain { padding: 20px 10px 0 0; }
+.grid-v:first-child .mod-plain { padding-top: 10px; }
+
+.sidebar-a-right #sidebar-a .grid-v .mod-plain,
+.sidebar-b-right #sidebar-b .grid-v .mod-plain {
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+.mod-plain .badge { top: 10px; right: 10px; }
+
+.module.mod-plain .module-title {
+	margin-bottom: 5px;
+	padding: 0;
+	color: #444;
+}
+
+#bottom-c .mod-plain a:hover { color: #444; }
+
+
+/* Module Type: Line
+----------------------------------------------------------------------------------------------------*/
+
+.mod-line {
+	margin: 0;
+	padding: 15px;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.grid-h .mod-line { background: url(../images/module_line.png) 0 0 repeat-y; }
+
+.grid-v .mod-line { background: url(../images/module_line_v.png) 0 0 repeat-x; }
+
+.grid-h:first-child .mod-line,
+.grid-v:first-child .mod-line { background: none; }
+
+.mod-line .badge { top: 15px; right: 15px; }
+
+.mod-line .module-title .color { color: #444; }
+
+.mod-line .module-title {
+	margin-bottom: 7px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.grid-v .mod-line .module-title {
+	margin-bottom: 5px;
+	padding: 0;
+	border-bottom: none;
+}

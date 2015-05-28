@@ -1,0 +1,75 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/mobile.css);
+
+
+body { background: -webkit-linear-gradient(top, #616161 0%, #4B4B4B 100%); }
+
+.m-toolbar { 
+	background: #050505;
+	box-shadow: none;
+}
+
+.m-buttons {
+	background: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.m-buttons > div {
+	background: none;
+	border-radius: 0;
+}
+
+.m-buttons .m-button { border: none; }
+
+.m-buttons .m-button.m-search { background-image: url(../images/mobile/icon_search.png); }
+.m-buttons .m-button.m-login { background-image: url(../images/mobile/icon_login.png); }
+.m-buttons .m-button.m-close { background-image: url(../images/mobile/icon_close.png); }
+
+#m-navigation ul { background: rgba(20,20,20,0.85); }
+
+#m-navigation ul li { 
+	border-top: 1px solid rgba(255,255,255,0.3);
+	border-bottom: none;
+}
+
+#m-navigation ul li.parent { background-image: url(../images/mobile/arrow.png); }
+
+#m-top .module,
+.noblog #m-content,
+#page.isblog #system .item,
+#m-bottom .module { 
+	border-radius: 0;
+	box-shadow: 0 0 1px rgba(255,255,255,0.2);
+}
+
+
+#m-desktop {
+	border: none;
+	background: #242424;
+	border-radius: 0;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+#system .item + .links a {
+	width: 35px;
+	background-image: url(../images/mobile/system_continue_reading.png);
+	background-position: 100% 0;
+}
+
+#system .item + .links a:hover { background-position: 100% 0; }
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+
+	.m-buttons .m-button.m-search { background-image: url(../images/mobile/icon_search@2x.png); }
+	.m-buttons .m-button.m-login { background-image: url(../images/mobile/icon_login@2x.png); }
+	.m-buttons .m-button.m-close { background-image: url(../images/mobile/icon_close@2x.png); }
+
+	#m-navigation ul li.parent { background-image: url(../images/mobile/arrow@2x.png); }
+
+#system .item + .links a { 
+	background-image: url(../images/mobile/system_continue_reading@2x.png);
+	background-size: 33px 35px;
+}

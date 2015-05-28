@@ -1,0 +1,62 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Style Style Sheet - Defines the main look like colors and backgrounds
+ * Not all style related CSS is included, only colors and backgrounds which may change for different theme styles
+ */
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+body#page { background: #f3f6e7; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+/* Toolbar */
+#toolbar { text-shadow: 0 1px 0 rgba(253,253,255,1.0); }
+
+#toolbar,
+#toolbar a,
+#headerbar a { color: #878f7f; }
+
+#toolbar a:hover,
+#headerbar a:hover,
+#footer a:hover { color: #484e42; }
+
+/* Footer */
+#footer {
+	color: #878f7f;
+	text-shadow: 0 1px 0 rgba(253,253,255,1.0);
+}
+
+#footer a { color: #6d7764; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+/* Module Type: Headerbar Line */
+
+#headerbar .module {
+	color: #878f7f;
+	text-shadow: 0 1px rgba(253,253,255,1.0);
+}
+
+#headerbar .module strong { color: #484e42; }
+#headerbar .module small { color: #878f7f; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+

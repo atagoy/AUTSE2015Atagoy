@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+		<field name="title" type="text" label="Title" description="Title" class="widefat" size="30" default="Archives" readonly="false"/>
+		<field name="dropdown" type="list" class="widefat" label="Display" description="Display" default="0" readonly="false">
+            <option value="0">List</option>
+            <option value="1">Dropdown</option>
+        </field>
+        <field name="type" type="list" class="widefat" label="Type of Archive" description="Type of archive list to display" default="monthly" readonly="false">
+            <option value="daily">Daily</option>
+            <option value="monthly">Monthly</option>
+            <option value="yearly">Yearly</option>
+            <option value="weekly">Weekly</option>
+            <option value="postbypost">Post by Post</option>
+            <option value="alpha">Alpha</option>
+        </field>
+		<field name="menu_class" type="text" label="List Class" description="List Class" class="widefat" size="30" default="menu" readonly="false"/>
+		<field name="show_count" type="list" class="widefat" label="Show Post Count (only Dropdown)" description="Displays post count of each category" default="0" readonly="false">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </field>
+        <field name="limit" type="text" label="Archives Limit" description="Number of archives to get" class="widefat" size="30" default="" readonly="false"/>
+	</fieldset>
+</form>

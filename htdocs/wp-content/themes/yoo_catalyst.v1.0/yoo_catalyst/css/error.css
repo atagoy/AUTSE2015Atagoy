@@ -1,0 +1,49 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/error.css);
+@import url(../css/style.css);
+
+
+/* Page Defaults
+----------------------------------------------------------------------------------------------------*/
+
+body#page { background: #18181a url(../images/background/noise/page.jpg) 0 0 repeat; }
+	
+.center {
+	width: 800px;
+	margin-left: -400px;
+}
+
+
+.error {
+	color: #70ccff;
+	text-shadow:
+		0 -2px 0 rgba(0,0,0,1.0),
+		0 0 30px rgba(0,161,250,0.4);
+}
+
+.error > span {
+	display: inline-block;
+	position: relative;
+}
+
+.error > span:before {
+	content: "";
+	position: absolute;
+	top: 70%;
+	left: -30px;
+	right: -30px;
+	height: 80px;
+	background: url(../images/error.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.message { width: 400px; }
+
+/* Offline */
+.error-offline .error > span:before { top: 65%; }
+.error-offline .message { width: 350px; }
+
+/* Browser */
+.error-browser .message { width: 500px; }
+

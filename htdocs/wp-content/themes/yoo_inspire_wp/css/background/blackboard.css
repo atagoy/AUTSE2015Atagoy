@@ -1,0 +1,22 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Blackboard Background
+ */
+ 
+
+#block-top-a { 
+	overflow: hidden;
+	position: relative;
+	background: #353535 url(../../images/background/blackboard/blackboard_bg.jpg) 0 0 repeat;
+}
+
+.top-a-layer-1 {
+	position: absolute;
+	top: -15px;
+	left: 0;
+	right: 0;
+	height: 1400px;
+	background: url(../../images/background/blackboard/blackboard_img.jpg) 50% 0 no-repeat;
+}
+

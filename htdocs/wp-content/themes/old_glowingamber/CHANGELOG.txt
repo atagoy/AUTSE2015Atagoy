@@ -1,0 +1,15 @@
+Keep a change log to describe all the changes made to program source files. The purpose of this is so that people investigating bugs in the future will know about the changes that might have introduced the bug. Often a new bug can be found by looking at what was recently changed. More importantly, change logs can help you eliminate conceptual inconsistencies between different parts of a program, by giving you a history of how the conflicting concepts arose and who they came from. 
+
+
+2010-05-01  Pixel Theme Studio  <studio@pixelthemestudio.ca>
+     
+	* List Styles: Adjusted the distance on indented sub-lists
+	* Blockquote: Added blockquote styling
+	
+2010-03-28  Pixel Theme Studio  <studio@pixelthemestudio.ca>
+     
+	* Menu: Adjusted the background hover IE bug for sub menus
+
+2010-03-27  Pixel Theme Studio  <studio@pixelthemestudio.ca>
+     
+	* New Theme: Designed and developed the Glowing Amber Pro theme

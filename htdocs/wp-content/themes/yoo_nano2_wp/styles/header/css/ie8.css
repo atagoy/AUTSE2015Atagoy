@@ -1,0 +1,25 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/ie8.css);
+
+.searchbox {
+	height: 26px;
+	border: none;
+	background-color: #222;
+	background-image: url(../images/searchbox_magnifier.png);
+	box-shadow: 0 1px 0 rgba(255,255,255,0.1);
+}
+
+.searchbox input {
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.searchbox input:-moz-placeholder { color: #777; }
+.searchbox input::-webkit-input-placeholder { color: #777; }
+.searchbox input.placeholder { color: #777; }
+
+.searchbox.filled button { background-image: url(../images/searchbox_reset.png); }
+.searchbox.loading button { background-image: url(../images/searchbox_loader.gif); }

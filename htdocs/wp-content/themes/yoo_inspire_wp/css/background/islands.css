@@ -1,0 +1,65 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Islands Background
+ */
+ 
+body { -webkit-font-smoothing: antialiased; }
+
+#block-top-a { 
+	overflow: hidden;
+	position: relative;
+	background: #59b3d0 url(../../images/background/islands/islands_bg.jpg) 50% 100% repeat;
+}
+
+.top-a-layer-1 {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	height: 420px;
+	width: 1900px;
+	margin-left: -950px;
+	background: url(../../images/background/islands/islands_img.jpg) 50% 100% no-repeat;
+}
+
+.top-a-layer-2 {
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin-left: -54px;
+	height: 124px;
+	width: 109px;
+	background: url(../../images/background/islands/cloud1.png) 0 0 no-repeat;
+	-webkit-animation: cloud1 100s linear infinite;
+	-moz-animation: cloud1 100s linear infinite;
+	-ms-animation: cloud1 100s linear infinite;
+	animation: cloud1 100s linear infinite;
+}
+
+.top-a-layer-3 {
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin-left: -190px;
+	height: 253px;
+	width: 381px;
+	background: url(../../images/background/islands/cloud2.png) 0 0 no-repeat;
+	-webkit-animation: cloud2 140s linear infinite;
+	-moz-animation: cloud2 140s linear infinite;
+	-ms-animation: cloud2 140s linear infinite;
+	animation: cloud2 140s linear infinite;
+}
+
+.top-a-layer-4 {
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	margin-left: -123px;
+	height: 171px;
+	width: 246px;
+	background: url(../../images/background/islands/cloud3.png) 0 0 no-repeat;
+	-webkit-animation: cloud3 160s linear infinite;
+	-moz-animation: cloud3 160s linear infinite;
+	-ms-animation: cloud3 160s linear infinite;
+	animation: cloud3 160s linear infinite;
+}

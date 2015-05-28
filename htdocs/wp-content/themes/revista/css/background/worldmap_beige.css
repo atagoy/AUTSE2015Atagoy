@@ -1,0 +1,9 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body#page { background: #ece7e0 url(../../images/background/worldmap/beige_bg.jpg) 0 0 repeat; }
+
+#page-bg { background: url(../../images/background/worldmap/beige.jpg) 50% 0 no-repeat; }
+
+#headerbar,
+#footer,
+.mod-plain a { color: #7a6b62; }

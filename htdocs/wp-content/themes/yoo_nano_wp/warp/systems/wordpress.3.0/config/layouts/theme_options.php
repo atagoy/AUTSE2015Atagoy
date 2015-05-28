@@ -1,0 +1,24 @@
+<div id="warp" class="theme-options wrap">
+
+	<h2>Theme Options</h2>
+	<p><?php echo $xml->first('description')->text(); ?></p>
+
+	<?php if (!empty($update)): ?>
+	<div class="update">
+		<?php echo implode('<br>', $update); ?>
+	</div>
+	<?php endif; ?>
+
+	<form id="theme-options" method="post" action="">
+
+		<?php echo $this->render('config:layouts/config'); ?>
+		<?php settings_fields('template-parameters'); ?>
+
+		<input type="hidden" name="task" value="theme-options" />
+		<input type="hidden" name="warp-ajax-save" value="1" />
+		<p>
+			<input type="submit" value="Save changes" class="button-primary"/><span></span>
+		</p>
+	</form>
+
+</div>

@@ -1,0 +1,68 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*
+ * radio
+ */
+
+div.radio-options {
+	overflow: hidden;
+}
+
+div.radio-options ul {
+	margin: 0px 0px 10px 0px;
+	padding: 0;
+	list-style-type: none;	
+}
+
+div.radio-options li {
+	padding: 10px 5px;
+	overflow: hidden;
+	border-bottom: 1px dotted #CCC;
+}
+
+div.radio-options li:hover {
+	background: #F0F0F0;
+}
+
+div.radio-options li:hover label {
+	color: #0B55C4;
+}
+
+div.radio-options li div {
+	margin: 0px 5px;
+	float: left;
+}
+
+div.radio-options div.option-add {
+	margin: 0px 0px 0px 10px;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	background: url(../../assets/images/add.png) 5px 4px no-repeat;
+	text-indent: 20px;
+	cursor: pointer;
+	float: left;
+}
+
+div.radio-options div.option-add:hover {
+	background-color: #F0F0F0;
+}
+
+div.radio-options div.option-delete {
+	display: none;
+}
+
+div.radio-options li:hover div.option-delete {
+	display: block;
+	margin: 13px 5px 0px 5px;
+	cursor: pointer;
+}
+
+div.radio-options label {
+	display: block;
+	color: #666666;
+	font-weight: bold;
+}
+
+div.radio-options input {
+	width: 140px;
+}

@@ -1,0 +1,195 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*************************************
+*
+* view: category
+*
+*************************************/
+
+/*
+ * layout
+ */
+
+div#yoo-zoo {
+}
+
+div#yoo-zoo div.row {
+	overflow: hidden;
+}
+
+div#yoo-zoo div.row div.width25 {
+	float: left;
+	width: 24.999%;
+}
+
+div#yoo-zoo div.row div.width33 {
+	float: left;
+	width: 33.333%;
+}
+
+div#yoo-zoo div.row div.width50 {
+	float: left;
+	width: 49.999%;
+}
+ 
+/*
+ * alpha-index
+ */
+
+div#yoo-zoo div.alpha-index {
+	height: 33px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 0px 5px;
+	border: 1px solid #C8CBCD;
+	background: #f0f3f5;
+	overflow: hidden;
+}
+
+div#yoo-zoo div.alpha-index a,
+div#yoo-zoo div.alpha-index span {
+	height: 33px;
+	padding: 0px 5px 0px 5px;
+	line-height: 33px;
+	display: block;
+	float: left;
+}
+
+div#yoo-zoo div.alpha-index a:link, div#yoo-zoo div.alpha-index a:visited {
+	color: #646464;
+	text-decoration: none;
+}
+
+div#yoo-zoo div.alpha-index a:hover {
+	background: #ffffff;
+	color: #646464;
+	text-decoration: none;
+}
+
+div#yoo-zoo div.alpha-index span {
+	color: #C8C8C8;
+	cursor: default;
+}
+
+/*
+ * category
+ */
+ 
+div#yoo-zoo div.category {
+	margin: 0px 0px 20px 0px;
+	padding: 10px 15px 15px 15px;
+	border: 1px solid #C8CBCD;
+}
+
+div#yoo-zoo div.category h1.name {
+	font-size: 200%;
+	color: #505050;
+	line-height: 150%;
+}
+
+div#yoo-zoo div.category div.description {
+	overflow: hidden;
+}
+
+div#yoo-zoo div.category img.image {
+	margin: 0px 15px 0px 0px;
+	float: left;
+}
+
+/*
+ * sub-categories and items
+ */
+
+div#yoo-zoo div.box {
+	margin: 0px 0px 20px 0px;
+	border: 1px solid #C8CBCD;
+}
+
+div#yoo-zoo div.box h1 {
+	heigh: 34px;
+	margin: 0px;
+	border-bottom: 1px solid #C8CBCD;
+	background: #f0f3f5;
+	font-size: 150%;
+	color: #505050;
+	line-height: 34px;
+	text-indent: 15px;
+}
+
+div#yoo-zoo div.box div.row {
+	padding: 15px 5px 15px 5px;
+	border-top: 1px solid #E6E7E8;
+}
+
+div#yoo-zoo div.box div.first-row {
+	border-top: none;
+}
+
+div#yoo-zoo div.box div.sub-category,
+div#yoo-zoo div.box div.teaser-item {
+	padding: 0px 10px 0px 10px;
+}
+
+div#yoo-zoo div.box h2.name {
+	margin: 0px;
+	font-size: 125%;
+}
+
+div#yoo-zoo div.box h2.name a {
+	text-decoration: none;
+}
+
+/*
+ * sub-categories
+ */
+
+div#yoo-zoo div.sub-categories h2.name span {
+	font-size: 80%;
+	font-weight: normal;
+	color: #969696;
+}
+
+div#yoo-zoo div.sub-categories div.description {
+}
+
+div#yoo-zoo div.sub-categories a.teaser-image {
+	display: block;
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+}
+
+div#yoo-zoo div.sub-categories p.more-sub-categories {
+	margin: 10px 0px 0px 0px;
+}
+
+/*
+ * items
+ */
+
+div#yoo-zoo div.items {
+	margin: 0px;
+}
+
+div#yoo-zoo div.items h2.name {
+	margin-bottom: 5px;
+}
+
+/*
+ * pagination
+ */
+ 
+div#yoo-zoo div.pagination {
+	heigh: 34px;
+	border-top: 1px solid #E6E7E8;
+	text-align: center;
+	line-height: 34px;
+}
+
+div#yoo-zoo div.pagination span.pagination-bg{
+	cursor: pointer;
+}
+
+div#yoo-zoo div.pagination a:link,
+div#yoo-zoo div.pagination a:visited,
+div#yoo-zoo div.pagination a:hover {
+	text-decoration: none;
+}

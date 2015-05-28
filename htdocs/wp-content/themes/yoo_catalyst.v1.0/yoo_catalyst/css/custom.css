@@ -1,0 +1,30 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+ 
+/* Frontpage Demo Content */
+.frontpage-intro-demo h1 { margin-bottom: 0; }
+.frontpage-intro-demo h2 { margin-top: 0; }
+.frontpage-intro-demo p {
+	margin: 40px 0;
+	line-height: 24px;
+	font-size: 16px;
+	text-shadow: 0 1px 3px rgba(0,0,0,1.0);
+}
+.frontpage-intro-demo p strong {
+	color: #c2c2c4;
+	text-transform: uppercase;
+}
+.frontpage-demobox {
+	max-width: 310px;
+	margin: 0 10px 24px 0;
+	float: left;
+	line-height: 18px;
+}
+.frontpage-demobox img { margin-right: 10px; }
+.frontpage-demobox h4 { margin: 5px 0 4px 0; }
+
+/* Widgetkit Slideset */
+.frontpage-slideset { width: 270px; }

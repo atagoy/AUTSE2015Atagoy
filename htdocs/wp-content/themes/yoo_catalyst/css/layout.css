@@ -1,0 +1,195 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+.module,
+#content { margin: 15px; }
+
+#header,
+#footer { margin: 0 15px; }
+
+#breadcrumbs { margin: 0 0 15px 0; }
+
+#footer .module { margin: 0; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+body#page { background: #08080A; }
+
+/* Blocks */
+#block-toolbar {
+	background:
+		url(../images/toolbar_bg.png) 0 100% repeat-x,
+		url(../images/toolbar.png) 0 0 repeat;
+}
+
+#block-header {
+	position: relative;
+	max-height: 145px;
+	padding-bottom: 27px;
+}
+
+#block-main { margin: -172px 0 -54px 0; }
+#block-main >  div > div { padding: 168px 0 74px 0; }
+
+#block-bottom {
+	padding: 102px 0 0 0;
+	background: url(../images/bottom-b_t.png) 50% 0 no-repeat;
+}
+#block-bottom > div { background: url(../images/bottom-b.png) 0 0 repeat; }
+
+#bottom-b {
+	margin-top: -85px;
+	padding-bottom: 10px;
+}
+
+#block-bottom + #block-footer { background: url(../images/footer_b.png) 0 0 repeat-x; }
+
+#block-footer { background: url(../images/footer.png) 50% 0 no-repeat; }
+
+/* Content */
+#toolbar {
+	padding: 5px 0;
+	line-height: 24px;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-shadow: 0 1px 1px rgba(0,0,0,1.0);
+}
+
+#headerbar { height: 92px; }
+
+#menubar {
+	padding: 10px 0 0 0;
+	height: 43px;
+}
+
+#menu { margin-top: 2px; }
+
+#content {
+	border-radius: 10px;
+	background:
+		url(../images/system_tl.png) 0 0 no-repeat,
+		url(../images/system_tr.png) 100% 0 no-repeat,
+		url(../images/system_bl.png) 0 100% no-repeat,
+		url(../images/system_br.png) 100% 100% no-repeat,
+		url(../images/system.png) 0 0 repeat;
+	box-shadow:
+		inset 0 0 0 1px rgba(255,255,255,0.06),
+		0 0 0 1px rgba(0,0,0,0.9),
+		inset 0 0 5px rgba(0,0,0,0.4),
+		0 3px 5px rgba(0,0,0,0.5),
+		0 2px 0 1px rgba(0,0,0,0.5);
+}
+
+#content > div { padding: 25px; }
+
+#footer {
+	padding: 20px 0;
+	text-align: left;
+}
+
+#footer a { text-shadow: 0 1px 1px rgba(0,0,0,1.0); }
+#footer a:hover { text-shadow: 0 0 5px rgba(255,255,255,0.2); }
+
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	z-index: 4;
+	width: 36px;
+	height: 36px;
+	text-decoration: none;
+}
+
+#totop-scroller:hover { background-position: 0 -50px; }
+
+
+/* Content White
+----------------------------------------------------------------------------------------------------*/
+
+.content-whitebg #content {
+	border-radius: 10px;
+	box-shadow:
+		0 3px 5px rgba(0,0,0,0.5),
+		0 1px 0 1px rgba(69,69,71,1.0);
+}
+
+.content-whitebg #content > div {
+	border-radius: 10px;
+	box-shadow:
+		inset 0 1 0 rgba(255,255,255,1.0),
+		inset 0 0 0 1px rgba(255,255,255,0.6),
+		0 0 0 1px rgba(0,0,0,0.9),
+		inset 0 0 5px rgba(0,0,0,0.4);
+	color: #47474E;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+
+.content-whitebg #content h1,
+.content-whitebg #content h2,
+.content-whitebg #content h3,
+.content-whitebg #content h4,
+.content-whitebg #content h5 {
+	color: #111;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.content-whitebg #content small,
+.content-whitebg #content #system .item > header .meta,
+.content-whitebg #content #system .item > header .subtitle {
+	color: #6B6C72;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.content-whitebg #content .module-title .color,
+.content-whitebg #content strong,
+.content-whitebg #content em,
+.content-whitebg #content code {
+	color: #131415;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.content-whitebg #content a:hover {
+	color: #000;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.content-whitebg #content code,
+.content-whitebg #content em.box,
+.content-whitebg #content form.box button,
+.content-whitebg #content form.short button,
+.content-whitebg #content form.box input[type="button"],
+.content-whitebg #content form.box input.button {
+	border: 1px solid #bbb;
+	border: 1px solid rgba(0,0,0,0.2);
+	background: url(../images/code_metal.png) 0 0 repeat-x;
+	box-shadow: 1px 1px 0 rgba(255,255,255,0.35);
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.content-whitebg #content form.box button:hover,
+.content-whitebg #content form.short button:hover,
+.content-whitebg #content form.box input[type="button"]:hover,
+.content-whitebg #content form.box input.button:hover {
+	border-color: #444;
+	border-color: rgba(0,0,0,0.45);
+	text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+.content-whitebg #content hr { border-top-color: #ddd; }
+
+.content-whitebg #content pre {
+	border: 1px solid #ddd;
+	background: #fff;
+}
+
+.content-whitebg #content ins,
+.content-whitebg #content mark { text-shadow: 0 1px 1px rgba(0,0,0,0.4); }

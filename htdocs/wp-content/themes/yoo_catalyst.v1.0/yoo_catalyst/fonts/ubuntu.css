@@ -1,0 +1,9 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+	font-family: 'UbuntuRegular';
+	src: url('Ubuntu-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('Ubuntu-Regular-webfont.woff') format('woff'),
+		 url('Ubuntu-Regular-webfont.ttf') format('truetype'),
+		 url('Ubuntu-Regular-webfont.svg#webfont1HARLTaU') format('svg');
+}

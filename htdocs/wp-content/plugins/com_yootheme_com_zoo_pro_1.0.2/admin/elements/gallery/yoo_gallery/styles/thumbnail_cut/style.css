@@ -1,0 +1,52 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+div.cut div.yoo-gallery div.thumbnail {
+	padding: 15px;
+	float: left;
+	position: relative;
+}
+
+div.cut div.yoo-gallery div.thumbnail-bg {
+	padding: 4px;
+	border: 1px solid #c8c8c8;
+	background: #ffffff;
+	float: left;
+}
+
+div.cut div.yoo-gallery div.corner-tl,
+div.cut div.yoo-gallery div.corner-tr,
+div.cut div.yoo-gallery div.corner-bl,
+div.cut div.yoo-gallery div.corner-br {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	z-index: 1;
+}
+
+div.cut div.yoo-gallery div.corner-tl {
+	top: 12px;
+	left: 12px;
+	background: url(styles/thumbnail_cutted/images/corners.png) -25px -25px no-repeat; /* ie6png:crop */
+}
+
+div.cut div.yoo-gallery div.corner-tr {
+	top: 12px;
+	right: 12px;
+	background: url(styles/thumbnail_cutted/images/corners.png) 0 -25px no-repeat; /* ie6png:crop */
+}
+
+div.cut div.yoo-gallery div.corner-bl {
+	bottom: 12px;
+	left: 12px;
+	background: url(styles/thumbnail_cutted/images/corners.png) -25px 0 no-repeat; /* ie6png:crop */
+}
+
+div.cut div.yoo-gallery div.corner-br {
+	bottom: 12px;
+	right: 12px;
+	background: url(styles/thumbnail_cutted/images/corners.png) 0 0 no-repeat; /* ie6png:crop */
+}
+
+div.cut div.yoo-gallery div.thumbnail img {
+	float: left;
+}

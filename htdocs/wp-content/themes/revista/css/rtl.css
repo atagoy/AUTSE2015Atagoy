@@ -1,0 +1,202 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/rtl.css);
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#subbar time { float: left; }
+
+#footer { text-align: right; }
+
+#totop-scroller {
+	right: auto;
+	left: 0;
+}
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Mega Drop-Down Menu */
+.menu-dropdown li.level1 {
+	padding: 0 0 3px 2px;
+	background-position: 0 0;
+}
+
+.menu-dropdown .level1 .level1 span.icon {
+	margin-left: 0;
+	margin-right: -5px;
+}
+.menu-dropdown .level1 .level1 span.icon + span,
+.menu-dropdown .level1 .level1 span.icon + span + span {
+	margin-left: 0;
+	margin-right: 25px;
+}
+
+.menu-dropdown li.level2 .level2 span.icon {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+.menu-dropdown li.level2 .level2 span.icon + span,
+.menu-dropdown li.level2 .level2 span.icon + span + span {
+	margin-left: 0;
+	margin-right: 39px;
+}
+
+.menu-dropdown a.level3 {
+	padding-right: 12px;
+	padding-left: 0;
+}
+
+.menu-dropdown a.level3 { background-position: 100% 0; }
+.menu-dropdown a.level3:hover { background-position: 100% -50px; }
+
+/* Sidebar/Accordion Menu */
+.menu-sidebar li.parent .level1 > span {  background-position: 0 0; }
+.menu-sidebar li.parent.active .level1 > span { background-position: 0 -80px; }
+
+.menu-sidebar ul.level2 ul {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.menu-sidebar .level2 a {
+	padding-right: 18px;
+	padding-left: 0;
+	background-position: 100% 0;
+}
+
+.menu-sidebar .level2 a:hover { background-position: 100% -50px; }
+
+.menu-sidebar span.icon {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+/* Line Menu */
+.menu-line li {
+	margin-left: 0;
+	padding-left: 0;
+	margin-right: 7px;
+	padding-right: 8px;
+	background-position: 100% 50%;
+}
+
+.menu-line li:first-child {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+#toolbar .menu-line li {
+	margin-left: 0;
+	margin-right: 10px;
+	padding-left: 0;
+	padding-right: 12px;
+	background-position: 100% 0;
+}
+
+#toolbar .menu-line li:hover { background-position: 100% -50px; }
+
+#toolbar .menu-line li:first-child { margin-right: 0; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box .badge {
+	right: auto;
+	left: 12px;
+}
+
+.grid-h .mod-blank { padding: 10px 0 10px 20px; }
+
+.grid-v .mod-blank { padding: 20px 0 0 10px; }
+
+.mod-blank .badge {
+	right: auto;
+	left: 10px;
+}
+
+.mod-line .badge {
+	right: auto;
+	left: 15px;
+}
+
+.grid-h .mod-line { background-position: 100% 0; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Check List */
+ul.check > li {
+	padding-left: 0;
+	padding-right: 30px;
+	background-position: 100% 0;
+}
+
+/* Line Icon */
+ul.line-icon > li {
+	padding-right: 16px;
+	padding-left: 0;
+	background-position: 100% 0;
+}
+
+/* Definition Lists */
+dl.separator dd { border-width: 0 1px 0 0; }
+
+dl.separator dt:before {
+	right: auto;
+	left: -15px;
+}
+
+dl.separator dt:after {
+	right: auto;
+	left: -3px;
+}
+
+/* Social Icons Special */
+.social-icons-special li {
+	float: left;
+	margin: 0 0 0 2px;
+}
+
+.social-icons-special li a { float: left; }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Search Box */
+#searchbox {
+	margin: 10px 0 0 10px;
+	background-image: url(../images/rtl/searchbox_magnifier.png);
+}
+
+#searchbox .results {
+	right: auto;
+	left: -1px;
+}
+
+/* Breadcrumgs */
+.breadcrumbs a,
+.breadcrumbs > span {
+	padding-right: 0;
+	padding-left: 15px;
+	background-image: url(../images/rtl/breadcrumbs.png);
+	background-position: 0 50%;
+}
+
+/* Pagination */
+#system .pagination a.previous,
+#system .pagination a.next { background-image: url(../images/rtl/pagination.png); }
+
+
+/* Extensions
+----------------------------------------------------------------------------------------------------*/
+
+/* Widgetkit Twitter Bubbles */
+.wk-twitter-bubbles article { background-position: 100% 0; }

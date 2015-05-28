@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+	<name>Zoo</name>
+	<author>YOOtheme</author>
+	<creationDate>March 2009</creationDate>
+	<copyright>Copyright (C) 2007 - 2009 YOOtheme GmbH</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only</license>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+	<version>1.0.2</version>
+	<description>Zoo Joomla 1.5 component from YOOtheme.com (http://www.yootheme.com)</description>
+	<languages folder="site/language">
+		<language tag="en-GB">en-GB.com_zoo.ini</language>
+	</languages>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">installation/install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">installation/uninstall.sql</file>
+		</sql>
+	</uninstall>
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>controller.php</filename>
+		<filename>router.php</filename>
+		<filename>zoo.php</filename>
+		<folder>assets</folder>
+		<folder>models</folder>
+		<folder>templates</folder>
+		<folder>views</folder>
+	</files>
+	<administration>
+		<menu img="components/com_zoo/assets/images/zoo_16.png">Zoo</menu>
+		<languages folder="admin/language">
+			<language tag="en-GB">en-GB.com_zoo.ini</language>
+		</languages>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>changelog.php</filename>
+			<filename>config.php</filename>
+			<filename>zoo.php</filename>
+			<folder>assets</folder>
+			<folder>classes</folder>
+			<folder>controllers</folder>
+			<folder>elements</folder>
+			<folder>framework</folder>
+			<folder>helpers</folder>
+			<folder>installation</folder>
+			<folder>joomla</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+		</files>		
+	</administration>
+	<additional>
+		<module name="mod_zoomenu" folder="additional/zoomenu">ZOO Menu Module</module>
+		<plugin name="zoosearch" folder="additional/zoosearch">ZOO Search Plugin</plugin>
+	</additional>
+	<installfile>installation/install.php</installfile>
+	<uninstallfile>installation/uninstall.php</uninstallfile>	
+</install>

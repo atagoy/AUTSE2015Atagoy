@@ -1,0 +1,59 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie8.css);
+
+#block-toolbar,
+#content,
+.mod-box,
+.mod-color,
+.mod-metal,
+.mod-metal > div,
+.mod-metal ul.zebra > li.odd,
+.box-content,
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download { behavior: url(../warp/js/css3pie.htc); }
+
+#content,
+.mod-metal > div,
+.mod-metal ul.zebra > li.odd,
+.box-content,
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download { position: relative; }
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Search Box */
+#searchbox input { line-height: 35px; }
+
+
+/* Style
+----------------------------------------------------------------------------------------------------*/
+

@@ -1,0 +1,34 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Header: Grunge Fibre */
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#block-header { background: url(../../images/header/grunge/header_fibre.png) 50% 0 no-repeat; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Menu Dropdown */
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 { color: #79797e; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+/* Module Type: Style */
+.mod-metal,
+.content-whitebg #content { background: #f9f9f9 url(../../images/header/grunge/module_metal.png) 0 0 repeat; }
+
+.mod-metal > div,
+.content-whitebg #content > div {
+	background:
+		url(../../images/module_metal_tl.png) 0 0 no-repeat,
+		url(../../images/module_metal_tr.png) 100% 0 no-repeat,
+		url(../../images/module_metal_bl.png) 0 100% no-repeat,
+		url(../../images/module_metal_br.png) 100% 100% no-repeat,
+		url(../../images/header/grunge/module_metal_b.png) 0 100% repeat-x;
+}

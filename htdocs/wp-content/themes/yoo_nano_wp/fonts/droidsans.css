@@ -1,0 +1,17 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+	font-family: 'DroidSansRegular';
+	src: url('DroidSans-webfont.eot?') format('eot'),
+		 url('DroidSans-webfont.woff') format('woff'),
+		 url('DroidSans-webfont.ttf') format('truetype'),
+		 url('DroidSans-webfont.svg#webfont6rGBoMAO') format('svg');
+}
+
+@font-face {
+	font-family: 'DroidSansBold';
+	src: url('DroidSans-Bold-webfont.eot?') format('eot'),
+		 url('DroidSans-Bold-webfont.woff') format('woff'),
+		 url('DroidSans-Bold-webfont.ttf') format('truetype'),
+		 url('DroidSans-Bold-webfont.svg#webfontSruMVOI5') format('svg');
+}

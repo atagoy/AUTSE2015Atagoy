@@ -1,0 +1,68 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* system */
+#system .item > .meta { color: #5A646E; }
+
+#searchbox { background-image: url(../../images/variations/black/yoosearch/searchbox_bg.png); }
+
+#searchbox input { color: #3c4650; }
+
+#searchbox button.magnifier { background-image: url(../../images/variations/black/yoosearch/magnifier_icon.png); }
+#searchbox button.reset { background-image: url(../../images/variations/black/yoosearch/close_icon.png); }
+#searchbox .loading button.reset { background-image: url(../../images/variations/black/yoosearch/loader_icon.gif); }
+
+#searchbox .results {
+	border-color: #282A2D;
+	background-color: #141619;
+}
+
+#searchbox .results li.results-header,
+#searchbox .results li.more-results {
+	border-color: #282A2D;
+	background-image: url(../../images/variations/black/yoosearch/header_bg.png);
+	color: #AAAFB4;
+	text-shadow: 0px -1px 1px rgba(0,0,0,1);
+}
+#searchbox .results li.result { border: none; }
+#searchbox .results li.result.selected { background-color: #000000; }
+#searchbox .results li.result.selected h3 { color: #AAAFB4; }
+
+table.zebra th,
+table.zebra td { border-color: #323437; }
+table.zebra tbody tr.odd { background: #141619; }
+table.zebra tbody tr:nth-of-type(odd) { background: #141619; }
+table.zebra tbody tr.even { background: #1e2023; }
+table.zebra tbody tr:nth-of-type(even) { background: #1e2023; }
+
+ul.line > li { border-color: #323437; }
+
+.pagination a,
+.pagination strong {  border-color: #2D363F; }
+
+#system .author-box {
+	border-color: #323437;
+	background-color: #1E2023;
+}
+#system .author-box .name { color: #AAAFB4; }
+
+div#comments h3.comments-meta,
+div#comments #respond h2 { color: #AAAFB4;}
+div#comments .comment-head {
+	border-color: #323437;
+	background-color: #141619;
+ }
+div#comments .comment-head .author {
+	color: #AAAFB4;
+	text-shadow: 0 1px 0 rgba(0,0,0,1);
+}
+div#comments .comment-byadmin .comment-head { 
+	background-color: #1F2215;
+	border-color: #415A28;
+}
+
+#system .item div.article-separator,
+#system .item div.article-separator-2,
+#system .item div.article-separator-3 { background-image: url(../../images/variations/black/article_separator.png); }
+
+/* custom */
+#page #maintop div.frontpage1 { background-image: url(../../../../images/yootheme/black1.jpg); }

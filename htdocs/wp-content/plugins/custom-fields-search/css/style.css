@@ -1,0 +1,14 @@
+.value_of_metakey {
+	text-transform: capitalize; 
+	padding-left: 5px;
+}
+.note_bottom {
+	color: #888888;
+	font-size: 11px;
+	display: block;
+	width: 280px;
+}
+.disable_key { 
+	padding-left: 5px;
+	color: #888888;
+}

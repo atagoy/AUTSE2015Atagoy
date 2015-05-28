@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fields name="General">
+		<field name="profile_default" type="profile" default="" label="Default Profile" description="Select the profile which should be loaded by default." />
+		<field name="profile_dynamic" type="radio" default="1" label="Dynamic Profiles" description="Allow profiles to be loaded by URL.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="compression" type="list" default="0" label="Compression" description="Minify and combine CSS and JavaScript into a single file. Use gzip compression and Data URIs to reduce image file requests.">
+			<option value="0">None</option>
+			<option value="1">Combination + Minify</option>
+			<option value="2">Combination + Minify + Data URIs</option>
+			<option value="3">Combination + Minify + Data URIs + Gzip</option>
+		</field>
+		<field name="ie6page" type="radio" default="1" label="IE6 Upgrade Page" description="Redirect Internet Explorer 6 to the upgrade page.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="twitter" type="radio" default="0" label="Twitter Button" description="Display a Tweet button in your articles.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="plusone" type="radio" default="0" label="Google+ Button" description="Display a Google+ button in your articles.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="facebook" type="radio" default="0" label="Facebook Button" description="Display a facebook like button in your articles.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+	  	<field name="tracking_code" type="textarea" rows="8" cols="30" label="Tracking Code" description="Insert your Google Analytics tracking code." />
+		<field name="verify" type="verify" label="Verify Files" description="Detect and show all file modifications." />
+		<field name="check" type="check" label="System Check" description="Detects system issues." />
+		<field name="System" type="separator" />
+		<field name="date_format" type="text" default="d. M Y" label="Date Format" description="Set the date format." />
+		<field name="multicolumns" type="list" default="1" label="Frontpage Multi Columns" description="Set the number of item columns on the frontpage.">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</field>
+		<field name="multicolumns_order" type="radio" default="1" label="Multi Columns Order" description="Set the items order to across or down.">
+			<option value="1">Across</option>
+			<option value="0">Down</option>
+		</field>	
+		<field name="wpautop" type="radio" default="1" label="Post Formatting" description="Enable/Disable the content filter wpautop.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+	</fields>
+	<fields name="Profiles">
+		<field name="Style" type="separator" />
+		<field name="style" type="styles" default="" label="Style" description="Select the style variation (color scheme)." />
+		<field name="background" type="list" default="gradientblue" label="Background" description="Select the background.">
+			<option value="gradientblue">Gradient Blue</option>
+			<option value="gradientgreen">Gradient Green</option>
+			<option value="gradientgrey">Gradient Grey</option>
+			<option value="ambientpink">Ambient Pink</option>
+			<option value="ambientturquoise">Ambient Turquoise</option>
+			<option value="ambientsunset">Ambient Sunset</option>
+			<option value="wood">Wood</option>
+			<option value="street">Street</option>
+			<option value="grass">Grass</option>
+			<option value="desert">Desert</option>
+			<option value="bridge">Bridge</option>
+			<option value="animated:default">Animated Default</option>
+			<option value="animated:red">Animated Red</option>
+		</field>
+		<field name="texture" type="list" default="default" label="Background Texture" description="Texture set in front of background.">
+			<option value="">None</option>
+			<option value="tv">TV</option>
+			<option value="tvgrid">TV Grid</option>
+			<option value="dotswhite">Dots White</option>
+			<option value="scanlines">Scanlines</option>
+		</field>
+		<field name="systembackground" type="radio" default="white" label="System Background" description="Select the background of the system output.">
+			<option value="white">White</option>
+			<option value="transparent">Transparent</option>
+		</field>
+		<field name="transparency" type="list" default="transparency-25" label="Transparency Level" description="Select the the box transparency level">
+			<option value="transparency-25">25%</option>
+			<option value="transparency-50">50%</option>
+			<option value="transparency-75">75%</option>
+		</field>
+		<field name="animations" type="radio" default="1" label="CSS Animations" description="CSS hover animations.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="font1" type="list" default="default" label="Body Font" description="Select the main body typeface.">
+			<option value="arial">Arial</option>
+			<option value="lucida">Lucida</option>
+			<option value="georgia">Georgia</option>
+			<option value="timesnewroman">Times New Roman</option>
+			<option value="trebuchet">Trebuchet</option>
+			<option value="droidsans">Droid Sans</option>
+		</field>
+		<field name="font2" type="list" default="default" label="Header Font" description="Select the headings typeface.">
+			<option value="arial">Arial</option>
+			<option value="lucida">Lucida</option>
+			<option value="georgia">Georgia</option>
+			<option value="timesnewroman">Times New Roman</option>
+			<option value="trebuchet">Trebuchet</option>
+			<option value="bebas">Bebas Neue</option>
+			<option value="yanonekaffeesatz">Yanone Kaffeesatz</option>
+			<option value="droidsans">Droid Sans</option>
+			<option value="newciclefina">New Cicle Fina</option>
+			<option value="opensans">Open Sans</option>
+			<option value="opensanslight">Open Sans Light</option>
+		</field>
+		<field name="font3" type="list" default="default" label="Menu Font" description="Select the menu typeface.">
+			<option value="arial">Arial</option>
+			<option value="lucida">Lucida</option>
+			<option value="georgia">Georgia</option>
+			<option value="timesnewroman">Times New Roman</option>
+			<option value="trebuchet">Trebuchet</option>
+			<option value="bebas">Bebas Neue</option>
+			<option value="yanonekaffeesatz">Yanone Kaffeesatz</option>
+			<option value="droidsans">Droid Sans</option>
+			<option value="newciclefina">New Cicle Fina</option>
+			<option value="opensans">Open Sans</option>
+			<option value="opensanslight">Open Sans Light</option>
+		</field>
+		<field name="Content" type="separator" />
+		<field name="date" type="radio" default="1" label="Date" description="Show the date.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="totop_scroller" type="radio" default="1" label="To-Top Scroller" description="Show the to-top scroller.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="warp_branding" type="radio" default="1" label="Warp Branding" description="Show the Warp branding.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="system_output" type="radio" default="1" label="System Output" description="Show the system output.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="Layout" type="separator" />
+		<field name="template_width" type="text" size="10" default="980" label="Template Width" description="Set the template width in pixel." class="short" />
+		<field name="sidebar-a_width" type="text" size="10" default="200" label="Sidebar A Width" description="Set the Sidebar A width in pixel." class="short" />
+		<field name="sidebar-b_width" type="text" size="10" default="200" label="Sidebar B Width" description="Set the Sidebar B width in pixel." class="short" />
+		<field name="sidebar-a" type="list" default="right" label="Sidebar A Position" description="Align the sidebar to the left or right.">
+			<option value="right">Right</option>
+			<option value="left">Left</option>
+		</field>
+		<field name="sidebar-b" type="list" default="right" label="Sidebar B Position" description="Align the sidebar to the left or right.">
+			<option value="right">Right</option>
+			<option value="left">Left</option>
+		</field>
+		<field name="top-a" type="layout" default="equal" label="Top A Layout" description="Select a grid layout for this module position." />
+		<field name="top-b" type="layout" default="equal" label="Top B Layout" description="Select a grid layout for this module position." />
+		<field name="innertop" type="layout" default="equal" label="Inner Top Layout" description="Select a grid layout for this module position." />
+		<field name="innerbottom" type="layout" default="equal" label="Inner Bottom Layout" description="Select a grid layout for this module position." />
+		<field name="bottom-a" type="layout" default="equal" label="Bottom A Layout" description="Select a grid layout for this module position." />
+		<field name="bottom-b" type="layout" default="equal" label="Bottom B Layout" description="Select a grid layout for this module position." />
+		<field name="menu_width" type="text" size="10" default="250" label="Drop Down Column Width" description="Set the column width of the drop down menu in pixel." class="short" />
+	</fields>
+	<fields name="Mobile">
+		<field name="mobile" type="radio" default="1" label="Mobile Theme" description="Enable the mobile theme.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="mobile_login" type="radio" default="1" label="Login" description="Show the login in the mobile theme.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="mobile_search" type="radio" default="1" label="Search" description="Show the search in the mobile theme.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="Position Aliases" type="separator" />
+		<field name="mobile_position_logo" type="position" label="Mobile Logo" description="Select which modules should be loaded in this mobile position." />
+		<field name="mobile_position_menu" type="position" label="Mobile Menu" description="Select which modules should be loaded in this mobile position." />
+		<field name="mobile_position_top" type="position" label="Mobile Top" description="Select which modules should be loaded in this mobile position." />
+		<field name="mobile_position_bottom" type="position" label="Mobile Bottom" description="Select which modules should be loaded in this mobile position." />
+		<field name="mobile_position_footer" type="position" label="Mobile Footer" description="Select which modules should be loaded in this mobile position." />
+	</fields>
+</config>
+<!-- newone.org -->

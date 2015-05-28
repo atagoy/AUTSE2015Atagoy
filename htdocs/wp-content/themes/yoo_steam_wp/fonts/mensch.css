@@ -1,0 +1,12 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+    font-family: 'MenschMenschBoldInline';
+    src: url('mensch-inline-webfont.eot');
+    src: url('mensch-inline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('mensch-inline-webfont.woff') format('woff'),
+         url('mensch-inline-webfont.ttf') format('truetype'),
+         url('mensch-inline-webfont.svg#MenschMenschBoldInline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

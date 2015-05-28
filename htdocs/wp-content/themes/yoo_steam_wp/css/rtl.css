@@ -1,0 +1,252 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/rtl.css);
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+/* Centering Floating Elements */
+.block-center,
+.block-center > div {
+	float: right;
+	position: relative;
+}
+
+.block-center { right: 50%; }
+.block-center > div { right: -50%; }
+
+/* Logo */
+#logo { float: none; }
+
+/* Headerbar */
+#headerbar .float-left .module {
+	margin-right: 0;
+	margin-left: 30px;
+	float: right;
+}
+#headerbar .float-right .module {
+	margin-right: 30px;
+	margin-left: 0;
+}
+
+#totop-scroller {
+	right: auto;
+	left: 0;
+}
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Mega Drop-Down Menu */
+.menu-dropdown .dropdown {
+	left: 0;
+ 	right: auto;
+}
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 { background-position: 100% 0; }
+
+.menu-dropdown .dropdown-bg:before {
+	right: 44%;
+	left: auto;
+}
+
+.menu-dropdown a.level3 {
+	padding-right: 18px;
+	padding-left: 0;
+	background-position: 100% 0;
+}
+
+.menu-dropdown a.level3:hover { background-position: 100% -50px; }
+
+.menu-dropdown a.current.level3 { background-position: 100% -100px; } 
+
+/* Sidebar/Accordion Menu */
+.menu-sidebar li.parent .level1 > span {
+	padding-right: 0;
+	padding-left: 25px;
+	background-position: 0% 0;
+}
+.menu-sidebar li.parent.active .level1 > span { background-position: 0% -80px; }
+
+.menu-sidebar ul.level2 ul {
+	padding-right: 12px;
+	padding-left: 0;
+}
+
+.menu-sidebar .level2 a {
+	padding-right: 22px;
+	padding-left: 0;
+	background-position: 100% 0;
+}
+.menu-sidebar .level2 a:hover { background-position: 100% -50px; }
+.menu-sidebar .level2 a.current { background-position: 100% -100px; }
+
+/* Line Menu */
+.menu-line li {
+	margin-right: 12px;
+	margin-left: 0;
+	padding-right: 0;
+}
+
+.menu-line li:first-child { margin-right: 0; }
+
+.menu-line li a {
+	padding-right: 18px;
+	padding-left: 0;
+	background-position: 100% 0;
+}
+
+.menu-line li a:hover { background-position: 100% -50px; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+/* Module Badge */
+.module .badge {
+	right: auto;
+	left: -10px;
+}
+
+/* Module Icons */
+.module .module-title .icon { float: none; }
+
+/* Module Type: Line */
+.mod-line { background-position: 100% 0; }
+
+.mod-line .badge {
+	right: auto;
+	left: 25px;
+}
+
+.grid-h .mod-line {
+	margin-right: -15px;
+	margin-left: 15px;
+}
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* List Line */
+.mod-box ul.line > li,
+.mod-stamp ul.line > li {
+	padding-right: 20px;
+	padding-left: 0;
+}
+
+/* List Line Icon */
+ul.line-icon > li {
+	padding-right: 22px;
+	padding-left: 0;
+}
+
+#page ul.line-icon > li,
+#page ul.line-icon > li:first-child { background-position: 100% 0; }
+
+/* List Check */
+ul.check > li {
+	padding: 4px 0 0 30px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+/* Check List */
+ul.check > li {
+	padding-left: 0;
+	padding-right: 30px;
+	background-position: 100% 0;
+}
+
+/* Definition Lists */
+dl.separator dd { border-width: 0 1px 0 0; }
+
+dl.separator dt:before {
+	right: auto;
+	left: -15px;
+}
+
+dl.separator dt:after {
+	right: auto;
+	left: -3px;
+}
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Article Time */
+#system .item > header time {
+	right: 0;
+	left: auto;
+	margin: 0 0 0 10px;
+}
+
+#system .item > header time + h1.title,
+#system .item > header time + h1.title + p.meta {
+	margin-right: 70px;
+	margin-left: 0;
+}
+
+/* Search Box */
+.searchbox { padding: 0 5px 0 25px; }
+
+.searchbox .results {
+	right: auto;
+	left: -1px;
+}
+
+/* Breadcrumgs */
+.breadcrumbs a:first-child,
+.breadcrumbs > span:first-child,
+.breadcrumbs strong:first-child {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.breadcrumbs a:first-child,
+.breadcrumbs > span:first-child {
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+/* Pagination */
+#system .pagination a.previous,
+#system .pagination a.next { background-position: 50% -80px; }
+
+#system .pagination a.previous { margin-right: 5px; }
+#system .pagination a.previous:hover { background-position: 50% -120px; }
+
+#system .pagination a.next {
+	margin-right: 5px;
+	margin-left: 0;
+	background-position: 50% 0;
+}
+#system .pagination a.next:hover { background-position: 50% -40px; }
+	
+
+/* Custom
+----------------------------------------------------------------------------------------------------*/
+
+/* Slideshow Tabs - Steam */
+.wk-slideshow-tabs-steam .slides > li > article li {
+	padding-right: 0;
+	padding-left: 40px;
+}
+.wk-slideshow-tabs-steam .slides > li > article li span.date {
+	right: auto;
+	left: 0;
+}
+
+/* Social Icons */
+#headerbar .float-left .social-icons {
+	padding-right: 190px;
+	padding-left: 0;
+}
+#headerbar .float-right .social-icons {
+	padding-right: 0;
+	padding-left: 190px;
+}

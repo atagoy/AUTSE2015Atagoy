@@ -1,0 +1,129 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*************************************
+*
+* view: item
+*
+*************************************/
+
+/*
+ * item
+ */
+
+div#yoo-zoo div.item {
+	overflow: hidden;
+}
+
+div#yoo-zoo div.item h1.name {
+	margin: 0px 0px 10px 0px;
+	font-size: 200%;
+	font-weight: bold;
+	line-height: 100%;
+	color: #505050;
+}
+
+div#yoo-zoo div.item div.row {
+	padding: 15px 5px 15px 5px;
+	background: url(../images/item_bg.png) 0 0 repeat-x;
+}
+
+div#yoo-zoo div.item div.download-type {
+	width: 100px;
+	height: 100px;
+	background: url(../images/dowload-default.png) 0 0 no-repeat;
+	float: left;
+}
+
+div#yoo-zoo div.item div.download-type-zip { background: url(../images/dowload-zip.png) 0 0 no-repeat; }
+div#yoo-zoo div.item div.download-type-tar { background: url(../images/dowload-tar.png) 0 0 no-repeat; }
+div#yoo-zoo div.item div.download-type-rar { background: url(../images/dowload-rar.png) 0 0 no-repeat; }
+div#yoo-zoo div.item div.download-type-bz2 { background: url(../images/dowload-bz2.png) 0 0 no-repeat; }
+div#yoo-zoo div.item div.download-type-gz { background: url(../images/dowload-gz.png) 0 0 no-repeat; }
+
+div#yoo-zoo div.item div.download-type a {
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
+div#yoo-zoo div.item div.element-rating {
+	width: 150px;
+	margin-right: 20px;
+	padding: 5px;
+	border: 1px solid #c8c8c8;
+	background: #ffffff;
+	float: right;
+}
+
+div#yoo-zoo div.item div.element-rating div.vote-message {
+	margin-top: 3px;
+}
+
+div#yoo-zoo div.item div.details {
+	margin: 0px 0px 0px 115px;
+}
+
+div#yoo-zoo div.item div.details ul {
+	list-style: none;
+	width: 400px;
+	margin: 0px;
+	padding: 3px 0px 0px 0px;
+	overflow: hidden;
+}
+
+div#yoo-zoo div.item div.details li {
+	width: 200px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+div#yoo-zoo div.item li.version {}
+div#yoo-zoo div.item li.filesize {}
+div#yoo-zoo div.item li.hits {}
+div#yoo-zoo div.item li.author {}
+div#yoo-zoo div.item li.license {}
+
+div#yoo-zoo div.item a.file {
+	display: block;
+	margin: 10px 0px 0px 10px;
+	background: url(../images/button_download_l.png) 0 0 no-repeat;
+	float: left;
+}
+
+div#yoo-zoo div.item a:link.file, div#yoo-zoo div.item a:visited.file {
+	color: #646464;
+}
+
+div#yoo-zoo div.item a:hover.file {
+	color: #646464;
+	text-decoration: none;
+}
+
+div#yoo-zoo div.item a.file span.file-2 {
+	display: block;
+	padding: 0px 26px 0px 11px;
+	background: url(../images/button_download_r.png) 100% 0 no-repeat;
+}
+
+div#yoo-zoo div.item a.file span.file-3 {
+	display: block;
+	height: 25px;
+	padding-right: 4px;
+	background: url(../images/button_download_m.png) 0 0 repeat-x;
+	overflow: hidden;
+	font-size: 100%;
+	line-height: 200%;
+	font-weight: bold;
+}
+
+div#yoo-zoo div.item div.information {
+}
+
+div#yoo-zoo div.item h2.description {
+	margin: 0px 0px 5px 0px;
+	font-size: 150%;
+	font-weight: normal;
+	line-height: 100%;
+	color: #646464;
+}

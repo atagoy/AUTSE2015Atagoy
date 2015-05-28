@@ -1,0 +1,143 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+ 
+
+/* Video */
+.frontpage-video { line-height: 17px; }
+
+/* Social Icons Headline */
+div.frontpage-social {
+	line-height: 26px;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+/* Poll */
+form.short.frontpage-form > div { margin: 5px 0; }
+form.short.frontpage-form button { margin-top: 10px; }
+
+/* Newspaper */
+.frontpage-newspaper {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 1px;
+	height: 68px;
+	background: #f7f7f7;
+	border-top: 1px solid #e2e2e2;
+}
+
+.frontpage-newspaper img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.frontpage-newspaper > div {
+	margin-left: 100px;
+	line-height: 16px;
+}
+
+.frontpage-newspaper > div h4 { margin: 9px 0 2px 0; }
+
+
+/* Widgetkit
+----------------------------------------------------------------------------------------------------*/
+
+.frontpage-news,
+.frontpage-weather,
+.frontpage-stocks { background: url(../images/module_line_v.png) 0 0 repeat-x; }
+
+.frontpage-news:first-child,
+.frontpage-weather:first-child,
+.frontpage-stocks:first-child { background: none; }
+
+.frontpage-slideset {
+	position: relative;
+	width: 260px;
+}
+
+.frontpage-slideset img {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+
+.frontpage-slideset h3 { margin: 0; }
+
+.frontpage-slideset .slideset-content { margin-left: 70px; }
+
+/* Revista Slideshow Articles */
+.frontpage-news { padding-top: 10px; }
+
+.frontpage-news:first-child { padding-top: 0; }
+
+.frontpage-news h4 { margin: 2px 0 4px 0; }
+.frontpage-news p { margin-top: 10px; }
+
+/* Revista Slideshow Tabs */
+.frontpage-weather {
+	position: relative;
+	padding: 11px 0 6px 0;
+}
+
+/* Weather */
+.frontpage-weather h5 { margin: 0; }
+
+.frontpage-weather span.temp,
+.frontpage-weather span.icon { position: absolute; }
+
+.frontpage-weather span.icon {
+	top: 7px;
+	right: 45px;
+}
+
+.frontpage-weather span.temp {
+	top: 17px;
+	right: 0;
+	font-size: 26px;
+}
+
+.frontpage-weather span.high { color: #c85252; }
+.frontpage-weather span.low { color: #5d9ccc; }
+
+/* Stocks */
+.frontpage-stocks {
+	position: relative;
+	padding:4px 0 4px 0;
+	height: 18px;
+}
+
+.frontpage-stocks > span {
+	position: absolute;
+	top: 4px;
+}
+
+.frontpage-stocks span.up,
+.frontpage-stocks span.down {
+	top: 11px;
+	left: 0;
+	width: 9px;
+	height: 5px;
+	background: url(../images/icon_stocks.png) 0 0 no-repeat;
+}
+.frontpage-stocks span.down { background-position: 0 -15px; }
+
+.frontpage-stocks span.name { left: 17px; }
+
+.frontpage-stocks span.points { right: 43px; }
+
+.frontpage-stocks span.percent { right: 0; }
+
+.frontpage-stocks span.green { color: #6aa812; }
+.frontpage-stocks span.red { color: #c85252; }
+
+
+/* Bottom-C List */
+#bottom-c .mod-plain ul.blank li {
+	font-size: 11px;
+	text-transform: uppercase;
+}

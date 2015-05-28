@@ -1,0 +1,56 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/menus.css);
+
+
+/* Mega Drop-Down Menu
+----------------------------------------------------------------------------------------------------*/
+
+/* Level 1 */
+
+.menu-dropdown { margin-bottom: -6px; }
+
+.menu-dropdown li.level1 {
+	margin-right: 0;
+	padding-bottom: 6px;
+}
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 {
+	border-style: solid;
+	border-color: transparent;
+	border-width: 0 1px;
+	color: #777;
+}
+.menu-dropdown:first-child li.level1:first-child .level1 {
+	border-left-width: 0;
+	border-radius: 6px 0 0 6px;
+}
+
+.menu-dropdown a.level1 > span,
+.menu-dropdown span.level1 > span { padding: 7px 15px; }
+
+/* Set Active + Hover */
+.menu-dropdown li.active .level1,
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1 {
+	border-color: #ccc;
+	background-color: #eaeaea;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1) inset,
+				0 -1px 0 #bbb;
+	color: #444;
+}
+
+/* Drop-Down */
+.menu-dropdown .dropdown { top: 50px; }
+.menu-dropdown:first-child li.level1:first-child .dropdown { left: -1px; }
+
+.menu-dropdown .dropdown,
+.menu-dropdown .dropdown-bg > div { border-radius: 4px; }
+
+
+/* Line Menu
+----------------------------------------------------------------------------------------------------*/
+
+.menu-line li { text-transform: uppercase; }
+	

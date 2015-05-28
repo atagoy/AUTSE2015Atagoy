@@ -1,0 +1,66 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * This CSS file is for customization purpose only
+ */ 
+
+#logo a.logo-icon {
+	display: block;
+	width: 155px;
+	height: 50px;
+	background: url(../../../images/yootheme/logo.png) 0 0 no-repeat;
+}
+
+/* demo content: frontpage + template */
+
+.demoteaser { padding: 0 30px 0 20px; }
+
+.demoteaser > img { float: left; }
+
+.demoteaser .text {
+	text-align: right;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	overflow: hidden;
+}
+
+#page .demoteaser h3.title {
+	margin-top: 30px;
+	font-size: 48px;
+	line-height: 48px;
+	letter-spacing: 1px;
+}
+
+.demoteaser h4.subtitle {
+	margin-top: -5px;
+	font-size: 36px;
+	line-height: 36px;
+}
+
+#page.webfonts .demoteaser h3.title,
+.webfonts .demoteaser h4.subtitle { font-family: 'Lobster'; }
+
+.font-lucida .demoteaser h4.subtitle { letter-spacing: -1px; }
+
+.demoteaser h4.subtitle span { 
+	color: #ffffff;
+	text-shadow: 0 0 7px rgba(0,0,0,0.2);
+}
+
+.demoteaser .text > p {
+	margin: 40px 0 45px 0;
+	color: #9b9da3;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.demoteaser p span { color: #515256; }
+
+/* demo content: icons page */
+.iconbox { 
+	padding: 20px;
+	background: #ffffff;
+	overflow: hidden; 
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}

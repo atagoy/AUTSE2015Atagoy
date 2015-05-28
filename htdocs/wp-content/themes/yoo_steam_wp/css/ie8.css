@@ -1,0 +1,17 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie8.css);
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+/* Header-Ribbon */
+.mod-stamp-header-ribbon .module-title { padding: 10px 0; }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Search Box */
+.searchbox input { line-height: 28px; }

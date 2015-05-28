@@ -1,0 +1,50 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* WidgetKit
+----------------------------------------------------------------------------------------------------*/
+
+/* Spotlight */
+.spotlight .overlay-default { background: rgba(0,0,0,0.75) url(../images/widgetkit/magnifier.png) 50% 50% no-repeat; }
+
+.spotlight .overlay,
+.spotlight .overlay a,
+.wk-slideshow .caption,
+.wk-slideshow .caption a {
+    color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+/* Lightbox */
+#lightbox-overlay { background-color: #000!important; }
+#lightbox-content { border-color: #585858; }
+
+#lightbox-outer { box-shadow: 0 0 15px rgba(0,0,0,1.0); }
+
+#lightbox-outer,
+#lightbox-title.lightbox-title-inside { background: #585858; }
+#lightbox-title.lightbox-title-inside { color: #fff; }
+
+/* Twitter */
+.wk-twitter .image {
+	border: 1px solid #1B1B1D;
+	background-color: #08080A;
+}
+
+#page .wk-twitter-list article:first-child {
+	border: none;
+	background: none;
+}
+
+.wk-twitter-bubbles .content {
+	border: 1px solid #1B1B1D;
+	border-radius: 6px;
+	background: #08080A;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03);
+}
+
+.wk-twitter-bubbles .content:after {
+	width: 18px;
+	background: url(../images/widgetkit/arrow.png) 0 0 no-repeat;
+}
+
+.wk-twitter-single.image { background: url(../images/widgetkit/bird.png) 0 3px no-repeat; }

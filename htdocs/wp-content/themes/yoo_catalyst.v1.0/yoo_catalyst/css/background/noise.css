@@ -1,0 +1,11 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Background: Noise */
+
+#block-main { background: #18181a url(../../images/background/noise/page.jpg) 50% 0 repeat; }
+
+#block-main > div {
+	background: url(../../images/background/page_bg.svg) 50% -800px no-repeat;
+	background-size: 2000px 1500px;
+}
+

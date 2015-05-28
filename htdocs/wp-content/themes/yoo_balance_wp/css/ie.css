@@ -1,0 +1,35 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie.css);
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#block-bottom {
+	-pie-background:
+		url(../images/bottom_t.png) 0 0 repeat-x,
+		url(../images/bottom_b.png) 0 100% repeat-x,
+		url(../images/bottom.png) 0 0 repeat;
+}
+
+#content,
+.mod-box { box-shadow: 0 1px 2px #ccc; border-radius: none; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Line Icon */
+ul.line-icon > li,
+#page ul.line-icon > li:first-child { background: url(../images/tools/list_line_icon.png) 0 0 no-repeat; }
+
+.mod-box-black ul.line-icon > li,
+#bottom-b .mod-line ul.line-icon > li,
+#page .mod-box-black ul.line-icon > li:first-child,
+#page #bottom-b .mod-line ul.line-icon > li:first-child { background: url(../images/tools/list_line_icon_black.png) 0 0 no-repeat; }
+
+#page .mod-box-black ul.line-icon > li:first-child,
+#page #bottom-b .mod-line ul.line-icon > li:first-child { background: url(../images/tools/list_line_icon_black.png) 0 0 no-repeat; }
+
+.mod-box-color ul.line-icon > li,
+#page .mod-box-color ul.line-icon > li:first-child { background:	url(../images/tools/list_line_icon_black.png) 0 0 no-repeat; }

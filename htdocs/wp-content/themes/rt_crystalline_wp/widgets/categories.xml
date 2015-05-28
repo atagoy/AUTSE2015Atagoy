@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+		<field name="title" type="text" label="Title" description="Title" class="widefat" size="30" default="Categories" readonly="false"/>
+		<field name="dropdown" type="list" class="widefat" label="Display" description="Display" default="0" readonly="false">
+            <option value="0">List</option>
+            <option value="1">Dropdown</option>
+        </field>
+		<field name="orderby" type="list" class="widefat" label="Order By" description="Order By" default="name" readonly="false">
+            <option value="count">Post Count</option>
+            <option value="name">Category Name</option>
+			<option value="slug">Category Slug</option>
+			<option value="ID">Category ID</option>
+        </field>
+		<field name="menu_class" type="text" label="List Class" description="List Class" class="widefat" size="30" default="menu" readonly="false"/>
+		<field name="show_count" type="list" class="widefat" label="Show Post Count (only Dropdown)" description="Displays post count of each category" default="0" readonly="false">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </field>
+        <field name="hierarchical" type="list" class="widefat" label="Show Hierarchy" description="Displays categories in hierarchical view" default="1" readonly="false">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </field>
+        <field name="hide_empty" type="list" class="widefat" label="Hide Empty" description="Hides empty categories" default="1" readonly="false">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </field>
+		<field name="exclude" type="text" label="Exclude" description="Exclude IDs separated with comma" class="widefat" size="30" default="" readonly="false"/>
+		<field name="depth" type="text" label="Depth" description="Depth" class="widefat" size="30" default="0" readonly="false"/>
+	</fieldset>
+</form>

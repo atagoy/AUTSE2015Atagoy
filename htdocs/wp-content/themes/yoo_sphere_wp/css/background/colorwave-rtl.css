@@ -1,0 +1,19 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+.sidebar-a-left #maininner,
+.sidebar-b-left #maininner,
+.sidebar-a-right #maininner,
+.sidebar-b-right #maininner { border-right: none; }
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	/* Layout */
+	#page #main #maininner,
+	#page.sidebar-a-right.sidebar-b-left #maininner,
+	#page.sidebar-a-left.sidebar-b-right #maininner { 
+		border-right: none; 
+		border-left: none;
+	}
+
+}

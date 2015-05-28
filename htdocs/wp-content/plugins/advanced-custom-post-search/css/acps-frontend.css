@@ -1,0 +1,29 @@
+/*----------------------------------------------------------------------
+---- Frontend Forms
+----------------------------------------------------------------------*/
+.acps_form_label {
+display:block;
+margin-bottom:2px;	
+}
+.acps_text_input {
+width:100%;	
+}
+.acps_form_control_wrap select {
+width:100%;	
+}
+/*----------------------------------------------------------------------
+---- General
+----------------------------------------------------------------------*/
+.acps_error {
+position:relative;
+overflow:hidden;
+padding:8px;
+background:#eaf2fa;
+border:#c7d7e2 solid 1px;
+font:'Helvetica','Arial',sans-serif;
+font-weight:bold;
+font-size:0.8em;
+color:#80aad5;
+text-align:center;
+text-shadow:0px 1px 0px #fff;
+}

@@ -1,0 +1,266 @@
+/*
+Theme Name: Glowing Amber Pro
+Theme URI: http://www.pixelthemestudio.ca
+Description: Glowing Amber Pro offers a lot more features and design enhancements than it's free counterpart. The pro version is best suited for serious bloggers or for product based websites. If you purchased the single version of this theme, it does not include support so you may want to sign up for a membership at Pixel Theme Studio where you can get full support from 7 to 365 days.
+Version: 1.2
+Author: Pixel Theme Studio
+Author URI: http://www.pixelthemestudio.ca
+Tags: amber, orange, yellow, black, dark, 3-columns, fixed width
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+html,body,div,span,caption,em,sub,sup,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,code,ol,ul,li,fieldset,form,label,legend {vertical-align: baseline;font-size: 1em;outline: 0;padding: 0;margin: 0;border: 0;}
+html {height:100%;	margin-bottom:1px;}
+body {background: #010205 url('images/bg.jpg') center top no-repeat; font-family: Helvetica, Arial, sans-serif;line-height:18px;letter-spacing:.1px;word-spacing:1px;margin:0;padding:0 0 10px;border:0;vertical-align:baseline;}
+
+/* Misc. Styles */
+:focus {outline: 0;}
+ul,li{list-style:none outside; font-style:oblique;}
+
+table {border-collapse:collapse; padding:0;}
+table td {padding:0; margin:0; vertical-align:top;}
+a {color:#A67A11; text-decoration:none;}
+a:hover {color:#333;}
+
+/* list styles */
+ul {margin:20px 0 20px 12px;}
+ol {margin:20px 0 20px 37px;}
+ol li {list-style-type:decimal-leading-zero; list-style-position:outside; background:none; padding-left:0px;}
+ul li {background:transparent url('images/list1.png') no-repeat 0px 4px; padding:0 0 0 20px;}
+ul ul li, ol ol li {margin:0 0 0 12px;}
+ul li:hover {background:transparent url('images/list2.png') no-repeat 0px 4px;}
+ol li:hover {color:#D7B151;}
+ol li a, ul li a {color:#A6722C; text-decoration:none;}
+ol li a:hover, ul li a:hover {color:#D7B151;}
+ul.arrow {}
+ul.arrow li {background:transparent url('images/listarrow.png') no-repeat 0px 3px;}
+
+td#rightcol ul, td#leftcol ul {margin:12px auto; padding:0; }
+td#rightcol li, td#leftcol li {}
+td#rightcol ol, td#leftcol ol {margin:12px 0 12px 26px;}
+td#rightcol ul ul, td#rightcol ol ol, td#leftcol ul ul, td#rightcol ol ol {margin:3px 0 3px 0;}
+
+/* Clearing */
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;	clear: both;}
+.clear {clear: both;}
+/* End hide from IE-mac */
+
+/* Primary Wrappers */
+#titlewrapper {width:980px; margin:38px auto 0; height:48px; background:transparent url('images/title-bg.png') no-repeat;}
+#title {width:300px; float:left;}
+#title h1 {font:normal 30px Arial, Helvetica, sans-serif; font-family:"trebuchet ms", arial, helvetica; color:#fff; margin:5px 0 0 20px;}
+#caption {width:400px; float:right; font: italic 12px Arial, Helvetica, sans-serif; color:#DFBB77; text-align:right; padding:9px 5px 0 0;}
+#menuwrapper {width:948px; height:29px; margin:10px auto 0; padding:0 0 0 12px; background:transparent url('images/menu-bg.png') no-repeat; color:#fff; font: normal 14px "Lucida Sans Unicode","Lucida Grande","Trebuchet MS", arial, helvetica;}
+#menuwrapper a {color:#fff; font-style:normal;}
+#ctop {background:transparent url('images/ctop.png') no-repeat; width:980px; margin:0 auto; height:12px; z-index:-100;}
+#cbg {background:transparent url('images/cbg.png') repeat-y; width:980px; margin:0 auto;}
+#ctop2 {background:transparent url('images/ctop2.png') no-repeat top; min-height:500px; padding:0 10px; font-size:12px; color:#444;}
+#cbottom {background:transparent url('images/cbottom.png') no-repeat; width:980px; height:12px; margin:0 auto;}
+#footerwrapper {width:936px; margin:0 auto; padding:8px 12px 9px; background:#794417 url('images/fbottom.png') bottom no-repeat; font:oblique 11px Arial, Helvetica, sans-serif; color:#fff; text-align:right;}
+#footer {}
+#footermenu a {color:#EBCEA4; text-decoration:none;}
+#footermenu a:hover {color:#fff;}
+#breadcrumbs {height:12px; margin-bottom:25px; padding:3px 5px; background:#4E401F; -moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; font:italic 10px Verdana, Arial, Helvetica, sans-serif; color:#fff;}
+#breadcrumbs a {color:#fff; text-decoration:none;}
+#breadcrumbs a:hover {color:#E1C483;}
+
+/* Columns setup */
+table#columns {width:940px; margin:0 auto;}
+td#leftcol div.widget {padding-right:30px; width:220px;}
+td#content {background:transparent; width:100%;}
+td#rightcol div.widget {padding-left:30px; width:220px;}
+td#leftcol, td#rightcol {font:normal 11px Verdana, Arial, Helvetica, sans-serif; line-height:16px;}
+
+/* Menu Styling */
+#menuwrapper ul.menu li.current_page_item, #menuwrapper ul.menu li:hover {background:#000;}
+#menuwrapper ul.menu li.current_page_item a {color:#D6A951;}
+#menuwrapper ul.menu li:hover {color:#D6A951;}
+#menuwrapper ul.menu li a:hover {color:#D6A951;}
+#menuwrapper ul.menu li {background:url('images/transparent.png') no-repeat 0 -999px;} /* for an IE7 bug */
+#menuwrapper ul.menu li:last-child {}
+#menuwrapper ul.menu li a {padding:0 12px;}
+#menuwrapper ul {margin: 0;padding: 0;position: relative;z-index: 1000;}
+#menuwrapper ul li {padding: 0;margin-right: -1px;margin-bottom: 4px;list-style: none;float: left;position: relative;}
+#menuwrapper ul li a {display: block;height: 29px;line-height: 29px;cursor: pointer;z-index: 100;position: relative;}
+#menuwrapper ul li.current_page_ancestor {background:#000;} /*keeps parent menu item active */
+/* Menu Dropdowns */
+#menuwrapper li ul {background: #333; font-size:11px; position:absolute; width:195px; top:-999em; padding: 0; margin-top:0px;}
+#menuwrapper li ul ul {margin: 0; padding:0;}
+#menuwrapper li:hover ul ul, #menuwrapper li:hover ul ul ul, #menuwrapper li:hover ul ul ul ul {top:-999em;}
+#menuwrapper li li {margin: 0; padding: 0; height:auto; width:195px;}
+#menuwrapper li li a, #menuwrapper li li a:hover, #menuwrapper li li .separator, #menuwrapper li li.active .separator {margin:0;padding: 0 0 8px 12px!important;float: none; width: auto; display: block; border-bottom:1px solid #222; height:20px;}
+#menuwrapper li li a span, #menuwrapper li li.active a span, #menuwrapper li li a:hover span, #menuwrapper li li .separator span, #menuwrapper li li.active .separator span {width: auto;display: block;line-height: 18px; padding: 10px 5px 0 10px;}
+#menuwrapper li:hover ul {top: 29px;}
+#menuwrapper li li:hover ul, #menuwrapper li li li:hover ul, #menuwrapper li li li li:hover ul {left:195px; }
+/* Overrides */
+#menuwrapper li:hover ul ul, #menuwrapper li:hover ul ul ul, #menuwrapper li:hover ul ul ul ul {top:-999em;right: auto;}
+#menuwrapper li li:hover ul, #menuwrapper li li li:hover ul, #menuwrapper li li li li:hover ul {top: 0px; right: 195px;}
+#menuwrapper ul li ul li { border:none!important;}
+#menuwrapper ul li ul li a {margin:0; padding:0;}
+
+
+
+/* Page styling */
+#metadata {margin-bottom:10px; padding:4px 2px; letter-spacing:1px; font-family:Tahoma,Geneva,Arial,sans-serif; color:#444; font-size:10px; border-top:1px solid #D3BC9B; border-bottom:1px solid #D3BC9B;}
+#metadata a {font-size:10px; text-transform:uppercase; word-spacing:-1px; color:#A6722C; text-decoration:none;}
+#metadata a:hover {text-decoration:underline;}
+.more-link, .readon, #searchsubmit {width:360px; display:block; background:url('images/read-more.png') no-repeat; color:#fff!important; padding:1px 15px; margin-top:15px; font:italic 12px "trebuchet ms", arial, helvetica; text-decoration:none; border:none;}
+.more-link {font-weight:bold;}
+.readon, #searchsubmit {width:75px; background:url('images/button.png') repeat-x; text-align:center;}
+.more-link:hover, .readon:hover, #searchsubmit:hover {color:#D6A951!important;}
+
+/* Typography */
+p {margin:0 auto 20px;}
+.spacer {clear:both;display:block;margin:20px auto; background: url('images/line-horiz.png') repeat-x center bottom; width:100%;}
+#ctop2 h1, h2, h3, h4, h5, h6 {font:normal 1.5em 'Trebuchet MS',Arial, Helvetica, sans-serif; margin-bottom:10px; text-decoration:none;color:#222; text-transform:uppercase;}
+#ctop2 h1 a {color:#222; text-decoration:none;}
+h2, h2 a {color:#53606E;}
+#ctop2 h1 a:hover, h2 a:hover, h3 a:hover {color:#9B6421; text-decoration:none;}
+h3, h3 a, h4, h5, h6 {color:#4D5661;}
+h3 {font-size:1em;}
+h4 {font-size:.88em;}
+h5 {font-size:.76em;}
+h6 {font-size:.66em;}
+h5, h6 {font-family:Arial, Helvetica, sans-serif;}
+
+td#rightcol h3, td#leftcol h2 {font-size:12px; color:#fff; font-weight:bold; text-align:left; padding:3px 0 0 9px;}
+td#rightcol h3 {background:transparent url('images/rightheadings.png') no-repeat right; height:20px; color:#fff; text-align:right; font-weight:bold; padding:2px 9px 0 0;}
+td#leftcol h2 {background:transparent url('images/leftheadings.png') no-repeat left;}
+
+code, pre {font:normal 12px Arial, Helvetica, sans-serif; background:#F0F0F0; -moz-border-radius: 8px; -khtml-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; border:1px solid #b2b2b2; }
+blockquote, pre,span.amber,span.grey {display: block; width:90%; margin: 20px auto; padding:10px 15px; font-size: 12px; }
+blockquote {padding:0; font-style:oblique;}
+span.amber {background:transparent url('images/block1.png') repeat-y; -moz-border-radius: 8px; -khtml-border-radius: 8px; -webkit-border-radius: 8px;}
+span.grey, pre, code {background:transparent url('images/block2.png') repeat-y; -moz-border-radius: 8px; -khtml-border-radius: 8px; -webkit-border-radius: 8px;}
+
+.blockquoteouter {width:90%; margin:20px auto; padding-left:48px; font-style:oblique; background:url('images/quoteopen.png') top left no-repeat;}
+.blockquoteinner {background:url('images/quoteclose.png') bottom right no-repeat; padding-right:40px; color:#C28432;}
+
+.dropcap {background:transparent url('images/dropcap.png') no-repeat; color:#fff; float:left; font-size:30px; text-align:center; line-height:30px; height:35px; margin:0 10px 0 0; padding:5px 0 0 3px; width:37px;}
+
+/* Standard Widget Styling */
+#header {width:960px; background:#D9B453 url('images/header-bg.jpg') repeat-x top; -moz-border-radius: 8px; -khtml-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; margin-bottom:10px;}
+td#headercaption h1 {font:normal 24px "trebuchet ms", Arial, Helvetica, sans-serif; margin-bottom:10px; color:#fff; text-transform:none;}
+td#headercaption div.widget {color:#E9D0A1; padding:10px;}
+td#headermedia div.widget {padding:10px;}
+
+#bottomwidget {background:#DEDEDE; -moz-border-radius: 8px; -khtml-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; padding:8px;}
+
+td#rightcol div.widget, td#leftcol div.widget {clear:both; margin-bottom:25px!important;}
+
+/* Comments */
+.commenttext{margin:10px 0; left:25px; min-height:90px; overflow:hidden; padding:8px 40px 0 0; position:relative;}
+.comment-author{float:left; background:transparent url('images/avatarbg.png') top repeat-x; -moz-border-radius: 7px; -webkit-border-radius: 7px; padding:7px; text-align:center;
+	overflow:hidden; width:auto; border:1px solid #AD9E82;}
+.comment-author cite {font-style:normal; text-transform:uppercase; font-size:10px;}
+.commentreply {float:left; margin-right:5px; font-size:10px; }
+.commentlist {margin: 0 0 20px 0;}
+.commentlist li {background:#EBE7DF;  -moz-border-radius: 10px; -webkit-border-top-left-radius: 10px; -webkit-border-bottom-left-radius:10px;
+	margin-bottom:8px; list-style-image:none; list-style-position:outside; list-style-type:none; padding:5px 10px; color:#444; overflow:hidden; clear:both;}
+.commentlist li:hover {color:#444;}
+.commentlist li ul li { margin-left: 20px;}
+.cancel-comment-reply a{color:#A6722C;font-size:9px;padding-left:2px;text-transform:uppercase;line-height:15px;}
+.comms-navigation, .navigation {clear: both;display: block;margin-bottom:0px;overflow: hidden;}
+.children {padding: 0;}
+.nocomments {text-align: center;margin: 0;padding: 0;}
+#commentform{padding-top:15px;}
+#commentreply{clear:both; padding-top:20px;}
+#commentreply h3{color:#444; font-weight:bold;}
+#commentreply a, .commentreply a, .reply a, .post-edit-link, p.tags a {color:#A6722C; text-decoration:none;}
+#commentreply a:hover, .commentreply a:hover, .reply a:hover {text-decoration:underline; color:#444;}
+.commentdate{color:#8C6427;font-size:10px;text-transform:uppercase;line-height:15px;}
+.awaitingreview{ margin-bottom:10px; padding:0 10px; background:#FFFFFF; color:#176E81; border:1px solid #d9d9d9; display:inline-block; font-size:10px;}
+.user{margin-bottom:5px;}
+#commentswrapper h3 {margin:10px 0; }
+
+/* Form Styling */
+.button {color:#fff; width:auto; background:url('images/button.png') repeat-x; padding:2px 15px; margin-top:15px; font:italic 12px "trebuchet ms", arial, helvetica; text-decoration:none; border:none;}
+.button:hover {color:#D6A951;}
+fieldset{padding:20px;border:1px solid #e5e5e5;}
+#commentform label{margin-left:12px;}
+legend,label{letter-spacing:1px;text-transform:uppercase;font-size:11px;}
+input[type=text],input[type=password],input[type=file],textarea{background-color:transparent;padding:3px 5px;width:180px;-moz-border-radius:6px;-webkit-border-radius:6px;}
+textarea{width:98%;height:120px;font-size:12px; font:normal 12px Arial, Helvetica, sans-serif;}
+input, textarea {outline-style:none!important;}
+input[type=text],input[type=password],input[type=file],textarea{background:#f8f8f8 url('images/form-gradient.png') repeat-x -1px -2px; border-color:#d4d4d4 #eaeaea #e3e3e3;
+	border-style:solid; border-width:1px; color:#333;}
+input[type="submit"]::-moz-focus-inner{border : 0px;} 
+input[type="submit"]:focus{outline:none;}
+
+/* Alignment and for Images */
+img.aligncenter {display: block; margin:0 auto 15px;}
+img.alignright {margin: 3px 0 5px 18px; display: inline;}
+img.alignleft {margin:3px 18px 5px 0; display: inline;}
+img.alignright, img.alignleft, img.aligncenter {border: 1px solid #BDBDBD; text-align: center; background-color: #DBDBDB; padding: 5px; }
+.alignright {float: right; margin: 3px 0 5px 18px;}
+.alignleft {float: left; margin:3px 18px 5px 0;}
+.wp-caption {border: 1px solid #BDBDBD; text-align: center; background-color: #DBDBDB; padding-top: 5px;}
+.wp-caption img {margin: 0; padding: 0; border: 0 none;}
+.wp-caption p.wp-caption-text {font-size: 11px; line-height: 12px; padding: 2px 3px; margin: 0; color:#333;}
+div.navigation .alignleft, div.navigation .aligncenter, div.navigation .alignright {border:none;}
+
+/* Tag Cloud */
+.widget_tag_cloud {font-family:Arial, Helvetica, sans-serif;}
+.widget_tag_cloud a{padding:7px 4px; color:#A6722C; text-decoration:none;}
+.widget_tag_cloud a:hover {color:#333;}
+
+/* Calendar */
+#calendar_wrap {width:100%;}
+#calendar_wrap a {color:#A6722C;}
+#wp-calendar {empty-cells: show; margin: 10px 0; width: 100%; background:#fff; border-bottom:1px solid #f7f7f7; border-top:1px solid #f7f7f7; }
+#wp-calendar th {background:#f7f7f7;text-align:center;}
+#wp-calendar #next a {padding-right: 10px;text-align: right;}
+#wp-calendar #prev a {padding-left: 10px;text-align: left;}
+#wp-calendar a {display: block; text-decoration:underline;}
+#wp-calendar a:hover {color:#333;}
+#wp-calendar caption {text-align: center; width: 100%;padding:0 2px 0 0;font-weight:bold;}
+#wp-calendar td {padding: 3px 0;text-align: center;}
+
+/** Page Navigation + wp-pagenavi plugin - Download this plugin add this group to the pagenavi plugin styles in the dashboard **/
+/* .navigation { background:#DEDEDE; -moz-border-radius: 8px; -khtml-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; padding:8px; } */
+.navigation a {color:#A6722C; text-transform:uppercase;}
+.navigation a:hover {text-decoration:none; color:#333;}
+
+.wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:visited, .wp-pagenavi a:hover, .wp-pagenavi a:active, .wp-pagenavi span.pages, .wp-pagenavi span.current, .wp-pagenavi span.extend {-moz-border-radius:0.4em; -khtml-border-radius:0.4em; border:1px solid #d4d4d4; background:#f2f2f2 url('images/page-nav.png') repeat-x;
+padding: 2px 3px 2px 3px;  margin: 2px;}
+.wp-pagenavi a, .wp-pagenavi a:link {text-decoration: none;	color: #303030;	}
+.wp-pagenavi a:visited {text-decoration: none;	color: #303030;	}
+.wp-pagenavi a:hover, .wp-pagenavi span.pages, .wp-pagenavi span.current, .wp-pagenavi span.extend {color: #816D22;}
+.wp-pagenavi a:hover {	border: 1px solid #d4d4d4;}
+.wp-pagenavi a:active {text-decoration: none;color: #816D22;}
+.wp-pagenavi span.pages {padding: 2px 3px 2px 3px; 	margin: 2px 2px 2px 2px;}
+.wp-pagenavi span.current {font-weight: bold;}
+
+
+/* Nested HTML columns for page content and bottom widget columns */
+.columnwrapper, .bottomcolumnwrapper {margin:30px auto; width:940px;}
+.end {margin-right:0 !important;clear:right;}
+.two, .three, .four { float:left; margin:0 40px 0 0;}
+.columnwrapper h2, .bottomcolumnwrapper h2 {color:#3E3E3E; border-top:1px solid #B6B6B6; border-bottom:1px solid #B6B6B6; font-size:14px; margin-bottom:10px;}
+.columnwrapper h3, .bottomcolumnwrapper h3 {font-size:12px; text-transform:uppercase; color:#93702E; margin-bottom:4px;}
+/* Account for the widget width plus the border and any padding to determine the image width */
+.columnwrapper img, .bottomcolumnwrapper img {border: 1px solid #BDBDBD; text-align: center; background-color: #dbdbdb; padding: 3px; margin:0 auto 3px;}
+/* two columns */
+.two{width:450px;} /* your image width is 442px */
+.two h2 {}
+/* three columns */
+.three{width:286px;} /* your image width is 278px */
+.three h2 {}
+/* four columns */
+.four{width:205px;} /* your image width is 197px */
+.four h2 {}
+
+
+
+
+
+
+
+
+
+

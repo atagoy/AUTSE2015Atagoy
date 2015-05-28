@@ -1,0 +1,92 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Background Colorwave */
+
+body#page {	background: #edf1f6 url(../../images/background/colorwave/colorwave_img.jpg) 50% 0 no-repeat; }
+
+#main {
+	border-color: rgba(20,20,25,0.15);
+	background: #a2a4a8;
+	background: rgba(255,255,255,0.15);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.4),
+				0 0 2px rgba(20,20,25,0.1);
+}
+
+#maininner { 
+	border: none;
+	box-shadow:	0 0 2px rgba(20,20,25,0.3); 
+}
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	/* Layout */
+	#main #maininner,
+	#page.sidebar-a-right.sidebar-b-left #maininner,
+	#page.sidebar-a-left.sidebar-b-right #maininner { 
+		border-left: none; 
+		border-right: none;
+	}
+
+}
+
+
+/* Font Color
+----------------------------------------------------------------------------------------------------*/
+
+#header,
+.outer .mod-transparent {
+	color: #595d61;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+#header a,
+#toolbar time { 
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(20,20,25,0.2);
+}
+
+#header a:hover { 
+	color: #2d3238;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.outer .mod-transparent li a { 
+	color: #92979E;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.outer .mod-transparent li a:hover { 
+	color: #5a5e63; 
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+}
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+/* Only Phones */
+@media (max-width: 767px) {
+
+	#page #header-responsive .searchbox input {
+		box-shadow: 0 1px 0 rgba(255,255,255,0.25);
+		color: #fff;
+		text-shadow: 0 1px 0 rgba(20, 20, 25, 0.2);
+	}
+
+	#header-responsive .searchbox input::-moz-input-placeholder,
+	#header-responsive .searchbox input::-webkit-input-placeholder { 
+		color: #595D61;
+		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+	}
+
+}
+
+.outer .mod-line .module-title { background-image: url(../../images/module_line_dark.png); }
+
+.outer .mod-inset {
+	border: 1px solid #d3d8de;
+	border: 1px solid rgba(255,255,255,0.1);
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	background: #e6eaef;
+	background: rgba(20,20,25,0.05);
+}

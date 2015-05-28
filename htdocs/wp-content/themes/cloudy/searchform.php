@@ -1,0 +1,1 @@
+<form action="<?php echo home_url('/')?>" id="searchform"><div class="search"><label for="s">Search:</label><input type="text" class="text" value="<?php echo get_search_query()?>" name="s" id="s" /><input class="button" type="submit" value="Go!" /></div></form><img src="<?php echo get_template_directory_uri()?>/img/spacer.gif" alt="WP_Cloudy" />

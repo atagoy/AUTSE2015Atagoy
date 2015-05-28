@@ -1,0 +1,21 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*************************************
+*
+* view: item
+*
+*************************************/
+/*
+ * item
+ */
+ 
+div#yoo-zoo div.item {
+	padding: 10px 15px 15px 15px;
+	border: 1px solid #C8CBCD;
+}
+
+div#yoo-zoo div.item h1.name {
+	font-size: 200%;
+	color: #505050;
+	line-height: 150%;
+}

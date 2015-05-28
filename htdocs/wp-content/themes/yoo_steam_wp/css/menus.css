@@ -1,0 +1,203 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/menus.css);
+
+
+/* Mega Drop-Down Menu
+----------------------------------------------------------------------------------------------------*/
+
+/* Level 1 */
+.menu-dropdown {
+	margin-bottom: -25px;
+	text-transform: uppercase;
+}
+
+.menu-dropdown li.level1 { padding-bottom: 25px; }
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 {
+	padding: 10px 12px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.menu-dropdown:first-child li.level1:first-child a.level1,
+.menu-dropdown:first-child li.level1:first-child span.level1 { background: none; }
+
+.menu-dropdown a.level1 > span,
+.menu-dropdown span.level1 > span {
+	height: 30px;
+	line-height: 30px;
+}
+
+/* Drop-Down */
+.menu-dropdown .dropdown {
+	top: 55px;
+	border-top: none;
+}
+
+.menu-dropdown .dropdown-bg {
+	position:  relative;
+	padding-top: 13px;
+}
+
+.menu-dropdown .dropdown-bg:before {
+	content: "";
+	position: absolute;
+	top: 1px;
+	left: 44%;
+	width: 25px;
+	height: 13px;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+}
+
+.menu-dropdown .dropdown-bg > div {
+	margin: 0 2px 2px 2px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 4px;
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+/* Module */
+.menu-dropdown .module {
+	font-size: 14px;
+	text-transform: none;
+}
+
+/* Level 2 */
+.menu-dropdown .column ul.level2 {
+	background-position: 0 0;
+	background-repeat: repeat-y;
+}
+.menu-dropdown .column:first-child ul.level2 { background: none; }
+
+.menu-dropdown li.level2 {
+	margin: 0;
+	padding: 0 5px;
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+
+.menu-dropdown li.level2:first-child { background: none; }
+
+.menu-dropdown a.level2 > span,
+.menu-dropdown span.level2 > span {
+	padding: 7px;
+	font-size: 13px;
+}
+
+.menu-dropdown .separator span.title { font-weight: bold; }
+
+/* Set Current */
+.menu-dropdown a.current.level2,
+.menu-dropdown a.current.level3 { font-weight: bold; } 
+
+/* Level 3 */
+.menu-dropdown ul.level3 { padding: 2px 5px 10px 5px; }
+
+.menu-dropdown li.level3 { line-height: 22px; }
+
+.menu-dropdown a.level3 {
+	padding-left: 18px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	font-size: 12px;
+}
+
+/* Set Hover */
+.menu-dropdown a.level3:hover {
+	border-radius: 2px;
+	background-position: 0 -50px;
+}
+
+/* Set Current */
+.menu-dropdown a.current.level3 { background-position: 0 -100px; } 
+
+/* Subtitles */
+.menu-dropdown span.subtitle { font-weight: normal; }
+
+.menu-dropdown .level1 .level1 span.title { line-height: 18px; }
+
+
+/* Sidebar/Accordion Menu
+----------------------------------------------------------------------------------------------------*/
+
+/* Link */
+.menu-sidebar a,
+.menu-sidebar li > span { text-transform: uppercase; }
+
+/* Current */
+.menu-sidebar a.current { font-weight: bold; }
+
+/* Level 1 */
+.menu.menu-sidebar li.level1 {
+	padding: 8px 0 6px 0;
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+
+.menu-sidebar a.level1 > span,
+.menu-sidebar span.level1 > span {
+	line-height: 18px;
+	font-size: 16px;
+}
+
+.menu.menu-sidebar li.level1:first-child { background: none; }
+
+.menu-sidebar li.parent .level1 > span {
+	padding-right: 25px;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+}
+.menu-sidebar li.parent.active .level1 > span { background-position: 100% -80px; }
+
+/* Level 2-4 */
+.menu-sidebar ul.level2 { padding: 7px 0 10px 0; }
+.menu-sidebar ul.level2 ul { padding-left: 12px; }
+
+.menu-sidebar .level2 a {
+	padding-left: 22px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+.menu-sidebar .level2 a:hover {
+	border-radius: 2px;
+	background-position: 0 -50px;
+}
+.menu-sidebar .level2 a.current { background-position: 0 -100px; }
+
+.menu-sidebar .level2 a.current:hover { color: inherit; }
+
+.menu-sidebar .level2 a > span {
+    font-size: 12px;
+    line-height: 28px;
+}
+
+/* Module Overrides */
+.mod-box .menu-sidebar,
+.mod-stamp .menu-sidebar { margin: 0 -15px; }
+
+.mod-box .menu.menu-sidebar li.level1,
+.mod-stamp .menu.menu-sidebar li.level1 { padding: 8px 15px 6px 15px; }
+
+
+/* Line Menu
+----------------------------------------------------------------------------------------------------*/
+
+.menu-line li {
+	margin-left: 12px;
+	padding-left: 0;
+}
+
+.menu-line li:first-child { margin-left: 0; }
+
+.menu-line li a {
+	padding-left: 18px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.menu-line li a:hover { background-position: 0 -50px; }

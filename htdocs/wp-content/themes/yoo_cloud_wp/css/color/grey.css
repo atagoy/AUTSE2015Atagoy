@@ -1,0 +1,123 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+/* Link Colors */
+a,
+h2,
+h4,
+h5,
+h6,
+#footer a:hover,
+.menu-dropdown li.active > a,
+.menu-sidebar a.active,
+.menu-sidebar li > span.active,
+#system .pagination a:hover { color: #92AFC2; }
+
+::-moz-selection { background: #92AFC2; color: #fff; }
+::selection { background: #92AFC2; color: #fff; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Menu-Dropdown */
+.menu-dropdown a.level3 { background: url(../../images/color/grey/menu_dropdown_level3.png) 0 0 no-repeat; }
+
+/* Menu-Sidebar */
+.menu-sidebar li.level2 a.level2 { background: url(../../images/color/grey/menu_sidebar_level2.png) 0 0 no-repeat; }
+
+.mod-black .menu-sidebar li.level2 a.level2 { background-image: url(../../images/color/grey/menu_sidebar_level2_black.png); }
+
+/* Link */
+.mod-color .menu-sidebar a,
+.mod-color .menu-sidebar li > span { color: #f2fbff; }
+
+/* Hover */
+.mod-color .menu-sidebar a:hover,
+.mod-color .menu-sidebar li > span:hover { color: #fff; }
+
+/* Active */
+.mod-color .menu-sidebar a.active,
+.mod-color .menu-sidebar li > span.active { color: #475254; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge { background-image: url(../../images/color/grey/module_badges.png); }
+
+/* Module Color */
+.mod-color {
+	border: 1px solid #627A88;
+	border-top-color: #475863;
+	background: #778F9D;
+	box-shadow:
+		inset 0 0 5px rgba(71,88,91,0.7),
+		0 1px 0 rgba(253,253,255,1.0);
+	color: #E4EBED;
+	text-shadow: 0 1px 0 rgba(0,0,2,0.1);
+}
+
+.mod-color h3.module-title { color: #E4EBED; }
+
+.mod-color h3.module-title .subtitle { color: #D8E4E9; }
+
+.mod-color a:hover,
+.mod-color strong,
+.mod-color code { color: #475254; text-shadow: 0 1px 0 rgba(240,245,250,0.2); }
+
+.mod-color a { color: #fff; }
+
+.mod-color a:hover { text-shadow: 0 1px 0 rgba(0,0,2,0.2); }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Button More */
+a.button-more {
+	border-bottom: 1px solid #677b88;
+	background: #7a919f;
+	background: -moz-linear-gradient(
+					top,
+					rgba(146,165,175,1.0) 0%,
+					rgba(122,145,159,1.0) 100%
+				);
+	background: -webkit-linear-gradient(
+					top,
+					rgba(146,165,175,1.0) 0%,
+					rgba(122,145,159,1.0) 100%
+				);
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #92a5af),
+					color-stop(100%, #7a919f)
+				);
+	background: -o-linear-gradient(
+					top,
+					rgba(146,165,175,1.0) 0%,
+					rgba(122,145,159,1.0) 100%
+				);
+	background: linear-gradient(
+					top,
+					rgba(146,165,175,1.0) 0%,
+					rgba(122,145,159,1.0) 100%
+				);
+	background: -ms-linear-gradient(
+					top,
+					rgba(146,165,175,1.0) 0%,
+					rgba(122,145,159,1.0) 100%
+				);
+}
+
+a.button-more:hover {
+	border-bottom-color: #4b5962;
+	color: #475254!important;
+}
+
+a.button-more:active { border-top: 1px solid #4b5962; }

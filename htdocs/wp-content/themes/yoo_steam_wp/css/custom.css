@@ -1,0 +1,101 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+
+/* Logo */
+#logo,
+#logo .custom-logo {
+	width: 202px;
+	height: 202px;
+}
+
+#logo .custom-logo { background: url(../../../images/yootheme/logo_orange.png) 0 0 no-repeat; }
+
+/* Frontpage Hgroup */
+#top-a hgroup > h1,
+#top-a hgroup > h2 { margin: 20px 10px; }
+
+/* Frontpage Demo Ticket */
+#bottom-c .demo-ticket {
+	margin-left: 30px;
+	padding: 0 20px 0 30px;
+	background-image: url(../images/demo_ticket.png);
+	background-position: 0 0;
+	background-repeat: repeat-y;
+}
+
+#bottom-c .demo-ticket h2 {
+	margin: -5px 0 5px 0;
+	font-size: 65px;
+	line-height: 60px;
+}
+#bottom-c .demo-ticket h2 > span {
+	padding: 0 4px;
+	font-size: 22px;
+	vertical-align: middle;
+}
+
+/* Slideshow Tabs - Steam */
+.wk-slideshow-tabs-steam .slides > li > article li {
+	position: relative;
+	padding-right: 40px;
+}
+.wk-slideshow-tabs-steam .slides > li > article li span.date {
+	position: absolute;
+	top: 15px;
+	right: 0;
+	width: 34px;
+	padding: 4px 2px;
+	border-radius: 2px;
+	font: bold 11px/11px Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+/* Social Icons
+----------------------------------------------------------------------------------------------------*/
+
+.social-icons {
+	margin: 0;
+	padding: 40px 0 0 0;
+	list-style: none;
+}
+
+#headerbar .float-left .social-icons { padding-left: 190px; }
+#headerbar .float-right .social-icons { padding-right: 190px; }
+
+.social-icons li,
+.social-icons li a { float: left; }
+
+.social-icons li { margin: 0 0 0 20px; }
+.social-icons li:first-child { margin-left: 0; }
+
+.social-icons li a {
+	display: inline-block;
+	overflow: hidden;
+	width: 68px;
+	height: 69px;
+	background-image: url(../images/tools/icons_social.png);
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+}
+
+.social-icons .vimeo a,
+.social-icons .googleplus a {
+	margin-top: 10px;
+	width: 48px;
+	height: 49px;
+}
+
+.social-icons .vimeo a { background-position: 50% -290px; }
+.social-icons .vimeo a:hover { background-position: 50% -350px; }
+
+.social-icons .twitter a { background-position: 50% 0; }
+.social-icons .twitter a:hover { background-position: 50% -70px; }
+
+.social-icons .facebook a { background-position: 50% -140px; }
+.social-icons .facebook a:hover { background-position: 50% -210px; }
+
+.social-icons .googleplus a { background-position: 50% -410px; }
+.social-icons .googleplus a:hover { background-position: 50% -470px; }

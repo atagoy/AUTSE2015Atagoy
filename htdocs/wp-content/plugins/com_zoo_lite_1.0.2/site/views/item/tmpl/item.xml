@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Item Layout">
+		<message>
+			<![CDATA[Item Layout]]>
+		</message>
+	</layout>
+	<state>
+		<name>Item Layout</name>
+		<description>Item Layout</description>
+		<params addpath="/administrator/components/com_zoo/joomla/elements">
+			<param name="item_id" type="zooitem" default="" label="Item" description="A Item" />
+			<param name="template" type="zootemplate" default="" label="Template" description="Set a template style" />
+		</params>
+	</state>
+</metadata>

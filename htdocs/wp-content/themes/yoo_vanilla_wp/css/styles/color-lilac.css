@@ -1,0 +1,27 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+h2,
+h4,
+h6,
+a { color: #7A65B1; }
+a:hover { color: #4F3A89; }
+ul.links li { background-image: url(../../images/color/lilac/list_links.png); }
+ul.links li a:hover,
+#menu li a:hover.level2 span.bg,
+#menu li a:hover.level2 span.subtitle,
+#menu li.level2 .current span.bg,
+div.mod-box ul.menu a.current span.bg { color: #7A65B1; }
+#menu li.level3 a.level3.current span.bg,
+div.mod-box ul.menu li.level2 a.current span.bg { background-color: #8577A8;}
+#menu li.level3 a.level3.current:hover span.bg,
+div.mod-box ul.menu li.level2 a.current span.bg:hover  { background-color: #5E4E87; }
+.module h3.header span.subtitle,
+#system .item > .meta { color: #7A65B1; }
+#system .item > .links a,
+a.readmore { color: #FFFFFF; background-color: #8577A8; }
+#system .item > .links a:hover,
+a.readmore:hover { background-color: #5E4E87; }
+#searchbox .results li.result.selected h3,
+#searchbox .results li.more-results:hover {	color: #7A65B1; }
+.breadcrumbs a:hover,
+.breadcrumbs strong { background-color: #8577A8; }

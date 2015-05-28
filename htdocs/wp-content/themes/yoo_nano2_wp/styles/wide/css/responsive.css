@@ -1,0 +1,73 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/responsive.css);
+
+
+/* Breakpoints
+----------------------------------------------------------------------------------------------------*/
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	/* Layout */
+	#search { display: block; }
+
+	#maininner:before {
+		content: "";
+		display: block;
+		position: absolute;
+		bottom: 0;
+		left: 15px;
+		right: 15px;
+		height: 1px;
+		background: url(../images/line_dotted.png) 0 100% repeat-x;
+	}
+
+	/* Menu */
+	.menu-dropdown a.level1 > span,
+	.menu-dropdown span.level1 > span {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+}
+
+/* Only Tablets (Portrait) and Phones (Landscape) */
+@media (min-width: 480px) and (max-width: 959px) {
+
+	/* Modules */
+	#sidebar-a .grid-v:first-child > .mod-line:before,
+	#sidebar-b .grid-v:first-child > .mod-line:before { display: none; }
+
+}
+
+/* Only Phones */
+@media (max-width: 767px) {
+
+	/* Layout */
+	#block-toolbar,
+	#logo,
+	#menu { display: none; }
+
+}
+
+/* Only Phones (Portrait) */
+@media (max-width: 479px) {
+
+	/* Layout */
+	#maininner:before { display: none; }
+
+	/* Modules */
+	#block-main .grid-h .mod-line:before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: -15px;
+		left: 0;
+		right: 0;
+		height: 1px;
+		background: url(../images/line_dotted.png) 0 100% repeat-x;
+	}
+	#block-main .grid-h:first-child > .mod-line:before { display: none; }
+
+}

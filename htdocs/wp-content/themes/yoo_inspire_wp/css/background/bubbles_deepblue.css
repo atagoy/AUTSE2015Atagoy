@@ -1,0 +1,55 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Bubbles Deepblue Background
+ */
+ 
+body { -webkit-font-smoothing: antialiased; }
+
+#block-top-a { 
+	overflow: hidden;
+	position: relative;
+	background: #133049 url(../../images/background/bubbles_deepblue/radial_gradient.svg) 50% 0 no-repeat;
+	background-size: 1400px 500px;
+}
+
+.top-a-layer-1 {
+	position: absolute;
+	height: 300px;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: url(../../images/background/bubbles_deepblue/linear_gradient.svg) 0 0 no-repeat;	
+	background-size: 100% 300px;
+}
+
+.top-a-layer-2,
+.top-a-layer-3 {
+	position: absolute;
+	top: -500px;
+	left: 50%;
+	height: 1400px;
+	width: 1400px;
+	margin-left: -700px;
+	-webkit-animation: spinner-l linear infinite;
+	-moz-animation: spinner-l linear infinite;
+	-ms-animation: spinner-l linear infinite;
+	animation: spinner-l linear infinite;
+}
+
+.top-a-layer-2 {
+	background: url(../../images/background/bubbles_deepblue/layer_1.png) 50% 50% no-repeat;
+	-webkit-animation-duration: 350s;
+	-moz-animation-duration: 350s;
+	-ms-animation-duration: 350s;
+	animation-duration: 350s;
+}
+
+.top-a-layer-3 {
+	background: url(../../images/background/bubbles_deepblue/layer_2.png) 50% 50% no-repeat;
+	-webkit-animation-duration: 150s;
+	-moz-animation-duration: 150s;
+	-ms-animation-duration: 150s;
+	animation-duration: 150s;
+}
+

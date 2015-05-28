@@ -1,0 +1,56 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/base.css);
+
+
+/* New style-related Base Values
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	font: normal 13px/20px Arial, Helvetica, sans-serif;
+	color: #777;
+}
+
+h1 { color: #666; }
+
+a { color: #48b; }
+
+em { color: #555; }
+
+code {
+	padding: 1px 2px;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 2px;
+	background: url(../images/code.png) 0 0 repeat;
+	color: #444;
+}
+
+ins, mark { background-color: #ffa; }
+mark { color: #444; }
+
+hr { border-top-color: #d3d3d3; }
+
+pre {
+	border: 1px solid #d3d3d3;
+	border-radius: 5px;
+	background: #fafafa;
+}
+
+::-moz-selection { background: #39f; color: #fff; }
+::selection { background: #39f; color: #fff; }
+
+
+/* Useful Snippets
+----------------------------------------------------------------------------------------------------*/
+
+a:not([class]):active,
+a:not([class]):focus {
+	position: relative;
+	top: 1px;
+}
+
+a:not([class]):active > *,
+a:not([class]):focus > * {
+	position: relative;
+	top: -1px;
+}

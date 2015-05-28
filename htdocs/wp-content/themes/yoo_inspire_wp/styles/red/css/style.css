@@ -1,0 +1,90 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Style Style Sheet - Defines the main look like colors and backgrounds
+ * Not all style related CSS is included, only colors and backgrounds which may change for different theme styles
+ */
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+a { color: #CC5646; }
+
+::-moz-selection { background: #E3AFA8; color: #fff; }
+::selection { background: #E3AFA8; color: #fff; }
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Set Active */
+.menu-dropdown li.active .level1,
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1,
+.menu-dropdown a.level2:hover,
+.menu-dropdown a.level3:hover,
+.menu-sidebar a:hover,
+.menu-sidebar li > span:hover { color: #CC5646; }
+
+.menu-dropdown a.level3 { background-image: url(../images/menu_dropdown_level3.png); }
+
+.menu-sidebar li.parent .level1 > span { background-image: url(../images/menu_sidebar_parent.png); }
+
+.menu-sidebar ul a > span { background-image: url(../images/menu_sidebar_level2.png); }
+
+#footer .menu-line li a:hover { color: #CC5646; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box-color {
+	color: #F5F5F5;
+	border-color: #8E372C;
+	background: #BD4A3A;
+	background: -moz-linear-gradient(top, #CC5646 0%, #BD4A3A 100%);
+	background: -webkit-linear-gradient(top, #CC5646 0%, #BD4A3A 100%);		
+	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+a.button-more {	background-image: url(../images/tools/button_more.png); }
+
+a.button-more:hover { color: #CC5646; }
+
+.mod-box-color ul.zebra > li,
+.mod-box-color table.zebra tbody td { border-bottom: 1px solid #9E3E30; }
+.mod-box-color ul.zebra > li:first-child,
+.mod-box-color table.zebra tbody tr:first-child td { border-top: 1px solid #9E3E30; }
+
+.mod-box-color ul.zebra > li.odd,
+.mod-box-color table.zebra tbody tr.odd { background: #B14636; }
+.mod-box-color ul.zebra > li:nth-of-type(odd),
+.mod-box-color table.zebra tbody tr:nth-of-type(odd) { background: #B14636; }
+
+.mod-box-color em.box {
+	border-color: #9E3E30;
+	color: #fff;
+	background: #B14636;
+}
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+#system .item > .links a {	background-image: url(../images/tools/button_more.png); }
+#system .item > .links a:hover,
+.breadcrumbs a:hover { color: #CC5646; }
+
+
+/* Extensions
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-inspire .nav span { background-image: url(../images/widgetkit/slideshow/nav.png); }

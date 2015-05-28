@@ -1,0 +1,61 @@
+/**
+ * @version   1.0 October 16, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/* Frontpage Content */
+.demo-fp-img {background: url(../images/typography/img-bg.png) repeat;padding: 3px;}
+.img-left {float: left;margin-right: 15px;}
+.img-right {float: right;margin-left: 15px;}
+.oct10-home .flushbottom .module-content {margin-bottom: -1px;}
+.oct10-home .rt-wordpress .rt-article {margin-bottom: 9px;}
+.ct-read {margin-left: 105px;margin-top: 5px;}
+.oct10-home #rt-main-surround p {margin-bottom: 10px;}
+.demo-mb .demo-fp-img {margin-bottom: 10px;}
+.demo-mb-btm {float: left;width: 31%;margin-right: 2%;}
+.demo-mb-btm-first {margin-left: 1%;}
+.demo-mb-btm-title {margin-top: 5px;}
+.demo-sep {width: 5px;display: inline-block;}
+.demo-horiz-sep {height: 10px;display: block;}
+.demo-tabs-title {font-size: 250%;line-height: 110%;margin-bottom: 15px;}
+.demo-overlay {float: right !important;margin-left: 30px;}
+.demo-top-overlay {background: url(../images/typography/top-overlay.png) no-repeat 50% 0;padding-top: 10px;}
+.demo-bottom-overlay {background: url(../images/typography/bottom-overlay.png) no-repeat 50% 100%;padding-bottom: 10px;}
+.rt-leftquo {margin-right: 4px;height: 40px;float: left;}
+.rt-rightquo, .rt-leftquo {font-size: 150%;}
+.rt-desc1 {display: block;font-size: 180%;font-weight: bold;line-height: 1.1em;margin-top: 10px;}
+.rt-desc2 {display:block;font-size: 120%;line-height: 1.4em;}
+.oct10-home .roktabs-wrapper .tab-icon {margin-bottom: -9px;}
+.demo-sv-img {margin-right: 10px;padding: 5px;}
+
+/* Gantry */
+.gantry-img .rt-image {padding: 3px;}
+.gantry-logo {float: right;}
+
+/* Extensions */
+.rt-ext-col1 {float: left;width: 47%;}
+.rt-ext-col2 {float: right;width: 47%;}
+.rt-ext-block {margin-bottom: 30px;overflow: hidden;}
+.rt-ext-img {float: left;margin-right: 20px;margin-bottom: 25px;}
+.rt-ext-divider {height: 10px;display: block;}
+.rt-ext-links {text-align: right;display: block;}
+
+/* Tutorials */
+.demo-tut-list {float: left;width: 40%;}
+.demo-tut-video-img {margin-right: 15px;width: 123px;float: left;}
+.demo-tut-divider {width: 15px;}
+
+/* RTL Stuff */
+.rtl .gantry-logo {float: left;}
+.rtl .rt-ext-col1 {float: right;}
+.rtl .rt-ext-col2 {float: left;}
+.rtl .rt-ext-img {float: right;margin-right: 0;margin-left: 20px;}
+.rtl .rt-ext-links {text-align: left;}
+.rtl .demo-tut-list {float: right;}
+.rtl .demo-tut-video-img {margin-right: 0;margin-left: 15px;float: right;}
+
+/* RokBox */
+
+.rokbox-example img {border:5px solid #f3f3f3;padding:5px;}
+.rokbox-example div.center {text-align:center;}

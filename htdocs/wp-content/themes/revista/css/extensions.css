@@ -1,0 +1,67 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+
+/* Widgetkit
+----------------------------------------------------------------------------------------------------*/
+
+/* Twitter Bubbles */
+.wk-twitter-bubbles {
+	margin: 2px 0;
+	border: 1px solid rgba(0,0,0,0.15);
+	border-bottom-color: rgba(0,0,0,0.25);
+	background: #fff;
+	background-clip: padding-box;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+}
+
+.wk-twitter-bubbles article {
+	position: relative;
+	background: url(../images/module_line.png) 0 0 repeat-y;
+}
+
+.wk-twitter-bubbles article:first-child { background: none; }
+
+.wk-twitter-bubbles .content:after {
+	position: absolute;
+	top: -5px;
+	left: 26px;
+	content: "";
+	height: 6px;
+	width: 11px;
+	background: url(../images/widgetkit/twitter_arrow.png) 0 0 no-repeat;
+}
+
+.wk-twitter-bubbles .content {
+	position: relative;
+	margin: 62px 0 0 0;
+	padding: 15px;
+	background: url(../images/module_line_v.png) 0 0 repeat-y;
+	border: 0;
+	border-top: 1px solid #e2e2e2;
+	background: none;
+	box-shadow: none;
+}
+
+.wk-twitter-bubbles .meta {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	left: 12px;
+	margin: 0;
+}
+
+.wk-twitter-bubbles .author { margin-top: 2px; }
+
+.wk-twitter .image {
+	padding: 2px;
+	border: 1px solid #d2d2d2;
+	border-bottom-color: #c2c2c2;
+	background: #fff;
+}
+
+.wk-twitter-bubbles time { color: #aaa; }
+
+
+/* Slideset Revista */
+#page .mod-line .wk-slideset-revista,
+#page .mod-box .wk-slideset-revista { margin: -15px; }

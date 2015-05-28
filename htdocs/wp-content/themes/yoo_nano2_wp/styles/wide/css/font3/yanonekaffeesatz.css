@@ -1,0 +1,14 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../../css/font3/yanonekaffeesatz.css);
+
+/* Only Phones */
+@media (max-width: 959px) {
+
+	.menu-dropdown a.level1,
+	.menu-dropdown span.level1 { font-size: 20px; }
+
+	.menu-dropdown .level1 .level1 span.title { font-size: 18px; }
+	.menu-dropdown .level1 .level1 span.subtitle { font-size: 11px; }
+
+}

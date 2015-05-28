@@ -1,0 +1,86 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Style Style Sheet - Defines the main look like colors and backgrounds
+ * Not all style related CSS is included, only colors and backgrounds which may change for different theme styles
+ */
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Menus - Mega Drop-Down Menu
+----------------------------------------------------------------------------------------------------*/
+
+/* Level 1 */
+.menu-dropdown { margin-bottom: -11px; }
+.menu-dropdown li.level1 { padding-bottom: 11px; }
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 { padding: 1px; }
+
+/* Set Hover and Active */
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1,
+.menu-dropdown li.active .level1 {
+	padding: 0;
+	border: 1px solid #DDD;
+	background: #EEE;
+	border-radius: 4px;
+	text-shadow: 0 1px 1px #FFF;
+}
+
+/* Drop-Down */
+.menu-dropdown .dropdown { top: 43px; }
+
+.menu-dropdown .dropdown,
+.menu-dropdown .dropdown-bg > div { border-radius: 4px; }
+
+
+/* Menus - Sidebar/Accordion Menu
+----------------------------------------------------------------------------------------------------*/
+
+/* Level 1 */
+.menu-sidebar li.level1 { border: none; }
+
+.menu-sidebar a.level1,
+.menu-sidebar span.level1 { padding: 1px 11px; }
+
+.menu-sidebar a.level1:hover,
+.menu-sidebar span.level1:hover {
+	padding: 0 10px;
+	border: 1px solid #DDD;
+	background: #EEE;
+	border-radius: 4px;
+	color: #444;
+	text-shadow: 0 1px 1px #FFF;
+}
+
+.menu-sidebar a.level1 > span,
+.menu-sidebar span.level1 > span { line-height: 18px; }
+
+/* Level 2-4 */
+.menu-sidebar ul.level2 {
+	padding-left: 11px;
+	padding-right: 11px;
+}
+
+.menu-sidebar ul.level2 ul { padding-left: 11px; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+

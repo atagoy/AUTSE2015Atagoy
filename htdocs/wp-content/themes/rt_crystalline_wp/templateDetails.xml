@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<theme>
+    <name>rt_crystalline_wp</name>
+    <version>1.0</version>
+    <creationDate>October 16, 2010</creationDate>
+    <author>RocketTheme, LLC</author>
+    <authorEmail>support@rockettheme.com</authorEmail>
+    <authorUrl>http://www.rockettheme.com</authorUrl>
+    <copyright>${copyright}</copyright>
+    <license>${licence}</license>
+    <description>${project.descritpion}</description>
+    <positions>
+    	<position id="drawer" name="Drawer" max_positions="1">Drawer</position>
+        <position id="top" name="Top" max_positions="6">Top</position>
+        <position id="header" name="Header" max_positions="6">Header</position>
+        <position id="navigation" name="Navigation" max_positions="1">Navigation</position>
+        <position id="showcase" name="Showcase" max_positions="6">Showcase</position>
+        <position id="utility" name="Utility" max_positions="6">Utility</position>
+        <position id="feature" name="Feature" max_positions="6">Feature</position>
+        <position id="maintop" name="Main Top" max_positions="6">Main Top</position>
+        <position id="breadcrumb" name="Breadcrumb" max_positions="1">Breadcrumbs</position>
+        <position id="sidebar" name="Sidebar" max_positions="3">Sidebar</position>
+        <position id="content-top" name="Content Top" max_positions="3">Content-Top</position>
+        <position id="content-bottom" name="Content Bottom" max_positions="3">Content-Bottom</position>
+        <position id="mainbottom" name="Main Bottom" max_positions="6">Main Bottom</position>
+        <position id="bottom" name="Bottom" max_positions="6">Bottom</position>
+        <position id="footer" name="Footer" max_positions="6">Footer</position>
+        <position id="copyright" name="Copyright" max_positions="1">Copyright</position>
+        <position id="mobile-drawer" name="Mobile Drawer" max_positions="1" mobile="true">Mobile-Drawer</position>
+		<position id="mobile-top" name="Mobile Top" max_positions="1" mobile="true">Mobile-Top</position>
+		<position id="mobile-header" name="Mobile Header" max_positions="1" mobile="true">Mobile-Header</position>
+		<position id="mobile-navigation" name="Mobile Navigation" max_positions="1" mobile="true">Mobile-Navigation</position>
+		<position id="mobile-showcase" name="Mobile Showcase" max_positions="1" mobile="true">Mobile-Showcase</position>
+		<position id="mobile-footer" name="Mobile Footer" max_positions="1" mobile="true">Mobile-Footer</position>
+		<position id="mobile-copyright" name="Mobile Copyright" max_positions="1" mobile="true">Mobile-Copyright</position>
+		<position id="analytics" name="Analytics" max_positions="1">Analytics</position>
+    	<position id="debug" name="Debug" max_positions="1">Debug</position>
+    	<position id="popup" name="Popup" max_positions="1">Popup</position>
+    </positions>
+    <widget_styles>
+        <stylegroup name="widgetstyle" label="Widget Style">
+        	<style name="flush" label="Flush"/>
+        	<style name="flushbottom" label="Flush Bottom"/>
+        	<style name="flushtop" label="Flush Top"/>
+        </stylegroup>
+        <stylegroup name="variation" label="Widget Variations">
+        	<style name="basic" label="Basic"/>
+            <style name="bg1" label="Background 1"/>
+            <style name="bg2" label="Background 2"/>
+            <style name="bg3" label="Background 3"/>
+            <style name="bg4" label="Background 4"/>
+            <style name="bg5" label="Background 5"/>
+            <style name="title1" label="Title 1"/>
+            <style name="title2" label="Title 2"/>
+            <style name="title3" label="Title 3"/>
+            <style name="title4" label="Title 4"/>
+            <style name="title5" label="Title 5"/>
+        </stylegroup>
+    </widget_styles>
+    <config>
+        <fields name="template-options">
+			<fieldset name="toolbar-panel" label="Toolbar">
+				<field name="presets" type="preset" mode="scroller" default="crystalline" description="STYLE_PRESETS_DESC" setbyurl="true" setinoverride="false" panel_position="left" show_label="false" />
+			</fieldset>
+            <fieldset name="overview" label="Overview">
+				<field name="gantry" type="gantry" value="" panel_position="hiddens" />
+                <field name="template_full_name" type="hidden" default="Crystalline"/>
+                <field name="updater" type="updater" panel_position="right" show_label="false" />
+                <!--<field name="diagnostic" type="diagnostic" panel_position="right" show_label="false" />-->
+                <field name="overviewtips" type="tips" tab="overview" panel_position="right" show_label="false"/>
+                <field name="grid_system" type="hidden" default="12"/>
+                <field name="template_prefix" type="hidden" default="crystalline-"/>
+                <field name="cookie_time" type="hidden" default="31536000"/>
+
+                <field name="copy_lang_files_if_diff" type="hidden" default="1"/>
+
+				<field name="overlays_list_limit" type="hidden" default="50" />
+
+				<!--<field name="presets" type="preset" mode="scroller" default="preset10" label="STYLE_PRESETS" description="STYLE_PRESETS_DESC" setbyurl="true" setinoverride="false" panel_position="right" />-->
+
+                <!--<field name="menuids" type="menuitemhead" default="1" label="" description="MENUITEMSIDS_DESC"/>-->
+
+                <field name="intro" type="html" panel_position="left" show_label="false">
+                    <html><![CDATA[
+					<img src="{template_preview}" width="205" height="150" class="template-preview" alt="" />
+					<h1>{template_name} <span>v{template_version}</span></h1>
+					<p>Crystalline, the October 2010 Club Theme release, features the new Color Chooser, a powerful new addition that allows you to customize the theme style with great ease. With just a few adjustments, you can dramatically change the appearance of your entire site.</p>
+
+					<h2>{template_name} Presets</h2>
+
+					<p>Presets are a pre-defined set of values that can be applied across any of the configuration settings for this theme.  The Presets Panel can be opened by clicking on 'Presets' on the top right of the screen, clicking a preset option is akin to clicking a preset button on your car radio, it effectively sets the preset values in all the fields and you can tweak and apply those settings.  You can also 'Save Custom Preset as New' to create your own preset.</p>
+					]]></html>
+                </field>
+				<field name="overview" type="html" panel_position="left" show_label="false">
+					<html><![CDATA[
+					<h2>Overview of the Gantry Framework</h2>
+
+					<p>Gantry is a sophisticated framework with the sole intention of being the best platform to build a solid theme with. Gantry takes all the lessons learned during the development of many RocketTheme Joomla templates and WordPress Themes and distills that knowledge into a single super-flexible framework that is easy to configure, simple to extend, and powerful enough to handle anything we want to throw at it.</p>
+
+					<p>Get more help and find out more at <a href="http://www.gantry-framework.org">http://www.gantry-framework.org</a></p>
+					]]></html>
+				</field>
+            </fieldset>
+            <fieldset name="content" label="Content">
+            	<field name="contentsettings" type="html" panel_position="right" show_label="false">
+					<html><![CDATA[
+					<h2>Content Settings</h2>
+
+					<p>Use the tabs on the left to have complete control over the various sections of your WordPress content layout.  You can select categories, toggle functionality on and off as well as provide a custom query to isolate the exact content you wish to display.</p>
+					]]></html>
+				</field>
+				<field name="contenttips" type="tips" tab="content" panel_position="right" show_label="false"/>
+
+				<fields type="innertabs" show_label="false" >
+	            	<fields name="blog" type="grouped" label="Blog" show_label="false">
+		            	<field name="cat" type="text" default="" class="text-regular" label="Blog Category" />
+		            	<field name="type" type="selectbox" default="post" label="Blog Query Type">
+		            		<option value="attachment">Attachment</option>
+		            		<option value="page">Page</option>
+		            		<option value="post">Post</option>
+		            		<option value="revision">Revision</option>
+		            	</field>
+		            	<field name="content" type="selectbox" default="content" label="Blog Content">
+		            		<option value="content">Content</option>
+		            		<option value="excerpt">Excerpt</option>
+		            	</field>
+		            	<field name="order" type="selectbox" default="date" label="Blog Order">
+		            		<option value="author">Author</option>
+		            		<option value="comment_count">Comment Count</option>
+		            		<option value="date">Date</option>
+		            		<option value="title">Title</option>
+		            		<option value="modified">Modified</option>
+		            		<option value="none">None</option>
+		            		<option value="id">ID</option>
+		            		<option value="parent">Parent</option>
+		            		<option value="rand">Random</option>
+		            	</field>
+		            	<field name="page-title" type="text" default="" class="text-regular" label="Page Title" />
+		            	<field name="title" type="toggle" default="1" label="Title"/>
+		            	<field name="link-title" type="toggle" default="0" label="Title Link"/>     	
+	                    <field name="meta-author" type="toggle" default="1" label="Author Meta Data"/>
+		            	<field name="meta-date" type="toggle" default="1" label="Date Meta Data"/>
+		            	<field name="meta-modified" type="toggle" default="0" label="Modified Meta Data"/>
+		            	<field name="meta-comments" type="toggle" default="1" label="Comments Meta Data"/>
+		            	<field name="meta-link-comments" type="toggle" default="1" label="Link Comments"/>
+		            	<field name="readmore" type="text" default="Read more ..." class="text-regular" label="Read More Label"/>
+		            	<field name="query" type="text" default="" class="text-regular" label="Blog Custom Query"/>
+	            	</fields>
+
+	            	<fields name="page" type="grouped" label="Page">
+		            	<field name="title" type="toggle" default="1" label="Title"/>
+	                    <field name="meta-author" type="toggle" default="0" label="Author Meta Data"/>
+		            	<field name="meta-date" type="toggle" default="0" label="Date Meta Data"/>
+		            	<field name="meta-modified" type="toggle" default="0" label="Modified Meta Data"/>
+		            	<field name="meta-comments" type="toggle" default="0" label="Comments Meta Data"/>
+		            	<field name="comments-form" type="toggle" default="1" label="Comments Form"/>
+	            	</fields>
+
+    	        	<fields name="post" type="grouped" label="Post">
+		            	<field name="title" type="toggle" default="1" label="Title"/>
+	                    <field name="meta-author" type="toggle" default="1" label="Author Meta Data"/>
+		            	<field name="meta-date" type="toggle" default="1" label="Date Meta Data"/>
+		            	<field name="meta-modified" type="toggle" default="1" label="Modified Meta Data"/>
+		            	<field name="meta-comments" type="toggle" default="1" label="Comments Meta Data"/>
+		            	<field name="tags" type="toggle" default="1" label="Show Tags"/>
+		            	<field name="footer" type="toggle" default="1" label="Post Footer"/>
+		            	<field name="comments-form" type="toggle" default="1" label="Comments Form"/>
+	            	</fields>
+
+            		<fields name="category" type="grouped" label="Category">
+	            		<field name="count" type="text" class="text-short" default="5" label="Post Count"/>
+		            	<field name="content" type="selectbox" default="content" label="Category Content">
+		            		<option value="content">Content</option>
+		            		<option value="excerpt">Excerpt</option>
+		            	</field>
+		            	<field name="page-title" type="toggle" default="1" label="Show Page Title" />
+		            	<field name="title" type="toggle" default="1" label="Title"/>
+		            	<field name="link-title" type="toggle" default="0" label="Title Link"/>
+	                    <field name="meta-author" type="toggle" default="1" label="Author Meta Data"/>
+		            	<field name="meta-date" type="toggle" default="1" label="Date Meta Data"/>
+		            	<field name="meta-modified" type="toggle" default="0" label="Modified Meta Data"/>
+		            	<field name="meta-comments" type="toggle" default="1" label="Comments Meta Data"/>
+		            	<field name="meta-link-comments" type="toggle" default="1" label="Link Comments"/>
+		            	<field name="readmore" type="text" default="Read more ..." class="text-regular" label="Read More Label"/>
+	            	</fields>
+
+            		<fields name="archive" type="grouped" label="Archive">
+	            		<field name="count" type="text" class="text-short" default="5" label="Post Count"/>
+		            	<field name="content" type="selectbox" default="content" label="Archive Content">
+		            		<option value="content">Content</option>
+		            		<option value="excerpt">Excerpt</option>
+		            	</field>
+		            	<field name="page-title" type="toggle" default="1" label="Show Page Title" />
+		            	<field name="title" type="toggle" default="1" label="Title"/>
+		            	<field name="link-title" type="toggle" default="0" label="Title Link"/>
+	                    <field name="meta-author" type="toggle" default="1" label="Author Meta Data"/>
+		            	<field name="meta-date" type="toggle" default="1" label="Date Meta Data"/>
+		            	<field name="meta-modified" type="toggle" default="0" label="Modified Meta Data"/>
+		            	<field name="meta-comments" type="toggle" default="1" label="Comments Meta Data"/>
+		            	<field name="meta-link-comments" type="toggle" default="1" label="Link Comments"/>
+		            	<field name="readmore" type="text" default="Read more ..." class="text-regular" label="Read More Label"/>
+	            	</fields>
+
+            		<fields name="tags" type="grouped" label="Tags">
+	            		<field name="count" type="text" class="text-short" default="5" label="Post Count"/>
+		            	<field name="content" type="selectbox" default="content" label="Tags Content">
+		            		<option value="content">Content</option>
+		            		<option value="excerpt">Excerpt</option>
+		            	</field>
+		            	<field name="page-title" type="toggle" default="1" label="Show Page Title" />
+		            	<field name="title" type="toggle" default="1" label="Title"/>
+		            	<field name="link-title" type="toggle" default="0" label="Title Link"/>
+	                    <field name="meta-author" type="toggle" default="1" label="Author Meta Data"/>
+		            	<field name="meta-date" type="toggle" default="1" label="Date Meta Data"/>
+		            	<field name="meta-modified" type="toggle" default="0" label="Modified Meta Data"/>
+		            	<field name="meta-comments" type="toggle" default="1" label="Comments Meta Data"/>
+		            	<field name="meta-link-comments" type="toggle" default="1" label="Link Comments"/>
+		            	<field name="readmore" type="text" default="Read more ..." class="text-regular" label="Read More Label"/>
+	            	</fields>
+
+					<fields name="search" type="grouped" label="Search">
+	            		<field name="count" type="text" class="text-short" default="5" label="Post Count"/>
+		            	<field name="content" type="selectbox" default="content" label="Search Content">
+		            		<option value="content">Content</option>
+		            		<option value="excerpt">Excerpt</option>
+		            	</field>
+		            	<field name="page-title" type="toggle" default="1" label="Show Page Title" />
+		            	<field name="title" type="toggle" default="1" label="Title"/>
+		            	<field name="link-title" type="toggle" default="0" label="Title Link"/>
+	                    <field name="meta-author" type="toggle" default="1" label="Author Meta Data"/>
+		            	<field name="meta-date" type="toggle" default="1" label="Date Meta Data"/>
+		            	<field name="meta-modified" type="toggle" default="0" label="Modified Meta Data"/>
+		            	<field name="meta-comments" type="toggle" default="1" label="Comments Meta Data"/>
+		            	<field name="meta-link-comments" type="toggle" default="1" label="Link Comments"/>
+		            	<field name="readmore" type="text" default="Read more ..." class="text-regular" label="Read More Label"/>
+	            	</fields>
+				</fields>
+            </fieldset>
+            <fieldset name="style" label="Style">
+
+                <field name="stylesettings" type="html" panel_position="right" show_label="false">
+					<html><![CDATA[
+					<h2>Style Settings</h2>
+
+					<p>The Style Settings panel in the Gantry based theme administration interface provides several options for configuring the main stylistic aspects of the template. While the default Gantry theme includes several options, you can easily add and configure many more based on your template&apos;s needs.</p>
+					]]></html>
+				</field>
+				<field name="styletips" type="tips" tab="style" panel_position="right" show_label="false"/>
+				
+				<fields name="header" type="columns" label="Header" description="Header">
+					<field name="background" type="colorchooser" default="#004E63" transparent="false" position="left" label="Background" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>	
+					<field name="text" type="colorchooser" default="#fff" transparent="false" position="left" label="Text" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
+					<field name="link" type="colorchooser" default="#ebe5c3" transparent="false" position="left" label="Link" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
+					<field name="overlay" type="overlays" default="lines-4" preview="true" path="__TEMPLATE__/images/overlays/patterns/" position="right" label="Overlay" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" setclassbytag="rt-header-overlay" />
+					<field name="shadows" type="selectbox" default="dark" position="right" class="rokradios" label="Shadows" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" setclassbytag="rt-main-header">
+		        		<option value="light">Light</option>
+		            	<option value="dark">Dark</option>
+						<option value="none">None</option>
+		            </field>	
+					<field name="graphic" type="overlays" default="header-1" preview="false" path="__TEMPLATE__/images/overlays/headers/" label="Header Graphic" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" setclassbytag="rt-header-graphic" />	
+				</fields>
+				
+				<fields name="main" type="columns" label="Main" description="Main">
+					<field name="background" type="colorchooser" default="#F1E8D6" transparent="false" position="left" label="Background" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
+					<field name="text" type="colorchooser" default="#55473E" transparent="false" position="left" label="Text" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
+					<field name="link" type="colorchooser" default="#000" transparent="false" position="left" label="Link" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
+					<field name="overlay" type="overlays" default="circles" preview="true" path="__TEMPLATE__/images/overlays/patterns/" position="right" label="Overlay" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" setclassbytag="rt-main-overlay" />
+					<field name="shadows" type="selectbox" default="light" position="right" class="rokradios" label="Shadows" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" setclassbytag="rt-main-surround">
+		                <option value="light">Light</option>
+		                <option value="dark">Dark</option>
+						<option value="none">None</option>
+		            </field>
+				</fields>
+	
+				<fields name="feature" type="columns" label="Feature" description="Feature">
+					<field name="background" type="colorchooser" default="#dedede" transparent="false" position="left" label="Background" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
+					<field name="text" type="colorchooser" default="#444" transparent="false" position="left" label="Text" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
+					<field name="link" type="colorchooser" default="#004E63" transparent="false" position="left" label="Link" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
+					<field name="overlay" type="overlays" default="none" preview="true" path="__TEMPLATE__/images/overlays/patterns/" position="right" label="Overlay" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" setclassbytag="rt-feature-overlay" />
+					<field name="shadows" type="selectbox" default="light" position="right" class="rokradios" label="Shadows" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" setclassbytag="rt-feature">
+		                <option value="light">Light</option>
+		                <option value="dark">Dark</option>
+						<option value="none">None</option>
+		            </field>
+				</fields>
+	
+				<fields name="body" type="columns" label="Body" description="Body">
+					<field name="background" type="colorchooser" default="#fff" transparent="false" position="left" label="Background"  setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
+					<field name="text" type="colorchooser" default="#666" transparent="false" position="left" label="Text" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
+					<field name="link" type="colorchooser" default="#004E63" transparent="false" position="left" label="Link" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
+					<field name="overlay" type="overlays" default="none" preview="true" path="__TEMPLATE__/images/overlays/patterns/" position="right" label="Overlay" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" setclassbytag="rt-body-overlay" />
+					<field name="shadows" type="selectbox" default="light" position="right" class="rokradios" label="Shadows" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" setclassbytag="rt-mainbody-bg">
+		                <option value="light">Light</option>
+		                <option value="dark">Dark</option>
+						<option value="none">None</option>
+		            </field>
+				</fields>
+	
+				<fields name="bottom" type="columns" label="Bottom" description="Bottom">
+					<field name="background" type="colorchooser" default="#A61027" transparent="false" position="left" label="Background"  setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
+					<field name="text" type="colorchooser" default="#fff" transparent="false" position="left" label="Text" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
+					<field name="link" type="colorchooser" default="#ebe5c3" transparent="false" position="left" label="Link" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
+					<field name="overlay" type="overlays" default="lines-4" preview="true" path="__TEMPLATE__/images/overlays/patterns/" position="right" label="Overlay" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" setclassbytag="rt-bottom-overlay" />
+					<field name="shadows" type="selectbox" default="dark" position="right" class="rokradios" label="Shadows" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" setclassbytag="rt-bottom">
+		                <option value="light">Light</option>
+		                <option value="dark">Dark</option>
+						<option value="none">None</option>
+		            </field>
+				</fields>
+
+				<field name="thumbnails-enabled" type="hidden" default="1"/>
+				
+				<fields name="thumb" type="chain" label="Thumbnail Size" setinoverride="false" >
+                	<field name="width" type="text" class="text-short" default="177" label="Width" setinoverride="false" />
+                	<field name="height" type="text" class="text-short" default="114" label="Height" setinoverride="false" />
+                	<field name="position" type="selectbox" default="img-left" label="Position" setinoverride="false">
+                		<option value="img-left">Left</option>
+                		<option value="img-right">Right</option>
+                	</field>
+                </fields>
+
+                <fields name="webfonts" type="chain" label="WebFonts">
+                    <field name="enabled" type="toggle" default="0" label="Show"/>
+                    <field name="source" type="selectbox" default="google" label="WebFonts Source">
+                        <option value="google">Google Font Directory</option>
+                    </field>
+                </fields>
+
+                <fields name="font" type="chain" label="Font Settings">
+                     <field name="family" type="fonts" default="helvetica" label="Font Family" isbodyclass="true" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true">
+                        <option value="geneva">Geneva</option>
+                        <option value="georgia">Georgia</option>
+                        <option value="helvetica">Helvetica</option>
+                        <option value="lucida">Lucida</option>
+                        <option value="optima">Optima</option>
+                        <option value="palatino">Palatino</option>
+                        <option value="trebuchet">Trebuchet</option>
+                    </field>
+                    <field name="size" type="hidden" default="default" setbyurl="true"/>
+                    <field name="size-is" type="selectbox" default="default" label="Font Size" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" isbodyclass="true">
+                        <option value="xsmall">X-Small</option>
+                        <option value="small">Small</option>
+                        <option value="default">Default</option>
+                        <option value="large">Large</option>
+                        <option value="xlarge">X-Large</option>
+                    </field>
+                </fields>
+                
+                <field name="wordpress-comments" type="toggle" default="1" label="Use Wordpress Comments"/>
+            </fieldset>
+            <fieldset name="gizmos" label="Gizmos">
+                <field name="gizmosettings" type="html" panel_position="right" show_label="false">
+					<html><![CDATA[
+					<h2>Gizmos Settings</h2>
+
+					<p>The Gizmos Settings allow you to control the built-in functionality available in this theme. Checkout the help information below to find out all the details on what each gizmo provides and how to configure or setup the gizmo.</p>
+					]]></html>
+				</field>
+                <field name="gizmostips" type="tips" tab="gizmos" panel_position="right" show_label="false"/>
+                
+                <fields name="styledeclaration" type="chain" label="Overlay Check">
+		        	<field name="overlaycheck" type="toggle" default="1" label="Enable" />
+		        	<field name="enabled" type="hidden" default="1" />
+		        	<field name="prority" type="hidden" default="1" />
+		        </fields>
+
+                <field name="belatedpng-priority" type="hidden" default="8"/>
+
+				<fields name="pagesuffix" type="chain" label="Page Class Suffix">
+                    <field name="enabled" type="toggle" default="0" label="Enable"/>
+                    <field name="class" type="text" default="" class="text-long" label="Class"/>
+                    <field name="priority" type="hidden" default="2"/>
+                </fields>
+
+                <fields name="feedlinks" type="chain" label="Feed Links">
+                    <field name="enabled" type="toggle" default="1" label="Show"/>
+                    <field name="priority" type="hidden" default="1"/>
+                </fields>
+
+                <field name="ie6-priority" type="hidden" default="5"/>
+
+                <fields name="ie6warn" type="chain" label="IE6 Warning">
+                    <field name="enabled" type="toggle" default="1" label="Show"/>
+                    <field name="delay" type="text" default="2000" label="Delay" class="text-short"/>
+                    <field name="priority" type="hidden" default="9"/>
+                </fields>
+
+                <field name="iphonegradients-priority" type="hidden" default="4"/>
+
+                <field name="iphoneimages-priority" type="hidden" default="6"/>
+
+                <field name="jstools-priority" type="hidden" default="10"/>
+
+                <field name="rtl-priority" type="hidden" default="7"/>
+
+                <fields name="smartload" type="chain" label="Smart-Load Images">
+                    <field name="enabled" type="toggle" default="0" label="Show"/>
+                    <field name="text" type="text" default="50" label="Offset Y" class="text-short"/>
+                    <!--<field name="ignores" type="text" default="com_contact" label="Component Ignores"-->
+                           <!--class="text-medium"/>-->
+                    <field name="exclusion" type="text" default="" label="XPath Ignores" class="text-long"/>
+                    <field name="priority" type="hidden" default="11"/>
+                </fields>
+                
+                <field name="childcss-priority" type="hidden" default="100"/>
+
+                <field name="thumbnails-priority" type="hidden" default="1"/>
+
+                <field name="title-priority" type="hidden" default="5"/>
+
+                <field name="webfonts-priority" type="hidden" default="5"/>
+                
+                <fields name="typographyshortcodes" type="chain" label="Typography Shortcodes">
+                    <field name="enabled" type="toggle" default="1" label="Enable"/>
+                    <field name="priority" type="hidden" default="2"/>
+                </fields>
+
+                <fields name="widgetshortcodes" type="chain" label="Shortcodes in Widgets">
+                    <field name="enabled" type="toggle" default="1" label="Enable"/>
+                    <field name="priority" type="hidden" default="2"/>
+                </fields>
+
+                 <fields name="analytics" type="chain" label="Analytics">
+		            <field name="enabled" type="toggle" default="0" label="Enable" />
+		            <field name="code" type="text" default="" label="Code" class="text-long" />
+                    <field name="priority" type="hidden" default="3"/>
+		        </fields>
+
+            </fieldset>
+            <fieldset name="layouts" label="Layouts">
+
+            	<field name="layoutsettings" type="html" panel_position="right" show_label="false">
+					<html><![CDATA[
+					<h2>Layouts Settings</h2>
+
+					<p>Through the power of the Gantry Framework, you have complete control over the layout of your pages. Each position element can be configured for the number of sets of published widgets in that position.  If you have 3 sets of widgets (i.e. widgets separated by 2 dividers), click the number <b>3</b> and then move the slider to the desired ratio for the layout you are trying to achieve.</p>
+					]]></html>
+				</field>
+				<field name="layoutstips" type="tips" tab="layouts" panel_position="right" show_label="false"/>
+
+                <fields name="top" type="position" label="Top Position">
+                    <field name="layout" type="positions" default="5,7" label="">
+                        <schemas>1,2,3,4,5,6</schemas>
+                        <words>2,3,4,5,6,7,8,9,10</words>
+                    </field>
+                    <field name="showall" type="toggle" default="0" label="Force Positions"/>
+                    <field name="showmax" type="showmax" default="6" label="Position Count"/>
+                </fields>
+
+                <fields name="header" type="position" label="Header Position">
+                    <field name="layout" type="positions" default="3,3,3,3" label="">
+                        <schemas>1,2,3,4,5,6</schemas>
+                        <words>2,3,4,5,6,7,8,9,10</words>
+                    </field>
+                    <field name="showall" type="toggle" default="0" label="Force Positions"/>
+                    <field name="showmax" type="showmax" default="6" label="Position Count"/>
+                </fields>
+
+                <fields name="showcase" type="position" label="Showcase Position">
+                    <field name="layout" type="positions" default="3,3,3,3" label="">
+                        <schemas>1,2,3,4,5,6</schemas>
+                        <words>2,3,4,5,6,7,8,9,10</words>
+                    </field>
+                    <field name="showall" type="toggle" default="0" label="Force Positions"/>
+                    <field name="showmax" type="showmax" default="6" label="Position Count"/>
+                </fields>
+
+                <fields name="feature" type="position" label="Feature Position">
+                    <field name="layout" type="positions" default="3,3,3,3" label="">
+                        <schemas>1,2,3,4,5,6</schemas>
+                        <words>2,3,4,5,6,7,8,9,10</words>
+                    </field>
+                    <field name="showall" type="toggle" default="0" label="Force Positions"/>
+                    <field name="showmax" type="showmax" default="6" label="Position Count"/>
+                </fields>
+                
+                <fields name="utility" type="position" label="Utility Position">
+                    <field name="layout" type="positions" default="3,3,3,3" label="">
+                        <schemas>1,2,3,4,5,6</schemas>
+                        <words>2,3,4,5,6,7,8,9,10</words>
+                    </field>
+                    <field name="showall" type="toggle" default="0" label="Force Positions"/>
+                    <field name="showmax" type="showmax" default="6" label="Position Count"/>
+                </fields>
+
+                <fields name="maintop" type="position" label="MainTop Position">
+                    <field name="layout" type="positions" default="3,3,3,3" label="">
+                        <schemas>1,2,3,4,5,6</schemas>
+                        <words>2,3,4,5,6,7,8,9,10</words>
+                    </field>
+                    <field name="showall" type="toggle" default="0" label="Force Positions"/>
+                    <field name="showmax" type="showmax" default="6" label="Position Count"/>
+                </fields>
+
+                <field name="mainbodyPosition" type="positions" default="6,3,3" label="MainBody Position">
+                    <schemas>1,2,3,4</schemas>
+                    <words>sa,sb,sc,mb</words>
+                    <type>custom</type>
+                </field>
+
+                <fields name="mainbottom" type="position" label="MainBottom Position">
+                    <field name="layout" type="positions" default="3,3,3,3" label="">
+                        <schemas>1,2,3,4,5,6</schemas>
+                        <words>2,3,4,5,6,7,8,9,10</words>
+                    </field>
+                    <field name="showall" type="toggle" default="0" label="Force Positions"/>
+                    <field name="showmax" type="showmax" default="6" label="Position Count"/>
+                </fields>
+
+                <fields name="bottom" type="position" label="Bottom Position">
+                    <field name="layout" type="positions" default="3,3,3,3" label="">
+                        <schemas>1,2,3,4,5,6</schemas>
+                        <words>2,3,4,5,6,7,8,9,10</words>
+                    </field>
+                    <field name="showall" type="toggle" default="0" label="Force Positions"/>
+                    <field name="showmax" type="showmax" default="6" label="Position Count"/>
+                </fields>
+
+                <fields name="footer" type="position" label="Footer Position">
+                    <field name="layout" type="positions" default="3,3,3,3" label="">
+                        <schemas>1,2,3,4,5,6</schemas>
+                        <words>2,3,4,5,6,7,8,9,10</words>
+                    </field>
+                    <field name="showall" type="toggle" default="0" label="Force Positions"/>
+                    <field name="showmax" type="showmax" default="6" label="Position Count"/>
+                </fields>
+            </fieldset>
+            <fieldset name="iphone" label="iPhone">
+            	<field name="iphonesettings" type="html" panel_position="right" show_label="false">
+					<html><![CDATA[
+					<h2>iPhone Settings</h2>
+
+					<p>The iPhone settings available in this interface allow you to control the style and functionality of the iPhone costum theme which is a powerful feature included in the Gantry Framework. For more detailed information on each settings and how it is being used, please refer to the help information below.</p>
+					]]></html>
+				</field>
+				<field name="iphonetips" type="tips" tab="iphone" panel_position="right" show_label="false"/>
+
+                <field name="iphone-enabled" type="toggle" default="1" label="iPhone Enabled"/>
+                <field name="iphone-scalable" type="toggle" default="0" label="iPhone Scalable"/>
+
+                <fields name="iphoneimages" type="chain" default="" label="iPhone Images">
+                    <field name="enabled" type="toggle" default="1" label="Enabled"/>
+                    <field name="minWidth" default="80" type="text" class="text-short" label="Min-Width"/>
+                    <field name="percentage" default="33" type="selectbox" label="Percentage">
+                        <option value="75">75%</option>
+                        <option value="50">50%</option>
+                        <option value="33">33%</option>
+                        <option value="25">25%</option>
+                    </field>
+                </fields>
+                <fields name="mobile" type="columns" label="Positions Aliases">
+                    <field name="drawer" type="alias" default="drawer" label="Drawer" show_label="false" position="left"/>
+                    <field name="top" type="alias" default="top-a" label="Top" show_label="false" position="left"/>
+                    <field name="header" type="alias" default="header-a" label="Header" show_label="false" position="left"/>
+                    <field name="navigation" type="alias" default="mobile-navigation" label="Navigation" show_label="false" position="left"/>
+                    <field name="showcase" type="alias" default="mobile-showcase" label="Showcase" show_label="false" position="left"/>
+                    <field name="footer" type="alias" default="footer-a" label="Footer" show_label="false" position="left"/>
+                    <field name="copyright" type="alias" default="copyright" label="Copyright" show_label="false" position="left"/>
+                </fields>
+            </fieldset>
+            <fieldset name="advanced" description="" label="Advanced">
+
+            	<field name="advancedsettings" type="html" panel_position="right" show_label="false">
+					<html><![CDATA[
+					<h2>Advanced Settings</h2>
+
+					<p>The Advanced Settings panel in the Gantry based theme administration interface includes a variety of powerful features that you can take advantage off within your WordPress site. Please refer to the help information below to find out further details on what every setting is used for.</p>
+					]]></html>
+				</field>
+				<field name="advancedtips" type="tips" tab="advanced" panel_position="right" show_label="false"/>
+
+                <fields name="cache" type="chain" label="Gantry Cache" setinoverride="false">
+                    <field name="enabled" type="toggle" default="1" label="Enabled" setinoverride="false"/>
+                    <field name="time" type="text" default="900" label="Cache Time" class="text-short"
+                           description="Cache timeout in ms" setinoverride="false"/>
+                </fields>
+
+                <fields name="gzipper" type="chain" label="Gantry GZipper" setinoverride="false">
+                    <field name="enabled" type="toggle" default="0" label="Enabled" setinoverride="false"/>
+                    <field name="time" type="text" default="600" label="Cache Time" class="text-short" setinoverride="false"/>
+                    <field name="expirestime" type="text" default="1440" label="Expires Time" class="text-short" setinoverride="false"/>
+                    <field name="stripwhitespace" type="toggle" default="1" label="Strip Whitespace"
+                           setinoverride="false"/>
+                </fields>
+
+                <fields name="inputstyling" type="chain" label="Input Styling">
+                    <field name="enabled" type="toggle" default="1" label="Enabled"/>
+                    <field name="exclusions" type="text" default="'.content_vote,#rt-popup'" label="Exclusions"
+                           class="text-long"/>
+                </fields>
+
+				<field name="demostyles-enabled" type="toggle" default="1" label="Demo Styles"/>
+
+                <field name="component-enabled" type="toggle" default="1" label="Content"/>
+                
+                <field name="rtl-enabled" type="toggle" default="1" label="RTL" setinoverride="false"/>
+
+                <field name="buildspans-enabled" type="toggle" default="1" label="Title Spans"/>
+                
+                <field name="texturize-enabled" type="toggle" default="0" label="Disable Texturize"/>
+
+            </fieldset>
+        </fields>
+    </config>
+</theme>

@@ -1,0 +1,670 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Style Style Sheet - Defines the main look like colors and backgrounds
+ * Not all style related CSS is included, only colors and backgrounds which may change for different theme styles
+ */
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+/* Dark Blue */
+body,
+h1,
+h3,
+.menu-line a:hover,
+.mod-stamp .menu-sidebar a.level1:hover > span,
+.mod-stamp .menu-sidebar span.level1:hover > span,
+.mod-box a:hover,
+#system .title a,
+.breadcrumbs a:hover,
+.wk-slideshow-tabs-steam .nav li,
+.wk-slideshow-tabs-steam .slides > li > article li { color: #1F4E72; }
+
+/* Dark Subtle Blue */
+.mod-stamp .menu-sidebar a.level1 > span,
+.mod-stamp .menu-sidebar span.level1 > span,
+.mod-stamp .menu-sidebar .level2 a,
+.mod-stamp h1,
+.mod-stamp h2,
+.mod-stamp h4,
+.mod-stamp h5,
+.mod-stamp .module-title,
+.mod-headline .module-title,
+.mobile-switcher:hover,
+.zoo-item-list p.meta,
+.zoo-comments-list .meta,
+.searchbox .results { color: #5DACC3; }
+
+/* Dark Blue */
+a:hover,
+.menu-dropdown a.level3:hover,
+.menu-sidebar a.active > span,
+.menu-sidebar li > span.active > span,
+.menu-sidebar a.current > span,
+.menu-sidebar a.level1:hover > span,
+.menu-sidebar span.level1:hover > span,
+.mod-stamp a:hover,
+#page a.button-more:hover,
+#system .title a:hover { color: #0d3350; }
+
+/* Blue */
+a,
+small,
+ins,
+h5,
+code,
+em.box,
+.menu-sidebar .level2 a,
+.menu-line a,
+.mod-stamp a,
+.mod-stamp code,
+#page a.button-more,
+form.box fieldset legend,
+.mobile-switcher,
+#system .item > header .meta,
+#system .item > header .subtitle,
+.breadcrumbs a,
+.wk-slideshow-tabs-steam .nav li:hover { color: #178DC4; }
+
+/* White */
+h2,
+mark,
+.menu-dropdown li.active .level1,
+.menu-dropdown a.level2.current,
+.menu-dropdown a.level3.current,
+.menu-sidebar a.level1 > span,
+.menu-sidebar span.level1 > span,
+.menu-sidebar .level2 a:hover,
+.mod-box .menu-sidebar a.level1:hover > span,
+.mod-box .menu-sidebar span.level1:hover > span,
+.mod-box .menu-sidebar a.active > span,
+.mod-box .menu-sidebar .level1 > span.active > span,
+.mod-box .menu-sidebar .level1 .current > span,
+.mod-box .menu-sidebar .level2 a:hover,
+.mod-box .menu-sidebar .level2 .current > span,
+.mod-stamp .menu-sidebar .level2 a:hover,
+.mod-box h1,
+.mod-box h3,
+.mod-box a,
+.mod-box code,
+.mod-box em.box,
+.mod-box .module-title,
+.box-note code,
+.box-info code,
+.box-warning code,
+.box-hint code,
+.box-download code,
+#page form.style input:focus,
+#page form.style textarea:focus,
+#page form.style select:focus,
+#page form.style button:hover,
+#page form.style input[type="button"]:hover,
+.pagination a:hover,
+.wk-slideshow-tabs-steam .nav li.active,
+.wk-slideshow-tabs-steam .slides > li > article li span.date,
+.color-light,
+#bottom-c .demo-ticket h2,
+#bottom-c .color-light { color: #FFF; }
+
+/* Light Blue */
+pre,
+.menu-dropdown .module,
+.menu-dropdown .module a:hover,
+.mod-box h2,
+.mod-box h4,
+.mod-box h5,
+.mod-box,
+.mod-stamp-header-ribbon h3.module-title,
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download,
+form.style input,
+form.style button,
+form.style input[type="button"],
+form.style select,
+form.style textarea,
+#system .item > header time,
+.breadcrumbs strong,
+#system #comments .comment-head .meta,
+#bottom-c .demo-ticket h2 > span { color: #B0EDFF; }
+
+/* Dark Navy Blue */
+.mod-stamp .menu-sidebar a.active > span,
+.mod-stamp .menu-sidebar li > span.active > span,
+.mod-stamp .menu-sidebar .level2 .current > span,
+.mod-stamp,
+.mod-stamp .zoo-item-list p.meta,
+.mod-stamp .zoo-comments-list .meta { color: #2C6B87; }
+
+/* Light Blue */
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1,
+.menu-dropdown a.level2:hover,
+.mod-box .menu-sidebar a.level1 > span,
+.mod-box .menu-sidebar span.level1 > span,
+.mod-box .menu-sidebar .level2 a,
+.searchbox .results li.result h3,
+.searchbox .results li.more-results:hover,
+.pagination a { color: #B4F7FF; }
+
+/* Menubar Mid Blue */
+.menu-dropdown a.level1,
+.menu-dropdown span.level1,
+.menu-dropdown a.level2,
+.menu-dropdown span.level2,
+.menu-dropdown a.level3,
+.menu-dropdown .module a { color: #93C5E1; }
+
+mark { background-color: #178DC4; text-shadow: none; }
+hr { border-color: #178DC4; }
+
+pre {
+	background-color: #1F4E72;
+	box-shadow:
+		inset 0 1px 2px rgba(0,0,0,0.3),
+		0 1px 0 rgba(255,255,255,0.2);
+	text-shadow: none;
+}
+
+::-moz-selection { background: #FFF; color: #2C6B87; }
+::selection { background: #FFF; color: #2C6B87; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+body#page {
+	background: #a1dee7 url(../images/background/page.jpg) 0 0 repeat;
+	text-shadow: 1px 2px 0 rgba(0,107,138,0.1);
+}
+
+@media (min-device-width: 1025px)  {
+
+	#page-bg {
+		background: url(../images/background/page_gradient_dark.svg) 50% 0 fixed no-repeat;
+		background-size: 2560px 400%;
+	}
+
+	#page-bg > div {
+		background: url(../images/background/page_gradient_light.svg) 50% -450px no-repeat;
+		background-size: 1200px 900px;
+	}
+
+}
+
+/* Menubar */
+#menubar > div,
+#menubar > div > div,
+#menubar > div > div > div { background-image: url(../images/menubar.png); }
+
+/* Sections */
+#top-b,
+#bottom-b,
+hr.stars,
+#breadcrumbs,
+#system .items .item,
+#system .items .leading .item { background-image: url(../images/line_stars.png); }
+
+/* Totop Scroller */
+#totop-scroller { background-image: url(../images/totop_scroller.png); }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Menu-Dropdown */
+.menu-dropdown { text-shadow: 0 1px 0 rgba(0,0,0,0.2); }
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 { background-image: url(../images/menu_dropdown_level1.png); }
+
+.menu-dropdown .module a { text-shadow: 0 1px 0 rgba(0,0,0,0.2); }
+
+.menu-dropdown .dropdown-bg:before { background-image: url(../images/menu_dropdown_dropdown_arrow.png); }
+
+.menu-dropdown .dropdown-bg > div,
+.searchbox .results {
+	border-color: rgba(0,0,0,0.9);
+	background-image: url(../images/menu_dropdown_dropdown.png);
+	background-clip: padding-box;
+	box-shadow: 1px 1px 0 rgba(0,107,138,0.1);
+}
+
+.menu-dropdown .column ul.level2 { background-image: url(../images/menu_dropdown_columns.png); }
+
+.menu-dropdown li.level2 { background-image: url(../images/menu_dropdown_level2.png); }
+
+.menu-dropdown a.level3 { background-image: url(../images/menu_dropdown_level3.png); }
+
+.menu-dropdown a.level3:hover {
+	background-color: #7CB8DC;
+	text-shadow: none;
+}
+
+/* Menu-Sidebar (Default) */
+.menu-sidebar li.level1 { background-image: url(../images/menu_sidebar_level1.png); }
+
+.menu-sidebar a.level1:hover > span,
+.menu-sidebar li > span.level1:hover > span,
+.menu-sidebar a.active,
+.menu-sidebar li > span.active { text-shadow: 0 1px 0 rgba(255,255,255,0.2); }
+
+.menu-sidebar li.parent .level1 > span { background-image: url(../images/menu_sidebar_parent.png); }
+
+.menu-sidebar .level2 a { background-image: url(../images/menu_sidebar_level2.png); }
+.menu-sidebar .level2 a:hover {
+	background-color: #178DC4;
+	text-shadow: none;
+}
+
+.module .menu-sidebar a.current.level2:hover { background-color: transparent; }
+
+/* Menu-Sidebar (Module-Box) */
+.mod-box .menu-sidebar li.level1 { background-image: url(../images/mod_box_menu_sidebar_level1.png); }
+
+.mod-box .menu-sidebar a.level1:hover > span,
+.mod-box .menu-sidebar li > span.level1:hover > span,
+.mod-box .menu-sidebar a.active > span,
+.mod-box .menu-sidebar li > span.active > span { text-shadow: 0 2px 0 rgba(0,107,138,0.15); }
+
+.mod-box .menu-sidebar li.parent .level1 > span { background-image: url(../images/mod_box_menu_sidebar_parent.png); }
+
+.mod-box .menu-sidebar .level2 a { background-image: url(../images/mod_box_menu_sidebar_level2.png); }
+.mod-box .menu-sidebar .level2 a:hover {
+	background-color: #204F73;
+	text-shadow: none;
+}
+
+/* Menu-Sidebar (Module-Samp) */
+.mod-stamp .menu-sidebar li.level1 { background-image: url(../images/mod_stamp_menu_sidebar_level1.png); }
+
+.mod-stamp .menu-sidebar a.active > span,
+.mod-stamp .menu-sidebar li > span.active > span { text-shadow: 0 1px 0 rgba(255,255,255,0.1); }
+
+.mod-stamp .menu-sidebar li.parent .level1 > span { background-image: url(../images/mod_stamp_menu_sidebar_parent.png); }
+
+.mod-stamp .menu-sidebar .level2 a {
+	background-image: url(../images/mod_stamp_menu_sidebar_level2.png);
+	text-shadow: none;
+}
+.mod-stamp .menu-sidebar .level2 a:hover {
+	background-color: #5DACC3;
+	text-shadow: none;
+}
+
+/* Menu-Line */
+.menu-line li a { background-image: url(../images/menu_line_item.png); }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+/* Module Badges */
+.module .badge { background-image: url(../images/module_badges.png); }
+
+/* Module Icons */
+.module .module-title .icon { background-image: url(../images/module_icons.png); }
+
+/* Module Type: Box */
+.mod-box {
+	background-image: url(../images/module_box.jpg);
+	box-shadow: inset 0 0 5px 1px rgba(0,107,138,0.2);
+	text-shadow: 0 2px 0 rgba(0,107,138,0.2);
+}
+
+.mod-box a:hover { text-shadow: 0 1px 0 rgba(255,255,255,0.2); }
+
+/* Module Type: Stamp */
+.mod-stamp { background-image: url(../images/module_stamp_t.png); }
+.mod-stamp > div { background-image: url(../images/module_stamp_b.png); }
+.mod-stamp > div > div {
+	background-image: url(../images/module_stamp.jpg);
+	text-shadow: 0 1px 0 rgba(255,255,255,0.1);
+}
+
+.mod-stamp-header-ribbon .module-title,
+.mod-stamp-header-ribbon .module-title:before,
+.mod-stamp-header-ribbon .module-title:after { background-image: url(../images/mod_stamp_header_ribbon.png); }
+
+.mod-stamp .module-title { text-shadow: 0 1px 0 rgba(255,255,255,0.4); }
+
+.mod-stamp-header-ribbon .module-title { text-shadow: 1px 2px 0 rgba(0,0,0,0.2); }
+
+.mod-stamp a { text-shadow: 0 1px 0 rgba(255,255,255,0.4); }
+
+.mod-stamp em.box { text-shadow: 0 1px 0 rgba(0,107,138,0.15); }
+
+/* Module Type: Line */
+.mod-line { background-image: url(../images/module_line.png); }
+.grid-v .mod-line,
+hr.line { background-image: url(../images/module_line_v.png); }
+
+/* Module Type: Headline */
+.mod-headline .module-title {
+	background-image: url(../images/mod_headline.png);
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+.mod-headline .module-title > span { background-image: url(../images/mod_headline_overlay.png); }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Button More */
+a.button-more,
+a.button-more:before,
+a.button-more:after {
+	background-image: url(../images/tools/button_more.png);
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+/* List Line */
+ul.line > li,
+.comments-list > article,
+.wk-twitter-list article,
+ul.zoo-list > li,
+.zoo-comments-list > article,
+#system .item-list { background-image: url(../images/tools/list_line.png); }
+
+.mod-box ul.line > li,
+.mod-box .comments-list > article,
+.mod-box .wk-twitter-list article,
+.mod-box ul.zoo-list > li,
+.mod-box .zoo-comments-list > article { background-image: url(../images/tools/mod_box_list_line.png); }
+
+.mod-stamp ul.line > li,
+.mod-stamp .comments-list > article,
+.mod-stamp .wk-twitter-list article,
+.mod-stamp ul.zoo-list > li,
+.mod-stamp .zoo-comments-list > article { background-image: url(../images/tools/mod_stamp_list_line.png); }
+
+/* List line Icon */
+#page ul.line-icon > li,
+#page ul.line-icon > li:first-child,
+#page .mod-line ul.line-icon > li,
+#page .mod-line ul.line-icon > li:first-child { background-image: url(../images/tools/list_icon.png); }
+
+#page .mod-box ul.line-icon > li,
+#page .mod-box ul.line-icon > li:first-child { background-image: url(../images/tools/mod_box_list_icon.png); }
+
+#page .mod-stamp ul.line-icon > li,
+#page .mod-stamp ul.line-icon > li:first-child { background-image: url(../images/tools/mod_stamp_list_icon.png); }
+
+/* List Check */
+ul.check > li { background-image: url(../images/tools/list_check.png); }
+.mod-box ul.check > li { background-image: url(../images/tools/mod_box_list_check.png); }
+.mod-stamp ul.check > li { background-image: url(../images/tools/mod_stamp_list_check.png); }
+
+/* List Zebra */
+ul.zebra > li.odd { background-image: url(../images/tools/list_zebra.png); }
+ul.zebra > li:nth-of-type(odd) { background-image: url(../images/tools/list_zebra.png); }
+
+.mod-box ul.zebra > li.odd { background-image: url(../images/tools/mod_box_list_zebra.png); }
+.mod-box ul.zebra > li:nth-of-type(odd) { background-image: url(../images/tools/mod_box_list_zebra.png); }
+
+.mod-stamp ul.zebra > li.odd { background-image: url(../images/tools/mod_stamp_list_zebra.png); }
+.mod-stamp ul.zebra > li:nth-of-type(odd) { background-image: url(../images/tools/mod_stamp_list_zebra.png); }
+
+/* Tables */
+table.zebra tbody td,
+table.zebra tbody tr:first-child td {
+	border-color: #78c3d5;
+	border-color: rgba(0,107,138,0.2);
+}
+
+/* Inline Text Box */
+em.box,
+table.zebra tbody tr.odd,
+.box-content { background-image: url(../images/tools/em_box.png); }
+.mod-box em.box,
+.mod-box table.zebra tbody tr.odd,
+.mod-box .box-content { background-image: url(../images/tools/mod_box_em_box.png); }
+.mod-stamp em.box,
+.mod-stamp table.zebra tbody tr.odd,
+.mod-stamp .box-content { background-image: url(../images/tools/mod_stamp_em_box.png); }
+
+/* Dotted Horizontal Rule */
+hr.dotted { background-image: url(../images/tools/line_dotted.png); }
+
+/* Definition Lists */
+dl.separator dd,
+dl.separator dt:before,
+dl.separator dt:after { border-color: #178DC4; }
+
+dl.separator dt:after { background: #1F4E72; }
+
+/* Boxes */
+.box-content {
+	border-color: #78c3d5;
+	border-color: rgba(0,107,138,0.2);
+}
+
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download,
+#system #comments .comment-head,
+.mobile-switcher {
+	background-color: #178DC4;
+	box-shadow:
+		inset 0 0 8px rgba(0,107,138,0.05),
+		0 1px 0 rgba(0,107,138,0.15);
+	text-shadow: none;
+}
+
+.box-info { background-image: url(../images/tools/box_info.png); }
+.box-warning { background-image: url(../images/tools/box_warning.png); }
+.box-hint { background-image: url(../images/tools/box_hint.png); }
+.box-download { background-image: url(../images/tools/box_download.png); }
+
+/* Form Styles */
+form.box fieldset,
+#system .author-box {
+	border-color: #d1eef4;
+	border-color: rgba(255,255,255,0.4);
+}
+
+form.style input,
+form.style button,
+form.style input[type="button"],
+form.style select,
+form.style textarea {
+	background-color: #204F73;
+	border: 1px solid transparent;
+	box-shadow: 0 1px 1px rgba(0,107,138,0.1);
+}
+
+form.style input:focus,
+form.style button:hover,
+form.style input[type="button"]:hover,
+form.style select:focus,
+form.style textarea:focus {
+	border-color: #08253a;
+	background-color: #0d3350;
+}
+
+form.short input:-moz-placeholder { color: #7EEBFF; }
+form.short input::-webkit-input-placeholder { color: #7EEBFF; }
+
+#menu .module form.short input {
+	border: none;
+	background: #204F73;
+	background: rgba(0,0,0,0.3);
+	box-shadow:
+		inset 0 1px 1px rgba(0,0,0,0.4),
+		inset 0 0 0 1px rgba(0,0,0,0.2),
+		0 1px 0 rgba(255,255,255,0.1);
+	color: #B0EBFF;
+}
+
+#menu .module form.short input:focus {
+	background: #0d3350;
+	color: #FFF;
+}
+
+#menu .module form.short button {
+	border: none;
+	background: #0d3350;
+	box-shadow: none;
+	color: #7EEBFF;
+}
+
+#menu .module form.short button:hover {
+	background: #072134;
+	box-shadow: none;
+	color: #FFF;
+}
+
+#menu .module form.short button:focus { box-shadow: inset 0 1px 2px rgba(0,107,138,0.7); }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Article Time */
+#system .item > header time {
+	background-image: url(../images/system_time.png);
+	text-shadow: 0 2px 0 rgba(0,107,138,0.1);
+}
+
+/* Search Box */
+.searchbox {
+	background-image: url(../images/searchbox.png);
+	background-clip: padding-box;
+	box-shadow:
+		inset 0 1px 0 rgba(0,107,138,0.2),
+		0 1px 0 rgba(255,255,255,0.2);
+}
+
+.searchbox:hover {
+	box-shadow:
+		inset 0 1px 1px rgba(0,107,138,0.35),
+		0 1px 0 rgba(255,255,255,0.2);
+}
+
+.searchbox.filled button { background-image: url(../images/searchbox_reset.png); }
+.searchbox.loading button { background-image: url(../images/searchbox_loader.gif); }
+
+.searchbox input {
+	color: #FFF;
+	text-shadow: 0 1px 0 rgba(0,107,138,0.1);
+}
+
+.searchbox input:-moz-placeholder { color: #FFF; }
+.searchbox input::-webkit-input-placeholder { color: #FFF; }
+.searchbox input.placeholder { color: #FFF; }
+
+.searchbox .results li.results-header,
+.searchbox .results li.more-results,
+.searchbox .results li.result { background-image: url(../images/searchbox_results.png); }
+
+.searchbox .results  { text-shadow: 0 1px 0 rgba(0,0,0,0.2); }
+
+.searchbox .results li.result.selected { background-color: #0e4f77; }
+
+/* Search Highlight */
+#system span.highlight { background: #178DC4; }
+
+/* Pagination */
+#system .pagination a,
+#system .pagination strong {
+	background: rgba(0,107,138,0.25);
+	box-shadow:
+		inset 0 1px 0 rgba(0,107,138,0.3),
+		inset 0 0 3px rgba(0,107,138,0.1),
+		0 1px 0 rgba(255,255,255,0.4);
+}
+
+#system .pagination a:hover {
+	background: rgba(0,107,138,0.35);
+	box-shadow:
+		inset 0 1px 0 rgba(0,107,138,0.4),
+		inset 0 0 3px rgba(0,107,138,0.2),
+		0 1px 0 rgba(255,255,255,0.4);
+}
+
+#system .pagination a.previous,
+#system .pagination a.next { background-image: url(../images/pagination.png); }
+
+/* Breadcrumbs */
+.breadcrumbs strong {
+	background-image: url(../images/breadcrumbs_strong.png);
+	box-shadow:
+		inset 0 1px 0 rgba(0,107,138,0.2),
+		0 1px 0 rgba(255,255,255,0.2);
+}
+
+/* Comments */
+#system #comments .comment-byadmin .comment-head {
+	border-color: #1F4E72;
+	box-shadow: 0 1px 8px rgba(0,107,138,0.2);
+}
+
+#system #comments ul.level1 ul { background-image: url(../images/comments_arrow.png); }
+
+
+/* Extensions
+----------------------------------------------------------------------------------------------------*/
+
+/* Widgetkit Slideshow Tabs - Steam */
+.wk-slideshow-tabs-steam .nav li:hover { text-shadow: 0 1px 0 rgba(255,255,255,0.2); }
+.wk-slideshow-tabs-steam .nav li.active {
+	background-color: #178DC4;
+	text-shadow: none;
+}
+
+.wk-slideshow-tabs-steam .nav li { text-shadow: 0 1px 0 rgba(0,107,138,0.1); }
+
+.wk-slideshow-tabs-steam .slides > li > article li span.date {
+	background-color: #178DC4;
+	box-shadow: 1px 2px 0 rgba(0,107,138,0.1);
+	text-shadow: none;
+}
+
+/* Widgetkit Accordion */
+.wk-accordion-default .toggler {
+	background: #2C6B87;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	color: #FFF;
+	text-shadow: 0 1px 0 rgba(0,107,138,0.1);
+}
+
+/* Widgetkit Twitter */
+.wk-twitter-single.image { background-image: url(../images/widgetkit/bird.png); }
+
+.wk-twitter-bubbles .content,
+.wk-twitter .image {
+	background-image: url(../images/widgetkit/bubble.png);
+	color: #2C6B87;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.wk-twitter-bubbles .content:after { background-image: url(../images/widgetkit/arrow.png); }
+
+.wk-twitter-list article:first-child {
+	padding-top: 0;
+	padding-bottom: 10px;
+	background: none;
+}
+
+
+/* System White
+----------------------------------------------------------------------------------------------------*/
+
+.system-white #content a,
+.system-white #content h1,
+.system-white #content #system .title a,
+.wk-map .wk-content a { color: #178DC4; }
+
+.system-white #content em,
+.system-white #content code,
+.system-white #content h3,
+.wk-map .wk-content a:hover { color: #178DC4; }
+
+.system-white #content h2,
+.system-white #content h4 { color: #178DC4; }

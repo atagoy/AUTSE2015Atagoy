@@ -1,0 +1,50 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Twitter Widgetkit */
+
+.wk-twitter.image { 
+	padding: 0;
+	background: none;
+}
+
+.wk-twitter .content { 
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 15px;
+	background: url(../images/module_box_dark_sidebar_header.png) 0 0 repeat-x;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.wk-twitter-list article { 
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 15px;
+	border-top: 1px solid rgba(0,0,0,0.18);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.wk-twitter-list article:first-child { box-shadow: none;}
+.wk-twitter-list .content { background-image: none; }
+
+#page .wk-twitter-bubbles .content a { 
+	color: #739ABE; 
+	text-shadow: none;
+}
+
+#page .wk-twitter-bubbles .content a:hover { color: #44484D; }
+
+.wk-twitter-bubbles .content {
+	margin: 0 5px;
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+	background-image: none;
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	color: #92979E;
+	font-size: 16px;
+}
+

@@ -1,0 +1,39 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Background White Noise */
+
+body#page {	background: #f3f4f3 url(../../images/background/whitenoise/noise_bg.jpg) 0 0 repeat; }
+
+@media (min-device-width: 1025px) {
+	.page-body { 
+		background: url(../../images/background/whitenoise/gradient.svg) 50% 0 no-repeat fixed,
+					url(../../images/background/whitenoise/noise_bg.jpg) 0 0 repeat;
+		background-size: 100% 100%, 100px 100px;
+	}
+}
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	#main #maininner,
+	#page.sidebar-a-right.sidebar-b-left #maininner,
+	#page.sidebar-a-left.sidebar-b-right #maininner { 
+		border-left: 1px solid rgba(20,20,25,0.3); 
+		border-right: 1px solid rgba(20,20,25,0.3);
+	}
+
+}
+
+/* Font Color
+----------------------------------------------------------------------------------------------------*/
+
+.menu-line li a,
+.outer .mod-transparent li a { 
+	color: #92979E;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+} 
+
+.outer .mod-transparent li a:hover { 
+	color: #5e6268;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}

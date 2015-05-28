@@ -1,0 +1,137 @@
+/*
++----------------------------------------------------------------+
+|																							|
+|	WordPress 2.5 Plugin: WP-PageNavi 2.31									|
+|	Copyright (c) 2008 Lester "GaMerZ" Chan									|
+|																							|
+|	File Written By:																	|
+|	- Lester "GaMerZ" Chan															|
+|	- http://lesterchan.net															|
+|																							|
+|	File Information:																	|
+|	- Page Navigation CSS Style													|
+|	- wp-content/plugins/wp-pagenavi/pagenavi-css.css					|
+|																							|
++----------------------------------------------------------------+
+*/
+
+.wp-pagenavi {
+	float:left;
+	width:500px;
+	padding:10px; 
+	background:#372C24; 
+	border:1px solid #422F1B; 
+}
+.wp-pagenavi a, .wp-pagenavi a:link {
+	font-size:11px;
+	background:#efefef;
+	text-align:center;
+	text-decoration:none;
+	color:#333;
+	float:left;
+	display:block;
+	padding:4px 10px 3px 10px;
+	margin:0 0 0 5px;
+	border:1px solid #CCC;
+}
+.wp-pagenavi a:visited {
+	font-size:11px;
+	background:#efefef;
+	text-align:center;
+	text-decoration:none;
+	color:#333;
+	float:left;
+	display:block;
+	padding:4px 10px 3px 10px;
+	margin:0 0 0 5px;
+	border:1px solid #CCC;
+}
+.wp-pagenavi a:hover {	
+	font-size:11px;
+	background:#cfcfcf;
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+	padding:4px 10px 3px 10px;
+	margin:0 0 0 5px;
+	border:1px solid #CCC;
+}
+.wp-pagenavi span.pages {
+	font-size:11px;
+	background:#efefef;
+	text-align:center;
+	text-decoration:none;
+	color:#333;
+	float:left;
+	display:block;
+	padding:4px 10px 3px 10px;
+	border:1px solid #CCC;
+}
+.wp-pagenavi span.current {
+	font-size:11px;
+	background:#cfcfcf;
+	text-align:center;
+	text-decoration:none;
+	color:#333;
+	float:left;
+	display:block;
+	font-weight:bold;
+	padding:4px 10px 3px 10px;
+	margin:0 0 0 5px;
+	border:1px solid #AAA;
+}
+.wp-pagenavi span.extend {
+	font-size:11px;
+	background:#efefef;
+	text-align:center;
+	text-decoration:none;
+	color:#333;
+	float:left;
+	display:block;
+	padding:4px 10px 3px 10px;
+	margin:0 0 0 5px;
+	border:1px solid #CCC;
+}
+
+
+/*NAVIGATION*/
+/*.navigation ul {
+	float:right;
+}
+.navigation ul li {
+	float:left;
+}
+.navigation ul li a:link, .navigation ul li a:visited {
+	font-size:11px;
+	background:#FFF url(../img/form-shadow.jpg) repeat-x top;
+	text-align:center;
+	text-decoration:none;
+	color:#333;
+	float:left;
+	display:block;
+	padding:4px 10px 3px 10px;
+	margin:10px 5px 0 0;
+	border:1px solid #CCC;
+}
+.navigation ul li a:hover {
+	font-size:11px;
+	background:#FFF;
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+	padding:4px 10px 3px 10px;
+	margin:10px 5px 0 0;
+	border:1px solid #CCC;
+}
+.navigation ul li span {
+	font-size:11px;
+	background:#FFF url(../img/form-shadow.jpg) repeat-x top;
+	text-align:center;
+	text-decoration:none;
+	color:#333;
+	float:left;
+	display:block;
+	padding:4px 10px 3px 10px;
+	margin:10px 5px 0 0;
+	border:1px solid #CCC;
+}*/

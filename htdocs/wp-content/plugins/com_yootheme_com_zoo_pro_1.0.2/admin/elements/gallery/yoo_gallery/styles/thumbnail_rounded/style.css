@@ -1,0 +1,45 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+div.rounded div.yoo-gallery div.thumbnail {
+	padding: 7px;
+	float: left;
+	position: relative;
+}
+
+div.rounded div.yoo-gallery div.corner-tl,
+div.rounded div.yoo-gallery div.corner-tr,
+div.rounded div.yoo-gallery div.corner-bl,
+div.rounded div.yoo-gallery div.corner-br {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	z-index: 1;
+}
+
+div.rounded div.yoo-gallery div.corner-tl {
+	top: 7px;
+	left: 7px;
+	background: url(styles/thumbnail_rounded/images/corners.png) -8px -8px no-repeat; /* ie6png:crop */
+}
+
+div.rounded div.yoo-gallery div.corner-tr {
+	top: 7px;
+	right: 7px;
+	background: url(styles/thumbnail_rounded/images/corners.png) 0 -8px no-repeat; /* ie6png:crop */
+}
+
+div.rounded div.yoo-gallery div.corner-bl {
+	bottom: 7px;
+	left: 7px;
+	background: url(styles/thumbnail_rounded/images/corners.png) -8px 0 no-repeat; /* ie6png:crop */
+}
+
+div.rounded div.yoo-gallery div.corner-br {
+	bottom: 7px;
+	right: 7px;
+	background: url(styles/thumbnail_rounded/images/corners.png) 0 0 no-repeat; /* ie6png:crop */
+}
+
+div.rounded div.yoo-gallery div.thumbnail img {
+	float: left;
+}

@@ -1,0 +1,22 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+h2,
+h3,
+h4,
+h5,
+h6 { font-family: "Lobster13Regular", sans-serif; text-transform: none; }
+
+h2 { font-size: 44px; line-height: 45px; }
+h3 { font-size: 36px; line-height: 37px; }
+h4 { font-size: 29px; line-height: 30px; }
+h5 { font-size: 22px; line-height: 23px; }
+h6 { font-size: 19px; line-height: 20px; }
+
+/* Frontpage Hgroup */
+#top-a hgroup > h2 { font-size: 44px; }
+
+/* Module Headline Module Title */
+.mod-headline .module-title { font-size: 18px; }
+
+/* Module Stamp Header Ribbon */
+.mod-stamp-header-ribbon .module-title { line-height: 38px; }

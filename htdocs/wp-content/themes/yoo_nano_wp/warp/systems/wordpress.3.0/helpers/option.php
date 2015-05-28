@@ -1,0 +1,63 @@
+<?php
+/**
+* @package   Warp Theme Framework
+* @file      option.php
+* @version   6.0.0
+* @author    YOOtheme http://www.yootheme.com
+* @copyright Copyright 2007 - 2011 YOOtheme GmbH
+* @license   YOOtheme Proprietary Use License (http://www.yootheme.com/license)
+*/
+
+/*
+	Class: OptionWarpHelper
+		Option helper class, store option data
+*/
+class OptionWarpHelper extends WarpHelper {
+
+    /*
+		Variable: prefix
+			Option prefix.
+    */
+	protected $prefix;
+
+	/*
+		Function: __construct
+			Class Constructor.
+	*/
+	public function __construct() {
+		parent::__construct();
+
+		// set prefix
+		$this->prefix = basename($this['path']->path('template:'));
+	}
+
+	/*
+		Function: get
+			Get a value from data
+
+		Parameters:
+			$name - String
+			$default - Mixed
+		Returns:
+			Mixed
+	*/
+	public function get($name, $default = null) {
+		return get_option($this->prefix.$name, $default);
+	}
+
+ 	/*
+		Function: set
+			Set a value
+
+		Parameters:
+			$name - String
+			$value - Mixed
+
+		Returns:
+			Void
+	*/
+	public function set($name, $value) {
+		update_option($this->prefix.$name, $value);
+	}
+
+}

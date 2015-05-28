@@ -1,0 +1,11 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+    font-family: 'NewCicleFina';
+    src: url('NewCicleFina-webfont.eot?#iefix') format('embedded-opentype'),
+         url('NewCicleFina-webfont.woff') format('woff'),
+         url('NewCicleFina-webfont.ttf') format('truetype'),
+         url('NewCicleFina-webfont.svg#NewCicleFina') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

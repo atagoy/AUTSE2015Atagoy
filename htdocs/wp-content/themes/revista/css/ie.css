@@ -1,0 +1,26 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie.css);
+
+#content,
+#menublock,
+body.wrapper-layout .wrapper,
+.wrapped,
+.mod-box,
+.menu-dropdown .dropdown-bg > div,
+#searchbox .results,
+.wk-slideshow-revista-tabs .nav li,
+.wk-slideshow-revista-tabs .slides-container,
+.wk-twitter-bubbles {
+	border: 1px solid #ddd;
+	border-bottom-color: #d4d4d4;
+}
+
+/* Social Icons Special
+----------------------------------------------------------------------------------------------------*/
+
+.social-icons-special li a {
+	position: relative;
+	display: inline;
+	background: url(../images/tools/icons_social_special.png) 0 0 no-repeat;
+}

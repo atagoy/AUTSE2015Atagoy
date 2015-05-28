@@ -1,0 +1,174 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+#footer.widgets-sortables {
+	margin: 0;
+	border-top: none;
+	position: static;
+}
+
+#warp > h2 {
+	background: url(../images/yoo_icon_32.png) 0px 15px no-repeat;
+	padding: 14px 15px 3px 40px;
+}
+
+#warp.theme-options a {
+	font-size: 12px;
+}
+
+#warp div.update {
+	background: #FFFFE0;
+	border: 1px solid #E6DB55;
+	padding: 5px 9px;
+	margin: 0px 20px 15px 0px;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;	
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+    -moz-box-shadow: 1px 1px 3px #DDD;
+    -webkit-box-shadow: 1px 1px 3px #DDD;
+	box-shadow: 1px 1px 3px #DDD;	
+}
+
+#warp .saving span {
+	width: 20px;
+	height: 16px;
+	background: url("../images/loader.gif") 4px 0px no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#warp div.box {
+	margin-bottom: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #DFDFDF;
+	line-height: 1;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#warp div.box h3 {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 7px 9px;
+	margin: 0px;
+	line-height: 1;
+	cursor: default;
+}
+
+#warp div.box h3 .description {
+	font-weight: normal;
+}
+
+#warp div.box div.content,
+#warp div.box div.content p {
+	font-size: 11px;
+	margin: 6px 6px 8px;
+	padding: 0px;
+}
+
+#warp div.box.collapsible {
+	position: relative;
+}
+
+#warp div.box.collapsible .togglebutton {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 30px;
+	height: 25px;
+	background: url("../images/toggle-arrow.gif") no-repeat 0px -4px;
+	cursor: pointer;
+}
+
+#warp div.option {
+	overflow: hidden;
+	margin: 15px;
+}
+
+#warp div.option:last-child {
+}
+
+#warp div.option h4 {
+	font-size: 12px;
+	margin: 0px 0px 8px 0px;
+	padding: 0px;
+}
+
+#warp div.option div.value {
+	float: left;
+	margin-right: 10px;
+}
+
+#warp ul.list {
+	margin: 0px;
+	padding: 0px;
+}
+
+#warp ul.list li {
+	margin: 0px;
+	padding: 6px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EEEEEE;
+}
+
+#warp ul.list li:last-child {
+	border: none;
+}
+
+#warp.theme-options span.description {
+	font-size: 12px;
+	text-transform: none;
+}
+
+#warp.theme-options div.checklog ul {
+	margin: 15px;
+}
+
+#warp.theme-options div.checklog li {
+	font-size: 10px;
+}
+
+#warp.theme-options div.checklog li.missing {
+	color: red;
+}
+
+#warp.widget-options form > div {
+	overflow: hidden;
+}
+
+#warp.widget-options div.column {
+	width: 285px;
+	margin: 0px 20px 0px 0px;
+	padding: 1px;
+	overflow: hidden;
+	float: left;
+}
+
+#warp.widget-options div.box.position {
+	margin: 0px 0px 20px 0px;
+}
+
+#warp.widget-options div.box.position div.content {
+	padding: 5px;
+}
+
+#warp.widget-options div.box.widget {
+	margin: 0px 0px 10px 0px;
+}
+
+#warp.widget-options div.box.widget:last-child {
+	margin: 0px;
+}
+
+#warp.widget-options div.box.widget span.in-widget-title {
+	font-size: 11px;
+}
+
+#warp.widget-options div.box.widget div.content {
+	margin: 0px;
+	padding: 0px;
+}

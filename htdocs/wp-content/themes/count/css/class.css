@@ -1,0 +1,246 @@
+.clear:after {
+	content: ".";
+	height:0;
+	visibility:hidden;
+	display:block;
+	clear:both;
+}
+.container {
+	margin:0 auto; 
+	width:960px;
+}
+
+/*LOGO*/
+
+.logo {
+	float:left; 
+	margin:6px 0 0 0; 
+}
+.logo a:link, .logo a:visited {	
+	width:278px; 
+	height:85px; 
+}
+
+/*LOGO-MENU*/
+.logo-menu {
+	width:960px;
+	margin:0 0 50px 0;
+}
+
+/*MENU*/
+.menu {
+	float:right; 
+	margin:50px 0 0 0; 
+	font-size:14px;
+}
+.menu li {
+	float:left;
+	width:100px;
+	margin:0 0 0 1px;
+	text-align:center; 
+}
+.menu li.page_item a:link, .menu li.page_item a:visited {
+	text-decoration:none; 
+	color:#BBAA99; 
+	background:#361B07; 
+	padding:8px; 
+	display:block;
+}
+.menu li.page_item a:hover {
+	text-decoration:none; 
+	color:#BBAA99; 
+	background:#574747; 
+	padding:8px; 
+	display:block;
+	cursor:pointer;
+}
+.menu li.current_page_item a:link, .menu li.current_page_item a:visited {
+	text-decoration:none; 
+	color:#BBAA99; 
+	background:#574747; 
+	padding:8px; 
+	display:block;
+}
+
+/*Form Style*/
+
+.form{
+	font-weight:bold;
+	color:#6E625C;
+	background:#FFF;
+	width:243px;
+	padding:10px;
+}
+.form input {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	float: left;
+	width: 192px;
+	color:#6E625C;
+	height:20px;
+	background:#EFE5D9;
+	border-style:none;
+	padding:5px 5px 0 5px;
+}
+
+/*INFOS*/
+.infos {
+	line-height:20px;
+	width:500px;
+	margin:0 0 20px 0;
+}
+.infos ul {
+	width:500px;
+}
+.infos ul li {
+	margin:0 0 4px 0;
+}
+.infos a:link, .infos a:visited  {
+	color:#9A7D5B;
+	text-decoration:none;
+}
+.infos a:hover {
+	color:#9A7D5B;
+	text-decoration:underline;
+}
+.infos label {	
+	display:block;
+	font-weight:bold;
+	margin-right:3px;
+	text-align:left;
+	color:#9A7D5B;
+	float:left;
+}
+/*FILLUPFORMS*/
+.fillupform {
+	margin:25px 0 30px 0;	
+}
+.fillupform p {
+	margin:0 0 15px 0;
+	line-height:20px;
+}
+.contact-fillupform {
+	margin:25px 0 30px 0;	
+	width:500px;
+}
+.fillupform li {
+	float:left;
+	display:block;
+	color:#393738;
+	margin:15px 0 0 0;
+	list-style:none;
+}
+.contact-fillupform ul li {
+	float:left;
+	display:block;
+	color:#393738;
+	margin:15px 0 0 0;
+	width:525px;
+	list-style:none;
+}
+.fillupform li label,
+#commentform li label,
+.contact-fillupform label {
+	display:block;
+	width:60px;
+	padding:8px 8px 8px 0;
+	font-weight:bold;
+	text-align:left;
+	color:#9A7D5B;
+	float:left;	
+}
+.fillupform li input,
+.contact-fillupform ul li input {
+	width:240px;
+	padding:8px;
+	border:1px solid #CCC;
+	background:#FFF url(../img/form-shadow.jpg) repeat-x top;
+	margin:0 10px 0 5px;
+	float:left;
+	display:block;
+	color:#393738;
+}
+.fillupform textarea,
+.contact-fillupform textarea {
+	height:120px;
+	display:block;
+	width:280px;
+	margin:0 10px 0 5px;
+	padding:8px;
+	float:left;
+	background:#FFF url(../img/form-shadow.jpg) repeat-x top;
+	border:1px solid #CCC;
+	color:#393738;
+}
+.contact-fillupform input.btn {
+	color:#393738;
+	margin:0 0 0 5px ;
+	width:60px;
+	padding:0 6px 3px 5px;
+	height:27px;
+	background:#FFF url(../img/form-shadow.jpg) repeat-x top;
+	cursor:pointer;
+	float:left;
+	text-align:center;
+	border-style:none;
+	border:1px solid #CCC;
+}
+.fillupform input.btnpost {
+	color:#393738;
+	width:150px;
+	padding:0 6px 3px 5px;
+	height:27px;
+	margin:0 50px 0 -5px;
+	background:#FFF url(../img/form-shadow.jpg) repeat-x top;
+	cursor:pointer;
+	float:left;
+	display:block;
+	text-align:center;
+	border:1px solid #CCC;
+}
+.fillupform input#comment_post_ID,
+.fillupform input#comment_parent {
+	background:none;
+	width:0;
+	margin:0;
+	border:none;
+}
+/*LABELERROR*/ 
+.fillupform ul li span {
+	color:#FF0000;
+	font-size:11px;
+	font-weight:normal;
+	width:60px;
+}
+.contact-fillupform ul li span {
+	color:#FF0000;
+	font-size:11px;
+	font-weight:normal;
+	width:100px;
+}
+.thanks h1 {
+	font-size:14px;
+	margin:0 0 10px 0;
+}
+
+/*FOOTER*/
+.footer {
+	width:100%; 
+	z-index:auto; 
+	margin:30px 0 0 0; 
+	color:#A79578; 
+	text-align:center;
+	border-top:1px solid #372C24; 
+	background:#000;
+	padding:10px 0 10px 0; 
+}
+.footer a:link, .footer a:visited {
+	color:#A79578; 
+	text-decoration:none; 
+	font-weight:bold;
+}
+.footer a:hover {
+	color:#9A7D5B; 
+	text-decoration:none; 
+	font-weight:bold;
+}

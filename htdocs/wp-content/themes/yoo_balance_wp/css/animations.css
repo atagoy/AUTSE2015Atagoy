@@ -1,0 +1,85 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Mega Drop-Down Menu */
+
+/* Level 1 */
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 {
+	-webkit-transition: color 0.4s ease-in-out;
+	-moz-transition: color 0.4s ease-in-out;
+	-o-transition: color 0.4s ease-in-out;
+	-ms-transition: color 0.4s ease-in-out;
+	transition: color 0.4s ease-in-out;
+}
+
+.menu-dropdown a.level3:hover > span,
+.menu-dropdown span.level3:hover > span {
+	-webkit-transition: color 0.15s ease-in-out;
+	-moz-transition: color 0.15s ease-in-out;
+	-o-transition: color 0.15s ease-in-out;
+	-ms-transition: color 0.15s ease-in-out;
+	transition: color 0.15s ease-in-out;
+}
+
+/* Menu Sidebar */
+.menu-sidebar a,
+.menu-sidebar li > span {
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+}
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+a.button-more:hover {
+	-webkit-transition: color 0.25s ease-in-out;
+	-moz-transition: color 0.25s ease-in-out;
+	-o-transition: color 0.25s ease-in-out;
+	-ms-transition: color 0.25s ease-in-out;
+	transition: color 0.25s ease-in-out;
+}
+
+form.style input[type="text"],
+form.style input[type="password"],
+form.style select,
+form.style textarea,
+form.style button:hover,
+form.style input[type="button"]:hover,
+form.style input.button:hover,
+form.style #submit:hover,
+.mobile-switcher {
+	-webkit-transition:
+		border-color 0.25s ease-in-out,
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	-moz-transition:
+		border-color 0.25s ease-in-out,
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	-o-transition:
+		border-color 0.25s ease-in-out,
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	-ms-transition:
+		border-color 0.25s ease-in-out,
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	transition:
+		border-color 0.25s ease-in-out,
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+}
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+

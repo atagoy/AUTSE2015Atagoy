@@ -1,0 +1,20 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie.css);
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+/* Fallback for Inline_Block */
+.module .module-title .icon,
+.mod-stamp-header-ribbon .module-title,
+.mod-line-header-line .module-title > span,
+.breadcrumbs a,
+.breadcrumbs > span,
+.social-icons li a { display: inline; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown .dropdown-bg > div { border: none; }

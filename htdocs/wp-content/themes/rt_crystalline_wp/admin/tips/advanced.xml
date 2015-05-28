@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gantrytips>
+	
+	<tip label="Gantry Cache"><![CDATA[The Gantry Framework includes a powerful Cache function. It caches the data and can greatly improve performance of the Gantry powered WordPress site.]]></tip>
+	
+	<tip label="Gantry GZipper"><![CDATA[The Gantry GZipper is a built-in compression and combination system that will ensure all Gantry CSS and JS files are combined and compressed to provide optimal performance. CSS and JS files outside of Gantry will not be included.]]></tip>
+	
+	<tip label="Input Styling"><![CDATA[The input styling provides a custom look for form elements such as checkboxes and radiobuttons. You can use the exclusions settings if you wish to enable the Input Styling throughout the site but keep it disabled for certain forms.]]></tip>
+	
+	<tip label="Demo Styles"><![CDATA[Loads the demo-styles.css file with styling used for the demo content of the theme.]]></tip>
+	
+	<tip label="Content"><![CDATA[Turning this off stops any blog posts from displaying on the homepage. This can be useful if you would like to build your homepage from widgets only.]]></tip>
+	
+	<tip label="RTL"><![CDATA[The RTL setting allows you to enable Right-to-Left support in the gantry core. The Gantry theme will switched to RTL automatically as soon as a RTL language is detected.]]></tip>
+	
+	<tip label="Title Spans"><![CDATA[Title spans enable custom CSS styling for the first word of the titles, with this setting enabled the first word of a title can be colored differently to the second word and the rest of the title.]]></tip>
+	
+	<tip label="Disable Texturize"><![CDATA[Disables some text transformations like smart (curly) quotes, for content and comments. This can be very useful for example for placing code inside of your content.]]></tip>
+
+</gantrytips>

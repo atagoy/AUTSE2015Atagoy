@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Zoo Menu</name>
+	<author>YOOtheme</author>
+	<creationDate>March 2009</creationDate>
+	<copyright>Copyright (C) 2007 - 2009 YOOtheme GmbH</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only</license>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Zoo Menu Joomla 1.5 module from YOOtheme.com (http://www.yootheme.com)</description>
+	<files>
+		<filename module="mod_zoomenu">mod_zoomenu.php</filename>
+		<filename>changelog.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<folder>joomla</folder>
+		<folder>tmpl</folder>
+	</files>
+	<params addpath="/modules/mod_zoomenu/joomla/elements">
+		<param name="menu_item" type="zoomenuitem" default="0" label="Menu Item" description="" />
+		<param name="start_level" type="text" default="0" size="5" label="Start Level" description="" />
+		<param name="end_level" type="text" default="0" size="5" label="End Level" description="" />
+		<param name="show_all_children" type="radio" default="0" label="Always Show Sublevels" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+	<params group="advanced">
+		<param name="tag_id" type="text" default="" label="Menu Tag ID" description="" />
+		<param name="class_sfx" type="text" default="" label="Menu Class Suffix" description="" />
+		<param name="moduleclass_sfx" type="text" default="_menu" label="Module Class Suffix" description="" />
+	</params>
+</install>

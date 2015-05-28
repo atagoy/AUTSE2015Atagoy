@@ -1,0 +1,23 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/system.css);
+@import url(../warp/systems/wordpress/css/system.css);
+@import url(system-all.css);
+
+
+/* Calendar
+----------------------------------------------------------------------------------------------------*/
+
+table.calendar { border-width: 1px; }
+table.calendar th { border-bottom-width: 1px; }
+table.calendar tfoot td { border-top-width: 1px; }
+
+table.calendar th,
+table.calendar tfoot td { background: rgba(0,0,0,0.2); }
+
+table.calendar,
+table.calendar th,
+table.calendar tfoot td {
+	border-style: solid;
+	border-color: rgba(255,255,255,0.1);
+}

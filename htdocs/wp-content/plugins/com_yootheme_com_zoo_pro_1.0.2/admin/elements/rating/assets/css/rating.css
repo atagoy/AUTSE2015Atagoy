@@ -1,0 +1,49 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*
+ * rating
+ */
+
+div#yoo-zoo div.element-rating {
+}
+
+div#yoo-zoo div.element-rating div.rating {
+	position: relative;
+	height: 20px;
+	background: url(../images/stars.png) 0 0 repeat-x;
+	overflow: hidden;
+}
+
+div#yoo-zoo div.element-rating div.previous-rating {
+	height: 20px;
+	background: url(../images/stars.png) 0 -20px repeat-x;
+}
+
+div#yoo-zoo div.element-rating div.current-rating div {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 20px;
+	cursor: pointer;
+}
+
+div#yoo-zoo div.element-rating div.current-rating div.hover {
+	background: url(../images/stars.png) 0 -40px repeat-x;
+}
+
+div#yoo-zoo div.element-rating div.star1 { width: 20px; }
+div#yoo-zoo div.element-rating div.star2 { width: 40px; }
+div#yoo-zoo div.element-rating div.star3 { width: 60px; }
+div#yoo-zoo div.element-rating div.star4 { width: 80px; }
+div#yoo-zoo div.element-rating div.star5 { width: 100px; }
+div#yoo-zoo div.element-rating div.star6 { width: 120px; }
+div#yoo-zoo div.element-rating div.star7 { width: 140px; }
+div#yoo-zoo div.element-rating div.star8 { width: 160px; }
+div#yoo-zoo div.element-rating div.star9 { width: 180px; }
+div#yoo-zoo div.element-rating div.star10 { width: 200px; }
+
+
+/* IE6 */
+* html div#yoo-zoo div.element-rating div.rating { background: url(../images/stars_ie6.png) 0 0 repeat-x; }
+* html div#yoo-zoo div.element-rating div.previous-rating { background: url(../images/stars_ie6.png) 0 -20px repeat-x; }
+* html div#yoo-zoo div.element-rating div.current-rating div.hover { background: url(../images/stars_ie6.png) 0 -40px repeat-x; }

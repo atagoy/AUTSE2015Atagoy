@@ -1,0 +1,44 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie.css);
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+ul.line-icon > li {	background:	url(../images/tools/list_icon.png) 0 0 no-repeat; }
+.mod-box-color ul.line-icon > li,
+.mod-fabric ul.line-icon > li { background-image: url(../images/tools/list_icon.png); }
+
+ul.line-icon > li,
+ul.line-icon > li:first-child,
+.mod-box-color ul.line-icon > li,
+.mod-box-color ul.line-icon > li:first-child,
+.mod-fabric ul.line-icon > li,
+.mod-fabric ul.line-icon > li:first-child { background-image: url(../images/tools/list_icon.png); }
+
+ul.check > li,
+ul.check > li:first-child,
+.mod-box-color ul.check > li,
+.mod-box-color ul.check > li:first-child,
+.mod-fabric ul.check > li,
+.mod-fabric ul.check > li:first-child { 
+	background-image: url(../images/tools/list_check.png);
+	background-repeat: no-repeat;
+}
+
+ul.link > li,
+ul.link > li:first-child,
+.mod-box-color ul.link > li,
+.mod-box-color ul.link > li:first-child,
+.mod-fabric ul.link > li,
+.mod-fabric ul.link > li:first-child { 
+	background-image: url(../images/tools/list_link.png);
+	background-repeat: no-repeat;
+}
+
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+#searchbox .results { border: 1px solid #d3d3d3; }

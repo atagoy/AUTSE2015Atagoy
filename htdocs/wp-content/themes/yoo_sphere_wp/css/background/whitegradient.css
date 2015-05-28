@@ -1,0 +1,49 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Background White Gradient */
+
+body#page {
+	background: #eee url(../../images/background/gradient/white.jpg) 50% 0 repeat;
+	color: #8e8e8e;
+}
+
+@media (min-device-width: 1025px) {
+
+	body#page {
+		background: url(../../images/background/gradient/gradient.svg) 50% 0 no-repeat fixed,
+					url(../../images/background/gradient/white.jpg) 50% 0 repeat;
+		background-size: 100% 140%, 100px 100px;
+	}
+}
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	#main #maininner,
+	#page.sidebar-a-right.sidebar-b-left #maininner,
+	#page.sidebar-a-left.sidebar-b-right #maininner { 
+		border-left: 1px solid rgba(20,20,25,0.3); 
+		border-right: 1px solid rgba(20,20,25,0.3);
+	}
+
+}
+
+
+/* Font Color
+----------------------------------------------------------------------------------------------------*/
+
+.outer .mod-transparent li a { color: #8e8e8e; }
+
+.outer .mod-transparent li a:hover { color: #4d4d4d; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.outer .mod-inset {
+	border: 1px solid #dcdcdd;
+	border: 1px solid rgba(255,255,255,0.1);
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	background: #f6f6f6;
+	background: rgba(20,20,25,0.1);
+}

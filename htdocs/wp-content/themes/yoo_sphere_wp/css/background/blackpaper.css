@@ -1,0 +1,122 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Background Black Paper */
+
+body#page { background: #5d6066 url(../../images/background/blackpaper/paper_bg.jpg) 50% 0 repeat; }
+
+@media (min-device-width: 1025px) {
+
+	body#page {
+		background: url(../../images/background/blackpaper/gradient.svg) 50% 0 no-repeat fixed,
+					url(../../images/background/blackpaper/paper_bg.jpg) 50% 0 repeat;
+		background-size: 100% 140%, 200px 200px;
+	}
+	
+}
+
+#main {
+	border-color: rgba(20,20,25,0.25);
+	background: #46484c;
+	background: rgba(20,20,25,0.35);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.08),
+				0 1px 3px rgba(20,20,25,0.2);
+}
+
+#maininner { border-color: rgba(20,20,25,0.9); }
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	/* Layout */
+	#main #maininner,
+	#page.sidebar-a-right.sidebar-b-left #maininner,
+	#page.sidebar-a-left.sidebar-b-right #maininner { 
+		border-left: 1px solid rgba(20,20,25,0.9); 
+		border-right: 1px solid rgba(20,20,25,0.9);
+	}
+	
+}
+
+
+/* Font Color
+----------------------------------------------------------------------------------------------------*/
+
+#header,
+#footer,
+.menu-line li a,
+.outer .mod-transparent,
+.outer .mod-transparent li > a,
+.outer .mod-transparent form.style input {
+	color: #2d3033;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+#header a,
+#footer a,
+.outer .mod-transparent a,
+.outer .mod-transparent li a:hover,
+#toolbar time {
+	color: #ededed; 
+	text-shadow: 0 1px 0 rgba(20,20,20,0.8); 
+}
+
+#header a:hover,
+#footer a:hover,
+.outer .mod-transparent a:hover { 
+	color: #191b1d;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.1);
+} 
+
+.outer .mod-transparent em,
+.outer .mod-transparent code { 
+	color: #b8b8b8;
+	text-shadow: 0 1px 0 rgba(20,20,20,0.4); 
+}
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.outer .mod-line .module-title { background-image: url(../../images/module_line_dark.png); }
+
+.outer .mod-transparent ul.line > li { 
+	border-top-color: #74777b;
+	border-top-color: rgba(20,20,25,0.2);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.15);
+}
+
+.outer .mod-inset {
+	border: 1px solid #3b3d40;
+	border: 1px solid rgba(255,255,255,0.1);
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	background: #434549;
+	background: rgba(20,20,25,0.08);
+}
+
+
+ /* Tools
+ ----------------------------------------------------------------------------------------------------*/
+
+/* Only Phones */
+@media (max-width: 767px) {
+
+	#page #header-responsive .searchbox input {
+		box-shadow: 0 1px 0 rgba(255,255,255,0.2);
+		color: #DAEAF6;
+		text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+	}
+
+	#header-responsive .searchbox input::-moz-input-placeholder,
+	#header-responsive .searchbox input::-webkit-input-placeholder { text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2); }
+
+}
+
+#page .outer .mod-transparent form.style input {
+	border: 1px solid rgba(255,255,255,0.15);
+	background: rgba(20,20,25,0.08);
+	color: #a0a3ae;
+	box-shadow: inset 0 0 0 1px rgba(20,20,25,0.1);
+ }
+
+#page .outer .mod-transparent form.style input:-moz-placeholder { color: #a0a3ae; }
+#page .outer .mod-transparent form.style input::-webkit-input-placeholder { color: #a0a3ae; }

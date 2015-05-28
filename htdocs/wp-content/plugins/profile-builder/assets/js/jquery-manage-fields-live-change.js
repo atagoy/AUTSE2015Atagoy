@@ -353,8 +353,6 @@ var fields 	=	{
 																						'.row-description',
 																						'.row-public-key',
 																						'.row-private-key',
-                                                                                        '.row-captcha-pb-forms',
-                                                                                        '.row-captcha-wp-forms',
 																						'.row-required'
 																					],
 																	'required'	:	[

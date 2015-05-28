@@ -1,0 +1,5 @@
+/* Right-to-left text direction stylesheet.*/
+body{
+	direction: rtl;
+	unicode-bidi: embed;
+}

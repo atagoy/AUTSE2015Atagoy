@@ -1,0 +1,179 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * global bug fixes
+ */
+
+/* reset forcing vertical scrollbar */
+body { overflow: visible; }
+
+/* italics bug */
+/* http://www.positioniseverything.net/explorer/italicbug-ie.html */
+* html body * { overflow: visible; }
+* html iframe, * html frame { overflow: auto; }
+* html frameset { overflow: hidden; }
+
+* html textarea { overflow: scroll; overflow-x: hidden; }
+* html input { overflow: hidden; }
+
+/* guillotine bug */
+/* http://www.positioniseverything.net/explorer/guillotine.html */
+* html body a, * html body a:hover { background-color: transparent; }
+
+/* list-numbering bug */
+body ol li { display: list-item; }
+
+/* helper to force layout */
+.ie6-zoom {	zoom: 1; }
+
+/*
+ * reset
+ */
+ 
+hr { color: #c8c8c8; }
+
+ 
+q { font-style: normal; }
+blockquote { font-style: normal; }
+
+/*
+ * layout
+ */
+
+div#top,
+div#bottom { zoom: 1; }
+div#footer { zoom: 1; }
+
+ 
+
+#main #main-shift { zoom: 1; }
+
+ 
+
+div#maintop,
+div#contenttop,
+div#contentbottom,
+div#mainbottom { zoom: 1; }
+
+ 
+
+#content #content-shift { zoom: 1; }
+
+ 
+
+.floatbox { zoom: 1; }
+
+/* double float-margin bug */
+/* http://www.positioniseverything.net/explorer/doubled-margin.html */
+* html .float-left { display: inline; }
+* html .float-right { display: inline; }
+
+.width15 { width: 14.9%; }
+.width18 { width: 17.9%; }
+.width20 { width: 19.9%; }
+.width23 { width: 22.9%; }
+.width25 { width: 24.9%; }
+.width33 { width: 32.9%; }
+.width34 { width: 33.9%; }
+.width35 { width: 34.9%; }
+.width40 { width: 39.9%; }
+.width45 { width: 44.9%; }
+.width50 { width: 49.9%; }
+.width54 { width: 53.9%; }
+.width65 { width: 64.9%; }
+.width75 { width: 74.9%; }
+
+/*
+ * menus
+ */
+
+/* topmenu */
+#toolbar ul.menu,
+#footer ul.menu { white-space: nowrap; }
+
+#toolbar .menu li,
+#footer .menu li,
+#toolbar .menu li a,
+#footer .menu li a { display: inline; }
+
+/* menu */
+#menu span { cursor: pointer; }
+
+ 
+#menu li.hovered .dropdown { left: 0px; }
+
+#menu .dropdown,
+#menu .dropdown-3 { zoom: 1; }
+
+#menu .dropdown-t3,
+#menu .dropdown-b3 { overflow: hidden; }
+
+#menu li.level2 {
+	float: left;
+	width: 100%;
+	zoom: 1;
+}
+
+#menu .group-box1,
+#menu .group-box5 {
+	zoom: 1;
+	overflow: hidden;
+}
+
+#menu li.level3 { zoom: 1; }
+
+/* sub menu */
+.mod-menu ul.menu span { cursor: pointer; }
+
+/*
+ * modules
+ */
+
+div.module { zoom: 1; }
+
+ 
+#toolbar div.module {
+	width: 0px;
+	white-space: nowrap;
+}
+
+/*
+ * joomla
+ */
+
+div.joomla div.headline { zoom: 1; }
+
+div.joomla div.icons { width: 55px; }
+
+div.joomla div.item,
+div.joomla div.item-bg { zoom: 1; }
+
+a.readmore { cursor: pointer; }
+
+a.readmore:hover {
+	background-position: 0 -24px;
+	text-decoration: none;
+}
+
+/*
+ * typography
+ */
+
+ul.arrow li,
+ul.checkbox li,
+ul.check li,
+ul.star li { zoom: 1; }
+
+ol.disc { padding: 0px 0px 0px 50px; }
+
+ol.disc li {
+	padding-left: 5px;
+	margin: 0px 0px 5px 0px;
+}
+
+hr.dotted {
+	background: none;
+	border: dotted 1px #c8c8c8;
+}
+
+p.dropcap:first-letter { line-height: 100%; }

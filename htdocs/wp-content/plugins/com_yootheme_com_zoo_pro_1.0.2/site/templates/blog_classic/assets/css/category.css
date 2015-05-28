@@ -1,0 +1,213 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*************************************
+*
+* view: category
+*
+*************************************/
+
+/*
+ * layout
+ */
+
+div#yoo-zoo {
+}
+
+div#yoo-zoo div.row {
+	overflow: hidden;
+}
+
+div#yoo-zoo div.row div.width25 {
+	float: left;
+	width: 24.999%;
+}
+
+div#yoo-zoo div.row div.width33 {
+	float: left;
+	width: 33.333%;
+}
+
+div#yoo-zoo div.row div.width50 {
+	float: left;
+	width: 49.999%;
+}
+ 
+/*
+ * category
+ */
+ 
+div#yoo-zoo div.category {
+	margin: 0px 0px 30px 0px;
+	overflow: hidden;
+}
+
+div#yoo-zoo div.category div.headline {
+	padding-bottom: 5px;
+	border-bottom: solid 3px #323232;
+}
+
+div#yoo-zoo div.category h1.name {
+	margin: 0px 0px 5px 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 55px;
+	font-weight: normal;
+	color: #323232;
+	letter-spacing: -2px;
+}
+
+div#yoo-zoo div.category h2.sub-categories-title {
+	margin: 0px 0px 0px 0px;
+	font-size: 14px;
+	color: #787878;
+	line-height: 16px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+div#yoo-zoo div.category div.description {
+	margin: 5px 0px 0px 0px;
+	overflow: hidden;
+}
+
+div#yoo-zoo div.category img.image {
+	margin: 0px 15px 0px 0px;
+	float: left;
+}
+
+/*
+ * items
+ */
+
+div#yoo-zoo div.items {
+	overflow: hidden;
+}
+
+div#yoo-zoo div.items div.teaser-item {
+	padding: 0px 15px 20px 15px;
+}
+
+div#yoo-zoo div.items div.first div.teaser-item {
+	padding-left: 0px;
+}
+
+div#yoo-zoo div.items div.last div.teaser-item {
+	padding-right: 0px;
+}
+
+div#yoo-zoo div.items div.teaser-item-bg {
+	padding: 0px 0px 10px 0px;
+	background: url(../images/line_dotted_h.png) 0 100% repeat-x;
+	overflow: hidden;
+}
+
+div#yoo-zoo div.items h1.name {
+	margin: 0px 0px 8px 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 42px;
+	color: #323232;
+	letter-spacing: -2px;
+}
+
+div#yoo-zoo div.items h1.name a:link,
+div#yoo-zoo div.items h1.name a:visited,
+div#yoo-zoo div.items h1.name a:hover {
+	color: #323232;
+	text-decoration: none;
+}
+
+div#yoo-zoo div.items p.postmeta {
+	margin: 0px 0px 23px 0px;
+	font-size: 11px;
+	color: #969696;
+	line-height: 13px;
+	font-style: italic;
+}
+
+div#yoo-zoo div.items h2.subheadline {
+	margin: 0px 0px 8px 0px;
+	font-size: 14px;
+	color: #787878;
+	line-height: 16px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+div#yoo-zoo div.items a.image-top,
+div#yoo-zoo div.items a.image-bottom {
+	display: block;
+	margin: 0px 0px 12px 0px;
+}
+
+div#yoo-zoo div.items a.image-left {
+	display: block;
+	margin: 0px 15px 0px 0px;
+	float: left;
+}
+
+div#yoo-zoo div.items a.image-right {
+	display: block;
+	margin: 0px 0px 0px 15px;
+	float: right;
+}
+
+div#yoo-zoo div.items div.video {
+	margin: 12px 0px 12px 0px;
+	text-align: center;
+}
+
+div#yoo-zoo div.items div.video object { outline: none; }
+
+div#yoo-zoo div.items div.text {
+	margin: 0px 0px 12px 0px;
+	overflow: hidden;
+}
+
+div#yoo-zoo div.items p.links {
+	margin: 22px 0px 0px 0px;
+}
+
+div#yoo-zoo div.items p.links a.continue,
+div#yoo-zoo div.items p.links a.comments {}
+
+div#yoo-zoo div.items p.links span.arrow {
+	font-size: 120%;
+}
+
+/* variations depending on column number */
+div#yoo-zoo div.items-col-2 h1.name {
+	font-size: 35px;
+	line-height: 37px;
+	letter-spacing: -2px;
+}
+
+div#yoo-zoo div.items-col-3 h1.name {
+	font-size: 30px;
+	line-height: 32px;
+	letter-spacing: -2px;
+}
+
+div#yoo-zoo div.items-col-4 h1.name {
+	font-size: 25px;
+	line-height: 27px;
+	letter-spacing: -1px;
+}
+
+/*
+ * pagination
+ */
+ 
+div#yoo-zoo div.pagination {
+	text-align: center;
+}
+
+div#yoo-zoo div.pagination span.pagination-bg{
+	cursor: pointer;
+}
+
+div#yoo-zoo div.pagination a:link,
+div#yoo-zoo div.pagination a:visited,
+div#yoo-zoo div.pagination a:hover {
+	text-decoration: none;
+}

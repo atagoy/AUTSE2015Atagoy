@@ -1,0 +1,35 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Wave Background
+ */
+ 
+body { -webkit-font-smoothing: antialiased; }
+
+#block-top-a { 
+	overflow: hidden;
+	position: relative;
+	background: #2C2C2C;
+}
+
+.no-top-a #block-top-a { background-color: #323232; }
+
+.top-a-layer-1,
+.top-a-layer-2 {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	height: 400px;
+	width: 2560px;
+	margin-left: -1280px;
+}
+
+.top-a-layer-1 {
+	background: url(../../images/background/wave/wave_bg.jpg) 0 0 no-repeat;
+	-webkit-animation: slide 10s linear infinite;
+	-moz-animation: slide 10s linear infinite;
+	-ms-animation: slide 10s linear infinite;
+	animation: slide 10s linear infinite;
+}
+
+.top-a-layer-2 { background: url(../../images/background/wave/wave_mask.png) 0 0 no-repeat; }

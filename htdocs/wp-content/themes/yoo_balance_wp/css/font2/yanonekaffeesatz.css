@@ -1,0 +1,15 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-family: "Yanone Kaffeesatz"; }
+
+h1 { font-size: 45px; line-height: 45px; }
+h2 { font-size: 32px; line-height: 32px; }
+h3,
+.module .module-title { font-size: 26px; }
+h4, h5, h6 { font-size: 24px; }
+

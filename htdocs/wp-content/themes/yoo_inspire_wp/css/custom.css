@@ -1,0 +1,45 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+ 
+#logo .custom-logo {
+	width: 140px;
+	height: 75px;
+	background: url(../../../images/yootheme/logo.png) 0 0 no-repeat;
+}
+
+#top-a .wk-slideset-inspire { 
+	position: relative;
+	margin-bottom: -30px;
+}
+
+#top-a .wk-slideset-inspire .sets { padding: 75px 0 75px 0; }
+#top-a .wk-slideset-inspire .nav { 
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 15px;
+}
+
+.screen { 
+	width: 460px;
+	height: 340px;
+	position: relative;
+	background: url(../../../images/yootheme/home_screen.png) 0 0 no-repeat;
+}
+
+.screen .wk-slideshow-default { 
+	position: absolute;
+	top: 15px;
+	left: 32px;
+}
+
+#bottom-a .wk-twitter-single {
+	margin-top: 15px;
+	padding: 30px 130px 0 200px;
+	border-top: 1px solid #e7e7e7;
+}
+
+#bottom-a .wk-twitter-single.image { background-position: 130px 32px; }

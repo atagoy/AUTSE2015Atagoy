@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gantrytips>
+
+	<tip label="Header Section"><![CDATA[The <strong>Header</strong> section let's you set the background color, text color, link color, overlay, shadow style, and header graphic for the Header section of the theme.]]></tip>
+	
+	<tip label="Main Section"><![CDATA[The <strong>Main</strong> section let's you set the background color, text color, link color, overlay, shadow style, and header graphic for the Main section of the theme.]]></tip>
+	
+	<tip label="Feature Section"><![CDATA[The <strong>Feature</strong> section let's you set the background color, text color, link color, overlay, shadow style, and header graphic for the Feature section of the theme.]]></tip>
+	
+	<tip label="Body Section"><![CDATA[The <strong>Body</strong> section let's you set the background color, text color, link color, overlay, shadow style, and header graphic for the Body section of the theme.]]></tip>
+	
+	<tip label="Bottom Section"><![CDATA[The <strong>Bottom</strong> section let's you set the background color, text color, link color, overlay, shadow style, and header graphic for the Bottom section of the theme.]]></tip>
+	
+	<tip label="Thumbnail Size"><![CDATA[The settings for width and height allow you to set the <strong>Thumbnail Size</strong> for thumbnail images that will appear next to your posts on blog, archive and search pages, etc.]]></tip>
+	
+	<tip label="WebFonts"><![CDATA[This setting allows you to use <strong>3rd party WebFonts</strong> from providers such as Google. You must first set WebFonts to show and then save your changes, then the available WebFonts will appear in the Font Settings dropdown from where they can be selected.]]></tip>
+	
+	<tip label="Font Settings"><![CDATA[A selection of fonts to be applied to your site's frontend is available from the <strong>Font Settings</strong> dropdown. It is also possible to set the <strong>Font Size</strong> according to your preference.]]></tip>
+	
+	<tip label="Wordpress Comments"><![CDATA[This is a global setting that loads the comments form in the theme. If you want to use a 3rd party comments solution please disable that toggle to keep the WordPress comments enabled, but not loaded in the Gantry based theme.]]></tip>
+	
+</gantrytips>

@@ -1,0 +1,19 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * This CSS file is for customization purpose only
+ */ 
+
+#logo a.logo-icon {
+	display: block;
+	width: 300px;
+	height: 95px;
+	background: url(../../../images/yootheme/logo.png) 0 0 no-repeat;
+}
+
+#maintop div.frontpage1 {
+	width: 607px;
+	height: 283px;
+	margin: -10px;
+	background: url(../../../images/yootheme/white1.jpg) 0 0 no-repeat; 
+}

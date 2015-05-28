@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element type="gallery" group="Media">
+	<name>Gallery</name>
+	<author>YOOtheme</author>
+	<creationDate>March 2009</creationDate>
+	<copyright>Copyright (C) 2007 - 2009 YOOtheme GmbH</copyright>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+	<version>1.0.0</version>
+	<description>YOOgallery</description>
+	<params>
+		<param name="name" type="configeditname" default="" label="Name" description="Unique name" />
+		<param name="label" type="text" default="" label="Label" description="Label used in item editor" />
+		<param name="description" type="text" default="" label="Description" description="Description tooltip used in item editor" />
+		<param name="display" type="list" default="3" label="Display" description="Display element only on selected view">
+			<option value="1">On item view</option>
+			<option value="2">On category view</option>
+			<option value="3">On item/category view</option>
+			<option value="0">Hide</option>
+		</param>
+		<param name="style" type="list" default="lightbox" label="Style" description="The gallery style">
+			<option value="lightbox">Lightbox</option>
+			<option value="slideshow">Slideshow</option>
+		</param>
+		<param name="effect" type="list" default="fade" label="Slideshow Transition" description="Set the image transition effect (only for slideshow style)">
+			<option value="fade">Fade</option>
+			<option value="wipe">Wipe</option>
+			<option value="slide">Slide</option>
+			<option value="random">Random</option>
+		</param>
+		<param name="thumb" type="list" default="default" label="Thumbnail Style" description="The thumbnail style">
+			<option value="default">Default</option>
+			<option value="polaroid">Polaroid</option>
+			<option value="rounded">Rounded</option>
+			<option value="cut">Cut</option>
+			<option value="plain">Plain</option>
+		</param>
+		<param name="order" type="list" default="asc" label="Thumbnail Ordering" description="The thumbnail ordering">
+			<option value="asc">Ascending</option>
+			<option value="desc">Descending</option>
+			<option value="random">Random</option>
+		</param>
+		<param name="spotlight" type="radio" default="0" label="Thumbnail Spotlight" description="Thumbnail opacity will change on mouse hover">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		<param name="width" type="text" default="100" label="Thumbnail Width (px)" description="Default thumbnail width in pixel (set to 0 to auto-calculate width)" />
+		<param name="height" type="text" default="0" label="Thumbnail Height (px)" description="Default thumbnail height in pixel (set to 0 to auto-calculate height)" />
+		<param name="resize" type="radio" default="1" label="Thumbnail Resizing" description="If set the source image width/height are resized to match the thumbnail width/height">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		<param name="count" type="text" default="0" label="Thumbnail Count" description="Limit the number of thumbnails to show, set it to 0 to show all thumbnails" />
+		<param name="prefix" type="text" default="thumb_" label="Thumbnail File Prefix" description="Default thumbnail file prefix" />
+		<param name="thumb_cache_dir" type="text" default="thumbs" label="Thumbnail Cache Directory" description="Default thumbnail cache directory name which resides inside the source images directory" />
+		<param name="thumb_cache_time" type="text" default="1440" label="Thumbnail Cache Time (min)" description="Period of time (minutes) until the thumbnail image is re-cached" />
+		<param name="load_lightbox" type="radio" default="0" label="Load Lightbox" description="Load included lightbox JavaScript">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		<param name="rel" type="text" default="" label="Lightbox Rel Parameter" description="If set the custom rel parameter is used for the lightbox, Example lightbox[mygallery]" />
+	</params>
+</element>

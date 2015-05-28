@@ -1,0 +1,39 @@
+/**
+ * @version   1.0 October 16, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+body {word-wrap:break-word;}
+body.rtl #rt-menu ul, body.rtl #rt-menu ul li {direction:ltr;float:left !important;}
+body span.inset-left, body span.inset-right {width:45%;}
+body .rt-wrapper {overflow:hidden;}
+body .title {font-size: 140%;}
+body em.bold {font-size: 110%;font-weight: bold;line-height: 125%;font-style: normal;}
+body em.bold2 {font-size: 125%;font-weight: bold;line-height: 110%;font-style: normal;}
+
+body .readon {background: url(../images/shadows/light/readon-r.png) 100% 0 no-repeat;}
+body .readon span, body .readon .button {background: url(../images/shadows/light/readon-l.png) 0 0 no-repeat;}
+
+body #jc .rok-comment-entry {background: url(../images/shadows/light/gradient-div.png) 50% 0 repeat-x;}
+body #jc .rok-comment-entry .comment-info {background: url(../images/shadows/light/module-r.png) 100% 0 repeat-y;}
+
+body .rt-container {background: transparent;}
+body #rt-logo {width:200px !important; height: 32px !important;background:url(../images/iphone/logo.png) center center no-repeat;}
+body #rt-header {-webkit-background-size-x: 100%; padding: 1em 0;}
+body .rt-articleinfo {border:0;padding:0;-webkit-border-radius:0;background:transparent;}
+body .rt-date-posted {font-size:110%;}
+body h1 {border-bottom:0;}
+body .module-title-surround {margin: -10px -10px -30px;}
+body #developed-by, body #powered-by {width:148px;font-size:100%;}
+body #developed-by a {background-position-y: 8px;}
+body #powered-by {width: 102px;}
+body #developed-by a, body #powered-by a {margin:0;height:26px;vertical-align:middle;}
+body #developed-by #rocket {height:30px;}
+body #rt-copyright {padding:0;}
+body #rt-showcase, body #rt-main {background:none;padding:0;}
+body #rt-showcase .rt-container .rt-block {background: none;border-radius:0;-webkit-border-radius:0;border:0;-webkit-box-shadow:none;color:#fff;text-shadow:1px 1px 1px #000;}
+body #rt-showcase a.readon span {text-shadow:none;}
+
+.rt-normal .rt-container .rt-grid-12, .rt-flipped .rt-container .rt-grid-12 {width:99%;}

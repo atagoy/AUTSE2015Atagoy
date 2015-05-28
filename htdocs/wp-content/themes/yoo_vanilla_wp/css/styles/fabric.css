@@ -1,0 +1,36 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+#page-header .page-header-1 { background: none; }
+
+#page-top { 
+	background-image: url(../../images/styles/fabric/page_top_bg.jpg);
+	background-repeat: repeat;
+}
+#page-top .page-top-1 { background-image: url(../../images/styles/fabric/page_top_bg_b.png); }
+
+#page-body  { background: url(../../images/styles/fabric/page_body_bg.jpg) 50% 0 repeat; }
+#page-body .page-body-1 { background-image: url(../../images/styles/fabric/page_body_bg_t.png); }
+.no-top #page-body .page-body-1 { background-image: none; }
+#page-body .page-body-2 { background-image: none; }
+
+#page-bottom .page-bottom-2 { background-image: url(../../images/styles/fabric/page_bottom_bg_b.png); }
+
+#page-footer { background-image: url(../../images/styles/fabric/page_footer_bg_t.png); }
+
+/* menus */
+div.mod-box ul.menu li.level1 li.level2 span.bg:hover {	
+	background-color: #CBCBC9;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+/* modules */
+#bottom div.mod-box div.box-1,
+#bottom div.mod-border div.box-1 { background-image: url(../../images/styles/fabric/module_box_bg_bottom.png); }
+
+#top div.mod-box h3.header { background-image: url(../../images/styles/fabric/module_box_header_top.png); }
+#bottom div.mod-box h3.header { background-image: url(../../images/styles/fabric/module_box_header_bottom.png); }
+
+div.mod-line h3.header { background-image: url(../../images/styles/fabric/module_line_header.png); }
+#page .horizontal div.mod-line { background-image: url(../../images/styles/fabric/module_line_bg.png); }
+#bottom .horizontal div.mod-line { background-image: url(../../images/styles/fabric/module_line_bg_bottom.png); }

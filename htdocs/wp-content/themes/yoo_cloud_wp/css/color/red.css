@@ -1,0 +1,123 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+/* Link Colors */
+a,
+h2,
+h4,
+h5,
+h6,
+#footer a:hover,
+.menu-dropdown li.active > a,
+.menu-sidebar a.active,
+.menu-sidebar li > span.active,
+#system .pagination a:hover { color: #CA5A4A; }
+
+::-moz-selection { background: #CA5A4A; color: #fff; }
+::selection { background: #CA5A4A; color: #fff; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Menu-Dropdown */
+.menu-dropdown a.level3 { background: url(../../images/color/red/menu_dropdown_level3.png) 0 0 no-repeat; }
+
+/* Menu-Sidebar */
+.menu-sidebar li.level2 a.level2 { background: url(../../images/color/red/menu_sidebar_level2.png) 0 0 no-repeat; }
+
+.mod-black .menu-sidebar li.level2 a.level2 { background-image: url(../../images/color/red/menu_sidebar_level2_black.png); }
+
+/* Link */
+.mod-color .menu-sidebar a,
+.mod-color .menu-sidebar li > span { color: #ffebe8; }
+
+/* Hover */
+.mod-color .menu-sidebar a:hover,
+.mod-color .menu-sidebar li > span:hover { color: #fff; }
+
+/* Active */
+.mod-color .menu-sidebar a.active,
+.mod-color .menu-sidebar li > span.active { color: #6b1000; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge { background-image: url(../../images/color/red/module_badges.png); }
+
+/* Module Color */
+.mod-color {
+	border: 1px solid #AF493A;
+	border-top-color: #833327;
+	background: #CA5A4A;
+	box-shadow:
+		inset 0 0 5px rgba(128,53,43,0.7),
+		0 1px 0 rgba(253,253,255,1.0);
+	color: #FFEDEA;
+	text-shadow: 0 1px 0 rgba(2,0,0,0.1);
+}
+
+.mod-color h3.module-title { color: #FFEDEA; }
+
+.mod-color h3.module-title .subtitle { color: #FFBEB3; }
+
+.mod-color a:hover,
+.mod-color strong,
+.mod-color code { color: #6b1000; text-shadow: 0 1px 0 rgba(245,255,240,0.2); }
+
+.mod-color a { color: #FFBEB3; }
+
+.mod-color a:hover { text-shadow: 0 1px 0 rgba(2,0,0,0.2); }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Button More */
+a.button-more {
+	border-bottom: 1px solid #ad4f42;
+	background: #cb5d4e;
+	background: -moz-linear-gradient(
+					top,
+					rgba(212,123,110,1.0) 0%,
+					rgba(203,93,78,1.0) 100%
+				);
+	background: -webkit-linear-gradient(
+					top,
+					rgba(212,123,110,1.0) 0%,
+					rgba(203,93,78,1.0) 100%
+				);
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #d47b6e),
+					color-stop(100%, #cb5d4e)
+				);
+	background: -o-linear-gradient(
+					top,
+					rgba(212,123,110,1.0) 0%,
+					rgba(203,93,78,1.0) 100%
+				);
+	background: linear-gradient(
+					top,
+					rgba(212,123,110,1.0) 0%,
+					rgba(203,93,78,1.0) 100%
+				);
+	background: -ms-linear-gradient(
+					top,
+					rgba(212,123,110,1.0) 0%,
+					rgba(203,93,78,1.0) 100%
+				);
+}
+
+a.button-more:hover {
+	border-bottom-color: #913123;
+	color: #6b1000!important;
+}
+
+a.button-more:active { border-top: 1px solid #913123; }

@@ -1,0 +1,45 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/menus.css);
+
+
+/* Mega Drop-Down Menu
+----------------------------------------------------------------------------------------------------*/
+
+/* Level 1 */
+.menu-dropdown { margin-bottom: 0; }
+
+.menu-dropdown li.level1 {
+	margin-right: 0;
+	padding-bottom: 0;
+}
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 {
+	border-style: solid;
+	border-color: transparent;
+	border-width: 0 1px 0 1px;
+}
+.menu-dropdown:first-child li.level1:first-child .level1 { border-left-width: 0; }
+
+.menu-dropdown a.level1 > span,
+.menu-dropdown span.level1 > span { padding: 5px 15px; }
+
+/* Set Parent */
+.menu-dropdown li.parent .level1 {
+	position: relative;
+	z-index: 101;
+	padding-bottom: 1px;
+}
+
+/* Set Hover */
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1 {
+	border-color: #DDD;
+	background-color: #FFF;
+}
+
+/* Drop-Down */
+.menu-dropdown .dropdown { top: 40px; }
+.menu-dropdown:first-child li.level1:first-child .dropdown { left: -1px; }
+

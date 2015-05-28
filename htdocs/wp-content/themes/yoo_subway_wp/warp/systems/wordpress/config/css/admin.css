@@ -1,0 +1,127 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/*
+ * Wordpress 3.0 specific
+ */
+
+#footer.widgets-sortables {
+	margin: 0;
+	border-top: none;
+	position: static;
+}
+
+#warp > h2 {
+	background: url(../images/yoo_icon_32.png) 0px 15px no-repeat;
+	padding: 14px 15px 3px 40px;
+}
+
+#warp.theme-options a {
+	font-size: 12px;
+}
+
+#warp .saving span {
+	display: inline-block;
+	width: 20px;
+	height: 16px;
+	background: url("../images/loader.gif") 4px 0 no-repeat;
+	vertical-align: middle;
+}
+
+#warp div.box {
+	margin-bottom: 20px;
+	border: 1px solid #DFDFDF;
+	border-radius: 6px;
+	line-height: 1;
+}
+
+#warp div.box h3 {
+	margin: 0;
+	padding: 7px 9px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1;
+	cursor: default;
+}
+
+#warp div.box h3 .description { font-weight: normal; }
+
+#warp div.box div.content,
+#warp div.box div.content p {
+	margin: 6px 6px 8px;
+	padding: 0;
+	font-size: 11px;
+}
+
+#warp div.box.collapsible { position: relative; }
+
+#warp div.box.collapsible .togglebutton {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 30px;
+	height: 25px;
+	background: url("../images/toggle-arrow.gif") no-repeat 0px -4px;
+	cursor: pointer;
+}
+
+#warp div.option {
+	margin: 15px;
+	overflow: hidden;
+}
+
+#warp div.option:last-child {}
+
+#warp div.option h4 {
+	margin: 0 0 8px 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+#warp div.option div.value {
+	margin-right: 10px;
+	float: left;
+}
+
+#warp div.option span.description {}
+
+#warp ul.list {
+	margin: 0;
+	padding: 0;
+}
+
+#warp ul.list li {
+	margin: 0px;
+	padding: 6px;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+#warp ul.list li:last-child { border: none; }
+
+#warp.theme-options div.checklog ul { margin: 15px; }
+
+#warp.theme-options div.checklog li { font-size: 10px; }
+
+#warp.theme-options div.checklog li.missing { color: red; }
+
+#warp.widget-options ul.content { padding-top: 0px; }
+
+#warp.widget-options ul.content li {
+	margin: 0px;
+	overflow: hidden;
+}
+
+#warp.widget-options ul.content select { width: auto; }
+
+#warp.widget-options div.box.widget {
+	width: 250px;
+	margin: 15px 15px 0 0;
+	overflow: hidden;
+	float: left;
+}
+
+#warp.widget-options div.box.widget span.in-widget-title { font-size: 11px; }
+
+#warp.widget-options div.box.widget div.content {
+	margin: 0;
+	padding: 0;
+}

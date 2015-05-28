@@ -1,0 +1,108 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * global bug fixes
+ */
+
+/* reset forcing vertical scrollbar */
+body { overflow: visible; }
+
+/* list-numbering bug */
+body ol li { display: list-item; }
+
+/*
+ * layout
+ */
+
+ 
+ 
+.width15 { width: 14.99%; }
+.width18 { width: 17.99%; }
+.width20 { width: 19.99%; }
+.width23 { width: 22.99%; }
+.width25 { width: 24.99%; }
+.width33 { width: 32.99%; }
+.width34 { width: 33.99%; }
+.width35 { width: 34.99%; }
+.width40 { width: 39.99%; }
+.width45 { width: 44.99%; }
+.width50 { width: 49.99%; }
+.width54 { width: 53.99%; }
+.width65 { width: 64.99%; }
+.width67 { width: 66.9%; }
+.width75 { width: 74.99%; }
+
+#menu li.level3,
+.module,
+#header,
+#page-header,
+#page-top,
+#page-top div.page-body-2,
+#page-body,
+#page-body div.page-body-2,
+#page-bottom,
+#page-bottom div.page-bottom-2,
+#page-footer,
+#footer { zoom: 1; }
+
+#logo > a { float: left; }
+
+#menu a.level1 span.subtitle,
+#menu span.level1 span.subtitle { zoom: 1; }
+
+
+
+/*
+ * menus
+ */
+
+/* topmenu */
+#toolbar ul.menu,
+#footer ul.menu { white-space: nowrap; }
+
+#toolbar .menu li,
+#footer .menu li,
+#toolbar .menu li a,
+#footer .menu li a { display: inline; }
+
+/* menu */
+#menu span { cursor: pointer; }
+
+#menu .columns2 ul.level2 {	width: 49.9%; }
+#menu .columns3 ul.level2 { width: 33.9%; }
+#menu .columns3 ul.first,
+#menu .columns3 ul.last { width: 32.9%; }
+#menu .columns4 ul.level2 { width: 24.9%; }
+
+#menu li.level2 {
+	float: left;
+	width: 100%;
+}
+
+/* sub menu */
+.mod-menu ul.menu span { cursor: pointer; }
+
+/* modules */
+
+ 
+#left .mod-menu,
+#contentleft .mod-menu,
+#contentright .mod-menu { zoom: 1 }
+
+/* joomla */
+div.joomla div.icons { min-width: 55px; }
+
+/* typography */
+ol.disc { padding: 0px 0px 0px 50px; }
+
+ol.disc li { padding-left: 5px; }
+
+hr.dotted {
+	background: none;
+	border: dotted 1px #c8c8c8;
+}
+
+p.dropcap:first-letter { line-height: 110%; }
+
+/* system */
+#searchbox input { line-height: 30px; }

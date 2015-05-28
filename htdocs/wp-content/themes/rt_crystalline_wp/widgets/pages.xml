@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+		<field name="title" type="text" label="Title" description="Title" class="widefat" size="30" default="Pages" readonly="false"/>
+		<field name="sortby" type="list" class="widefat" label="Sort By" description="Sort By" default="menu_order" readonly="false">
+            <option value="post_title">Page Title</option>
+			<option value="menu_order">Page Order</option>
+			<option value="ID">Page ID</option>
+        </field>
+        <field name="depth" type="text" label="Depth" description="Depth" class="widefat" size="30" default="0" readonly="false"/>
+		<field name="menu_class" type="text" label="List Class" description="List Class" class="widefat" size="30" default="menu" readonly="false"/>
+		<field name="exclude" type="text" label="Exclude" description="Exclude IDs separated with comma" class="widefat" size="30" default="" readonly="false"/>
+	</fieldset>
+</form>

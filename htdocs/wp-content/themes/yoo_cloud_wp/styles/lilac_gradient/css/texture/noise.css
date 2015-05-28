@@ -1,0 +1,8 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Texture: Noise
+----------------------------------------------------------------------------------------------------*/
+
+body#page.page { background: #d6d2f1 url(../../images/texture/noise/page.jpg) 0 0 repeat; }
+
+div#page-bg { background: url(../../images/texture/noise/texture.jpg) 0 0 repeat-x; }

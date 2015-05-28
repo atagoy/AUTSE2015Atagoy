@@ -1,0 +1,15 @@
+#top-header { background: #134e91 url(images/blue/top-bg.png) repeat-x; }
+	p#slogan { color: #78a9d0; }
+	ul#top-menu a:hover { color: #7ac5ec;}
+	ul#top-menu > li.current_page_item a { color: #7ac5ec !important; }
+#footer { background: #134e91 url(images/blue/footer-bg.png) repeat-x; }	
+	.footer-widget p { color: #89bbe3; }
+		.footer-widget a { color: #89bbe3; }
+		.footer-widget a:hover { color: #b0dbfd; }
+			.footer-widget ul li { background:url(images/blue/footer-bullet.png) no-repeat 0 7px; }
+	#footer-bottom  { background: url(images/blue/bottom-menu-bg.png) repeat-x top left; }
+		#footer-bottom .container { background: url(images/footer-container-bg.png) no-repeat 0px 1px; }
+			ul.bottom-nav li.current_page_item a { color: #7ac5ec; }
+				ul.bottom-nav li a { text-shadow: 1px 1px 1px rgba(0,0,0,0.6); }
+				ul.bottom-nav li a:hover { color: #7ac5ec; } 
+			p#copyright { color:#89bbe3; text-shadow: 1px 1px 1px rgba(0,0,0,0.6); }

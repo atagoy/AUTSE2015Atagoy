@@ -1,0 +1,65 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/system.css);
+@import url(../warp/systems/wordpress.3.0/css/system.css);
+@import url(system-all.css);
+
+
+/* Author
+----------------------------------------------------------------------------------------------------*/
+
+#system section.author {
+	padding: 15px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	background: #fafafa;
+}
+
+#system section.author .avatar {
+	padding: 3px;
+	border: 1px solid #ddd;
+	background: #fff;
+}
+
+#system section.author .name { color: #444; }
+
+
+/* Comments
+----------------------------------------------------------------------------------------------------*/
+
+/* Head */
+#system #comments .comment-head {
+	padding: 5px;
+	border: 1px solid #e6e6e6;
+	background: #fafafa;
+}
+
+#system #comments .comment-byadmin .comment-head {
+	border: 1px solid #dce6be;
+	background: #faffe6;
+}
+
+#system #comments .comment-head .author { text-shadow: 1px 1px 0 rgba(255, 255, 255, 1); }
+
+/* Body */
+#system #comments ul.level1 ul { background: url(../images/comments_arrow.png) 0 0 no-repeat; }
+
+/* Respond */
+#system #respond h3 { color: #444; }
+
+
+/* Latest Comments
+----------------------------------------------------------------------------------------------------*/
+
+ul.line.comments .meta { color: #999; }
+
+
+/* Calendar
+----------------------------------------------------------------------------------------------------*/
+
+table.calendar { border: 1px solid #ddd; }
+
+table.calendar th,
+table.calendar tfoot td { background: #fafafa; }
+table.calendar th { border-bottom: 1px solid #ddd; }
+table.calendar tfoot td { border-top: 1px solid #ddd; }

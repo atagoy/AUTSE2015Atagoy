@@ -1,0 +1,16 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+h2,
+h3,
+h4,
+h5,
+h6 { font-family: "LiberatorRegular", sans-serif; }
+
+h2 { font-size: 38px; line-height: 39px; }
+h3 { font-size: 32px; line-height: 33px; }
+h4 { font-size: 26px; line-height: 27px; }
+h5 { font-size: 20px; line-height: 21px; }
+h6 { font-size: 17px; line-height: 18px; }
+
+/* Frontpage Hgroup */
+#top-a hgroup > h2 { font-size: 42px; }

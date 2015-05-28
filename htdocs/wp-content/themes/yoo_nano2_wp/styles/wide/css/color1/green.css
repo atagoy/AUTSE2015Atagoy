@@ -1,0 +1,10 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../../css/color1/green.css);
+
+#system .pagination strong,
+#system .pagination a:hover {
+	border-color: #83B87A;
+	background-color: #83B87A;
+}
+

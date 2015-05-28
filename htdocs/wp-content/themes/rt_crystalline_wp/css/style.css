@@ -1,0 +1,283 @@
+/**
+ * @version   1.0 October 16, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/*** IMAGES AND BACKGROUNDS *************************/
+
+/* Logo */
+#rt-logo {background: url(../images/logo/logo.png) 0 0 no-repeat;}
+
+/* Header *****************/
+/* Dark */
+.header-shadows-dark #rt-main-header2 {background: url(../images/shadows/dark/header-overlay.png) 50% 0 repeat-x;}
+.header-shadows-dark #rt-header .shadow-left {background: url(../images/shadows/dark/header-bl.png) 0 100% no-repeat;}
+.header-shadows-dark #rt-header .shadow-right {background: url(../images/shadows/dark/header-br.png) 100% 100% no-repeat;}
+.header-shadows-dark #rt-header .shadow-bottom {background: url(../images/shadows/dark/header-overlay2.png) 50% 100% no-repeat;}
+.header-shadows-dark #rt-colorchooser {background: url(../images/shadows/dark/colorchooser-bg.png) 50% 100% no-repeat;}
+.header-shadows-dark #rt-colorchooser #preset-creator span {background: url(../images/shadows/dark/colorchooser-icon.png) 0 0 no-repeat;}
+/* Light */
+.header-shadows-light #rt-main-header2 {background: url(../images/shadows/light/header-overlay.png) 50% 0 repeat-x;}
+.header-shadows-light #rt-header .shadow-left {background: url(../images/shadows/light/header-bl.png) 0 100% no-repeat;}
+.header-shadows-light #rt-header .shadow-right {background: url(../images/shadows/light/header-br.png) 100% 100% no-repeat;}
+.header-shadows-light #rt-header .shadow-bottom {background: url(../images/shadows/light/header-overlay2.png) 50% 100% no-repeat;}
+.header-shadows-light #rt-colorchooser {background: url(../images/shadows/light/colorchooser-bg.png) 50% 100% no-repeat;}
+.header-shadows-light #rt-colorchooser #preset-creator span {background: url(../images/shadows/light/colorchooser-icon.png) 0 0 no-repeat;}
+
+/* Top Menu *****************/
+/* Dark */
+.header-shadows-dark #rt-navigation2 {background: url(../images/shadows/dark/nav-overlay.png) 50% 100% repeat-x;}
+.header-shadows-dark #rt-navigation3 {background: url(../images/shadows/dark/nav-overlay2.png) 50% 0 repeat-x;}
+.header-shadows-dark #rt-navigation .rt-container {background: url(../images/shadows/dark/nav-overlay3.png) 50% 0 no-repeat;}
+.header-shadows-dark #rt-navigation .shadow-left {background: url(../images/shadows/dark/nav-l.png) 0 0 repeat-y;}
+.header-shadows-dark #rt-navigation .shadow-right {background: url(../images/shadows/dark/nav-r.png) 100% 0 repeat-y;}
+.header-shadows-dark .menutop li.root, .menu-type-splitmenu .header-shadows-dark .menutop li {background: url(../images/shadows/dark/menus/menutab-r.png) 100% 0 no-repeat;}
+.header-shadows-dark .menutop li.root.active > .item, .header-shadows-dark .menutop li.root:hover > .item, .menu-type-splitmenu .header-shadows-dark .menutop li.active .item, .menu-type-splitmenu .header-shadows-dark .menutop li:hover .item, .menu-type-splitmenu .header-shadows-dark .nopill .menutop li.active:hover .item, .header-shadows-dark .menutop li.f-mainparent-itemfocus .item {background: url(../images/shadows/dark/menus/menutab-active.png) 0 0 repeat-x;}
+/* Light */
+.header-shadows-light #rt-navigation2, .header-shadows-none #rt-navigation2 {background: url(../images/shadows/light/nav-overlay.png) 50% 100% repeat-x;}
+.header-shadows-light #rt-navigation3 {background: url(../images/shadows/light/nav-overlay2.png) 50% 0 repeat-x;}
+.header-shadows-light #rt-navigation .rt-container {background: url(../images/shadows/light/nav-overlay3.png) 50% 0 no-repeat;}
+.header-shadows-light #rt-navigation .shadow-left {background: url(../images/shadows/light/nav-l.png) 0 0 repeat-y;}
+.header-shadows-light #rt-navigation .shadow-right {background: url(../images/shadows/light/nav-r.png) 100% 0 repeat-y;}
+.header-shadows-light .menutop li.root, .menu-type-splitmenu .header-shadows-light .menutop li {background: url(../images/shadows/light/menus/menutab-r.png) 100% 0 no-repeat;}
+.header-shadows-light .menutop li.root.active > .item, .header-shadows-light .menutop li.root:hover > .item, .menu-type-splitmenu .header-shadows-light .menutop li.active .item, .menu-type-splitmenu .header-shadows-light .menutop li:hover .item, .menu-type-splitmenu .header-shadows-light .nopill .menutop li.active:hover .item, .header-shadows-light .menutop li.f-mainparent-itemfocus .item {background: url(../images/shadows/light/menus/menutab-active.png) 0 0 repeat-x;}
+
+/* Menu Dropdown *****************/
+/* Dark */
+.header-shadows-dark.menutop ul.columns2, .header-shadows-dark.menutop .columns2 > .drop-top {background-image: url(../images/shadows/dark/menus/drop-bg-2.png);}
+.header-shadows-dark.menutop ul, .header-shadows-dark.menutop .drop-top {background-image: url(../images/shadows/dark/menus/drop-bg-1.png);}
+.header-shadows-dark.menutop ul.columns2, .header-shadows-dark.menutop .columns2 > .drop-top {background-image: url(../images/shadows/dark/menus/drop-bg-2.png);}
+.header-shadows-dark.menutop ul li {background: url(../images/shadows/dark/menus/drop-item-bg.png) 50% 100% no-repeat;}
+.header-shadows-dark.menutop ul li:hover .item, .header-shadows-dark.menutop ul li.f-menuparent-itemfocus .item, .header-shadows-dark.menutop ul li.active .item {background: url(../images/shadows/dark/module-highlight.png) -42px 1px no-repeat;}
+.header-shadows-dark.menutop ul li > .daddy span {background: url(../images/shadows/dark/menus/menu-arrow.png) 96% 50% no-repeat;}
+/* Light */
+.header-shadows-light.menutop ul.columns2, .header-shadows-light.menutop .columns2 > .drop-top {background-image: url(../images/shadows/light/menus/drop-bg-2.png);}
+.header-shadows-light.menutop ul, .header-shadows-light.menutop .drop-top {background-image: url(../images/shadows/light/menus/drop-bg-1.png);}
+.header-shadows-light.menutop ul.columns2, .header-shadows-light.menutop .columns2 > .drop-top {background-image: url(../images/shadows/light/menus/drop-bg-2.png);}
+.header-shadows-light.menutop ul li {background: url(../images/shadows/light/menus/drop-item-bg.png) 50% 100% no-repeat;}
+.header-shadows-light.menutop ul li:hover .item, .header-shadows-light.menutop ul li.f-menuparent-itemfocus .item, .header-shadows-light.menutop ul li.active .item {background: url(../images/shadows/light/module-highlight.png) -42px 1px no-repeat;}
+.header-shadows-light.menutop ul li > .daddy span {background: url(../images/shadows/light/menus/menu-arrow.png) 96% 50% no-repeat;}
+
+/* Showcase *****************/
+/* Dark */
+.header-shadows-dark #rt-showcase2 {background: url(../images/shadows/dark/under-shadow.png) 50% 0 no-repeat;}
+.header-shadows-dark #rt-showcase .shadow-left {background: url(../images/shadows/dark/showcase-l.png) 0 0 no-repeat;}
+.header-shadows-dark #rt-showcase .shadow-right {background: url(../images/shadows/dark/showcase-r.png) 100% 0 no-repeat;}
+.header-shadows-dark #rt-showcase .shadow-bl {background: url(../images/shadows/dark/header-bl.png) 0 100% no-repeat;}
+.header-shadows-dark #rt-showcase .shadow-br {background: url(../images/shadows/dark/header-br.png) 100% 100% no-repeat;}
+.header-shadows-dark #rt-showcase .rt-container {background: url(../images/shadows/dark/showcase-overlay.png) 50% 0 repeat-x;}
+/* Light */
+.header-shadows-light #rt-showcase2 {background: url(../images/shadows/light/under-shadow.png) 50% 0 no-repeat;}
+.header-shadows-light #rt-showcase .shadow-left {background: url(../images/shadows/light/showcase-l.png) 0 0 no-repeat;}
+.header-shadows-light #rt-showcase .shadow-right {background: url(../images/shadows/light/showcase-r.png) 100% 0 no-repeat;}
+.header-shadows-light #rt-showcase .shadow-bl {background: url(../images/shadows/light/header-bl.png) 0 100% no-repeat;}
+.header-shadows-light #rt-showcase .shadow-br {background: url(../images/shadows/light/header-br.png) 100% 100% no-repeat;}
+.header-shadows-light #rt-showcase .rt-container {background: url(../images/shadows/light/showcase-overlay.png) 50% 0 repeat-x;}
+
+/* Main *****************/
+/* Dark */
+#rt-main-surround2.main-shadows-dark {background: url(../images/shadows/dark/header-overlay.png) 50% -90px repeat-x;}
+.main-shadows-dark .shadow-left {background: url(../images/shadows/dark/body-l.png) 0 0 repeat-y;}
+.main-shadows-dark .shadow-right {background: url(../images/shadows/dark/body-r.png) 100% 0 repeat-y;}
+/* Light */
+#rt-main-surround2.main-shadows-light {background: url(../images/shadows/light/header-overlay.png) 50% -90px repeat-x;}
+.main-shadows-light .shadow-left {background: url(../images/shadows/light/body-l.png) 0 0 repeat-y;}
+.main-shadows-light .shadow-right {background: url(../images/shadows/light/body-r.png) 100% 0 repeat-y;}
+
+/* Utility *****************/
+/* Dark */
+.feature-shadows-dark #rt-utility2 {background: url(../images/shadows/dark/gradient-div.png) 50% -1px repeat-x;}
+.feature-shadows-dark #rt-login-button {background: url(../images/shadows/dark/module-div.png) 0 -75px no-repeat;}
+.feature-shadows-dark #rt-login-button .buttontext {background: url(../images/shadows/dark/login-icon.png) 0 50% no-repeat;}
+/* Light */
+.feature-shadows-light #rt-utility2 {background: url(../images/shadows/light/gradient-div.png) 50% -1px repeat-x;}
+.feature-shadows-light #rt-login-button {background: url(../images/shadows/light/module-div.png) 0 -75px no-repeat;}
+.feature-shadows-light #rt-login-button .buttontext, .feature-shadows-none #rt-login-button .buttontext {background: url(../images/shadows/light/login-icon.png) 0 50% no-repeat;}
+
+/* Breadcrumbs *****************/
+/* Dark */
+.main-shadows-dark #rt-breadcrumbs {background: url(../images/shadows/dark/gradient-div.png) 0 100% repeat-x;}
+.main-shadows-dark #rt-breadcrumbs div.breadcrumbs {background: url(../images/shadows/dark/module-l.png) 0 0 repeat-y;}
+/* Light */
+.main-shadows-light #rt-breadcrumbs {background: url(../images/shadows/light/gradient-div.png) 0 100% repeat-x;}
+.main-shadows-light #rt-breadcrumbs div.breadcrumbs {background: url(../images/shadows/light/module-l.png) 0 0 repeat-y;}
+
+/* Feature *****************/
+/* Dark */
+.feature-shadows-dark #rt-feature2 {background: url(../images/shadows/dark/gradient-div.png) 50% 0 repeat-x;}
+.feature-shadows-dark #rt-feature2 .module-content {background: url(../images/shadows/dark/module-div.png) 100% 0 no-repeat;}
+.feature-shadows-dark #rt-feature2 .module-inner {background: url(../images/shadows/dark/module-top.png) 50% 0 repeat-x;}
+/* Light */
+.feature-shadows-light #rt-feature2 {background: url(../images/shadows/light/gradient-div.png) 50% 0 repeat-x;}
+.feature-shadows-light #rt-feature2 .module-content {background: url(../images/shadows/light/module-div.png) 100% 0 no-repeat;}
+.feature-shadows-light #rt-feature2 .module-inner {background: url(../images/shadows/light/module-top.png) 50% 0 repeat-x;}
+
+/* Body *****************/
+/* Dark */
+.body-shadows-dark #rt-mainbody-shadow {background: url(../images/shadows/dark/gradient-div.png) 50% 0 repeat-x;}
+.body-shadows-dark #body-inner-l {background: url(../images/shadows/dark/body-inner-l.png) 0 0 repeat-y;}
+.body-shadows-dark #body-inner-r {background: url(../images/shadows/dark/body-inner-r.png) 100% 0 repeat-y;}
+.body-shadows-dark #jc .rok-comment-entry {background: url(../images/shadows/dark/gradient-div.png) 50% 0 repeat-x;}
+.body-shadows-dark #jc .rok-comment-entry .comment-info {background: url(../images/shadows/dark/module-r.png) 100% 0 repeat-y;}
+.body-shadows-dark .widget_gantry_recentcomments ul.comments li img {background: url(../images/shadows/dark/overlay-tint.png);}
+.body-shadows-dark .widget_gantry_recentcomments ul.comments li {background-image: url(../images/shadows/dark/speach-bubble.png);}
+
+/* Light */
+.body-shadows-light #rt-mainbody-shadow {background: url(../images/shadows/light/gradient-div.png) 50% 0 repeat-x;}
+.body-shadows-light #body-inner-l {background: url(../images/shadows/light/body-inner-l.png) 0 0 repeat-y;}
+.body-shadows-light #body-inner-r {background: url(../images/shadows/light/body-inner-r.png) 100% 0 repeat-y;}
+.body-shadows-light #jc .rok-comment-entry {background: url(../images/shadows/light/gradient-div.png) 50% 0 repeat-x;}
+.body-shadows-light #jc .rok-comment-entry .comment-info {background: url(../images/shadows/light/module-r.png) 100% 0 repeat-y;}
+.body-shadows-light .widget_gantry_recentcomments ul.comments li img {background: url(../images/shadows/light/overlay-tint.png);}
+.body-shadows-light .widget_gantry_recentcomments ul.comments li {background-image: url(../images/shadows/light/speach-bubble.png);}
+
+/* Modules *****************/
+/* Dark */
+.header-shadows-dark .module-title, .body-shadows-dark .module-title, .feature-shadows-dark .module-title, .bottom-shadows-dark .module-title {background: url(../images/shadows/dark/module-header.png) 0 100% no-repeat;}
+.header-shadows-dark .module-title2, .body-shadows-dark .module-title2, .feature-shadows-dark .module-title2, .bottom-shadows-dark .module-title2 {background: url(../images/shadows/dark/module-highlight.png) 0 0 no-repeat;}
+.header-shadows-dark .title, .body-shadows-dark .title, .feature-shadows-dark .title, .bottom-shadows-dark .title, .body-shadows-dark .rt-article-title, .body-shadows-dark .rt-pagetitle {background: url(../images/shadows/dark/module-icon.png) 4px 50% no-repeat;}
+.header-shadows-dark .module-inner2, .body-shadows-dark .module-inner2, .feature-shadows-dark .module-inner2, .bottom-shadows-dark .module-inner2 {background: url(../images/shadows/dark/module-top.png) 50% 0 repeat-x;}
+.header-shadows-dark .module-inner3, .body-shadows-dark .module-inner3, .feature-shadows-dark .module-inner3, .bottom-shadows-dark .module-inner3 {background: url(../images/shadows/dark/module-top2.png) 50% 0 repeat-x;}
+.header-shadows-dark .module-tm, .body-shadows-dark .module-tm, .feature-shadows-dark .module-tm, .bottom-shadows-dark .module-tm {background: url(../images/shadows/dark/module-tm.png) 50% 0 repeat-x;}
+.header-shadows-dark .module-tl, .body-shadows-dark .module-tl, .feature-shadows-dark .module-tl, .bottom-shadows-dark .module-tl {background: url(../images/shadows/dark/module-tl.png) 0 0 no-repeat;}
+.header-shadows-dark .module-tr, .body-shadows-dark .module-tr, .feature-shadows-dark .module-tr, .bottom-shadows-dark .module-tr {background: url(../images/shadows/dark/module-tr.png) 100% 0 no-repeat;}
+.header-shadows-dark .module-l, .body-shadows-dark .module-l, .feature-shadows-dark .module-l, .bottom-shadows-dark .module-l {background: url(../images/shadows/dark/module-l.png) 0 0 repeat-y;}
+.header-shadows-dark .module-r, .body-shadows-dark .module-r, .feature-shadows-dark .module-r, .bottom-shadows-dark .module-r {background: url(../images/shadows/dark/module-r.png) 100% 0 repeat-y;}
+.header-shadows-dark .module-bm, .body-shadows-dark .module-bm, .feature-shadows-dark .module-bm, .bottom-shadows-dark .module-bm {background: url(../images/shadows/dark/module-bm.png) 50% 0 repeat-x;}
+.header-shadows-dark .module-bl, .body-shadows-dark .module-bl, .feature-shadows-dark .module-bl, .bottom-shadows-dark .module-bl {background: url(../images/shadows/dark/module-bl.png) 0 0 no-repeat;}
+.header-shadows-dark .module-br, .body-shadows-dark .module-br, .feature-shadows-dark .module-br, .bottom-shadows-dark .module-br {background: url(../images/shadows/dark/module-br.png) 100% 0 no-repeat;}
+.header-shadows-dark .basic .module-l, .body-shadows-dark .basic .module-l, .feature-shadows-dark .basic .module-l, .bottom-shadows-dark .basic .module-l {background:none;}
+.header-shadows-dark .basic .module-r, .body-shadows-dark .basic .module-r, .feature-shadows-dark .basic .module-r, .bottom-shadows-dark .basic .module-r {background:none;}
+.header-shadows-dark .basic .module-title, .body-shadows-dark .basic .module-title, .feature-shadows-dark .basic .module-title, .bottom-shadows-dark .basic .module-title {background:none;}
+.header-shadows-dark .basic .module-title2, .body-shadows-dark .basic .module-title2, .feature-shadows-dark .basic .module-title2, .bottom-shadows-dark .basic .module-title2 {background:none;}
+.header-shadows-dark .basic .title, .body-shadows-dark .basic .title, .feature-shadows-dark .basic .title, .bottom-shadows-dark .basic .title, .body-shadows-dark .basic .rt-article-title, .body-shadows-dark .basic .rt-pagetitle {background:none;}
+.header-shadows-dark .basic .module-inner2, .body-shadows-dark .basic .module-inner2, .feature-shadows-dark .basic .module-inner2, .bottom-shadows-dark .basic .module-inner2 {background:none;}
+
+/* Light */
+.header-shadows-light .module-title, .body-shadows-light .module-title, .feature-shadows-dark .module-title, .bottom-shadows-light .module-title {background: url(../images/shadows/light/module-header.png) 0 100% no-repeat;}
+.header-shadows-light .module-title2, .body-shadows-light .module-title2, .feature-shadows-light .module-title2, .bottom-shadows-light .module-title2 {background: url(../images/shadows/light/module-highlight.png) 0 0 no-repeat;}
+.header-shadows-light .title, .body-shadows-light .title, .feature-shadows-light .title, .bottom-shadows-light .title, .body-shadows-light .rt-article-title, .body-shadows-light .rt-pagetitle {background: url(../images/shadows/light/module-icon.png) 4px 50% no-repeat;}
+.header-shadows-light .module-inner2, .body-shadows-light .module-inner2, .feature-shadows-light .module-inner2, .bottom-shadows-light .module-inner2 {background: url(../images/shadows/light/module-top.png) 50% 0 repeat-x;}
+.header-shadows-light .module-inner3, .body-shadows-light .module-inner3, .feature-shadows-light .module-inner3, .bottom-shadows-light .module-inner3 {background: url(../images/shadows/light/module-top2.png) 50% 0 repeat-x;}
+.header-shadows-light .module-tm, .body-shadows-light .module-tm, .feature-shadows-light .module-tm, .bottom-shadows-light .module-tm {background: url(../images/shadows/light/module-tm.png) 50% 0 repeat-x;}
+.header-shadows-light .module-tl, .body-shadows-light .module-tl, .feature-shadows-light .module-tl, .bottom-shadows-light .module-tl {background: url(../images/shadows/light/module-tl.png) 0 0 no-repeat;}
+.header-shadows-light .module-tr, .body-shadows-light .module-tr, .feature-shadows-light .module-tr, .bottom-shadows-light .module-tr {background: url(../images/shadows/light/module-tr.png) 100% 0 no-repeat;}
+.header-shadows-light .module-l, .body-shadows-light .module-l, .feature-shadows-light .module-l, .bottom-shadows-light .module-l {background: url(../images/shadows/light/module-l.png) 0 0 repeat-y;}
+.header-shadows-light .module-r, .body-shadows-light .module-r, .feature-shadows-light .module-r, .bottom-shadows-light .module-r {background: url(../images/shadows/light/module-r.png) 100% 0 repeat-y;}
+.header-shadows-light .module-bm, .body-shadows-light .module-bm, .feature-shadows-light .module-bm, .bottom-shadows-light .module-bm {background: url(../images/shadows/light/module-bm.png) 50% 0 repeat-x;}
+.header-shadows-light .module-bl, .body-shadows-light .module-bl, .feature-shadows-light .module-bl, .bottom-shadows-light .module-bl {background: url(../images/shadows/light/module-bl.png) 0 0 no-repeat;}
+.header-shadows-light .module-br, .body-shadows-light .module-br, .feature-shadows-light .module-br, .bottom-shadows-light .module-br {background: url(../images/shadows/light/module-br.png) 100% 0 no-repeat;}
+.header-shadows-light .basic .module-l, .body-shadows-light .basic .module-l, .feature-shadows-light .basic .module-l, .bottom-shadows-light .basic .module-l {background:none;}
+.header-shadows-light .basic .module-r, .body-shadows-light .basic .module-r, .feature-shadows-light .basic .module-r, .bottom-shadows-light .basic .module-r {background:none;}
+.header-shadows-light .basic .module-title, .body-shadows-light .basic .module-title, .feature-shadows-light .basic .module-title, .bottom-shadows-light .basic .module-title {background:none;}
+.header-shadows-light .basic .module-title2, .body-shadows-light .basic .module-title2, .feature-shadows-light .basic .module-title2, .bottom-shadows-light .basic .module-title2 {background:none;}
+.header-shadows-light .basic .title, .body-shadows-light .basic .title, .feature-shadows-light .basic .title, .bottom-shadows-light .basic .title, .body-shadows-light .basic .rt-article-title, .body-shadows-light .basic .rt-pagetitle {background:none;}
+.header-shadows-light .basic .module-inner2, .body-shadows-light .basic .module-inner2, .feature-shadows-light .basic .module-inner2, .bottom-shadows-light .basic .module-inner2 {background:none;}
+
+/* Side Menu *****************/
+/* Dark */
+#rt-main-surround .body-shadows-dark ul.menu li {background: url(../images/shadows/dark/menus/drop-item-bg.png) 0 0 no-repeat;}
+#rt-main-surround .body-shadows-dark ul.menu li.active .item, #rt-main-surround .body-shadows-dark ul.menu li.active a, #rt-main-surround .body-shadows-dark ul.menu li.active .separator, #rt-main-surround .body-shadows-dark ul.menu li:hover .item, #rt-main-surround .body-shadows-dark ul.menu li:hover a, #rt-main-surround .body-shadows-dark ul.menu li:hover .seperator {background: url(../images/shadows/dark/module-highlight.png) 0 1px no-repeat;}
+#rt-main-surround .body-shadows-dark ul.menu li a span, #rt-main-surround .body-shadows-dark ul.menu li .separator span, #rt-main-surround .body-shadows-dark ul.menu li .item span {background: url(../images/shadows/dark/menus/menu-arrow.png) 5px 9px no-repeat;}
+/* Light */
+#rt-main-surround .body-shadows-light ul.menu li {background: url(../images/shadows/light/menus/drop-item-bg.png) 0 0 no-repeat;}
+#rt-main-surround .body-shadows-light ul.menu li.active .item, #rt-main-surround .body-shadows-light ul.menu li.active a, #rt-main-surround .body-shadows-light ul.menu li.active .separator, #rt-main-surround .body-shadows-light ul.menu li:hover .item, #rt-main-surround .body-shadows-light ul.menu li:hover a, #rt-main-surround .body-shadows-light ul.menu li:hover .seperator {background: url(../images/shadows/light/module-highlight.png) 0 1px no-repeat;}
+#rt-main-surround .body-shadows-light ul.menu li a span, #rt-main-surround .body-shadows-light ul.menu li .separator span, #rt-main-surround .body-shadows-light ul.menu li .item span, #rt-main-surround .body-shadows-none ul.menu li a span, #rt-main-surround .body-shadows-none ul.menu li .separator span, #rt-main-surround .body-shadows-none ul.menu li .item span {background: url(../images/shadows/light/menus/menu-arrow.png) 5px 9px no-repeat;}
+
+/* Bottom *****************/
+/* Dark */
+.bottom-shadows-dark #rt-bottom2 {background: url(../images/shadows/dark/header-overlay.png) 50% -90px repeat-x;}
+.bottom-shadows-dark #rt-bottom2 .shadow-left {background: url(../images/shadows/dark/showcase-l.png) 0 0 no-repeat;}
+.bottom-shadows-dark #rt-bottom2 .shadow-right {background: url(../images/shadows/dark/showcase-r.png) 100% 0 no-repeat;}
+.bottom-shadows-dark #rt-bottom2 .rt-container {background: url(../images/shadows/dark/footer-overlay.png) 50% 0 no-repeat;}
+/* Light */
+.bottom-shadows-light #rt-bottom2 {background: url(../images/shadows/light/header-overlay.png) 50% -90px repeat-x;}
+.bottom-shadows-light #rt-bottom2 .shadow-left {background: url(../images/shadows/light/showcase-l.png) 0 0 no-repeat;}
+.bottom-shadows-light #rt-bottom2 .shadow-right {background: url(../images/shadows/light/showcase-r.png) 100% 0 no-repeat;}
+.bottom-shadows-light #rt-bottom2 .rt-container {background: url(../images/shadows/light/footer-overlay.png) 50% 0 no-repeat;}
+
+/* Footer *****************/
+/* Dark */
+.bottom-shadows-dark #rt-main-footer2 {background: url(../images/shadows/dark/overlay-tint.png) 0 0;}
+.bottom-shadows-dark #rt-footer2 .rt-container, .bottom-shadows-dark #rt-copyright .rt-container {background: url(../images/shadows/dark/footer-overlay.png) 50% 0 no-repeat;}
+.bottom-shadows-dark #rocket, .bottom-shadows-dark #gantry-logo {background-image: url(../images/shadows/dark/branding.png);background-repeat: no-repeat;}
+/* Light */
+.bottom-shadows-light #rt-main-footer2 {background: url(../images/shadows/light/overlay-tint.png) 0 0;}
+.bottom-shadows-light #rt-footer2 .rt-container, .bottom-shadows-light #rt-copyright .rt-container {background: url(../images/shadows/light/footer-overlay.png) 50% 0 no-repeat;}
+.bottom-shadows-light #rocket, .bottom-shadows-light #gantry-logo, .bottom-shadows-none #rocket, .bottom-shadows-none #gantry-logo {background-image: url(../images/shadows/light/branding.png);background-repeat: no-repeat;}
+
+/* Typography *****************/
+/* Dark */
+.header-shadows-dark .readon, .body-shadows-dark .readon, .feature-shadows-dark .readon, .bottom-shadows-dark .readon {background: url(../images/shadows/dark/readon-r.png) 100% 0 no-repeat;}
+.header-shadows-dark .readon span, .body-shadows-dark .readon span, .feature-shadows-dark .readon span, .bottom-shadows-dark .readon span, .header-shadows-dark .readon .button, .body-shadows-dark .readon .button, .feature-shadows-dark .readon .button, .bottom-shadows-dark .readon .button {background: url(../images/shadows/dark/readon-l.png) 0 0 no-repeat;}
+.header-shadows-dark .rokradios, .header-shadows-dark .rokchecks, .header-shadows-dark .rokradios-active, .header-shadows-dark .rokchecks-active, .feature-shadows-dark .rokradios, .feature-shadows-dark .rokchecks, .feature-shadows-dark .rokradios-active, .feature-shadows-dark .rokchecks-active, .body-shadows-dark .rokradios, .body-shadows-dark .rokchecks, .body-shadows-dark .rokradios-active, .body-shadows-dark .rokchecks-active, .bottom-shadows-dark .rokradios, .bottom-shadows-dark .rokchecks, .bottom-shadows-dark .rokradios-active, .bottom-shadows-dark .rokchecks-active {background-image: url(../images/shadows/dark/inputs.png);}
+.header-shadows-dark #form-login ul li a, .header-shadows-dark #com-form-login ul li a, .header-shadows-dark ul.rt-more-articles li a, .header-shadows-dark .rt-section-list ul li a, .feature-shadows-dark #form-login ul li a, .feature-shadows-dark #com-form-login ul li a, .feature-shadows-dark ul.rt-more-articles li a, .feature-shadows-dark .rt-section-list ul li a, .body-shadows-dark #form-login ul li a, .body-shadows-dark #com-form-login ul li a, .body-shadows-dark ul.rt-more-articles li a, .body-shadows-dark .rt-section-list ul li a, .bottom-shadows-dark #form-login ul li a, .bottom-shadows-dark #com-form-login ul li a, .bottom-shadows-dark ul.rt-more-articles li a, .bottom-shadows-dark .rt-section-list ul li a {background: urL(../images/shadows/dark/list-arrow.png) 0 3px no-repeat;}
+.header-shadows-dark #rt-accessibility a.small .button, .header-shadows-dark #rt-accessibility a.large .button, .header-shadows-dark #rt-accessibility a.small:hover .button, .header-shadows-dark #rt-accessibility a.large:hover .button, .feature-shadows-dark #rt-accessibility a.small .button, .feature-shadows-dark #rt-accessibility a.large .button, .feature-shadows-dark #rt-accessibility a.small:hover .button, .feature-shadows-dark #rt-accessibility a.large:hover .button, .body-shadows-dark #rt-accessibility a.small .button, .body-shadows-dark #rt-accessibility a.large .button, .body-shadows-dark #rt-accessibility a.small:hover .button, .body-shadows-dark #rt-accessibility a.large:hover .button, .bottom-shadows-dark #rt-accessibility a.small .button, .bottom-shadows-dark #rt-accessibility a.large .button, .bottom-shadows-dark #rt-accessibility a.small:hover .button, .bottom-shadows-dark #rt-accessibility a.large:hover .button {background-image: url(../images/shadows/dark/fontsizer.png);}
+/* Light */
+.header-shadows-light .readon, .body-shadows-light .readon, .feature-shadows-light .readon, .bottom-shadows-light .readon, .header-shadows-none .readon, .body-shadows-none .readon, .feature-shadows-none .readon, .bottom-shadows-none .readon {background: url(../images/shadows/light/readon-r.png) 100% 0 no-repeat;}
+.header-shadows-light .readon span, .body-shadows-light .readon span, .feature-shadows-light .readon span, .bottom-shadows-light .readon span, .header-shadows-light .readon .button, .body-shadows-light .readon .button, .feature-shadows-light .readon .button, .bottom-shadows-light .readon .button, .header-shadows-none .readon span, .body-shadows-none .readon span, .feature-shadows-none .readon span, .bottom-shadows-none .readon span, .header-shadows-none .readon .button, .body-shadows-none .readon .button, .feature-shadows-none .readon .button, .bottom-shadows-none .readon .button {background: url(../images/shadows/light/readon-l.png) 0 0 no-repeat;}
+.header-shadows-light .rokradios, .header-shadows-light .rokchecks, .header-shadows-light .rokradios-active, .header-shadows-light .rokchecks-active, .feature-shadows-light .rokradios, .feature-shadows-light .rokchecks, .feature-shadows-light .rokradios-active, .feature-shadows-light .rokchecks-active, .body-shadows-light .rokradios, .body-shadows-light .rokchecks, .body-shadows-light .rokradios-active, .body-shadows-light .rokchecks-active, .bottom-shadows-light .rokradios, .bottom-shadows-light .rokchecks, .bottom-shadows-light .rokradios-active, .bottom-shadows-light .rokchecks-active, .header-shadows-none .rokradios, .header-shadows-none .rokchecks, .header-shadows-none .rokradios-active, .header-shadows-none .rokchecks-active, .feature-shadows-none .rokradios, .feature-shadows-none .rokchecks, .feature-shadows-none .rokradios-active, .feature-shadows-none .rokchecks-active, .body-shadows-none .rokradios, .body-shadows-none .rokchecks, .body-shadows-none .rokradios-active, .body-shadows-none .rokchecks-active, .bottom-shadows-none .rokradios, .bottom-shadows-none .rokchecks, .bottom-shadows-none .rokradios-active, .bottom-shadows-none .rokchecks-active {background-image: url(../images/shadows/light/inputs.png);}
+.header-shadows-light #form-login ul li a, .header-shadows-light #com-form-login ul li a, .header-shadows-light ul.rt-more-articles li a, .header-shadows-light .rt-section-list ul li a, .feature-shadows-light #form-login ul li a, .feature-shadows-light #com-form-login ul li a, .feature-shadows-light ul.rt-more-articles li a, .feature-shadows-light .rt-section-list ul li a, .body-shadows-light #form-login ul li a, .body-shadows-light #com-form-login ul li a, .body-shadows-light ul.rt-more-articles li a, .body-shadows-light .rt-section-list ul li a, .bottom-shadows-light #form-login ul li a, .bottom-shadows-light #com-form-login ul li a, .bottom-shadows-light ul.rt-more-articles li a, .bottom-shadows-light .rt-section-list ul li a, .header-shadows-none #form-login ul li a, .header-shadows-none #com-form-login ul li a, .header-shadows-none ul.rt-more-articles li a, .header-shadows-none .rt-section-list ul li a, .feature-shadows-none #form-login ul li a, .feature-shadows-none #com-form-login ul li a, .feature-shadows-none ul.rt-more-articles li a, .feature-shadows-none .rt-section-list ul li a, .body-shadows-none #form-login ul li a, .body-shadows-none #com-form-login ul li a, .body-shadows-none ul.rt-more-articles li a, .body-shadows-none .rt-section-list ul li a, .bottom-shadows-none #form-login ul li a, .bottom-shadows-none #com-form-login ul li a, .bottom-shadows-none ul.rt-more-articles li a, .bottom-shadows-none .rt-section-list ul li a {background: urL(../images/shadows/light/list-arrow.png) 0 3px no-repeat;}
+.header-shadows-light #rt-accessibility a.small .button, .header-shadows-light #rt-accessibility a.large .button, .header-shadows-light #rt-accessibility a.small:hover .button, .header-shadows-light #rt-accessibility a.large:hover .button, .feature-shadows-light #rt-accessibility a.small .button, .feature-shadows-light #rt-accessibility a.large .button, .feature-shadows-light #rt-accessibility a.small:hover .button, .feature-shadows-light #rt-accessibility a.large:hover .button, .body-shadows-light #rt-accessibility a.small .button, .body-shadows-light #rt-accessibility a.large .button, .body-shadows-light #rt-accessibility a.small:hover .button, .body-shadows-light #rt-accessibility a.large:hover .button, .bottom-shadows-light #rt-accessibility a.small .button, .bottom-shadows-light #rt-accessibility a.large .button, .bottom-shadows-light #rt-accessibility a.small:hover .button, .bottom-shadows-light #rt-accessibility a.large:hover .button, .header-shadows-none #rt-accessibility a.small .button, .header-shadows-none #rt-accessibility a.large .button, .header-shadows-none #rt-accessibility a.small:hover .button, .header-shadows-none #rt-accessibility a.large:hover .button, .feature-shadows-none #rt-accessibility a.small .button, .feature-shadows-none #rt-accessibility a.large .button, .feature-shadows-none #rt-accessibility a.small:hover .button, .feature-shadows-none #rt-accessibility a.large:hover .button, .body-shadows-none #rt-accessibility a.small .button, .body-shadows-none #rt-accessibility a.large .button, .body-shadows-none #rt-accessibility a.small:hover .button, .body-shadows-none #rt-accessibility a.large:hover .button, .bottom-shadows-none #rt-accessibility a.small .button, .bottom-shadows-none #rt-accessibility a.large .button, .bottom-shadows-none #rt-accessibility a.small:hover .button, .bottom-shadows-none #rt-accessibility a.large:hover .button  {background-image: url(../images/shadows/light/fontsizer.png);}
+
+/* Login Popup */
+#rt-popup .readon {background: url(../images/shadows/light/readon-r.png) 100% 0 no-repeat;}
+#rt-popup .readon span, #rt-popup .readon .button {background: url(../images/shadows/light/readon-l.png) 0 0 no-repeat;}
+#rt-popup #form-login ul li a {background: urL(../images/shadows/light/list-arrow.png) 0 3px no-repeat;}
+#rt-popup .inputbox {background: url(../images/shadows/light/overlay-tint.png) 0 0;}
+#rt-popup .rokradios, #rt-popup  .rokchecks, #rt-popup  .rokradios-active, #rt-popup  .rokchecks-active {background-image: url(../images/shadows/light/inputs.png);}
+
+/* Joomla Specific *****************/
+/* Dark */
+.header-shadows-dark .input, .body-shadows-dark .inputbox, .feature-shadows-dark .inputbox, .bottom-shadows-dark .inputbox {background: url(../images/shadows/dark/overlay-tint.png) 0 0;}
+/* Light */
+.header-shadows-light .input, .body-shadows-light .inputbox, .feature-shadows-light .inputbox, .bottom-shadows-light .inputbox, .header-shadows-none .input, .body-shadows-none .inputbox, .feature-shadows-none .inputbox, .bottom-shadows-none .inputbox {background: url(../images/shadows/light/overlay-tint.png) 0 0;}
+
+.button2-left {background: url(../images/system/j_button2_left.png) no-repeat;color: #666;}
+.button2-right {background: url(../images/system/j_button2_right.png) 100% 0 no-repeat;color: #666;}
+.button2-left .image {background: url(../images/system/j_button2_image.png) 100% 0 no-repeat;}
+.button2-left .readmore {background: url(../images/system/j_button2_readmore.png) 100% 0 no-repeat;}
+.button2-left .pagebreak {background: url(../images/system/j_button2_pagebreak.png) 100% 0 no-repeat;}
+.button2-left .blank {background: url(../images/system/j_button2_blank.png) 100% 0 no-repeat;}
+body .button2-left .linkmacro {background: url(../images/system/j_button2_rokcandy.png) 100% 0 no-repeat;}
+.rt-wordpress .icon {background-image:url(../images/typography/typography.png);}
+
+/*** RT EXTENSIONS *************************/
+
+/* RokAjaxSearch *****************/
+/* Dark */
+.header-shadows-dark #rokajaxsearch .roksearch-wrapper, .feature-shadows-dark #rokajaxsearch .roksearch-wrapper, .body-shadows-dark #rokajaxsearch .roksearch-wrapper, .bottom-shadows-dark #rokajaxsearch .roksearch-wrapper {background: url(../images/shadows/dark/search-bg.png) 0 0 no-repeat;}
+.header-shadows-dark #roksearch_search_str, .feature-shadows-dark #roksearch_search_str, .body-shadows-dark #roksearch_search_str, .bottom-shadows-dark #roksearch_search_str {background: transparent url(../images/shadows/dark/search-icon.png) 97% 5px no-repeat !important;}
+.header-shadows-dark #roksearch_search_str.loading, .feature-shadows-dark #roksearch_search_str.loading, .body-shadows-dark #roksearch_search_str.loading, .bottom-shadows-dark #roksearch_search_str.loading {background: transparent url(../images/spinner.gif) no-repeat scroll 97% 50% !important;}
+/* Light */
+.header-shadows-light #rokajaxsearch .roksearch-wrapper, .feature-shadows-light #rokajaxsearch .roksearch-wrapper, .body-shadows-light #rokajaxsearch .roksearch-wrapper, .bottom-shadows-light #rokajaxsearch .roksearch-wrapper, .header-shadows-none #rokajaxsearch .roksearch-wrapper, .feature-shadows-none #rokajaxsearch .roksearch-wrapper, .body-shadows-none #rokajaxsearch .roksearch-wrapper, .bottom-shadows-none #rokajaxsearch .roksearch-wrapper {background: url(../images/shadows/light/search-bg.png) 0 0 no-repeat;}
+.header-shadows-light #roksearch_search_str, .feature-shadows-light #roksearch_search_str, .body-shadows-light #roksearch_search_str, .bottom-shadows-light #roksearch_search_str, .header-shadows-none #roksearch_search_str, .feature-shadows-none #roksearch_search_str, .body-shadows-none #roksearch_search_str, .bottom-shadows-none #roksearch_search_str {background: transparent url(../images/shadows/light/search-icon.png) 97% 5px no-repeat !important;}
+.header-shadows-light #roksearch_search_str.loading, .feature-shadows-light #roksearch_search_str.loading, .body-shadows-light #roksearch_search_str.loading, .bottom-shadows-light #roksearch_search_str.loading, .header-shadows-none #roksearch_search_str.loading, .feature-shadows-none #roksearch_search_str.loading, .body-shadows-none #roksearch_search_str.loading, .bottom-shadows-none #roksearch_search_str.loading {background: transparent url(../images/spinner.gif) no-repeat scroll 97% 50% !important;}
+
+#roksearch_results span.highlight {background: url(../images/shadows/light/overlay-tint2.png) 0 0;}
+#roksearch_results .roksearch_header, #roksearch_results .roksearch_row_btm {background: url(../images/shadows/light/overlay-tint.png) 0 0;}
+#roksearch_results .roksearch_even {background: url(../images/shadows/light/overlay-tint.png) 0 0;}
+#roksearch_results .roksearch_odd-hover, #roksearch_results .roksearch_even-hover {background: url(../images/shadows/light/overlay-tint2.png) 0 0;}
+#roksearch_results .roksearch_odd-hover h3, #roksearch_results .roksearch_even-hover h3 {}
+#roksearch_results a#roksearch_link {background: url(../images/shadows/light/search-assets.png) 0 -50px no-repeat;}
+#roksearch_results .arrow-left {background: url(../images/shadows/light/search-assets.png) 0 2px no-repeat;}
+#roksearch_results .arrow-left-disabled, #roksearch_results .arrow-right-disabled {background: url(../images/shadows/light/search-assets.png) 0 -33px no-repeat;}
+#roksearch_results .arrow-right {background: url(../images/shadows/light/search-assets.png) 0 -15px no-repeat;}
+
+/* RokTabs *****************/
+/* Dark */
+.header-shadows-dark #rt-showcase .roktabs-wrapper .roktabs-links ul li {background: url(../images/shadows/dark/roktab-bg.png) 50% 0 repeat-x;}
+.header-shadows-dark #rt-showcase .roktabs-wrapper .roktabs-links ul li.active {background: url(../images/shadows/dark/roktab-bg-l.png) 100% 0 no-repeat;}
+.header-shadows-dark #rt-showcase .roktabs-wrapper .roktabs-links ul li.active span {background: url(../images/shadows/dark/roktab-bg-r.png) 0 0 no-repeat;}
+.header-shadows-dark #rt-showcase .roktabs-wrapper .roktabs-links ul li.last span {background: url(../images/shadows/dark/roktab-bg-r.png) 100% 0 no-repeat;}
+.header-shadows-dark #rt-showcase .roktabs-wrapper .roktabs-links ul li.last.active span {background: url(../images/shadows/dark/roktab-bg-r.png) 0 0 no-repeat;}
+.header-shadows-dark .roktabs-wrapper .arrow-next, .header-shadows-dark .roktabs-wrapper .arrow-prev, .header-shadows-dark .roktabs-wrapper .arrow-next-hover, .header-shadows-dark .roktabs-wrapper .arrow-prev-hover {background-image: url(../images/shadows/dark/roktab-arrows.png);}
+/* Light */
+.header-shadows-light #rt-showcase .roktabs-wrapper .roktabs-links ul li, .header-shadows-none #rt-showcase .roktabs-wrapper .roktabs-links ul li {background: url(../images/shadows/light/roktab-bg.png) 50% 0 repeat-x;}
+.header-shadows-light #rt-showcase .roktabs-wrapper .roktabs-links ul li.active, .header-shadows-none #rt-showcase .roktabs-wrapper .roktabs-links ul li.active {background: url(../images/shadows/light/roktab-bg-l.png) 100% 0 no-repeat;}
+.header-shadows-light #rt-showcase .roktabs-wrapper .roktabs-links ul li.active span, .header-shadows-none #rt-showcase .roktabs-wrapper .roktabs-links ul li.active span {background: url(../images/shadows/light/roktab-bg-r.png) 0 0 no-repeat;}
+.header-shadows-light #rt-showcase .roktabs-wrapper .roktabs-links ul li.last span, .header-shadows-none #rt-showcase .roktabs-wrapper .roktabs-links ul li.last span {background: url(../images/shadows/light/roktab-bg-r.png) 100% 0 no-repeat;}
+.header-shadows-light #rt-showcase .roktabs-wrapper .roktabs-links ul li.last.active span, .header-shadows-none #rt-showcase .roktabs-wrapper .roktabs-links ul li.last.active span {background: url(../images/shadows/light/roktab-bg-r.png) 0 0 no-repeat;}
+.header-shadows-light .roktabs-wrapper .arrow-next, .header-shadows-light .roktabs-wrapper .arrow-prev, .header-shadows-light .roktabs-wrapper .arrow-next-hover, .header-shadows-light .roktabs-wrapper .arrow-prev-hover, .header-shadows-none .roktabs-wrapper .arrow-next, .header-shadows-none .roktabs-wrapper .arrow-prev, .header-shadows-none .roktabs-wrapper .arrow-next-hover, .header-shadows-none .roktabs-wrapper .arrow-prev-hover {background-image: url(../images/shadows/light/roktab-arrows.png);}

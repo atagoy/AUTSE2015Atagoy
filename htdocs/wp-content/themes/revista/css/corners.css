@@ -1,0 +1,45 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Layout Eelements */
+#menublock,
+#content,
+.wrapped,
+.mod-box,
+.menu-dropdown .dropdown-bg > div,
+#searchbox .results,
+.wk-twitter-bubbles,
+.wk-slideshow-revista-tabs .nav li,
+.wk-slideshow-revista-tabs .slides-container { border-radius: 4px; }
+
+#searchbox { background-image: url(../images/searchbox_magnifier_rounded.png); }
+
+/* Content Elements */
+ins,
+mark,
+input,
+textarea,
+form.style button,
+form.style input[type="button"],
+form.style input.button,
+form.style #submit,
+.box fieldset,
+a.button-more,
+em.box,
+pre,
+.box-content,
+.box-note,
+.box-info,
+.box-hint,
+.box-warning,
+.box-download,
+.social-icons-special li a,
+#page .tagcloud li,
+#system .pagination a,
+#system .pagination strong,
+.wk-twitter .image,
+.frontpage-slideset img,
+.frontpage-stream img { border-radius: 2px; }
+
+.wk-slideshow-revista-tabs .nav li.active { border-radius: 4px 4px 0 0; }
+
+.frontpage-newspaper { border-bottom-right-radius: 4px; }

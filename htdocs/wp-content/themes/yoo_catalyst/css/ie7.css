@@ -1,0 +1,68 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie7.css);
+
+#block-toolbar,
+#content,
+.mod-metal > div,
+.mod-metal ul.zebra > li.odd,
+.box-content,
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download { behavior: url(../warp/js/css3pie.htc); }
+
+#content,
+.mod-metal > div,
+.mod-metal ul.zebra > li.odd,
+.box-content,
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download { position: relative; }
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#block-bottom + #block-footer { zoom: 1; }
+
+#content { border-radius: 0; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+#block-header { z-index: 2; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-metal > div { border-radius: 0; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+a.button-more,
+.mod-metal a.button-more { margin: 0; }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Search Box */
+#searchbox input { line-height: 35px; }
+
+#searchbox .results li.result { background: url(../images/menu_dropdown_level2_bg.png) 0 0 repeat; }
+
+
+/* Style
+----------------------------------------------------------------------------------------------------*/
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+		<field name="title" type="text" label="Title" description="Title" default="" class="widefat" readonly="false"/>
+		<field name="logintext" type="text" label="Login Text" description="Login Text" default="Member Login" class="widefat" readonly="false"/>
+		<field name="logouttext" type="text" label="Logout Text" description="Logout Text" default="Logout" class="widefat" readonly="false"/>
+	</fieldset>
+</form>

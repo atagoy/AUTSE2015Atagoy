@@ -1,0 +1,173 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/*
+ * Base Style Sheet - Reduces inconsistencies across all browsers
+ * Stripped down and improved collection of best practises
+ * To avoid redundant code it sets new default values instead of baseline defaults and re-resetting them later
+ * Thanks to HTML5 Boilerplate, Yahoo! User Interface (YUI) Library, Normalize.css
+ */
+
+
+/* Useful Snippets
+----------------------------------------------------------------------------------------------------*/
+
+/* Force vertical scrollbar, force body height to fit at least the browser window, prevent iOS text size adjust on device orientation change */
+html {
+	overflow-y: scroll;
+	min-height: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* Create a stacking context to prevent z-index issues */
+body { position: relative; }
+
+/* Remove outline when clicking links: people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active { outline: none; }
+
+/* Removes scrollbar in IE */
+textarea { overflow: auto; }
+
+/* Remove background from selected images */
+img::selection { background: transparent; }
+img::-moz-selection { background: transparent; }
+
+/* Remove borders */
+fieldset,
+img,
+iframe { border: 0; }
+
+/* Consistency of cursor style, Corrects inability to style clickable 'input' types in iOS */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+
+button[disabled],
+input[disabled] { cursor: default; }
+
+/* Removes inner padding and border in FF3+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+
+/* HTML5 display definitions
+----------------------------------------------------------------------------------------------------*/
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+audio, canvas, video { display: inline-block; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+
+/* New Base Values
+----------------------------------------------------------------------------------------------------*/
+
+body { margin: 0; }
+
+/* Block Space */
+p, hr,
+ul, ol, dl,
+blockquote, pre,
+fieldset, figure { margin: 15px 0; }
+
+h1, h2, h3, h4, h5, h6 { margin: 25px 0 15px 0; }
+
+/* Lists */
+ul, ol, dl { padding-left: 30px }
+dd { margin-left: 40px; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+h1 { font-size: 36px; line-height: 36px; }
+h2 { font-size: 24px; line-height: 24px; }
+h3 { font-size: 18px; line-height: 18px; }
+h4, h5, h6 { font-size: 16px; line-height: 16px; }
+
+/* Links */
+a, a:hover { text-decoration: none; }
+
+/* Text-level Semantics */
+b, strong { font-weight: bold; }
+
+small { font-size: 11px; }
+
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+dfn[title] { font-style: normal; }
+
+/* Horizontal Rule */
+hr {
+	display: block;
+	height: 1px;
+	padding: 0;
+	border: 0;
+	border-top: 1px solid;
+}
+
+/* Quotes */
+q, blockquote {
+	quotes: '\201C' '\201D' '\2018' '\2019';
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+}
+	
+blockquote {
+	padding: 0 20px;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+blockquote:before { content: '\201C'; }
+blockquote:after { content: '\201D'; }
+
+/* Code */
+code, pre { font-family: "Courier New", Courier, monospace; }
+
+code { word-spacing: -2px; }
+
+pre {
+	padding: 10px;
+	font-size: 12px;
+	line-height: 18px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+/* Tables */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th, td { padding: 1px; }
+
+/* Forms */
+input, select { vertical-align: middle; }
+
+select, input, textarea, button { font: 12px Arial, sans-serif; }
+
+form, textarea { margin: 0; }
+legend, fieldset, input { padding: 0; }
+
+textarea,
+input[type='text'],
+input[type='password'],
+select { padding: 2px; }
+select { line-height: 19px; } /* Needed for Safari */
+
+button,
+input[type='button'],
+input[type='submit'] { padding: 2px 3px; }
+

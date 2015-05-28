@@ -1,0 +1,166 @@
+# Translation of the WordPress plugin Get Custom Field Values v3.6 by Scott Reilly.
+# Copyright (C) 2015 Scott Reilly
+# This file is distributed under the same license as the Get Custom Field Values plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Get Custom Field Values 3.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/get-custom-field-"
+"values\n"
+"POT-Creation-Date: 2015-03-04 07:23:57+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: get-custom.shortcode.php:24
+msgid "Get Custom Field Values - Shortcode"
+msgstr ""
+
+#: get-custom.shortcode.php:202
+msgid "Send shortcode to editor"
+msgstr ""
+
+#: get-custom.widget.php:32
+msgid "Get Custom Field"
+msgstr ""
+
+#: get-custom.widget.php:33
+msgid "A list of custom field value(s) from posts or pages."
+msgstr ""
+
+#: get-custom.widget.php:39
+msgid "Custom Field"
+msgstr ""
+
+#: get-custom.widget.php:40
+msgid "Title"
+msgstr ""
+
+#: get-custom.widget.php:42
+msgid "Custom field key"
+msgstr ""
+
+#: get-custom.widget.php:43
+msgid ""
+"<strong>*Required.</strong>  The name of the custom field key whose value "
+"you wish to have displayed."
+msgstr ""
+
+#: get-custom.widget.php:45
+msgid "This post?"
+msgstr ""
+
+#: get-custom.widget.php:46
+msgid "The post containing this shortcode. Takes precedence over 'Post ID'"
+msgstr ""
+
+#: get-custom.widget.php:48
+msgid "Post ID"
+msgstr ""
+
+#: get-custom.widget.php:49
+msgid ""
+"ID of post whose custom field's value you want to display. Leave blank to "
+"search for the custom field in any post. Use <code>0</code> to indicate it "
+"should only work on the permalink page for a page/post."
+msgstr ""
+
+#: get-custom.widget.php:51
+msgid "Pick random value?"
+msgstr ""
+
+#: get-custom.widget.php:53
+msgid "Limit"
+msgstr ""
+
+#: get-custom.widget.php:54
+msgid ""
+"The number of custom field items to list. Only applies if Post ID is empty "
+"and \"Pick random value?\" is unchecked. Use 0 to indicate no limit."
+msgstr ""
+
+#: get-custom.widget.php:56
+msgid "Before text"
+msgstr ""
+
+#: get-custom.widget.php:57
+msgid "Text to display before the custom field."
+msgstr ""
+
+#: get-custom.widget.php:59
+msgid "After text"
+msgstr ""
+
+#: get-custom.widget.php:60
+msgid "Text to display after the custom field."
+msgstr ""
+
+#: get-custom.widget.php:62
+msgid "None text"
+msgstr ""
+
+#: get-custom.widget.php:63
+msgid ""
+"Text to display if no matching custom field is found (or it has no value). "
+"Leave this blank if you don't want anything to display when no match is "
+"found."
+msgstr ""
+
+#: get-custom.widget.php:65
+msgid "Between text"
+msgstr ""
+
+#: get-custom.widget.php:66
+msgid ""
+"Text to display between custom field items if more than one are being shown."
+msgstr ""
+
+#: get-custom.widget.php:68
+msgid "Before last text"
+msgstr ""
+
+#: get-custom.widget.php:69
+msgid ""
+"Text to display between the second to last and last custom field items if "
+"more than one are being shown."
+msgstr ""
+
+#: get-custom.widget.php:71
+msgid "HTML id"
+msgstr ""
+
+#: get-custom.widget.php:72
+msgid "The 'id' attribute for the &lt;span&gt; tag to surrounds output."
+msgstr ""
+
+#: get-custom.widget.php:74
+msgid "HTML class"
+msgstr ""
+
+#: get-custom.widget.php:75
+msgid "The 'class' attribute for the &lt;span&gt; tag to surrounds output."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Get Custom Field Values"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://coffee2code.com/wp-plugins/get-custom-field-values/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Use widgets, shortcodes, and/or template tags to easily retrieve and display "
+"custom field values for posts or pages."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Scott Reilly"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://coffee2code.com/"
+msgstr ""

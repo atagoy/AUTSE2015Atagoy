@@ -1,0 +1,280 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/tools.css);
+
+
+/* Buttons (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+a.button-more,
+a.button-more:before,
+a.button-more:after {
+	height: 32px;
+	line-height: 30px;
+}
+
+a.button-more {
+	position: relative;
+	margin: 0 17px;
+	background-position: 0 -40px;
+	background-repeat: repeat-x;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+a.button-more:before,
+a.button-more:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 18px;
+	background-repeat: no-repeat;
+}
+
+a.button-more:before {
+	left: -18px;
+	background-position: 0 0;
+}
+
+a.button-more:after {
+	right: -18px;
+	background-position: 0 -80px;
+}
+
+/* Images and Objects (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+img.border-box {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 6px solid rgba(0,0,0,0.15);
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+
+/* Lists and Tables (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+/* List Line */
+.wrapper ul.line > li:first-child,
+.wrapper ul.zoo-list > li:first-child,
+.wrapper .zoo-comments-list > article:first-child,
+.wrapper .comments-list > article:first-child { background: none; }
+
+.wrapper ul.zoo-list > li:first-child,
+.wrapper .zoo-comments-list > article:first-child {
+	padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+ul.line > li,
+.comments-list > article,
+.wk-twitter-list article,
+ul.zoo-list > li,
+.zoo-comments-list > article {
+	margin-top: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: none;
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+
+.mod-box ul.line,
+.mod-stamp ul.line { margin: auto -15px; }
+
+.mod-box ul.line > li,
+.mod-stamp ul.line > li { padding-left: 20px; }
+
+/* List Line Icon */
+ul.line-icon > li { padding-left: 22px; }
+
+#page ul.line-icon > li,
+#page ul.line-icon > li:first-child {
+	margin-top: 0;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.mod-box ul.line.line-icon,
+.mod-stamp ul.line.line-icon { margin: auto; }
+
+/* List Check */
+ul.check > li {
+	padding: 4px 0 0 30px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+/* List Zebra */
+ul.zebra > li { border-radius: 2px; }
+
+ul.zebra > li.odd,
+form.style input,
+form.style textarea,
+form.style select {
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+ul.zebra > li:nth-of-type(odd) {
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+/* Tables */
+table.zebra tbody td {
+	border-bottom-style: solid; 
+	border-bottom-width: 1px;
+}
+table.zebra tbody tr:first-child td {
+	border-top-style: solid; 
+	border-top-width: 1px;
+}
+
+table.zebra tbody,
+table.zebra tfoot {
+    font-size: 14px;
+}
+
+
+/* Definition Lists
+----------------------------------------------------------------------------------------------------*/
+
+dl.separator dt {	
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+/* border code because of RTL */
+dl.separator dd {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+}
+
+dl.separator dt:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -15px;
+	width: 30px;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+}
+
+dl.separator dt:after {
+	content: "";
+	position:absolute;
+	top: -3px;
+	right: -3px;
+	width: 5px;
+	height: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 6px;
+}
+
+dl.separator dt:first-child:before,
+dl.separator dt:first-child:after { display: none; }
+
+
+/* Text
+----------------------------------------------------------------------------------------------------*/
+
+/* Inline Text Box */
+em.box {
+	padding: 0 2px;
+	border: none;
+	border-radius: 2px;
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+/* Horizontal Rule */
+hr.dotted,
+hr.line,
+hr.stars {
+	margin: 25px auto;
+	border: none;
+	background-position: 50% 0;
+	background-repeat: repeat-x;
+}
+
+/* Line Horizontal Rule */
+hr.line { height: 7px; }
+
+/* Dotted Horizontal Rule */
+hr.dotted { height: 2px; }
+
+/* Stars Horizontal Rule */
+hr.stars { height: 13px; }
+
+
+/* Boxes
+----------------------------------------------------------------------------------------------------*/
+
+.box-content,
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download {
+	margin: 15px 0;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	text-align: justify;
+}
+
+.box-content {
+	border-width: 1px;
+	border-style: solid;
+	padding: 20px;
+}
+
+.box-info,
+.box-warning,
+.box-hint,
+.box-download {
+	padding-left: 40px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+
+/* Forms (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+form.box fieldset {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+}
+
+form.style input,
+form.style textarea,
+form.style select,
+form.style button,
+form.style input[type="button"] {
+	padding: 4px;
+	border: none;
+	border-radius: 3px;
+	outline: none;
+}
+
+
+/* Mobile Switcher (Needed for Mobile)
+----------------------------------------------------------------------------------------------------*/
+
+.mobile-switcher {
+	border-radius: 3px;
+	text-align: center;
+}

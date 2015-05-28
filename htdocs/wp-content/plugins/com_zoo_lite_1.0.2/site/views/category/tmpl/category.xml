@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Category Layout">
+		<message>
+			<![CDATA[Category Layout]]>
+		</message>
+	</layout>
+	<state>
+		<name>Category Layout</name>
+		<description>Category Layout</description>
+		<params addpath="/administrator/components/com_zoo/joomla/elements">
+			<param name="catalog_category" type="zoocategory" default="" label="Category" description="Set a Category" />
+			<param name="template" type="zootemplate" default="" label="Template" description="Set a template style" />
+			<param name="sub_categories" type="radio" default="1" label="Subcatgories" description="Show/Hide the subcategories">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+			<param name="alpha_index" type="list" default="2" label="Alpha Index" description="Show alpha index">
+				<option value="2">Show on all</option>
+				<option value="1">Show only on root</option>
+				<option value="0">Hide</option>
+			</param>
+			<param name="item_count" type="list" default="2" label="Item Count" description="Show item count of categories">
+				<option value="2">Show on all</option>
+				<option value="1">Show only on root</option>
+				<option value="0">Hide</option>
+			</param>			
+			<param name="category_cols" type="list" default="1" label="Category Columns" description="Set how many columns to use per row">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</param>			
+			<param name="item_cols" type="list" default="1" label="Item Columns" description="Set how many columns to use per row">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</param>
+			<param name="items_per_page" type="list" default="15" label="Items Per Page" description="Number of items to show on a page">
+				<option value="5">5</option>
+				<option value="10">10</option>
+				<option value="15">15</option>
+				<option value="20">20</option>
+				<option value="25">25</option>
+				<option value="30">30</option>
+				<option value="50">50</option>
+				<option value="100">100</option>
+				<option value="0">All</option>
+			</param>
+			<param name="item_order" type="list" default="" label="Item Order" description="Order that the items will be displayed in">
+				<option value="">Default</option>
+				<option value="date">Oldest first</option>
+				<option value="rdate">Most recent first</option>
+				<option value="alpha">Name (Alphabetical)</option>
+				<option value="ralpha">Name (Reverse-Alphabetical)</option>
+				<option value="hits">Most Hits</option>
+				<option value="rhits">Least Hits</option>
+			</param>
+			<param name="show_feed_link" type="radio" default="0" label="Show a Feed Link" description="Select whether or not the feed Links will be displayed">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="feed_title" type="text" size="30" default="" label="Feed Title" description="Optional feed title to use instead of the menu item name" />
+			<param name="alternate_feed_link" type="text" size="30" default="" label="Alternate Feed Link" description="Use alternate feed link like FeedBurner etc." />
+		</params>
+	</state>
+</metadata>

@@ -1,0 +1,13 @@
+*:first-child+html .blog-post,
+*:first-child+html .show-us-some-love {
+	padding:15px 15px 0 15px;
+}
+*:first-child+html .wp-pagenavi {
+	margin:0 0 0 0;
+}
+*:first-child+html  ul.children {
+	margin:-3px 0 0 0;
+}
+*:first-child+html ul.children ul.children {
+	margin:3px 0 0 0;
+}

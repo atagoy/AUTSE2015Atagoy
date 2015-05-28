@@ -1,0 +1,191 @@
+/*
+    WP Customer Reviews
+    You can override any of these values in your theme CSS if you use !important
+    Example: #wpcr_respond_1 blockquote.description p { font-size:12px !important; font-weight:bold !important; }
+*/
+
+.wpcr_show { display:inline; }
+.wpcr_hide { display:none; }
+.wpcr_fl { float:left; }
+.wpcr_sc { padding:0px 10px 0px 0px; }
+.wpcr_rname { padding:0px 0px 0px 0px; line-height:20px; }
+.wpcr_clear { clear:both; }
+.wpcr_spacing1 { padding-bottom:5px; }
+.wpcr_lh30 { line-height:30px; }
+.wpcr_pb5 { padding-bottom:5px; }
+.wpcr_power { padding-top:30px !important; padding-bottom:5px !important; font-size:10px !important; }
+.wpcr_status_msg { color:#c00;font-weight:bold; }
+.wpcr_status_msg div { color:#c00;font-weight:bold;padding-bottom:15px;padding-top:15px; }
+
+/* title of review */
+#wpcr_respond_1 h2.summary { padding: 5px 0 5px 0; }
+#wpcr_respond_1 h3.summary { padding: 5px 0 5px 0; }
+#wpcr_respond_1 h4.summary { padding: 5px 0 5px 0; }
+#wpcr_respond_1 h5.summary { padding: 5px 0 5px 0; }
+#wpcr_respond_1 h6.summary { padding: 5px 0 5px 0; }
+
+/* review text */
+#wpcr_respond_1 blockquote.description { font-size:14px; font-weight:normal; }
+#wpcr_respond_1 blockquote.description p { font-size:14px; font-weight:normal; display:inline !important; }
+#wpcr_respond_1 p.response { font-size:14px; font-weight:normal; font-style:italic; }
+
+/* hcard */
+#wpcr_respond_1 .vcard { font-size:10px !important; padding-bottom:5px; line-height:11px !important; }
+#wpcr_hcard_h { display:none; }
+#wpcr_hcard_s { display:block; }
+
+#wpcr_postcomment { font-size:1.1em; font-weight:bold; }
+
+#wpcr_commentform label { display:inline !important; }
+#wpcr_commentform #fconfirm1, #wpcr_commentform #fconfirm3 { display:none; }
+#wpcr_ad { background:#ffffff; }
+#wpcr_ad label { font-weight:bold; }
+
+#wpcr_commentform #fconfirm2 { width:auto !important; }
+
+#wpcr_respond_1, #wpcr_respond_2 { margin:0 !important; padding:0 !important; clear:both !important; }
+#wpcr_respond_1 p, #wpcr_respond_2 p { 
+    margin:0 !important;
+    padding:0 !important;
+    line-height:120% !important;
+    margin-top:2px !important;
+    margin-bottom:2px !important;
+}			
+
+#wpcr_respond_1 .wpcr_rating, #wpcr_commentform .wpcr_rating {
+    border:0 !important;
+    margin:0 !important;
+    padding:0 !important;
+    margin-left:0px !important;
+    margin-top:0px !important;
+    overflow:hidden;
+    height:16px;
+}
+
+/* Thank you ColorRating for the inspiration and image */
+#wpcr_respond_1 .sp_rating { line-height:1.7em; display:block; }
+#wpcr_respond_1 .sp_rating * { border:0 none; margin:0; padding:0; }
+
+#wpcr_respond_1  .base  { background:url(newstars.png) 0 0 no-repeat; width:85px; height:17px; float:left; padding-right:4px; overflow:hidden; display:block; }
+#wpcr_respond_1 .average { background:url(newstars.png) 0 -15px no-repeat; text-indent:-9999px; height:17px; }
+
+#wpcr_respond_2 { display:none; background-color:inherit; }
+
+#wpcr_commentform .sp_rating { line-height:1.7em; display:block; }
+#wpcr_commentform  .sp_rating * { border:0 none; margin:0; padding:0; }
+
+#wpcr_commentform .status { height:16px; width:100px; overflow:hidden; position:relative; cursor:pointer; display:block; }
+
+#wpcr_commentform  .base  { display:none; }
+
+#wpcr_commentform .score { background:url(newstars.png) 0 0 no-repeat; width:85px; height:17px; float:left; position:relative; }
+#wpcr_commentform .score a {
+    display:block;
+    height:17px;
+    float:left;
+    text-indent:-9999px;
+    position:absolute;
+    overflow:hidden;
+    line-height:1em;
+}
+#wpcr_commentform .score a:hover { background:url(newstars.png) bottom right no-repeat; }
+#wpcr_commentform .score1 {width:20%; z-index:55;}
+#wpcr_commentform .score2 {width:40%; z-index:54;}
+#wpcr_commentform .score3 {width:60%; z-index:53;}
+#wpcr_commentform .score4 {width:80%; z-index:52;}
+#wpcr_commentform .score5 {width:100%; z-index:51;}
+
+#wpcr_div_2 { width:600px; }
+#wpcr_table_2 { text-align:left; width:100%; }
+#wpcr_table_2  td { text-align:left; }
+#wpcr_check_confirm { margin-top:10px;font-size:13px;color:#c00;margin-bottom:4px; }
+
+#wpcr_button_1, #wpcr_button_1:link, #wpcr_button_1:visited, #wpcr_submit_btn, #wpcr_submit_btn:link, #wpcr_submit_btn:visited {
+  -moz-border-radius: 3px !important;
+  -webkit-border-radius: 3px !important;
+  background: white url('button.png') 0 0 repeat-x !important; 
+  background: -moz-linear-gradient(0% 170% 90deg, #c4c4c4, white) !important;
+  background: -webkit-gradient(linear, 0% 0%, 0% 170%, from(white), to(#c4c4c4)) !important;
+  border: 1px solid !important;
+  border-color: #e6e6e6 #cccccc #cccccc #e6e6e6 !important;
+  border-radius: 3px !important;
+  color: #404040 !important;
+  cursor:pointer !important;
+  display: inline-block !important;
+  font-size: 13px !important;
+  font-weight: normal !important;
+  outline: 0 !important;
+  padding: 5px 8px 5px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-shadow: 1px 1px 0 white !important; 
+  white-space: nowrap !important;
+  float:none !important;
+  height:auto !important;
+  text-indent:0 !important;
+ }
+
+#wpcr_button_1:hover, #wpcr_submit_btn:hover {
+    background: -moz-linear-gradient(0% 170% 90deg, #b8b8b8, white) !important;
+    background: -webkit-gradient(linear, 0% 0%, 0% 170%, from(white), to(#b8b8b8)) !important;
+    border-color: #99ccff !important;
+    color: #333333 !important;
+    cursor:pointer !important;
+    font-weight: normal !important;
+}
+
+#wpcr_button_1:active, #wpcr_submit_btn:active {
+    position: relative !important;
+    top: 1px !important; 
+}
+
+#wpcr_button_1:active, #wpcr_button_1:focus, #wpcr_submit_btn:active, #wpcr_submit_btn:focus {
+    background-position: 0 -25px !important;
+    background: -moz-linear-gradient(0% 170% 90deg, white, #dedede) !important;
+    background: -webkit-gradient(linear, 0% 0%, 0% 170%, from(#dedede), to(white)) !important;
+    border-color: #8fc7ff #94c9ff #94c9ff #8fc7ff !important;
+    color:#1a1a1a !important;
+    text-shadow: 1px -1px 0 rgba(255, 255, 255, 0.5) !important; 
+}
+
+#wpcr_commentform input  { padding:0; margin:0 !important; width:200px !important;  }
+#wpcr_commentform textarea { padding:0 !important; margin:0 !important; width:400px !important; height:100px !important; }
+#wpcr_commentform small { padding:0 !important; margin:0 !important; }
+#wpcr_commentform table, #wpcr_commentform td { border:0 !important; border-style:none !important; }
+
+#wpcr_pagination {
+    clear:both;
+    padding:0px 0px 0px 0px;
+    position:relative;
+    font-size:11px;
+    line-height:13px;
+}
+
+#wpcr_pagination_page {
+    float:left;
+    display:block;
+    line-height:30px;
+    padding-right:5px;
+}
+
+#wpcr_pagination .wpcr_current, #wpcr_pagination a {
+    display:block;
+    float:left;
+    margin: 2px 2px 2px 0;
+    padding:6px 9px 5px 9px;
+    text-decoration:none;
+    width:auto;
+    color:#fff;
+    background: #555;
+}
+
+#wpcr_pagination a:hover{
+    color:#fff;
+    background: #3279BB;
+}
+
+#wpcr_pagination .wpcr_current{
+    padding:6px 9px 5px 9px;
+    background: #3279BB;
+    color:#fff;
+}

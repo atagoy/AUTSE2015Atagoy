@@ -1,0 +1,118 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Background Blue */
+
+body#page { background: #4e8abc url(../../images/background/blue/blue_bg.jpg) 50% 0 repeat-x fixed; }
+
+.page-body { background: url(../../images/background/blue/blue_img.jpg) 50% 0 no-repeat fixed; }
+
+#main {
+	border-color: rgba(20,20,25,0.2);
+	background: #4576a3;
+	background: rgba(90,90,100,0.15);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.4),
+				0 1px 3px rgba(20,20,25,0.2);
+}
+
+#maininner { border-color: rgba(40,70,100,0.65); }
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	.page-body { background: none; }
+
+	/* Layout */
+	#page #main #maininner,
+	#page.sidebar-a-right.sidebar-b-left #maininner,
+	#page.sidebar-a-left.sidebar-b-right #maininner { 
+		border-left: 1px solid rgba(40,70,100,0.65); 
+		border-right: 1px solid rgba(40,70,100,0.65);
+	}
+
+}
+.sidebar-a-left #maininner, 
+.sidebar-b-left #maininner
+
+/* Font Color
+----------------------------------------------------------------------------------------------------*/
+
+#header { color: #2d5d85; }
+
+#header,
+#footer,
+.outer .mod-transparent,
+.outer .mod-transparent form.style input {
+	color: #2d5d85;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+#header a,
+#footer a,
+.outer .mod-transparent a,
+#toolbar time { 
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(20,20,20,0.3);
+}
+
+#header a:hover,
+#footer a:hover,
+.outer .mod-transparent a:hover { 
+	color: #234968;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.outer .mod-transparent em,
+.outer .mod-transparent code { 
+	color: #b0cae1;
+	text-shadow: 0 1px 0 rgba(20,20,20,0.3);
+}
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.outer .mod-line .module-title { background-image: url(../../images/module_line_dark.png); }
+
+.outer .mod-transparent ul.line > li { 
+	border-top: 1px solid rgba(20,20,25,0.2);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.15);
+}
+
+.outer .mod-inset {
+	border: 1px solid #3d73a6;
+	border: 1px solid rgba(255,255,255,0.1);
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	background: #4c7fb0;
+	background: rgba(20,20,25,0.06);
+}
+
+
+ /* Tools
+ ----------------------------------------------------------------------------------------------------*/
+
+/* Only Phones */
+@media (max-width: 767px) {
+
+	#page #header-responsive .searchbox input {
+		box-shadow: 0 1px 0 rgba(255,255,255,0.25);
+		color: #DAEAF6;
+		text-shadow: 0 1px 0 rgba(20, 20, 20, 0.4);
+	}
+
+	#header-responsive .searchbox input::-moz-input-placeholder,
+	#header-responsive .searchbox input::-webkit-input-placeholder { 
+		color: #386a8d; 
+		text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	}
+
+}
+
+#page .outer .mod-transparent form.style input {
+	border: 1px solid rgba(255,255,255,0.15);
+	background: rgba(20,20,25,0.05);
+	color: #b0cae1;
+	box-shadow: inset 0 0 0 1px rgba(20,20,25,0.15);
+ }
+
+#page .outer .mod-transparent form.style input:-moz-placeholder { color: #b0cae1; }
+#page .outer .mod-transparent form.style input::-webkit-input-placeholder { color: #b0cae1; }

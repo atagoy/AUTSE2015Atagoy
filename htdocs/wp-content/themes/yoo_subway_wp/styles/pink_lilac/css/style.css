@@ -1,0 +1,56 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Style Style Sheet - Defines the main look like colors and backgrounds
+ * Not all style related CSS is included, only colors and backgrounds which may change for different theme styles
+ */
+ 
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+a { color: #a41a42; }
+
+a:hover,
+em, code { color: #886ad1; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box-color1 {
+	background: #32839E;
+	background: -moz-linear-gradient(-45deg, #854456 0%, #682b3c 100%);
+	background: -webkit-linear-gradient(-45deg, #854456 0%,#682b3c 100%);
+	background: linear-gradient(-45deg, #854456 0%,#682b3c 100%); 
+}
+
+.mod-box-color1 a { color: #c9afb6; }
+
+.mod-box-color2 {
+	background: #615579;
+	background: -moz-linear-gradient(-45deg, #706ea1 0%, #615579 100%);
+	background: -webkit-linear-gradient(-45deg, #706ea1 0%,#615579 100%);
+	background: linear-gradient(-45deg, #706ea1 0%,#615579 100%); 
+}
+
+.mod-box-color2 a { color: #c3c1d3; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+#socialbar.untouched .social-icons,
+.social-icons { background-image: url(../images/socialbar_button.png); }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/

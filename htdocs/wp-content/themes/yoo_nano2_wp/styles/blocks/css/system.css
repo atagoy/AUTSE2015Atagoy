@@ -1,0 +1,15 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/system.css);
+
+
+/* Search
+----------------------------------------------------------------------------------------------------*/
+
+.searchbox { background-color: #FFF; }
+
+.searchbox .results {
+	top: 43px;
+	right: -8px;
+}
+

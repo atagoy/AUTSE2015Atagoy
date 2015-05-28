@@ -1,0 +1,65 @@
+/* Menu */
+
+#adminmenu {
+	width: 155px; /* default 145px + 10px */
+	margin-left: -170px; /* default 160px + 10px */
+}
+
+#wpbody {
+	margin-left: 185px; /* default 175px + 10px */
+}
+
+* html #adminmenu { /* for IE6 only */
+	margin-left: -85px; /* default 80px + 5px */
+}
+
+/* QuickPress */
+
+#dashboard_quick_press .input-text-wrap,
+#dashboard_quick_press .textarea-wrap,
+#dashboard_quick_press #media-buttons {
+	margin-left: 6em; /* default 5em + 1em */
+}
+
+#dashboard_quick_press #media-buttons {
+	padding-left: 12px; /* default 10px + 2px */
+}
+
+#dashboard_quick_press h4 {
+	width: 6.5em; /* default 5.5em + 1em */
+}
+
+#dashboard-widgets #dashboard_quick_press form p.submit {
+	margin-left: 5.6em; /* default 4.6em + 1em */
+}
+
+/* Bulk Edit */
+
+#wpbody-content .bulk-edit-row fieldset .inline-edit-group label {
+	max-width: 60%; /* default 50% + 10% */
+}
+
+.inline-edit-row fieldset label span.title {
+	width: auto; /* default 5em */
+	min-width: 5em;
+}
+
+/* Edit */
+
+.has-sidebar .has-sidebar-content {
+	margin-right: 300px; /* default 305px - 5px */
+}
+
+.inner-sidebar {
+	width: 275px; /* default 280px - 5px */
+}
+
+/* Press This */
+
+.press-this .posting {
+	margin-right: 264px; /* default 212px + 52px */
+}
+
+.press-this #side-info-column {
+	width: 252px; /* default 200px + 52px */
+}

@@ -1,0 +1,17 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/system.css);
+@import url(../warp/systems/wordpress/css/system.css);
+@import url(system-all.css);
+
+#system .item + .links a + a { background-image: url(../images/system_comments.png); }
+
+/* Calendar
+----------------------------------------------------------------------------------------------------*/
+
+table.calendar { border: 1px solid #ddd; }
+
+table.calendar th,
+table.calendar tfoot td { background: #fafafa; }
+table.calendar th { border-bottom: 1px solid #ddd; }
+table.calendar tfoot td { border-top: 1px solid #ddd; }

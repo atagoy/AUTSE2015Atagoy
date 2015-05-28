@@ -1,0 +1,104 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie.css);
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown a.level2,
+.menu-dropdown span.level2,
+.menu-dropdown a.level3 { color: #808080; }
+
+.menu-dropdown a.level2:hover,
+.menu-dropdown a.level3:hover { color: #fff; }
+
+.menu-dropdown li.active .level1 > span,
+.menu-dropdown li.level1:hover .level1 > span,
+.menu-dropdown li.remain .level1 > span { text-decoration: underline; }
+
+.menu-dropdown a.level2 > span { border: 1px solid transparent; }
+.menu-dropdown a.level2:hover > span { border: 1px solid #808080; }
+
+.menu-sidebar a,
+.menu-sidebar li > span { color: #A1A1A1; }
+
+.menu-sidebar a:hover,
+.menu-sidebar li > span:hover { color: #444; }
+
+.menu-sidebar a.level1 > span,
+.menu-sidebar span.level1 > span { border: 1px solid transparent; }
+.menu-sidebar a.level1:hover > span { border-color: #A1A1A1; }
+
+.mod-box-transparent .menu-sidebar a,
+.mod-box-transparent .menu-sidebar li > span { color: #DCDCDC; }
+
+.mod-box-transparent .menu-sidebar a:hover,
+.mod-box-transparent .menu-sidebar li > span:hover { color: #fff; }
+
+
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box-transparent a { color: #A1A1A1; }
+.mod-box-transparent a:hover { color: #fff; }
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+.system-transparent #content pre,
+.system-transparent #content .box-content,
+.system-transparent #content .box-note,
+.system-transparent #content .author-box,
+.system-transparent #content #comments .comment-head { background: url(../images/tools/bg_ie.png); }
+
+.system-transparent #content .box-info,
+.system-transparent #content .box-warning,
+.system-transparent #content .box-hint,
+.system-transparent #content .box-download { background-color: #141516; }
+
+.social-icons a {
+	margin-top: 1px;
+	margin-left: 1px;
+	border: none;
+}
+
+#page.transparency-25 .social-icons li:hover { background: url(../images/module_box_transparency50.png); }
+#page.transparency-50 .social-icons li:hover { background: url(../images/module_box_transparency75.png); }
+#page.transparency-75 .social-icons li:hover { background: #000; }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+.system-transparent #content a,
+.mod-box-transparent a { color: #A1A1A1; }
+
+.system-transparent #content a:hover,
+.system-transparent #system .item .title a,
+.mod-box-transparent a:hover { color: #fff; }
+
+.breadcrumbs a,
+.breadcrumbs > span,
+.breadcrumbs strong { background: url(../images/breadcrumbs.png) 100% 0 no-repeat; }
+
+.breadcrumbs a,
+.breadcrumbs > span { color: #8C8C8C; }
+
+.breadcrumbs a:hover,
+.breadcrumbs strong  { color: #ffffff; }
+
+.breadcrumbs a:hover { background-position: 100% -35px; }
+
+.system-transparent #system #comments .comment-byadmin .comment-head  { background-color: #000; }
+

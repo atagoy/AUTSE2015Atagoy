@@ -1,0 +1,12 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Background: Grunge */
+
+#block-main { background: url(../../images/background/grunge/page.jpg) 50% 0 repeat; }
+
+#block-main > div {
+	background: url(../../images/background/page_bg.svg) 50% -400px no-repeat;
+	background-size: 2000px 1000px;
+}
+
+#block-main > div > div { background: url(../../images/background/grunge/page_cracks.png) 50% 0 no-repeat; }

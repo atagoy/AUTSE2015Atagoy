@@ -1,0 +1,10 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body#page { background: #78853f url(../../images/background/sports/sports_bg.jpg) 50% 0 repeat fixed; }
+
+#page-bg { position: relative; background: url(../../images/background/sports/sports_img.png) 50% 0 no-repeat fixed; }
+
+#page-bg > div {
+	background: url(../../images/background/sports/sports_gradient.svg) 50% 0 no-repeat fixed;
+	background-size: 100% 1200px;
+}

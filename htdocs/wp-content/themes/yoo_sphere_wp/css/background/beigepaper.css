@@ -1,0 +1,68 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Background Beige Paper */
+
+body#page { background: #efeeec url(../../images/background/beigepaper/paper_bg.jpg) 50% 0 repeat; }
+
+@media (min-device-width: 1025px) {
+	body#page {
+		background: url(../../images/background/beigepaper/paper_bg.jpg) 50% 0 repeat;
+		background: url(../../images/background/beigepaper/gradient.svg) 50% 0 no-repeat fixed,
+					url(../../images/background/beigepaper/paper_bg.jpg) 50% 0;
+		background-size: 100% 160%, 300px 300px;
+	}
+}
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	#main #maininner,
+	#page.sidebar-a-right.sidebar-b-left #maininner,
+	#page.sidebar-a-left.sidebar-b-right #maininner { 
+		border-left: 1px solid rgba(20,20,25,0.3); 
+		border-right: 1px solid rgba(20,20,25,0.3);
+	}
+
+}
+
+/* Font Color
+----------------------------------------------------------------------------------------------------*/
+
+#header,
+#footer,
+.menu-line li a,
+.outer .mod-transparent,
+.outer .mod-transparent li > a,
+.outer .mod-transparent form.style input {
+	color: #8e8e8e;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+.outer .mod-transparent li a:hover { 
+	color: #595959;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3); 
+}
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.outer .mod-transparent ul.line > li { 
+	border-top-color: rgba(20,20,25,0.12); 
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.outer .mod-inset {
+	border: 1px solid #c8c6c0;
+	border: 1px solid rgba(255,255,255,0.1);
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	background: #d7d6d2;
+	background: rgba(20,20,25,0.03);
+}
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+.outer .mod-transparent form.style input:-moz-placeholder { color: #8e8e8e; }
+.outer .mod-transparent form.style input::-webkit-input-placeholder { color: #8e8e8e; }

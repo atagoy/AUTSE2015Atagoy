@@ -1,0 +1,34 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Flares Background
+ */
+ 
+body { -webkit-font-smoothing: antialiased; }
+
+#block-top-a { 
+	overflow: hidden;
+	position: relative;
+	background: #000;
+}
+
+.top-a-layer-1,
+.top-a-layer-2 {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	height: 630px;
+	width: 1900px;
+	margin-left: -950px;
+}
+
+.top-a-layer-1 {
+	background: url(../../images/background/flares/flares_bg.jpg) 0 0 no-repeat;
+	-webkit-animation: slide 20s linear infinite;
+	-moz-animation: slide 20s linear infinite;
+	-ms-animation: slide 20s linear infinite;
+	animation: slide 20s linear infinite;
+}
+
+.top-a-layer-2 { background: url(../../images/background/flares/flares_mask.png) 0 0 no-repeat; }
+

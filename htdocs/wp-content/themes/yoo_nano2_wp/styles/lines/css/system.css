@@ -1,0 +1,37 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/system.css);
+
+
+/* General
+----------------------------------------------------------------------------------------------------*/
+
+#system h1,
+#system h2,
+#system h3,
+#system h4,
+#system h5,
+#system h6 { text-transform: uppercase; }
+
+
+/* Item
+----------------------------------------------------------------------------------------------------*/
+
+#system .item > header .meta {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+
+/* Search
+----------------------------------------------------------------------------------------------------*/
+
+.searchbox,
+.searchbox input { height: 28px; }
+
+.searchbox .results {
+	top: 38px;
+	border-top-color: #eee;
+	border-radius: 0;
+}
+

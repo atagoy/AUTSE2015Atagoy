@@ -1,0 +1,121 @@
+.clearfix{
+	clear: both;
+	display:block;
+}
+
+#nmcontact-form-meta{
+	width: 100%;
+}
+
+#container-1 {
+	width: 40%;
+	border: 1px solid #E6E6E6;
+}
+
+.s-font {
+	font-size: 11px;
+	color: #AFAFAF;
+	margin: 0px;
+}
+.headings {
+	vertical-align: top;
+	padding-top: 5px;
+	font-weight: bold;
+	width: 20%;
+}
+
+#form-meta-bttons{
+	width: 20%;
+	border: 1px solid;
+	padding: 7px;
+	float: left;
+}
+
+#form-meta-bttons table{
+	display:none;
+}
+
+#form-meta-bttons > p{border: none; text-align: justify}
+
+#form-meta-bttons .top-heading-text{ float:left;padding:8px 0 0 5px;cursor: move;display: block;width: 90%;}
+#form-meta-bttons .top-heading-icons{ float:right;}
+
+#form-meta-setting .top-heading-text{ float:left;padding:0;cursor: move;display: block;width: 90%;}
+#form-meta-setting .top-heading-icons{ float:right;}
+
+
+#form-meta-setting{
+	float: right;
+	width: 75%;
+	/* border: 1px solid #d3d3d3; */
+	min-height: 350px;
+}
+
+#form-meta-setting table{
+display: table-cell;
+}
+
+#form-meta-setting table tr{line-height: 15px}
+
+#form-meta-setting h3{
+padding: 5px;
+font-weight: bold;
+cursor: pointer;
+}
+
+#form-meta-setting ul{
+min-height: 300px;
+/* border: 1px solid; */
+}
+
+.input-type-item{
+text-align: center;
+border: 1px solid;
+line-height: 0px;
+cursor: move;
+}
+
+#form-meta-setting .input-item-heading{
+	cursor: move;
+	border-bottom-color: #dfdfdf;
+text-shadow: #fff 0 1px 0;
+-webkit-box-shadow: 0 1px 0 #fff;
+box-shadow: 0 1px 0 #fff;
+background: #f1f1f1;
+background-image: -webkit-gradient(linear,left bottom,left top,from(#ececec),to(#f9f9f9));
+background-image: -webkit-linear-gradient(bottom,#ececec,#f9f9f9);
+background-image: -moz-linear-gradient(bottom,#ececec,#f9f9f9);
+background-image: -o-linear-gradient(bottom,#ececec,#f9f9f9);
+background-image: linear-gradient(to top,#ececec,#f9f9f9);
+}
+
+.table-column-title{width: 20%}
+.table-column-input{width: 25%}
+.table-column-desc{font-size: 11px;color: #AFAFAF;}
+
+table#form-main-settings td{padding: 10px 0};
+
+div.filemanager-rules{
+	padding: 5px;
+background: #eee;
+border: #ccc 1px solid;
+}
+
+li.plugin-field-set{
+	background-color: #F1F0F0;
+padding: 5px;
+border: 1px solid #ccc;
+}
+
+li.plugin-field-set label{
+	font-weight: bold;
+}
+li.plugin-field-set input,
+li.plugin-field-set textarea{
+	font-weight: normal;
+}
+li.plugin-field-set .help{
+	color: #999;
+font-weight: normal;
+font-size: 12px;
+}

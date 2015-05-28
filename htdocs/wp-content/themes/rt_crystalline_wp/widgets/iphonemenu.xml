@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+    <fieldset name="widget">
+        <field name="nav_menu" type="navmenulist" label="Menu:" description="The WordPress menu to display"
+               class="widefat" readonly="false"/>
+        <field name="theme" type="hidden" default="crystalline_touch"/>
+        <field name="limit_levels" type="list" label="Limit Levels:" description="The theme to use for the menu"
+               readonly="false">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </field>
+        <field name="startLevel" type="integer" label="Start Level:" description="The depth in the menu to start"
+               first="0" last="20" step="1" readonly="false"/>
+        <field name="endLevel" type="integer" label="End Level:" description="The depth in the menu to end" first="0"
+               last="20" step="1" readonly="false"/>
+        <field name="showAllChildren" type="list" label="Show All Children:"
+               description="Show all children of all parents" readonly="false">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </field>
+        <field name="maxdepth" type="integer" label="Maximum Depth:" description="The maximum depth to show" first="0"
+               last="20" step="1" readonly="false"/>
+        <field name="touchmenu-animation" type="list" default="cube" label="Menu Animation">
+            <option value="slide">Slide</option>
+            <option value="fade">Fade</option>
+            <option value="dissolve">Dissolve</option>
+            <option value="flip">Flip</option>
+            <option value="vflip">Vertical Flip</option>
+            <option value="slideup">Slide</option>
+            <option value="swap">Swap</option>
+            <option value="cube">Cube</option>
+            <option value="pop">Pop</option>
+        </field>
+    </fieldset>
+</form>

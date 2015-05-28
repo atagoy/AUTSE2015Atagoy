@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element type="Rating" group="Social">
+	<name>Rating</name>
+	<author>YOOtheme</author>
+	<creationDate>March 2009</creationDate>
+	<copyright>Copyright (C) 2007 - 2009 YOOtheme GmbH</copyright>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Rating</description>
+	<params>
+		<param name="name" type="configeditname" default="" label="Name" description="Unique name" />
+		<param name="label" type="text" default="" label="Label" description="Label used in item editor" />
+		<param name="description" type="text" default="" label="Description" description="Description tooltip used in item editor" />
+		<param name="display" type="list" default="3" label="Display" description="Display element only on selected view">
+			<option value="1">On item view</option>
+			<option value="2">On category view</option>
+			<option value="3">On item/category view</option>
+			<option value="0">Hide</option>
+		</param>
+		<param name="stars" type="list" default="5" label="Stars" description="">
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</param>
+		<param name="allow_vote" type="list" default="0" label="Allow Vote For" description="">
+			<option value="0">Public</option>
+			<option value="1">Registered</option>
+			<option value="2">Special</option>
+		</param>
+	</params>
+</element>

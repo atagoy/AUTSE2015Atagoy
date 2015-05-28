@@ -1,0 +1,17 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+.yootools-black div.cut div.yoo-gallery div.corner-tl {
+	background: url(styles/thumbnail_cut/black/images/corner_tl_ie6.png) 0 0 no-repeat; /* ie6png:crop */
+}
+
+.yootools-black div.cut div.yoo-gallery div.corner-tr {
+	background: url(styles/thumbnail_cut/black/images/corner_tr_ie6.png) 0 0 no-repeat; /* ie6png:crop */
+}
+
+.yootools-black div.cut div.yoo-gallery div.corner-bl {
+	background: url(styles/thumbnail_cut/black/images/corner_bl_ie6.png) 0 0 no-repeat; /* ie6png:crop */
+}
+
+.yootools-black div.cut div.yoo-gallery div.corner-br {
+	background: url(styles/thumbnail_cut/black/images/corner_br_ie6.png) 0 0 no-repeat; /* ie6png:crop */
+}

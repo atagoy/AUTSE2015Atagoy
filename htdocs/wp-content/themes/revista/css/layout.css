@@ -1,0 +1,131 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+.module,
+#header,
+#breadcrumbs,
+#content,
+#footer { margin: 2px; }
+
+#footer .module { margin: 0; }
+
+#headerbar + #menublock { margin-top: 15px; }
+
+#headerbar .module { max-width: 470px; }
+
+#header { margin-top: 25px; }
+#footer { margin-bottom: 25px; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+body#page { color: #666; }
+
+.wrapper { padding: 0 25px; }
+
+#toolbar {
+	padding: 7px 10px 5px 10px;
+	background: url(../images/toolbar.png) 0 0 repeat;
+	color: #777;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+#toolbar a {
+	color: #ccc;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+}
+
+#headerbar,
+#footer { text-shadow: 0 1px 0 rgba(255,255,255,0.4); }
+
+#content,
+#menublock {
+	border: 1px solid rgba(0,0,0,0.15);
+	border-bottom-color: rgba(0,0,0,0.25);
+	background: #fff;
+	background-clip: padding-box;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+}
+
+#menublock { padding: 5px 5px 2px 5px; }
+
+#menubar { height: 57px; }
+
+#subbar { padding: 2px 5px 5px 5px; }
+
+#subbar time {
+	float: right;
+	color: #bbb;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+#content { padding: 15px; }
+
+#footer {
+	margin-top: 4px;
+	padding-top: 13px;
+	line-height: 15px;
+	font-size: 11px;
+	text-align: left;
+}
+
+#footer .menu-line { margin-bottom: 6px; }
+
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: 13px;
+	right: 0;
+	z-index: 1;
+	width: 19px;
+	height: 20px;
+	background: url(../images/totop_scroller.png) 0 0 no-repeat;
+	text-decoration: none;
+}
+
+#totop-scroller:hover { background-position: 0 -30px; }
+
+
+/* Layout Wrapper
+----------------------------------------------------------------------------------------------------*/
+
+body.wrapper-white .wrapper {
+	border-left: 1px solid rgba(0,0,0,0.1);
+	border-right: 1px solid rgba(0,0,0,0.1);
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	background-clip: padding-box;
+}
+
+body.wrapper-white .wrapper #headerbar,
+body.wrapper-white .wrapper #footer,
+body.wrapper-white .wrapper .mod-plain { text-shadow: none; }
+
+body.wrapper-glass .wrapper {
+	border-left: 1px solid rgba(0,0,0,0.1);
+	border-right: 1px solid rgba(0,0,0,0.1);
+	background: url(../images/wrapper_glass.png) 0 0 repeat;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	background-clip: padding-box;
+}
+
+
+/* Module Wrapper
+----------------------------------------------------------------------------------------------------*/
+
+.wrapped {
+	margin: 2px;
+	border: 1px solid rgba(0,0,0,0.15);
+	border-bottom-color: rgba(0,0,0,0.25);
+	background: #fff;
+	background-clip: padding-box;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+}

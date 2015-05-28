@@ -1,0 +1,8 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+h1 { font-family: "MenschMenschBoldInline", sans-serif; }
+
+h1 { font-size: 54px; line-height: 55px; }
+
+/* Frontpage Hgroup */
+#top-a hgroup > h1 { font-size: 70px; }

@@ -1,0 +1,59 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Style Style Sheet - Defines the main look like colors and backgrounds
+ * Not all style related CSS is included, only colors and backgrounds which may change for different theme styles
+ */
+ 
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+a { color: #db9509; }
+
+a:hover,
+em, code { color: #376caa; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box-color1 {
+	background: #dc9f27;
+	background: -moz-linear-gradient(-45deg, #f2c56f 0%, #dc9f27 100%);
+	background: -webkit-linear-gradient(-45deg, #f2c56f 0%,#dc9f27 100%);
+	background: linear-gradient(-45deg, #f2c56f 0%,#dc9f27 100%); 
+}
+
+.mod-box-color1 a { color: #f5e0b7; }
+
+.mod-box-color2 {
+	background: #324255;
+	background: -moz-linear-gradient(-45deg, #516077 0%, #324255 100%);
+	background: -webkit-linear-gradient(-45deg, #516077 0%,#324255 100%);
+	background: linear-gradient(-45deg, #516077 0%,#324255 100%); 
+}
+
+.mod-box-color2 a { color: #b4bac3; }
+
+.mod-box-color2 em,
+.mod-box-color2 code { color: #E8B34D;}
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+#socialbar.untouched .social-icons,
+.social-icons { background-image: url(../images/socialbar_button.png); }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/

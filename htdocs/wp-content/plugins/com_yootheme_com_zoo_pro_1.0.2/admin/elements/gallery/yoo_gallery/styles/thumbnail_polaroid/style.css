@@ -1,0 +1,39 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+div.polaroid div.yoo-gallery div.thumbnail {
+	padding: 15px;
+	float: left;
+	position: relative;
+}
+
+div.polaroid div.yoo-gallery div.polaroid-m {
+	border: 1px solid #c8c8c8;
+	background: #ffffff url(styles/thumbnail_polaroid/images/polaroid_m.png) 0 100% repeat-x;
+	float: left;
+}
+
+div.polaroid div.yoo-gallery div.polaroid-l {
+	background: url(styles/thumbnail_polaroid/images/polaroid_l.png) 0 100% no-repeat;
+	float: left;
+}
+
+div.polaroid div.yoo-gallery div.polaroid-r {
+	padding:6px 6px 18px 6px;
+	background: url(styles/thumbnail_polaroid/images/polaroid_r.png) 100% 100% no-repeat;
+	float: left;
+}
+
+div.polaroid div.yoo-gallery div.tape {
+	position: absolute;
+	top: 1px;
+	left: 50%;
+	z-index: 1;
+	width: 78px;
+	height: 28px;
+	margin-left: -37px;
+	background: url(styles/thumbnail_polaroid/images/tape.png) 0 0 no-repeat; /* ie6png:crop */
+}
+
+div.polaroid div.yoo-gallery div.thumbnail img {
+	float: left;
+}

@@ -1,0 +1,11 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+    font-family: 'Yanone Kaffeesatz Thin';
+    src: url('Yanonekaffeesatz-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Yanonekaffeesatz-thin-webfont.woff') format('woff'),
+         url('Yanonekaffeesatz-thin-webfont.ttf') format('truetype'),
+         url('Yanonekaffeesatz-thin-webfont.svg#YanoneKaffeesatzThin') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

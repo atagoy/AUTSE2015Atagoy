@@ -1,0 +1,1645 @@
+﻿/*
+Theme Name: Guzel Magazine
+Theme URI: http://www.customthemedesign.com/
+Description: Guzel Magazine theme is a unique wordpress magazine style by <a href="http://www.customthemedesign.com/">Custom Theme Design</a>.
+Version: 1.0
+Author: Ahmed Fouad
+Author URI: http://www.customthemedesign.com/
+*/
+
+/*
+Set general CSS declarations
+*/
+* {
+	font-family: arial;
+	font-size: 1em;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-decoration: none;
+	vertical-align: baseline;
+	white-space: normal;
+}
+
+a {
+	color: #3259d8;
+}
+
+a:hover {
+	color: #ff9000;
+}
+
+html, body {
+	line-height: 1;
+}
+
+hr {
+	display: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+ul {
+	list-style-type: none;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+body {
+	background: #dcdcdc;
+	text-align: center;
+}
+
+#container {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+.clear {
+	clear: both;
+}
+
+/*
+Top part CSS
+*/
+#top {
+	width: 980px;
+	height: 34px;
+	background: url(images/top.gif) repeat-x;
+}
+
+#topleft {
+	float: left;
+	background: url(images/topx.gif) left no-repeat;
+	height: 34px;
+	padding-left: 10px;
+}
+
+#topright {
+	float: right;
+	background: url(images/topy.gif) right no-repeat;
+	height: 34px;
+	padding-right: 10px;
+}
+
+/*
+Page navigation CSS
+*/
+#pagenavigation {
+	float: left;
+	height: 32px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-left: 1px solid #ddd;
+	z-index: 20;
+}
+
+#pagenavigation li {
+	float: left;
+	display: block;
+	height: 32px;
+	border-right: 1px solid #ddd;
+}
+
+#pagenavigation li ul li {
+	height: 24px;
+	border-right: 0;
+	border-bottom: 1px solid #ddd;
+	width: 100%;
+}
+
+#pagenavigation li a {
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 32px;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #888;
+}
+
+#pagenavigation li a:hover {
+	background: #e6e8d7;
+	color: #333;
+}
+
+#pagenavigation li.current_page_item a {
+	background: #FFF;
+	color: #3259d8;
+}
+
+#pagenavigation li.current_page_item a:hover {
+	background: #FFF;
+	color: #3259d8;
+}
+
+#pagenavigation ul {
+	display: none;
+	z-index: 99;
+	position: absolute;
+}
+
+#pagenavigation ul li a {
+	display: block;
+	background: #FFF;
+}
+
+#pagenavigation li ul a:hover {
+	display: block;
+	background: #FFF;
+}
+
+#pagenavigation ul a {
+	display: block;
+}
+
+#pagenavigation ul ul {
+	margin-top: -27px;
+	display: none;
+	margin-left: 198px;
+	position: absolute;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+#pagenavigation li:hover ul ul {
+	display: none;
+}
+#pagenavigation li:hover ul {
+	display: block;
+}
+#pagenavigation ul li:hover ul {
+	display: block;
+}
+#pagenavigation li ul li {
+	display: block;
+	width: 100%;
+}
+
+#pagenavigation li.page_item ul {
+	border-top: 2px solid #ddd;
+	width: 200px;
+}
+
+#pagenavigation li.page_item a {
+	display: block;
+}
+
+#pagenavigation li.page_item a:hover {
+	display: block;
+}
+
+#pagenavigation li.page_item ul li a {
+	display: block;
+	text-align: left;
+	height: 24px;
+	line-height: 24px;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	background: #FFF;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #333;
+}
+
+#pagenavigation li.page_item ul li a:hover {
+	display: block;
+	text-align: left;
+	height: 24px;
+	line-height: 24px;
+	border-right: 1px solid #aaa;
+	border-left: 1px solid #ddd;
+	background: #FFF;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #ff9000;
+}
+
+/*
+Search form CSS
+*/
+.searchform {
+	display: inline;
+}
+
+.searchform fieldset {
+	display: inline;
+	padding-top: 4px;
+}
+
+.searchform label {
+	vertical-align: middle;
+	display: inline;
+	margin-right: 5px;
+	font-size: 0.7em;
+	color: #9ba2b8;
+	font-weight: bold;
+}
+
+.searchform input {
+	vertical-align: middle;
+	display: inline;
+	font-size: 0.7em;
+}
+
+.searchinput {
+	background: #FFF;
+	border: 1px dotted #a3c3d3;
+	width: 184px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #666;
+}
+
+.searchbutton {
+	background: url(images/searchbutton.gif) no-repeat;
+	width: 29px;
+	height: 22px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #FFF;
+	font-weight: bold;
+}
+
+/*
+Header CSS
+*/
+#header {
+	width: 980px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 60px;
+}
+
+#headerlogo {
+	float: left;
+	display: inline;
+	margin-left: 10px;
+	height: 60px;
+}
+
+#headerad {
+	float: right;
+	display: inline;
+	margin-right: 10px;
+	height: 60px;
+}
+
+#headerad a, #headerad img {
+	display: block;
+	width: 468px;
+	height: 60px;
+}
+
+#headerlogo h1 {
+	float: left;
+	background: url(images/logo.gif) no-repeat;
+	background-position: right 20px;
+	margin-right: 5px;
+	padding-right: 15px;
+	padding-top: 25px;
+}
+
+#headerlogo h1 a {
+	font-size: 1.4em;
+	font-weight: normal;
+	line-height: 1.5em;
+	letter-spacing: -1px;
+}
+
+#headerlogo h1 a:hover {
+	color: #4e74f2;
+}
+
+#headerlogo span {
+	float: left;
+	padding-top: 35px;
+	font-weight: bold;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	color: #666;
+}
+
+/*
+Main Category Menu CSS
+*/
+#menu {
+	width: 980px;
+	height: 30px;
+	background: url(images/menur.gif) repeat-x;
+}
+
+#menux {
+	float: left;
+	width: 965px;
+	height: 30px;
+	padding-left: 10px;
+	background: url(images/menux.gif) no-repeat left;
+}
+
+#menuy {
+	float: right;
+	width: 5px;
+	height: 30px;
+	background: url(images/menuy.gif) no-repeat right;
+}
+
+#dmenu {
+	float: left;
+	height: 30px;
+	border-left: 1px solid #ccc;
+	z-index: 20;
+}
+
+#dmenu li {
+	float: left;
+	display: block;
+	height: 30px;
+	border-right: 1px solid #ccc;
+}
+
+#dmenu li ul li {
+	height: 24px;
+	border-right: 0;
+	border-bottom: 1px solid #ddd;
+	width: 100%;
+}
+
+#dmenu li a {
+	display: block;
+	line-height: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.85em;
+	letter-spacing: -1px;
+	color: #666;
+	font-weight: bold;
+}
+
+#dmenu li a:hover {
+	background: url(images/menuhover.gif) repeat-x;
+	color: #3259d8;
+}
+
+#dmenu ul {
+	display: none;
+	z-index: 99;
+	position: absolute;
+}
+
+#dmenu ul li a {
+	display: block;
+	background: #FFF;
+}
+
+#dmenu li ul a:hover {
+	display: block;
+	background: #FFF;
+}
+
+#dmenu ul a {
+	display: block;
+}
+
+#dmenu ul ul {
+	margin-top: -26px;
+	display: none;
+	margin-left: 200px;
+	position: absolute;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+#dmenu li:hover ul ul {
+	display: none;
+}
+
+#dmenu li:hover ul {
+	display: block;
+}
+
+#dmenu ul li:hover ul {
+	display: block;
+}
+
+#dmenu li ul li {
+	display: block;
+	width:100%;
+}
+
+#dmenu li.cat-item ul {
+	width: 200px;
+}
+
+#dmenu li.cat-item a {
+	display: block;
+}
+
+#dmenu li.cat-item a:hover {
+	display: block;
+}
+
+#dmenu li.cat-item ul li a {
+	display: block;
+	text-align: left;
+	font-size: 0.8em;
+	letter-spacing: -1px;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #333;
+	font-weight: bold;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+
+#dmenu li.cat-item ul li a:hover {
+	display: block;
+	text-align: left;
+	font-size: 0.8em;
+	letter-spacing: -1px;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #3259d8;
+	font-weight: bold;
+	border-right: 1px solid #ff9000;
+	border-left: 1px solid #ddd;
+}
+
+/*
+RSS Bar CSS
+*/
+#rssbar {
+	width: 980px;
+	height: 30px;
+	margin-top: 1px;
+	margin-bottom: 2px;
+	background: url(images/rssbar.gif) repeat-x;
+}
+
+#rssbar #today {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	background: url(images/rssbarx.gif) no-repeat left;
+	font-size: 0.7em;
+	color: #888;
+}
+
+#rssbar ul {
+	float: right;
+	background: url(images/rssbary.gif) no-repeat right;
+	display: inline;
+	height: 30px;
+	padding-right: 10px;
+}
+
+#rssbar ul li {
+	float: left;
+	margin-left: 20px;
+	display: inline;
+}
+
+#rssbar ul li a {
+	height: 30px;
+	line-height: 30px;
+	background: url(images/rss.gif) no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+#rssbar ul li a:hover {
+	color: #4e74f2;
+}
+
+/*
+Featured Column CSS
+*/
+#featured {
+	width: 980px;
+	background: #FFF url(images/bg.gif) repeat-y;
+	border-bottom: 4px solid #ccc;
+}
+
+#featuredleft {
+	float: left;
+	width: 600px;
+	background: url(images/lround.gif) no-repeat top left;
+}
+
+#featuredright {
+	float: left;
+	width: 380px;
+	background: url(images/rround.gif) no-repeat top right;
+}
+
+/*
+Featured Posts CSS
+*/
+.featuredposts {
+	width: 600px;
+}
+
+.featuredposts li {
+	float: left;
+	display: inline;
+	text-align: center;
+	border-right: 1px solid #eee;
+}
+
+.featuredposts li a {
+	float: left;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 38px;
+	height: 38px;
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #aaa;
+}
+
+.featuredposts li a:hover {
+	background: url(images/tabmover.gif) no-repeat top center;
+	color: #ff9000;
+}
+
+.featuredposts li a.selected {
+	background: url(images/tabselector.gif) no-repeat top center;
+	color: #3259d8;
+}
+
+.featuredposts li a.selected:hover {
+	background: url(images/tabselector.gif) no-repeat top center;
+	color: #3259d8;
+}
+
+.featuredposts_content {
+	display: none;
+	border-top: 1px solid #eee;
+	padding: 15px;
+	width: 570px;
+}
+
+@media print {
+	.featuredposts_content {
+	display: block !important;
+	}
+}
+
+.featuredposts_content .thumb img {
+	float: left;
+	display: inline;
+	margin-right: 15px;
+	border: 3px solid #dcebf1;
+}
+
+.featuredposts_content .post {
+	display: inline;
+}
+
+.featuredposts_content .post h1 a {
+	font-size: 1.1em;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.featuredposts_content .post h1 a:hover {
+	color: #4e74f2;
+}
+
+.featuredposts_content .post .time {
+	color: #999;
+	font-size: 0.7em;
+	line-height: 2em;
+}
+
+.featuredposts_content .post .entry {
+	padding-top: 5px;
+	border-bottom: 1px solid #ddd;
+}
+
+.featuredposts_content .post .entry p {
+	margin: 0px 0px 7px 0px;
+	font-size: 0.75em;
+	line-height: 1.4em;
+	color: #666;
+}
+
+.featuredposts_content .post .endpost {
+	padding-top: 5px;
+}
+
+.featuredposts_content .post .cat a {
+	float: left;
+	display: block;
+	padding: 5px;
+	background: #999;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	color: #FFF;
+	font-weight: bold;
+	line-height: 1.1em;
+}
+
+.featuredposts_content .post .cat a:hover {
+	background: #ff9000;
+}
+
+.extra {
+	float: right;
+}
+
+.extra li {
+	display: inline;
+	float: left;
+	margin-left: 10px;
+}
+
+.extra li a {
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+.extra li.comments a {
+	background: url(images/comments.gif) no-repeat;
+	background-position: right center;
+	padding-right: 20px;
+	padding-left: 10px;
+	border-left: 1px solid #bbb;
+	color: #ff9000;
+}
+
+.extra li.comments a:hover {
+	text-decoration: underline;
+}
+
+/*
+Featured Tabs CSS
+*/
+.featuredtabs {
+	width: 380px;
+}
+
+.featuredtabs li {
+	float: left;
+	display: inline;
+	text-align: center;
+	border-right: 1px solid #eee;
+}
+
+.featuredtabs li a {
+	float: left;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 38px;
+	height: 38px;
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #aaa;
+}
+
+.featuredtabs li a:hover {
+	background: url(images/tabmover.gif) no-repeat top center;
+	color: #ff9000;
+}
+
+.featuredtabs li a.selected {
+	background: url(images/tabselector.gif) no-repeat top center;
+	color: #3259d8;
+}
+
+.featuredtabs li a.selected:hover {
+	background: url(images/tabselector.gif) no-repeat top center;
+	color: #3259d8;
+}
+
+.featuredtabs_content {
+	display: none;
+	border-top: 1px solid #eee;
+	padding: 15px;
+	width: 350px;
+}
+
+@media print {
+	.featuredtabs_content {
+	display: block !important;
+	}
+}
+
+.featuredtabs_content ul {
+}
+
+.featuredtabs_content ul li {
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 4px;
+	padding-bottom: 4px;
+	font-size: 0.7em;
+	line-height: 1.4em;
+	color: #999;
+}
+
+.featuredtabs_content ul li span {
+	display: block;
+}
+
+.featuredtabs_content ul li span a {
+	color: #333;
+}
+
+.featuredtabs_content ul li span a:hover {
+	color: #ff9000;
+}
+
+/*
+Big Column CSS
+*/
+#bigcolumn {
+	width: 980px;
+	padding-bottom: 10px;
+	background: #f3fbff url(images/closeBigColumn.gif) no-repeat bottom;
+}
+
+#widecolumn {
+	float: left;
+	width: 640px;
+	margin-left: 8px;
+	display: inline;
+}
+
+#top_posts {
+	float: left;
+	width: 316px;
+	margin-left: 8px;
+	margin-right: 8px;
+	display: inline;
+}
+
+#recent_posts {
+	float: left;
+	width: 316px;
+	display: inline;
+}
+
+#sidebar {
+	float: left;
+	width: 316px;
+	margin-left: 8px;
+	margin-right: 8px;
+	display: inline;
+}
+
+/*
+Main CSS
+*/
+#top_posts h2, #recent_posts h2, #sidebar h2 {
+	margin-top: 15px;
+	font-size: 0.9em;
+	line-height: 1.3em;
+	letter-spacing: -1px;
+	color: #333;
+	background: url(images/hbullet.gif) no-repeat left;
+	border-bottom: 2px solid #d8e1f0;
+	padding-left: 15px;
+}
+
+.box {
+	background: #FFF;
+	padding: 10px;
+	border-right: 1px solid #d8e1f0;
+	border-left: 1px solid #d8e1f0;
+	border-bottom: 1px solid #d8e1f0;
+}
+
+.box p {
+	font-size: 0.75em;
+	line-height: 1.3em;
+	color: #666;
+	margin: 0px 0px 7px 0px;
+}
+
+.postbox {
+	margin-bottom: 10px;
+	background: #FFF;
+	padding: 10px;
+	border: 1px solid #d8e1f0;
+}
+
+.postbox p {
+	font-size: 0.75em;
+	line-height: 1.3em;
+	text-align: justify;
+	margin: 0;
+	color: #666;
+}
+
+.ad img, .ad a img {
+	display: block;
+}
+
+/*
+Top Posts CSS
+*/
+.top_thumb img {
+	float: left;
+	display: inline;
+	width: 90px;
+	height: 67px;
+	margin-right: 10px;
+	border: 3px solid #dcebf1;
+}
+
+.top_entry {
+	display: inline;
+}
+
+.top_entry h3 a {
+	font-size: 0.9em;
+	letter-spacing: -1px;
+	color: #537ce4;
+}
+
+.top_entry h3 a:hover {
+	color: #537ce4;
+	text-decoration: underline;
+}
+
+.top_entry .time {
+	color: #999;
+	line-height: 2em;
+	font-size: 0.7em;
+}
+
+.top_entry .excerpt p {
+	font-size: 0.75em;
+	line-height: 1.3em;
+	text-align: justify;
+	margin: 0;
+	color: #666;
+}
+
+.top_entry .postbit {
+	margin-top: 7px;
+	padding-top: 7px;
+	border-top: 1px dotted #ddd;
+	float: right;
+	width: 294px;
+}
+
+.top_entry .postbit li {
+	display: block;
+	float: right;
+	display: inline;
+	margin-left: 5px;
+}
+
+.top_entry .postbit li a {
+	display: block;
+	padding: 5px;
+	background: #fff;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	color: #666;
+	line-height: 1.1em;
+	border: 1px solid #ddd;
+}
+
+.top_entry .postbit li a:hover {
+	background: #f9f7f1;
+	color: #333;
+}
+
+/*
+Recent Posts CSS
+*/
+.recent_thumb img {
+	float: right;
+	display: inline;
+	width: 90px;
+	height: 67px;
+	margin-left: 10px;
+	border: 3px solid #dcebf1;
+}
+
+.recent_entry {
+	display: inline;
+}
+
+.recent_entry h3 a {
+	font-size: 0.85em;
+	letter-spacing: -1px;
+	color: #627092;
+}
+
+.recent_entry h3 a:hover {
+	color: #ff9000;
+}
+
+.recent_entry .time {
+	color: #666;
+	line-height: 2em;
+	font-size: 0.7em;
+}
+
+.recent_entry .excerpt p {
+	font-size: 0.75em;
+	line-height: 1.3em;
+	text-align: justify;
+	margin: 0;
+	color: #999;
+}
+
+.recent_entry .postbit {
+	margin-top: 7px;
+	padding-top: 7px;
+	border-top: 1px dotted #ddd;
+	float: right;
+	width: 294px;
+}
+
+.recent_entry .postbit li {
+	display: block;
+	float: right;
+	display: inline;
+	margin-left: 5px;
+}
+
+.recent_entry .postbit li a {
+	display: block;
+	padding: 5px;
+	background: #eee;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	color: #666;
+	line-height: 1.1em;
+	border: 1px solid #ddd;
+}
+
+.recent_entry .postbit li a:hover {
+	background: #fff;
+	color: #333;
+}
+
+/*
+Sidebar CSS Widgets
+*/
+.sidebar {
+	float: left;
+	width: 150px;
+}
+
+.sidebar div {
+	background: #FFF;
+	padding: 10px;
+	font-size: 0.7em;
+	line-height: 1.3em;
+	color: #666;
+	border-right: 1px solid #d8e1f0;
+	border-left: 1px solid #d8e1f0;
+	border-bottom: 1px solid #d8e1f0;
+}
+
+.sidebar ul li ul {
+	background: #FFF;
+	padding: 10px;
+	border-right: 1px solid #d8e1f0;
+	border-left: 1px solid #d8e1f0;
+	border-bottom: 1px solid #d8e1f0;
+}
+
+
+.sidebar ul ul ul, .sidebar ul ul ul ul, .sidebar ul ul ul ul ul {
+	background: #FFF;
+	padding: 0;
+	border: 0;
+}
+
+.sidebar ul li ul li {
+	padding-bottom: 4px;
+	margin-bottom: 4px;
+	border-bottom: 1px dotted #ddd;
+	background: url(images/bullet.gif) no-repeat;
+	background-position: left 5px;
+	padding-left: 15px;
+	font-size: 0.7em;
+	line-height: 1.3em;
+	color: #666;
+}
+
+.sidebar ul li ul li ul li,
+.sidebar ul li ul li ul li ul li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background: url(images/bullet.gif) no-repeat;
+	background-position: left 5px;
+	padding-left: 15px;
+	font-size: 1em;
+	line-height: 1.3em;
+}
+
+/*
+Subscribe RSS Form
+*/
+.subscribe {
+	width: 294px;
+}
+
+.subscribe fieldset {
+	display: inline;
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #ddd;
+	padding-bottom: 10px;
+	width: 294px;
+}
+
+.subscribe input {
+	display: inline;
+	vertical-align: middle;
+}
+
+.feedinput {
+	border-top: 1px solid #bbb;
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	width: 184px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	color: #666;
+	font-size: 0.75em;
+}
+
+.feedinput:focus {
+	background: #fdfff4;
+	border-top: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.feedsubmit {
+	background: url(images/feedsubmit.gif) no-repeat;
+	font-size: 0.75em;
+	font-weight: bold;
+	width: 44px;
+	height: 21px;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.feedlink {
+	background: url(images/rss.gif) no-repeat left;
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: 0.9em;
+	margin-right: 10px;
+}
+
+/*
+Fix Corners CSS *do not touch* please!
+*/
+#fixcorners {
+	display: block;
+	width: 980px;
+	height: 5px;
+	background: #f3fbff url(images/lblue.gif) no-repeat left bottom;
+}
+
+#rightcorner {
+	display: block;
+	width: 5px;
+	height: 5px;
+	background: #f3fbff url(images/rblue.gif) no-repeat right bottom;
+	float: right;
+}
+
+/*
+Footer
+*/
+#footer {
+	width: 980px;
+	margin-bottom: 30px;
+	line-height: 1.8em;
+}
+
+#footer a:hover {
+	color: #3259d8;
+	text-decoration: underline;
+}
+
+#required {
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	font-size: 0.7em;
+	color: #666;
+}
+
+#copyright {
+	display: inline;
+	float: right;
+	margin-right: 10px;
+	font-size: 0.7em;
+	color: #666;
+}
+
+/*
+POST BODY CSS
+*/
+.postbody {
+	background: #FFF;
+	padding: 10px;
+	border: 1px solid #d8e1f0;
+	margin-top: 10px;
+}
+
+.postbody h1, .postbody h2, .postbody h3, .postbody h4, .postbody h5, .postbody h6 {
+	line-height: 1.3em;
+	margin: 0px 0px 5px 0px;
+}
+
+.postbody p {
+	font-size: 0.75em;
+	line-height: 1.4em;
+	color: #333;
+	margin: 0px 0px 10px 0px;
+}
+
+.postbody h1 {
+	letter-spacing: -2px;
+	font-size: 1.5em;
+	color: #2e4aa6;
+}
+
+.postbody h2 {
+	letter-spacing: -1px;
+	font-size: 1.3em;
+	color: #ff9000;
+}
+
+.postbody h3 {
+	letter-spacing: -1px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #333;
+}
+
+.postbody h4 {
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #666;
+}
+
+.postbody h5 {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #999;
+}
+
+.postbody h6 {
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #577aee;
+}
+
+.postbody ol {padding-left: 20px;}
+.postbody ul {margin: 5px 5px 20px 5px;}
+.postbody ol {margin: 5px 5px 20px 5px;}
+.postbody ul ul {margin: 5px 5px 5px 5px;}
+.postbody ol ol {margin: 5px 5px 5px 5px;}
+
+.postbody ol li {
+	line-height: 1.5em;
+	color: #333;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+.postbody ul li {
+	line-height: 1.5em;
+	color: #333;
+	background: url(images/bullet.gif) no-repeat;
+	background-position: left 6px;
+	padding-left: 20px;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+.postbody blockquote {
+	background: #fffced;
+	border: 1px dotted #dfdccb;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 50px;
+	display: block;
+}
+
+.postbody blockquote p {
+	font-family: arial;
+	font-size: 0.8em;
+	line-height: 1.3em;
+	letter-spacing: -1px;
+	font-weight: bold;
+	color: #587ae6;
+}
+
+.postbody ins {
+	color: #333;
+	text-decoration: underline;
+}
+
+.postbody del {
+	color: #333;
+	text-decoration: line-through;
+}
+
+.postbody code {
+	color: #333;
+	font-family: verdana;
+	font-size: 11px;
+	background: #eee;
+	margin-bottom: 10px;
+}
+
+/*
+Results .p class
+*/
+.p {
+	border-top: 1px solid #eee;
+	padding-top: 15px;
+	margin-top: 15px;
+}
+
+.p .thumb img {
+	float: left;
+	display: inline;
+	width: 90px;
+	height: 67px;
+	margin-right: 10px;
+	border: 3px solid #dcebf1;
+}
+
+.p .time {
+	font-size: 0.7em;
+	color: #999;
+}
+
+.p .excerpt {
+	padding-top: 5px;
+}
+
+.p .info {
+	text-align: right;
+	font-size: 0.7em;
+	line-height: 1.3em;
+	color: #666;
+}
+
+.p .tags {
+	background: #fdfff4;
+	border: 1px dotted #ddd;
+	padding: 5px;
+	font-size: 0.7em;
+	line-height: 1.3em;
+	color: #666;
+	text-transform: lowercase;
+	margin-top: 5px;
+}
+
+.p .tags a {
+	color: #333;
+}
+
+.p .tags a:hover {
+	color: #3259d8;
+}
+
+/*
+Navigation CSS
+*/
+.navigation {
+	padding-top: 10px;
+	margin-top: 10px;
+	border-top: 1px solid #ddd;
+}
+
+.navigation a {
+	padding: 5px;
+	background: #999;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	line-height: 1.1em;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.navigation a:hover {
+	background: #ff9000;
+	color: #FFF;
+}
+
+.navleft {
+	float: left;
+	width: 40%;
+}
+
+.navright {
+	float: right;
+	width: 40%;
+}
+
+.navleft a {
+	float: left;
+	display: block;
+}
+
+.navright a {
+	float: right;
+	display: block;
+}
+
+/*
+Alternative: single post ONLY SPECIFIC CSS
+*/
+.postbody_singlepost .time {
+	color: #999;
+	font-size: 0.7em;
+	line-height: 1.3em;
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.postbody_singlepost img {
+	border: 3px solid #dcebf1;
+}
+
+.postbody_singlepost .tags {
+	color: #333;
+	font-size: 0.7em;
+	line-height: 1.7em;
+}
+
+.postbody_singlepost .tags a {
+	color: #999;
+}
+
+.postbody_singlepost .tags a:hover {
+	color: #ff9000;
+}
+
+.postbody_singlepost .cc {
+	margin-top: 10px;
+	background: #F9F9F1;
+	border: 1px dotted #ccc;
+	padding: 5px;
+	line-height: 1.5em;
+	font-size: 0.8em;
+}
+
+.postbody_singlepost .the_content {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/*
+Special Single Post Classes
+*/
+.edit, .follow, .track {
+	border-bottom: 1px dotted #ddd;
+	padding: 5px;
+	margin-bottom: 5px;
+	font-size: 0.75em;
+	line-height: 1.4em;
+}
+
+.follow a {
+	font-weight: bold;
+	background: url(images/rss.gif) no-repeat left;
+	padding-left: 20px;
+}
+
+.track {
+	background: #EEE;
+	font-weight: bold;
+}
+
+/*
+CSS for Floating Images in Single Post View
+*/
+.alignleft {
+	float: left;
+	display: inline;
+	background: #fff;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+
+.alignright {
+	float: right;
+	display: inline;
+	background: #fff;
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+.aligncenter {
+	display: inline;
+	text-align: center;
+}
+
+.alignnone {
+}
+
+p.wp-caption-text {
+	padding: 5px;
+	font-size: 0.7em;
+	color: #999;
+}
+
+/*
+Commenting System CSS
+*/
+#combox, #combox ol, #combox ol li, #combox ol li.alt {
+	font-size: 100%;
+}
+
+#combox {
+	padding:0;
+	margin:0;
+	border:0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+ol.commentlist {
+	padding:0;
+	margin:0;
+	border:0;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+ol.commentlist li {
+	padding:0;
+	margin:0;
+	border:0;
+	background: #fefff7;
+	border: 1px solid #eee;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+ol.commentlist li.alt {
+	padding:0;
+	margin:0;
+	border:0;
+	background: #FFF;
+	border: 1px solid #eee;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.avatar {
+	float: left;
+	display: inline;
+}
+
+.avatar img {
+	border: 0;
+}
+
+.commentbody {
+	float: left
+	display: inline;;
+	margin-left: 60px;
+}
+
+.commentbody img {
+	border:0;
+	vertical-align: middle;
+}
+
+p.comment_author {
+	color: #999;
+	font-size: 0.7em;
+}
+
+span.comment_time {
+	display: inline;
+	color: #999;
+}
+
+p.comment_text {
+	margin-top: 15px;
+	line-height: 1.4em;
+}
+
+/*
+Leave a Reply form CSS
+*/
+.reply {
+	background: #f6f6f6;
+	border: 1px dotted #ccc;
+	padding: 20px;
+}
+
+.reply p {
+	margin-top: 10px;
+}
+
+.reply fieldset {
+	vertical-align: middle;
+	display: inline;
+}
+
+.reply input {
+	vertical-align: middle;
+	display: inline;
+}
+
+.reply textarea {
+	vertical-align: middle;
+	display: inline;
+}
+
+.reply label {
+	vertical-align: middle;
+	display: inline;
+	font-weight: bold;
+	font-family: tahoma;
+	margin-left: 10px;
+}
+
+.replytext {
+	border: 1px solid #ddd;
+	width: 200px;
+	padding: 5px;
+	color: #3259d8;
+}
+
+.replytext:focus {
+	border: 1px solid #bbb;
+	background: #fefff7;
+}
+
+.replyarea {
+	border: 1px solid #ddd;
+	line-height: 1.5em;
+	padding: 5px;
+	width: 555px;
+	height: 120px;
+	color: #3259d8;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+.replyarea:focus {
+	border: 1px solid #bbb;
+	background: #fefff7;
+}
+
+.replybutton {
+	background: #3259d8;
+	text-align: center;
+	width: 100px;
+	height: 25px;
+	font-weight: bold;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.replybutton:hover {
+	background: #5c82d1;
+}

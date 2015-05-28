@@ -1,0 +1,115 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/modules.css);
+.qtrans_language_chooser { list-style-type:none }
+.qtrans_language_chooser li { margin-bottom:10px }
+
+
+/* Module Badges
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge {
+	top: -7px;
+	right: -7px;
+	width: 32px;
+	height: 32px;
+	background: url(../images/module_badges.png) 0 0 no-repeat;
+}
+ 
+.module .badge-hot { background-position: 0 0; }
+.module .badge-top { background-position: 0 -40px; }
+.module .badge-free { background-position: 0 -80px; }
+.module .badge-new { background-position: 0 -120px; }
+
+/* Module Title
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title { 
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+}
+
+.module.has-icon .module-title { text-align: left; }
+
+/* Module Icons
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title .icon {
+	top: 0;
+	height: 36px;
+	width: 36px;
+	margin-right: 10px;
+	background: url(../images/module_icons.png) 0 0 no-repeat;
+}
+
+.module .module-title .icon-download { background-position: 0 0; }
+.module .module-title .icon-twitter { background-position: 0 -40px; }
+.module .module-title .icon-mail { background-position: 0 -80px; }
+.module .module-title .icon-bubble { background-position: 0 -120px; }
+.module .module-title .icon-login { background-position: 0 -160px; }
+.module .module-title .icon-cart { background-position: 0 -200px; }
+
+
+/* Module Type: Box
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box {
+	padding: 15px;
+	background: #ffffff;
+	color: #444444;
+}
+
+.mod-box-transparent {
+	color: #fff;
+	box-shadow: 0 0 1px rgba(255,255,255,0.2);
+}
+
+.mod-box-transparent .menu-sidebar a,
+.mod-box-color1 .menu-sidebar a,
+.mod-box-color2 .menu-sidebar a,
+.mod-box-transparent .menu-sidebar li > span,
+.mod-box-color1 .menu-sidebar li > span,
+.mod-box-color2 .menu-sidebar li > span { color: #ffffff; }
+
+.mod-box-transparent .menu-sidebar a.level1 > span,
+.mod-box-color1 .menu-sidebar a.level1 > span,
+.mod-box-color2 .menu-sidebar a.level1 > span,
+.mod-box-transparent .menu-sidebar span.level1 > span,
+.mod-box-color1 .menu-sidebar span.level1 > span,
+.mod-box-color2 .menu-sidebar span.level1 > span { border-color: rgba(255,255,255,0); }
+
+.mod-box-transparent .menu-sidebar a.level1:hover > span,
+.mod-box-color1 .menu-sidebar a.level1:hover > span,
+.mod-box-color2 .menu-sidebar a.level1:hover > span { border-color: rgba(255,255,255,0.5); }
+
+.mod-box-transparent .menu-sidebar li.parent .level1 > span,
+.mod-box-color1 .menu-sidebar li.parent .level1 > span,
+.mod-box-color2 .menu-sidebar li.parent .level1 > span { background-image: url(../images/menu_sidebar_parent_white.png); }
+
+.mod-box-transparent .menu-sidebar .level2 a > span,
+.mod-box-color1 .menu-sidebar .level2 a > span,
+.mod-box-color2 .menu-sidebar .level2 a > span { background-image: url(../images/menu_sidebar_level2_white.png); }
+
+.mod-box-color1,
+.mod-box-color2 { 
+	color: #ffffff;
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+}
+
+.mod-box-color1 a:hover,
+.mod-box-color2 a:hover { color: #ffffff; }
+
+.mod-box-color1 em,
+.mod-box-color1 code,
+.mod-box-color2 em,
+.mod-box-color2 code { color: #000; }
+
+.mod-box-transparent em,
+.mod-box-transparent code,
+.system-transparent #system .item em,
+.system-transparent #system .item code { color: #fff; }
+
+.mod-box-transparent .module-title .icon,
+.mod-box-color1 .module-title .icon,
+.mod-box-color2 .module-title .icon { background-image: url(../images/module_icons_white.png); }

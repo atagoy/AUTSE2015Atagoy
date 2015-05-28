@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="search">
+	<name>Search - Zoo</name>
+	<author>YOOtheme</author>
+	<creationDate>March 2009</creationDate>
+	<copyright>Copyright (C) 2007 - 2009 YOOtheme GmbH</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only</license>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+	<version>1.0.1</version>
+	<description>Zoo Search Joomla 1.5 plugin from YOOtheme.com (http://www.yootheme.com)</description>
+	<files>
+		<filename plugin="zoosearch">zoosearch.php</filename>
+	</files>
+	<params>
+		<param name="search_fulltext" type="radio" default="1" label="Full-text Search" description="Uses MySQL's search feature for natural language full-text searches">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="search_limit" type="text" size="5" default="50" label="Search Limit" description="Number of Search items to return"/>
+	</params>
+</install>

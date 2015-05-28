@@ -1,0 +1,20 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+ 
+.custom-logo {
+	display: inline-block;
+	width: 210px;
+	height: 90px;
+	background: url(../../../images/yootheme/logo.png) 50% 50% no-repeat;
+	background-size: contain;
+}
+
+/* Only Phones (Portrait) */
+@media (max-width: 479px) {
+
+	.custom-logo { height: 60px; }
+	
+}

@@ -1,0 +1,13 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Texture: Watercolor
+----------------------------------------------------------------------------------------------------*/
+
+body#page.page {
+	background:	#f2f2f4 url(../../images/page.png) 0 0 repeat-x;
+	background:	url(../../images/texture/watercolor/texture_b.png) 50% 100% no-repeat,
+				url(../../images/page.png) 0 0 repeat-x,
+				#f2f2f4;
+}
+
+div#page-bg { background: url(../../images/texture/watercolor/texture_t.jpg) 50% 0 no-repeat; }

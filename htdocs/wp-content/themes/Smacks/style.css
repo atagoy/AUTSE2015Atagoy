@@ -1,0 +1,644 @@
+/*
+	Theme Name: Smacks
+	Theme URL: http://newwpthemes.com/wordpress-theme/smacks/
+	Description: Smacks is a free WordPress news theme with featured content option and supports the post thumbnails. Suitable for any niche. Theme Options at admin panel.
+	Author: NewWpThemes.com
+	Author URI: http://newwpthemes.com/
+	Version: 1.0
+*/
+
+/* LAYOUT */
+
+body {
+	background: #FFFFFF url(images/background.png) left top repeat-x;
+	}
+
+#wrapper {
+   	}
+
+#container {
+ 	}
+
+#contentwrap {
+    background: #FFFFFF;
+	}
+
+a {
+	color: #336699;
+    text-decoration: none;
+	}
+
+a:hover {
+	color: #007FFE;
+    text-decoration: underline;
+	}
+/* HEADER */
+
+#header {
+	height: 105px;
+    padding: 30px 0;
+	}
+
+#header h1 {
+	margin-bottom: 0px !important;
+	padding: 20px 0 0 0;
+	font-weight: normal;
+	font-family: Arial, Helvetica, Sans-serif;
+	font-weight: bold;
+    text-transform: uppercase;
+	font-size: 48px;
+	}
+
+#header h1 a, #header h1 a:visited {
+	color: #FDFCFC;
+	text-decoration: none;
+	}
+
+
+#header h2 {
+	color: #C5C5C5;
+	font-size: 14px;
+	line-height: 14px; 
+	font-family: Arial, Helvetica, Sans-serif;
+	}
+
+.logoimg {
+    margin: 30px 0 0 0px;
+}
+
+.feedtwitter {
+	margin-top:16px;
+	text-align: right;
+}
+    
+    
+/* NAVIGATION MENUS */
+
+#pagemenucontainer {
+	height: 30px;
+    padding: 0 6px 0 10px;
+    margin-top: 14px;
+    float: left;
+    background: #F0F0F0;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+	}
+
+#pagemenu {
+	height: 30px;
+    float: left;
+	}
+
+#pagemenu, #pagemenu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1;
+	}
+#pagemenu {
+	margin-bottom: 1px;
+	}
+
+#pagemenu ul {
+	float: left;
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+
+	}
+
+#pagemenu li {
+	float: left;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+
+	}
+	
+#pagemenu ul li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+#pagemenu li a, #pagemenu li a:link {
+    color: #2D2D2D;
+	display: block;
+    margin: 0 4px 0 0;
+	padding: 10px 10px 9px 10px;
+	text-decoration: none;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+#pagemenu li a:hover, #pagemenu li a:active {
+	color: #FFFFFF;
+	display: block;
+    text-decoration: none;
+    background: #5B5959;
+	}
+	
+#pagemenu  li.current_page_item a {
+	color: #FFFFFF;
+    text-decoration: none;
+    background: #5B5959;
+	}
+
+#pagemenu li:hover, #pagemenu li.sfhover {
+	position: static;
+	}
+
+
+#navcontainer {
+	height: 36px;
+	display: block;
+	overflow: hidden;
+    border-bottom: 6px solid #336699;
+    margin-bottom: 2px;
+	}
+
+#navcontainer .current-cat a {
+	color:#FFFFFF;
+    background: url(images/nav-hover.png) left top repeat-x;
+    -moz-border-radius: 5px 5px 0 0;
+    -khtml-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+	}
+
+/* CONTENT */
+
+#content {
+    padding: 15px 5px 15px 15px;
+    color: #5C5C5C;
+	}
+
+	
+pre { overflow: auto;
+	width: 470px; 
+	}
+
+.post {
+	padding: 10px 10px 0 10px;
+	margin-bottom: 15px;
+    background: url(images/post-title-bg.png) left top repeat-x;
+   	}
+
+.post p {
+	margin-bottom: 10px;
+	}
+
+.title {
+	margin: 0 0 8px 0;
+	padding: 0;
+	line-height: 28px;
+	font-size: 22px;
+	font-family: Arial, Helvetica, Sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+	color: #3434346;
+	}
+
+	
+.title a {
+	text-decoration: none;
+	color: #343434;
+	}
+
+.title a:hover {
+	text-decoration: none;
+	color: #336699;
+	}
+
+.pagetitle {
+	margin-bottom: 20px;
+	line-height: 22px;
+	font-family: Arial, Verdana;
+	text-decoration: underline;
+}
+
+.postdate {
+	font-size: 12px;
+	font-family: Arial, Helvetica, Sans-serif;
+    color: #7C7B7B;
+	}
+
+
+.postmeta {
+	font-size: 11px;
+	padding: 2px 4px;
+	font-family: Arial, Verdana;
+	}
+	
+.postdate img, .postmeta img {
+	border: none;
+	vertical-align: middle;
+	margin:2px;
+	}
+	
+.entry {
+	text-align: justify;
+	line-height: 20px;
+	padding-top: 8px;
+	font-family: Arial, Verdana;
+	font-size: 14px;
+	}
+.navigation {
+	padding: 10px 0;
+	}
+
+blockquote {
+	overflow: hidden;
+	padding-left: 9px;
+	font-style: italic;
+	color: #666;
+	border-left: 3px solid #CADAE7;
+	}
+	
+.post img {
+	max-width: 680px;
+	}
+
+img.wp-smiley {
+	max-height: 12px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	}
+	
+.aligncenter,
+div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+	}
+
+.alignleft {
+   float: left;
+	}
+
+.alignright {
+   float: right;
+	}
+
+.wp-caption {
+   border: 1px solid #ddd;
+   text-align: center;
+   background-color: #f3f3f3;
+   padding-top: 4px;
+   margin: 10px;
+   /* optional rounded corners for browsers that support it */
+   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+	}
+
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+	}
+
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 0 4px 5px;
+   margin: 0;
+	}
+
+
+/* wp-pagenavi */
+.wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:active {
+    font-size: 15px !important;
+    padding:  4px 8px !important;
+    color: #232323 !important;
+    background:none !important;
+    border: 0 !important;
+}
+
+.wp-pagenavi span.pages {
+    font-size: 15px !important;
+    padding:  4px 8px !important;
+    color: #232323 !important;
+    background: none !important;
+    border: 0 !important;
+}
+
+.wp-pagenavi span.extend {
+    font-size: 15px !important;
+    padding:  4px 8px !important;
+    background:transparent !important;
+    color: #232323 !important;
+    background: none !important;
+    border: 0 !important;
+}
+
+.wp-pagenavi span.current {
+    font-size: 15px !important;
+    padding:  4px 8px !important;
+    font-weight: bold;
+    color: #FFFFFF !important;
+    background: #336699 !important;
+    border: 0 !important;
+}
+
+.wp-pagenavi a:hover {
+    border: 0 !important;
+    color: #fff !important;
+    background: #393939 !important;
+    border: 0 !important;
+
+}
+
+
+/* SIDEBAR(S) */
+
+.sidebaradbox {
+	margin-top: 10px; 
+	text-align:center;
+	}
+	
+.ad125 {
+	margin: 6px;
+	}
+
+
+.sidebar {
+	margin: 0 15px 10px 5px;
+    font-size: 13px;
+    color: #555555;
+	}
+	
+.sidebar a {
+	text-decoration: none;
+	color: #555555;
+	}
+
+.sidebar a:hover {
+	text-decoration: underline;
+	color:#336699;
+	}
+	
+
+#search {
+    border: 1px solid #D8D8D8;
+    height: 28px;
+    padding:0;
+    background: #FFFFFF;
+    text-align: right;
+    margin-top: 15px;
+}
+
+#search input {
+	border: 0;
+    background: none;
+    color: #8D8D8D;
+}
+
+	
+#s {
+	width: 240px;
+	padding: 4px;
+    margin:2px 0 0 0;
+    background: none;
+}
+
+#topsearch #search {
+    margin: 18px 0 0 0;
+    padding-right: 4px;
+    }
+    
+#topsearch #s {
+    width: 226px;
+    }
+
+	
+		
+/* Social icons */
+.addthis_toolbox {
+    padding: 15px 0 0px 0;
+	text-align: center;
+	}
+.addthis_toolbox .custom_images a
+{
+    width: 32px;
+    height: 32px;
+    margin: 0 3px 0 3px;
+    padding: 0;
+}
+
+.addthis_toolbox .custom_images a:hover img
+{
+    opacity: 1;
+}
+
+.addthis_toolbox .custom_images a img
+{
+    opacity: 0.85;
+}
+
+
+	
+.sidebarvideo {
+
+	}
+
+.sidebar h2 {
+	margin: 0 0 5px 0;
+	padding: 10px 6px 9px 12px;
+    text-align: left;
+	font-size: 16px;
+    line-height: 16px;
+    color: #3B3B3B;
+	font-family: Arial, Helvetica, Sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+    background: url(images/sidebar-tab.png) left top no-repeat;
+    }
+
+.sidebar ul {
+	list-style-type: none;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	}
+	
+.sidebar ul li {
+	list-style-type: none;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+   	}
+
+.sidebar ul ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+  	}
+
+
+.sidebar ul li li, .sidebar ul li ul li {
+	padding: 6px 0px 6px 12px;
+	margin: 0;
+    background: url(images/arrow.png) left 11px no-repeat;
+    border-bottom: 1px dotted #E2E2E2;
+    }
+
+.sidebar ul li li:hover, .sidebar ul li ul li:hover {
+	padding: 6px 0px 6px 12px;
+	margin: 0;
+    }
+
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	color: #555555;
+	background: none;
+	}
+#wp-calendar caption {
+	padding: 2px 4px;
+	text-transform: uppercase;	margin: 2px 0 2px 0;
+	background: none;
+    color: #555555;
+	}
+
+#wp-calendar td {
+	color: #555555;
+	font: normal 12px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	letter-spacing: normal;
+	padding: 2px 0;
+	text-align: center;
+	}
+
+#wp-calendar td:hover, #wp-calendar #today {
+	color: #fff;
+    background: #336699;
+	}
+#wp-calendar td:hover a {
+    color: #fff;
+}	
+#wp-calendar {
+	empty-cells: show;
+	font-size: 14px;
+	margin: 0;
+	font-weight: bold; 
+	width: 100%;
+	}
+
+/* FOOTER */
+
+#footer {
+    background: #4C4D4D;
+	padding: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 13px;
+	}
+
+#footer a {
+	color: #FFFFFF;
+	} 
+
+#footer a:hover {
+	text-decoration: none;
+    color: #FFFFFF;
+	}
+	
+#credits {
+	color: #4C4D4D;
+	font-size: 11px;
+	text-align: center;
+	padding: 10px;
+	}
+    	
+#credits a {
+	color: #4C4D4D;
+    text-decoration: none;
+	} 
+	
+/* COMMENTS */
+
+#comments h3 {
+	margin-bottom: 10px;	
+}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform {
+	margin: 5px 10px 0 0;
+	}
+	
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+	}
+	
+#respond:after {
+		content: "."; 
+	    display: block; 
+	    height: 0; 
+	    clear: both; 
+	    visibility: hidden;
+	}
+	
+#commentform #submit {
+	margin: 0 0 5px auto;
+	float: right;
+	}
+
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 10px;
+	padding: 5px 5px 10px 10px;
+	list-style: none;
+
+	}
+	
+.commentlist li ul li { 
+	margin-right: -5px;
+	margin-left: 10px;
+}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+}
+.children { padding: 0; }
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+	
+.post_thumbnail {
+    padding: 6px;
+    border: 1px solid #E1E1E1;
+    margin: 0 10px 10px 0;
+    background-color: #FFFFFF;
+}

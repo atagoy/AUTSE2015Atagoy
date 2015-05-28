@@ -1,0 +1,33 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*
+ * social bookmarks
+ */
+
+div#yoo-zoo div.element-socialbookmarks {
+	overflow: hidden;
+}
+
+div#yoo-zoo div.element-socialbookmarks a {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-right: 7px;
+	border: 1px solid #c8c8c8;
+	float: left;
+}
+
+div#yoo-zoo div.element-socialbookmarks a.google { background: url(../images/google.png) 0 0 no-repeat; }
+div#yoo-zoo div.element-socialbookmarks a.technorati { background: url(../images/technorati.png) 0 0 no-repeat; }
+div#yoo-zoo div.element-socialbookmarks a.yahoo { background: url(../images/yahoo.png) 0 0 no-repeat; }
+div#yoo-zoo div.element-socialbookmarks a.delicious { background: url(../images/delicious.png) 0 0 no-repeat; }
+div#yoo-zoo div.element-socialbookmarks a.stumbleupon { background: url(../images/stumbleupon.png) 0 0 no-repeat; }
+div#yoo-zoo div.element-socialbookmarks a.digg { background: url(../images/digg.png) 0 0 no-repeat; }
+div#yoo-zoo div.element-socialbookmarks a.facebook { background: url(../images/facebook.png) 0 0 no-repeat; }
+div#yoo-zoo div.element-socialbookmarks a.reddit { background: url(../images/reddit.png) 0 0 no-repeat; }
+div#yoo-zoo div.element-socialbookmarks a.myspace { background: url(../images/myspace.png) 0 0 no-repeat; }
+div#yoo-zoo div.element-socialbookmarks a.live { background: url(../images/live.png) 0 0 no-repeat; }
+div#yoo-zoo div.element-socialbookmarks a.twitter { background: url(../images/twitter.png) 0 0 no-repeat; }
+div#yoo-zoo div.element-socialbookmarks a.email { background: url(../images/email.png) 0 0 no-repeat; }
+
+

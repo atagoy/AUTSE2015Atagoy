@@ -1,0 +1,32 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/mobile.css);
+
+/* Mobile Content
+----------------------------------------------------------------------------------------------------*/
+
+#m-top .module,
+.noblog #m-content,
+#page.isblog #system .item,
+#m-bottom .module,
+#m-desktop {
+	border: none;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	background: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#m-desktop {
+	padding: 5px 15px;
+	border-radius: 3px;
+	background: rgba(0,0,0,0.15);
+	background-clip: padding-box;
+	box-shadow:
+		inset 0 1px 1px rgba(0,0,0,0.3),
+		0 1px 0 rgba(255,255,255,0.14);
+	color: rgba(255,255,255,1);
+	text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	text-align: center;
+}

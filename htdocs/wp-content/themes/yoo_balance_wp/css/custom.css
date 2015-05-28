@@ -1,0 +1,74 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+
+/* Logo */
+#logo .custom-logo {
+	width: 270px;
+	height: 60px;
+	background: url(../../../images/yootheme/logo.png) 0 0 no-repeat;
+}
+
+/* Frontpage Demo Content */
+.demo-slide {
+	min-height: 400px;
+	padding: 60px 0 0 60px;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+}
+
+.demo-slide h1 {
+	font-size: 40px;
+	margin: 0 0 10px 0;
+}
+
+.demo-slide h2 {
+	font-size: 26px;
+	margin: 0 0 50px 0;
+}
+
+.demo-slide h3 {
+	margin-bottom: 5px;
+	font-size: 24px;
+}
+.demo-slide p { margin: 0; }
+
+.demo-slide .demo-box {
+	position: relative;
+	min-height: 62px;
+	padding-top: 20px;
+}
+
+.demo-slide ul.check > li {
+	padding-left: 25px;
+	background: url(../images/icon_check.png) 0 50% no-repeat;
+	line-height: 32px;
+	font-size: 18px;
+}
+
+.demo-box-article {
+	position: relative;
+	float: left;
+	width: 300px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+
+.demo-box img,
+.demo-box-article img {
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+
+.demo-box h3,
+.demo-box-article h3 { margin-top: 0; }
+
+.demo-box h3,
+.demo-box p,
+.demo-box-article h3,
+.demo-box-article small { margin-left: 72px; }
+
+.demo-list ul.line > li { line-height: 30px; }

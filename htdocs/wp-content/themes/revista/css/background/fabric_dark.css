@@ -1,0 +1,16 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body#page { background: #5b636b url(../../images/background/darkfabric.jpg) 0 0 repeat; }
+
+#page-bg {
+	background: url(../../images/background/gradient_dark.svg) 50% 50% no-repeat fixed;
+	background-size: 100% 1440px;
+}
+
+#headerbar,
+#footer,
+.mod-plain,
+.mod-plain a {
+	color: #777;
+	text-shadow: none;
+}

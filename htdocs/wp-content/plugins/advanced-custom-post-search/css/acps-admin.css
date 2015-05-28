@@ -1,0 +1,272 @@
+/*----------------------------------------------------------------------
+---- Tables ( General )
+----------------------------------------------------------------------*/
+table .acps_text_input{
+border:1px solid #e1e1e9;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+padding:3px 6px;
+float:left;
+width:260px;
+margin:10px 0;
+font-size:1em;
+box-shadow:none;
+}
+.acps_help_tip {
+float:left;
+margin:13px 10px 0 0;
+}
+
+/*----------------------------------------------------------------------
+---- Tables ( Search form )
+----------------------------------------------------------------------*/
+#acps_fields td {
+overflow:visible;
+font-size:12px;
+}
+#acps_fields .inside {
+margin:0;
+padding:0;
+}
+table.acps_search_form_table tbody tr.form_label:hover > .label {
+background:#f0f0f0;
+border-left:4px solid #e1e1e9;
+padding-left:11px;
+}
+table.acps_search_form_table {
+border:none;
+background:#fff;
+}
+table.acps_search_form_table tbody tr.form_label td {
+padding:13px 15px;
+border-top:1px solid #f1f1f9;
+border-bottom:0 none;
+}
+table.acps_search_form_table tbody tr.form_label:first-child > td {
+border-top:none;	
+}
+table.acps_search_form_table tbody tr.form_label .label {
+background:#f9f9f9;
+border-right:1px solid #e1e1e9;
+border-top:1px solid #f0f0f0;
+}
+table.acps_search_form_table tbody tr td.label {
+width:26%;
+}
+table.acps_search_form_table tbody tr td.label label {
+display:block;
+font-size:12px;
+color:#444444;
+font-weight:bolder;
+padding:0;
+margin:0 0 3px;
+}
+table.acps_search_form_table tbody tr td.label p {
+display:block;
+font-size:12px;
+padding:0 !important;
+margin:3px 0 0 !important;
+font-style:normal;
+line-height:16px;
+color:#899194;
+}
+.widefat td {
+vertical-align:middle;
+}
+
+/*----------------------------------------------------------------------
+---- Search Form
+----------------------------------------------------------------------*/
+#visibility.misc-pub-section {
+display:none;
+}
+.misc-pub-section.curtime {
+display:none;
+}
+table.acps_search_form_table tbody tr.form_label.hidden {
+display:none;
+}
+table.acps_search_form_table tbody tr.form_label.active td {
+border-top:none;
+}
+table.acps_search_form_table tbody tr.form_label.acps_taxonomies .acps-checkbox {
+display:block;
+margin:10px 0 0 0;
+}
+table.acps_search_form_table tbody tr.form_label.acps_taxonomies .acps-checkbox:first-child {
+margin-top:0;
+}
+table.acps_search_form_table tbody tr.form_label.acps_taxonomies .acps-checkbox input {
+margin:0 5px 0 0;
+}
+table.acps_search_form_table tbody tr.form_label pre {
+white-space:normal;
+}
+table.acps_search_form_table tbody tr.form_label .acps_label_container{
+width:100%;
+overflow:hidden;
+margin-top:10px;	
+}
+table.acps_search_form_table tbody tr.form_label .acps_label_container .label_label{
+font-weight:bold;
+display:block;
+}
+#acps_fields select
+{
+width:260px;
+}
+
+/*----------------------------------------------------------------------
+---- Tables ( Search forms )
+----------------------------------------------------------------------*/
+#acps-left-col .tablenav.bottom {
+display:block;	
+}
+.search-box {
+display:none;	
+}
+.acps_error {
+background:#eadfbc;
+border-radius:4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+}
+.acps_error p {
+color:#ef6b01;
+padding:7px 10px;
+margin:0;
+}
+#acps-columns {
+position:relative;
+clear:both;
+}
+#acps-left-col {
+margin-right:300px;
+}
+#acps-left-col .tablenav,
+#acps-left-col p.search-box {
+display:none;
+}
+#acps-right-col {
+float:right;
+width:281px;
+padding-top:35px;
+}
+#acps-right-col.no_post_types {
+padding-top:75px;
+}
+#acps-left-col form {
+position:relative;
+float:left;
+width:100%;
+}
+
+/*----------------------------------------------------------------------
+---- Tables ( Settings Page )
+----------------------------------------------------------------------*/
+.wrap.acps_settings .form-table {
+border:none;
+background:#fff;
+border:1px solid #e5e5e5;
+border-top:none;
+-webkit-box-shadow:0 1px 1px rgba(0,0,0,.04);
+box-shadow:0 1px 1px rgba(0,0,0,.04);
+margin:0;
+}
+.wrap.acps_settings .hndle {
+background:#fff;
+font-size:14px;
+padding:8px 12px;
+margin:20px 0 0 0;
+line-height:1.4;
+border:1px solid #e5e5e5;
+border-bottom:none;
+}
+.wrap.acps_settings .form-table tbody tr th {
+background:#f9f9f9;
+border-right:1px solid #e1e1e9;
+border-top:1px solid #f0f0f0;
+font-size:12px;
+color:#444444;
+font-weight:bolder;
+padding:13px 15px;
+width:19.55%;
+}
+.wrap.acps_settings .form-table tbody tr td {
+padding:13px 15px;
+overflow:visible;
+font-size:12px;
+border-top:1px solid #f1f1f9;
+border-bottom:0;
+}
+.wrap.acps_settings .form-table tbody select {
+width:260px;	
+}
+
+/*----------------------------------------------------------------------
+---- Creare Box
+----------------------------------------------------------------------*/
+.creare-box {
+background:#487dc5;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+margin:0 10px 20px;
+box-shadow:0px 1px 5px -1px #A1A1A1;
+-webkit-box-shadow:0px 1px 5px -1px #a1a1a1;
+-moz-box-shadow:0px 1px 5px -1px #a1a1a1;
+-o-box-shadow:0px 1px 5px -1px #a1a1a1;
+color:#fff;
+}
+.creare-box-inner {
+padding:20px;	
+text-align:center;
+}
+.creare-box-inner h3.h2 {
+font-family:'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue','Arial', sans-serif;
+font-size:25px;
+line-height:29px;
+padding:5px 0 4px 0;
+margin:0;
+font-weight:normal;
+color:#fff;
+}
+.creare-box-header p {
+opacity:0.8;
+-webkit-opacity:0.8;
+-moz-opacity:0.8;
+margin:0 0 20px 0;
+}
+.creare-box-header .creare-box-logo {
+width:40%;
+height:auto;
+display:block;
+margin:20px auto 0 auto;
+}
+.creare-box-header .acps-spud {
+height:160px;
+width:auto;	
+}
+.creare-box-footer {
+background:#fff;
+color:#666;	
+}
+.creare-box-footer p a {
+text-decoration:none;
+font-weight:bold;
+color:#666;
+}
+.creare-box-footer p a:hover {
+text-decoration:underline;	
+}
+.creare-box:hover > .creare-box-footer {
+background:#e2ebf8;	
+}
+.creare_footer {
+padding:0 10px;	
+}
+.follow_space {
+height:10px;
+width:100%;	
+}

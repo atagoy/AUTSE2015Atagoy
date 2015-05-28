@@ -1,0 +1,39 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/base.css);
+
+
+/* New style-related Base Values
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	font: normal 14px/20px Arial, Helvetica, sans-serif;
+	color: #444;
+}
+
+ins, mark {
+	color: #444;
+	background-color: #ffa;
+}
+
+hr { border-top-color: #ddd; }
+.system-transparent #content hr { border-color: rgba(255,255,255,0.2); }
+
+pre {
+	border: 1px solid #ddd;
+	background: #fafafa;
+}
+
+.system-transparent #content pre,
+.mod-box-transparent pre { 
+	border: none;
+	background-color: rgba(0,0,0,0.3);
+	box-shadow: 0 0 1px rgba(255,255,255,0.2);
+}
+
+::-moz-selection { background: #39f; color: #fff; }
+::selection { background: #39f; color: #fff; }
+
+
+/* Useful Snippets
+----------------------------------------------------------------------------------------------------*/

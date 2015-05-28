@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gantrytips>
+
+	<tip label="Overlay Check"><![CDATA[The Overlay Check ensures that every page load, the overlay directory is inspected and if anything is changed, a new overlay.css file is generated. Set to OFF on a production server to increase some performance.]]></tip>
+
+	<tip label="Page Class Suffix"><![CDATA[Allows you to add an extra class or classes to the sites body tag. In cooperation with overrides this can be very useful for style modifications.]]></tip>
+
+	<tip label="Feed Links"><![CDATA[Disable or enable feeds on your site. A feed is a function of special software that allows <strong>Feedreaders</strong> to access your site, automatically looking for new content and then posting the information about new content and updates to another site. This provides a way for users to keep up with the latest and hottest information posted on different blogging sites.]]></tip>
+
+	<tip label="IE6 Warning"><![CDATA[Choose whether or not to display the <strong>Internet Explorer 6 Warning</strong> to the visitors of your site whenever Internet Explorer 6 is detected as the browser in use. Through this warning you are able to recommend the use of a saver and better browser to those visitors. Choose the delay (in milliseconds) to determine how long the IE6 Warning should be shown.]]></tip>
+	
+	<tip label="Smart-Load Images"><![CDATA[<strong>The SmartLoad functionality</strong> allows to load images only in the viewport of the browser. As you scroll the page up or down it will start loading the needed images. Extremely useful to save some bandwidth, especially on pages with many images. A comma separated list of css rules can be provided under XPath Ignores where SmartLoad should not be used.]]></tip>
+	
+	<tip label="Typography Shortcodes"><![CDATA[Enables specially prepared shortcodes for easier typography implementation in your content. If you installed RocketLauncher in menu under Typography > Shortcodes Examples you'll find examples of shortcodes syntax that can be used in your site.]]></tip>
+	
+	<tip label="Shortcodes in Widgets"><![CDATA[WordPress Shortcodes are a simple set of functions for creating macro codes to be used in post content. WordPress does offer some of the shortcodes by default (for example the gallery shortcode) and plugins can add their own as well via the Shortcode API. Enabling <strong>Shortcodes in Widgets</strong> allows you to not only use shortcodes in posts but also in Widgets.]]></tip>
+	
+	<tip label="Analytics"><![CDATA[Google Analytics is a web analytics solution that gives you insights into your website traffic and marketing effectiveness. Several features let you see and analyze your traffic data. Use this setting to enable or disable Google Analytics, when enabling make sure to enter a valid API.]]></tip>
+	
+</gantrytips>

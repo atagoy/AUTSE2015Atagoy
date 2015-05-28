@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.2" baseProfile="tiny" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="none" xml:space="preserve">
+<radialGradient id="SVGID_1_" cx="50" cy="20" r="50" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#e58930;stop-opacity:1"/>
+	<stop  offset="0.2" style="stop-color:#e58930;stop-opacity:1"/>
+	<stop  offset="1" style="stop-color:#9d451f;stop-opacity:1"/>
+</radialGradient>
+<rect fill="url(#SVGID_1_)" width="100" height="100"/>
+</svg>

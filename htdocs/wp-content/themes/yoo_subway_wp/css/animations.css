@@ -1,0 +1,56 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+
+body { -webkit-font-smoothing: antialiased; }
+
+#totop-scroller,
+.menu-dropdown a.level1,
+.menu-dropdown span.level1,
+.menu-dropdown a.level2,
+.menu-dropdown span.level2,
+.menu-sidebar a,
+.menu-sidebar li > span,
+.menu-line li a,
+#footer a,
+a.button-more,
+#searchbox input,
+#searchbox button,
+.social-icons > li,
+.wk-slideshow-subway .next,
+.wk-slideshow-subway .prev,
+.wk-slideshow-subway-list .nav span {
+	-webkit-transition: opacity 0.2s linear;
+	-moz-transition: opacity 0.2s linear;
+	transition: opacity 0.2s linear;
+}
+
+.menu-dropdown a.level2 > span,
+.menu-dropdown span.level2 > span,
+.menu-sidebar a.level1 > span,
+.menu-sidebar span.level1 > span,
+#searchbox,
+#searchbox .results li.result,
+.wk-slideshow-subway-list .nav li {
+	-webkit-transition: border-color 0.2s linear;
+	-moz-transition: border-color 0.2s linear;
+	transition: border-color 0.2s linear;
+}
+
+a {
+	-webkit-transition: color 0.2s linear;
+	-moz-transition: color 0.2s linear;
+	transition: color 0.2s linear;
+}
+
+.breadcrumbs a,
+.wk-slideshow-subway > div > a {
+	-webkit-transition: background-color 0.2s linear;
+	-moz-transition: background-color 0.2s linear;
+	transition: background-color 0.2s linear;
+}
+
+#socialbar .social-icons  {
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}

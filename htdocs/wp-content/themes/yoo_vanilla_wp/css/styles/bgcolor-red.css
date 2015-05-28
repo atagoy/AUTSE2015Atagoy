@@ -1,0 +1,19 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+#footer { color: #B19998; }
+#bottom a,
+#footer a,
+#bottom .module h3.header span.subtitle,
+#bottom ul.links li a,
+#bottom div.mod-border ul.links li a:hover { color: #F48868; }
+#bottom a:hover { color: #ffffff; }
+#footer a:hover { color: #AE4B32; }
+#bottom div.mod-border ul.links li { background-image: url(../../images/color/red/list_links.png); }
+#bottom ul.links li a:hover { color: #DEDEE0; }
+#bottom div.mod-border h3.header span.subtitle,
+#bottom div.mod-border a,
+#bottom div.mod-border ul.links li a:hover { color: #B02C24; }
+#bottom div.mod-border a:hover { color: #690F05;}
+#footer .menu li a:hover { color: #ffffff; }
+#bottom div.mod-border a.readmore { color: #ffffff; background-color: #D84A43; }
+#bottom div.mod-border a.readmore:hover { background-color: #B02C24; }

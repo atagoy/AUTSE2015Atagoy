@@ -1,0 +1,173 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/modules.css);
+
+
+/* Module Title
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+
+/* Module Badges
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge {
+	width: 38px;
+	height: 26px;
+	background: url(../images/module_badges.png) 0 0 no-repeat;
+}
+ 
+.module .badge-hot { background-position: 0 0; }
+.module .badge-top { background-position: 0 -30px; }
+.module .badge-free { background-position: 0 -60px; }
+.module .badge-new { background-position: 0 -90px; }
+
+
+/* Module Icons
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title .icon {
+	top: -7px;
+	width: 34px;
+	height: 39px;
+	margin-right: 10px;
+	background: url(../images/module_icons.png) 0 0 no-repeat;
+}
+
+.module .module-title .icon-download { background-position: 0 0; }
+.module .module-title .icon-twitter { background-position: 0 -40px; }
+.module .module-title .icon-mail { background-position: 0 -80px; }
+.module .module-title .icon-bubble { background-position: 0 -120px; }
+.module .module-title .icon-login { background-position: 0 -160px; }
+.module .module-title .icon-cart { background-position: 0 -200px; }
+
+
+/* Module Type: Box
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box {
+	padding: 15px;
+	border: 1px solid #D7D7D7;
+	box-shadow: 0 1px 0 rgba(255,255,255,1), 0 1px 2px rgba(0,0,0,0.1) inset;
+	background: #F5F5F5;
+	background: -moz-linear-gradient(top, #F2F2F2 0%, #EEEEEE 100%);
+	background: -webkit-linear-gradient(top, #F2F2F2 0%, #EEEEEE 100%);	
+	border-radius: 5px;	
+}
+
+.mod-box .badge {
+	top: -8px;
+	right: -8px;
+}
+
+.mod-box-transparent {
+	border: 1px solid #000;
+	border: 1px solid rgba(0,0,0,0.4);
+	color: #ffffff;
+	background: url(../images/module_box_transparent.png);
+	box-shadow: 0 1px 0 rgba(255,255,255,0.15), 0 1px 2px rgba(0,0,0,0.3) inset;
+}
+
+.mod-box-color a,
+.mod-box-color ul.line-icon a,
+.mod-box-color ul.link a,
+.mod-box-color ul.check a,
+.mod-box-color ul.link a,
+#top-a .mod-box-transparent a {
+	color: #ffffff;
+	color: rgba(255,255,255,0.7);
+}
+.mod-box-color a:hover,
+.mod-box-color ul.line-icon a:hover,
+.mod-box-color ul.link a:hover,
+.mod-box-color ul.check a:hover,
+.mod-box-color ul.link a:hover,
+#top-a .mod-box-transparent a:hover { color: #ffffff; }
+
+.mod-box-color em,
+.mod-box-color code {
+	color: #000;
+	color: rgba(0,0,0,0.7);
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+/* Module Type: Fabric
+----------------------------------------------------------------------------------------------------*/
+
+.mod-fabric {
+	border: 1px solid #2D2D2D;
+	box-shadow: 0 1px 0 rgba(255,255,255,1), 0 1px 2px rgba(0,0,0,0.6) inset;
+	background: url(../images/module_fabric.png) 0 0 repeat;
+	border-radius: 5px;	
+}
+
+.mod-fabric > .deepest {
+	padding: 15px;
+	color: #FCFCFC;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0) 100%);
+	background: -webkit-linear-gradient(top,rgba(255,255,255,0.15) 0%, rgba(255,255,255,0) 100%);
+	border-radius: 5px;
+}
+
+.mod-fabric .badge {
+	top: -8px;
+	right: -8px;
+}
+
+.mod-fabric pre {
+	border: 1px solid #666666;
+	background: #4B4B4B;
+}
+
+.mod-fabric a,
+.mod-fabric ul.line-icon a,
+.mod-fabric ul.link a,
+.mod-fabric ul.check a,
+.mod-fabric ul.link a { color: #BEBFC0; }
+
+.mod-fabric a:hover,
+.mod-fabric ul.line-icon a:hover,
+.mod-fabric ul.link a:hover,
+.mod-fabric ul.check a:hover,
+.mod-fabric ul.link a:hover { color: #ffffff; }
+
+
+/* Module Type: Stripes
+----------------------------------------------------------------------------------------------------*/
+
+.mod-stripes {
+	padding: 10px;
+	background: url(../images/module_stripes.png) 0 0 repeat;
+	border-radius: 5px;	
+}
+
+.mod-stripes > .deepest {
+	padding: 15px;
+	background: #FCFCFC;
+	border-radius: 3px;	
+}
+
+#block-bottom .mod-stripes > .deepest { background: #F9F9F9 url(../images/bottom_dark.png) 0 0 repeat; }
+
+
+/* Module Type: Line
+----------------------------------------------------------------------------------------------------*/
+
+.mod-line .module-title {
+	margin-bottom: 6px;
+	padding-bottom: 9px;
+	background: url(../images/module_line.png) 0 100% repeat-x;
+}
+
+
+.mod-line-dotted .module-title {
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+	background-image: url(../images/module_line_dotted.png);
+}
+

@@ -1,0 +1,6 @@
+/* Menu */
+
+#adminmenu {
+	width: 165px; /* default 145px + 20px */
+	margin-left: -180px; /* default 160px + 20px */
+}
