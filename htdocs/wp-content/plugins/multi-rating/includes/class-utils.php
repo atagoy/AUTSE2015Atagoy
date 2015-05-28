@@ -112,6 +112,7 @@ class MR_Utils {
 							'name' => 'save_rating_restriction_error',
 							'message' => $custom_text_settings[ Multi_Rating::SAVE_RATING_RESTRICTION_ERROR_MESSAGE_OPTION ]
 					) );
+                                break;
 			}
 		} 
 	
